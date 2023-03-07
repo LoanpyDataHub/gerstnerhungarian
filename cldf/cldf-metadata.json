@@ -17,7 +17,7 @@
         {
             "rdf:about": "https://github.com/martino-vic/gerstnerhungarian",
             "rdf:type": "prov:Entity",
-            "dc:created": "v3.1-5-g49215b6",
+            "dc:created": "v3.1-6-ge6e7c52",
             "dc:title": "Repository"
         },
         {
@@ -58,7 +58,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 4077,
+            "dc:extent": 4093,
             "tableSchema": {
                 "columns": [
                     {
@@ -239,7 +239,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 891,
+            "dc:extent": 895,
             "tableSchema": {
                 "columns": [
                     {

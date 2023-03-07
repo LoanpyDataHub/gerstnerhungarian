@@ -28,12 +28,12 @@ Conceptlists in Concepticon:
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
 - **Varieties:** 1
-- **Concepts:** 891
-- **Lexemes:** 4,077
+- **Concepts:** 895
+- **Lexemes:** 4,093
 - **Sources:** 1
-- **Synonymy:** 4.58
+- **Synonymy:** 4.57
 - **Invalid lexemes:** 0
-- **Tokens:** 19,053
+- **Tokens:** 19,136
 - **Segments:** 58 (0 BIPA errors, 0 CLTS sound class errors, 58 CLTS modified)
 - **Inventory size (avg):** 58.00
 
