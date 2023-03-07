@@ -2,9 +2,9 @@ name: CLDF-validation
 
 on:
   push:
-    branches: [ newmain ]
+    branches: [ main ]
   pull_request:
-    branches: [ newmain ]
+    branches: [ main ]
 
 jobs:
   build:
