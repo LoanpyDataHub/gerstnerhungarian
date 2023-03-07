@@ -17,6 +17,7 @@ idna==3.4
 iniconfig==2.0.0
 isodate==0.6.1
 jsonschema==4.17.3
+-e git+https://github.com/martino-vic/gerstnerhungarian.git@49215b6cc79e88dd06b098a5f4acdda981230e2d#egg=lexibank_gerstnerhungarian
 lingpy==2.6.9
 lxml==4.9.2
 Markdown==3.4.1
@@ -37,6 +38,7 @@ pyglottolog==3.11.0
 pylatexenc==2.10
 pylexibank==3.4.0
 pyrsistent==0.19.3
+pysem==0.6.0
 pytest==7.2.2
 python-dateutil==2.8.2
 pytz==2022.7.1

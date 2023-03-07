@@ -101,9 +101,6 @@ venvcldf/
 # mypy
 .mypy_cache/
 
-# shell files
-*.sh
-
 #libre office lock files
 .~lock.*
 

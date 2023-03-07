@@ -19,11 +19,16 @@ def main():
     # create orthography.tsv
     in_path = Path.cwd().parent.parent / "cldf" / "forms.csv"
     out_path = Path.cwd().parent.parent / "etc" / "orthography.tsv"
-    pd.read_csv(in_path, usecols=["Form"])\
+    df = pd.read_csv(in_path, usecols=["Form"])\
       .assign(IPA=lambda x: list(map(segment, x.Form)))\
       .rename(columns={"Form": "Grapheme"})\
-      .drop_duplicates()\
-      .to_csv(out_path, index=False, encoding="utf-8", sep="\t")
+      .drop_duplicates()
+
+     # bugfix
+    df["Grapheme"] = ["^" + i + "$" for i in df["Grapheme"]]
+
+    df.to_csv(out_path, index=False, encoding="utf-8", sep="\t")
+
 
 
 if __name__ == "__main__":

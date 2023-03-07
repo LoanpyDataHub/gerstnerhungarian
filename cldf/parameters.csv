@@ -32,14 +32,17 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 35-ferse,Ferse,980,HEEL
 36-knie,Knie,1371,KNEE
 38-bein,Bein,1297,LEG
+39-korper,Körper,1480,BODY
 40-haut,Haut,763,SKIN
 41-blut,Blut,946,BLOOD
 42-ader,Ader,1924,VEIN
 43-sehne,Sehne,1137,TENDON
 44-knochen,Knochen,1394,BONE
 45-gehirn,Gehirn,1583,BRAIN
+46-herz,Herz,1223,HEART
 47-magen,Magen,819,STOMACH
 48-leber,Leber,1224,LIVER
+49-atem,Atem,870,BREATH
 50-hunger,Hunger,1864,HUNGER
 51-trane,Träne,1651,TEAR (OF EYE)
 52-geschmack,Geschmack,2190,TASTE
@@ -72,7 +75,9 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 79-frost,Frost,2034,FROST
 80-kalte,Kälte,2932,COLD (CHILL)
 81-hitze,Hitze,612,HEAT
+82-raureif,Raureif,2942,HOARFROST
 83-regenbogen,Regenbogen,1733,RAINBOW
+84-donner,Donner,1150,THUNDER
 86-tropfen,Tropfen,3748,DROP (OF A LIQUID)
 87-schaum,Schaum,1768,FOAM
 88-schmutz,Schmutz,25,DIRT
@@ -86,11 +91,14 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 96-berg,Berg,639,MOUNTAIN
 97-gipfel,Gipfel,1614,SUMMIT
 98-hohle,Höhle,1155,CAVE
+99-abhang,Abhang,3076,SLOPE
 100-quelle,Quelle,849,SPRING (OF WATER)
+102-fluss,Fluss,666,RIVER
 103-ufer,Ufer,3464,SHORE OF LAKE
 105-festland,Festland,166,MAINLAND
 106-meer,Meer,1474,SEA
 107-bucht,Bucht,663,BAY
+108-insel,Insel,622,ISLAND
 109-blume,Blume,239,FLOWER
 110-gras,Gras,606,GRASS
 111-wurzel,Wurzel,670,ROOT
@@ -102,12 +110,14 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 117-blatt,Blatt,628,LEAF
 118-birke,Birke,1855,BIRCH
 122-horn,Horn,1393,HORN (ANATOMY)
+123-feder,Feder,1201,FEATHER
 124-fell,Fell,580,FUR
 125-flugel,Flügel,1257,WING
 126-klaue,Klaue,72,CLAW
 127-kralle,Kralle,2965,PAW
 128-schwanz,Schwanz,1220,TAIL
 129-ei,Ei,744,EGG
+130-nest,Nest,539,NEST
 131-bau,Bau,2949,LAIR
 132-tier,Tier,619,ANIMAL
 133-herde,Herde,2939,FLOCK (OF ANIMALS)
@@ -164,6 +174,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 187-silber,Silber,759,SILVER
 190-lehm,Lehm,1399,CLAY
 191-sand,Sand,671,SAND
+192-mensch,Mensch,683,PERSON
 193-mann,Mann,1554,MAN
 194-frau,Frau,962,WOMAN
 196-junge,Junge,1366,BOY
@@ -183,11 +194,16 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 211-ehefrau,Ehefrau,1199,WIFE
 212-freude,Freude,2524,JOY
 213-gelachter,Gelächter,2958,LAUGHTER
+214-gluck,Glück,2941,HAPPINESS
 215-kummer,Kummer,1668,GRIEF
 217-lust,Lust,2960,LONGING (WISH)
 218-geist,Geist,53,SPIRIT
+219-gedanke,Gedanke,2975,THOUGHT
+220-gedachtnis,Gedächtnis,1018,MEMORY
 221-verstand,Verstand,1562,MIND
+222-sinn,Sinn,2950,MEANING
 223-grund,Grund,2968,REASON
+224-wahrheit,Wahrheit,1638,TRUTH
 225-gesprach,Gespräch,2933,CONVERSATION
 226-marchen,Märchen,2937,FAIRY TALE
 227-erzahlung,Erzählung,2060,STORY
@@ -198,10 +214,12 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 234-stimme,Stimme,1363,VOICE
 235-wort,Wort,1599,WORD
 236-zeichen,Zeichen,1720,SIGN
+237-ruf,Ruf,2944,CALL (APPEAL)
 238-larm,Lärm,1182,NOISE
 239-laut,Laut,1811,SOUND OR NOISE
 240-ton,Ton,2995,TONE (MUSIC)
 241-lied,Lied,1096,SONG
+242-ruhe,Ruhe,3458,SILENCE
 244-volk,Volk,789,PEOPLE
 245-arbeit,Arbeit,984,WORK (LABOUR)
 246-gast,Gast,1782,GUEST
@@ -217,6 +235,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 257-teil,Teil,779,PART
 258-halfte,Hälfte,816,HALF
 259-kreis,Kreis,1467,CIRCLE
+260-kreuz,Kreuz,1367,CROSS
 261-linie,Linie,1048,LINE
 262-strich,Strich,2993,STROKE (OF PEN)
 265-gegend,Gegend,2980,AREA
@@ -232,6 +251,8 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 275-spitze,Spitze,2992,TIP (OF OBJECT)
 277-loch,Loch,1667,HOLE
 279-muster,Muster,2988,PATTERN
+280-groe,Größe,2845,SIZE (OF OBJECT)
+281-lange,Länge,2537,LENGTH
 282-hohe,Höhe,2985,HEIGHT
 283-gewicht,Gewicht,2466,WEIGHT
 284-menge,Menge,2987,AMOUNT
@@ -239,6 +260,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 287-boot,Boot,1844,BOAT
 289-schlitten,Schlitten,16,SLED
 292-last,Last,1679,LOAD
+293-gang,Gang,2979,WALK (MANNER)
 295-norden,Norden,1598,NORTH
 296-suden,Süden,1595,SOUTH
 297-westen,Westen,1817,WEST
@@ -246,6 +268,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 299-holz,Holz,1803,WOOD
 300-brett,Brett,1227,BOARD
 301-platte,Platte,2952,SLAB
+302-stutze,Stütze,2994,SUPPORT (OF OBJECT)
 303-stange,Stange,281,POST
 304-stock,Stock,1295,STICK
 306-rohr,Rohr,2956,TUBE
@@ -268,6 +291,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 323-besen,Besen,245,BROOM
 324-spaten,Spaten,1176,SPADE
 325-schaufel,Schaufel,1901,SHOVEL
+326-gabel,Gabel,1302,FORK
 327-loffel,Löffel,1378,SPOON
 328-messer,Messer,1352,KNIFE
 329-nagel,Nagel,502,NAIL (TOOL)
@@ -283,6 +307,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 339-tasche,Tasche,2468,BAG
 340-eimer,Eimer,2052,BUCKET
 341-deckel,Deckel,2319,"LID (COVER, CAP)"
+342-geschirr,Geschirr,481,DISH
 343-sack,Sack,2990,SACK
 344-tasse,Tasse,476,CUP
 345-topf,Topf,1462,POT
@@ -291,6 +316,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 350-fleisch,Fleisch,634,MEAT
 352-brei,Brei,3651,MUSH (FOOD)
 353-brot,Brot,1368,BREAD
+354-scheibe,Scheibe,2954,SLICE
 355-fett,Fett,323,FAT (ORGANIC SUBSTANCE)
 356-butter,Butter,1245,BUTTER
 357-ol,Öl,1484,OIL (ORGANIC SUBSTANCE)
@@ -298,10 +324,13 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 359-suppe,Suppe,1547,SOUP
 360-honig,Honig,942,HONEY
 361-milch,Milch,635,MILK
+362-tee,Tee,1373,TEA
 363-leder,Leder,629,LEATHER
 364-wolle,Wolle,964,WOOL
 365-stoff,Stoff,1616,CLOTH
 367-faden,Faden,1161,THREAD
+368-knopf,Knopf,757,BUTTON
+369-knoten,Knoten,760,KNOT
 370-farbe,Farbe,647,PAINT (PIGMENTS)
 371-kleidung,Kleidung,1895,CLOTHES
 372-hemd,Hemd,1622,SHIRT
@@ -320,11 +349,15 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 385-schnur,Schnur,362,STRING
 387-decke,Decke,806,BLANKET
 388-kissen,Kissen,1044,PILLOW
+390-handtuch,Handtuch,1021,TOWEL
 392-starke,Stärke,202,STRENGTH
+393-gesundheit,Gesundheit,1364,HEALTHY
 394-krankheit,Krankheit,1986,DISEASE
 395-schmerz,Schmerz,1783,PAIN
 396-wunde,Wunde,1109,WOUND
+397-fieber,Fieber,1534,FEVER
 398-arznei,Arznei,1372,MEDICINE
+399-brucke,Brücke,1011,BRIDGE
 400-brunnen,Brunnen,954,WELL
 401-weide,Weide,649,PASTURE
 402-pfad,Pfad,2252,PATH
@@ -332,18 +365,27 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 405-dorf,Dorf,930,VILLAGE
 406-stadt,Stadt,1391,TOWN
 407-brief,Brief,1612,LETTER
+408-buch,Buch,963,BOOK
 409-buchstabe,Buchstabe,1024,CHARACTER
 410-zeitung,Zeitung,1298,NEWSPAPER
+411-leben,Leben,210,LIFE
+412-tod,Tod,910,DEATH
 413-grab,Grab,1773,GRAVE
 414-kirche,Kirche,1349,CHURCH
 415-sunde,Sünde,2971,SIN
 416-gott,Gott,3231,DEITY
+417-arbeiter,Arbeiter,2977,WORKER
 418-chef,Chef,2930,BOSS
+419-meister,Meister,383,MASTER
 420-arzt,Arzt,597,PHYSICIAN
+421-lehrer,Lehrer,1038,TEACHER
 422-geld,Geld,1559,MONEY
 423-geschaft,Geschäft,2931,BUSINESS
 424-laden,Laden,746,SHOP
+425-preis,Preis,657,PRICE
 426-ware,Ware,2957,WARE
+427-nutzen,Nutzen,2929,BENEFIT
+428-reichtum,Reichtum,2996,WEALTH
 429-welt,Welt,965,WORLD
 430-land,Land,1300,COUNTRY
 431-staat,Staat,2955,STATE (POLITICS)
@@ -357,8 +399,11 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 440-pfeil,Pfeil,977,ARROW
 441-gewehr,Gewehr,1566,GUN
 442-fehler,Fehler,1293,MISTAKE
+443-luge,Lüge,2826,LIE (FALSEHOOD)
 444-schaden,Schaden,2947,DAMAGE (INJURY)
 445-ungluck,Unglück,56,BAD LUCK
+446-schuld,Schuld,134,FAULT
+447-alter,Alter,1789,AGE
 448-schluss,Schluss,743,END (OF TIME)
 449-zeit,Zeit,892,TIME
 450-tag,Tag,1225,DAY (NOT NIGHT)
@@ -399,7 +444,6 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 486-schmal,schmal,1267,NARROW
 487-dicht,dicht,2239,DENSE
 488-dickgegenstand,dick[Gegenstand],1244,THICK
-489-dunn,dünn,2249,THIN (OF SHAPE OF OBJECT)
 490-fein,fein,2157,FINE OR THIN
 491-fest,fest,3003,SOLID
 492-flach,flach,1633,FLAT
@@ -417,14 +461,21 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 504-kalt,kalt,1287,COLD
 505-kuhl,kühl,2483,COLD (OF WEATHER)
 506-frisch,frisch,243,FRESH
+507-feucht,feucht,2998,DAMP
+508-nass,nass,1726,WET
 509-trocken,trocken,1398,DRY
 510-voll,voll,1429,FULL
 511-leer,leer,1624,EMPTY
+512-offen,offen,3235,OPEN (STATE)
 514-sauber,sauber,704,CLEAN
 515-schmutzig,schmutzig,1230,DIRTY
+516-roh,roh,1959,RAW
+517-reif,reif,178,RIPE
+518-lecker,lecker,1813,TASTY
 519-su,süß,717,SWEET
 520-bitter,bitter,887,BITTER
 521-sauer,sauer,1906,SOUR
+522-hell,hell,679,BRIGHT
 523-dunkel,dunkel,706,DARK
 524-schwarz,schwarz,163,BLACK
 525-wei,weiß,1335,WHITE
@@ -439,6 +490,9 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 534-wertvoll,wertvoll,3002,PRECIOUS
 535-blind,blind,1653,BLIND
 536-taub,taub,996,DEAF
+537-kraftig,kräftig,3001,POWERFUL
+538-stark,stark,785,STRONG
+539-schwach,schwach,1601,WEAK
 540-fett,fett,1279,FAT (OBESE)
 541-schlank,schlank,1400,THIN (SLIM)
 542-hubsch,hübsch,2410,GOOD-LOOKING
@@ -448,8 +502,10 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 546-fleiig,fleißig,2077,DILIGENT
 547-geizig,geizig,1774,STINGY
 548-klug,klug,1310,CLEVER
+549-geschickt,geschickt,1824,DEXTEROUS
 550-lieb,lieb,2470,DEAR
 551-lustig,lustig,1976,MERRY
+552-sanft,sanft,1954,GENTLE
 553-hungrig,hungrig,1533,BE HUNGRY
 554-krank,krank,1847,SICK
 555-nackt,nackt,590,NAKED
@@ -457,9 +513,11 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 558-gut,gut,1035,GOOD
 559-schlecht,schlecht,1292,BAD
 560-richtig,richtig,1725,CORRECT (RIGHT)
+561-schlimm,schlimm,419,SEVERE
 562-wahr,wahr,1657,TRUE
 563-alt,alt,1229,OLD
 564-neu,neu,1231,NEW
+567-jung,jung,1207,YOUNG
 568-arm,arm,1674,POOR
 569-reich,reich,712,RICH
 570-bekannt,bekannt,3005,FAMILIAR
@@ -467,12 +525,16 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 573-verschieden,verschieden,2504,DIFFERENT
 574-nah,nah,1942,NEAR
 575-fern,fern,1406,FAR
+576-linker,linker,244,LEFT
+577-rechter,rechter,1019,RIGHT
 578-anderer,anderer,197,OTHER
 579-erster,erster,728,FIRST
 580-zweiter,zweiter,1384,SECOND
 581-dritter,dritter,1859,THIRD
 582-letzter,letzter,1529,LAST (FINAL)
 583-allein,allein,1964,ALONE
+584-aufeinmal,auf einmal,1963,IMMEDIATELY
+585-zusammen,zusammen,2482,TOGETHER
 586-lange,lange,418,FOR A LONG TIME
 587-plotzlich,plötzlich,2920,SUDDENLY
 588-sofort,sofort,2916,INSTANTLY (IMMEDIATELY)
@@ -487,10 +549,13 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 598-danach,danach,2093,AFTERWARDS
 599-vorher,vorher,1882,BEFORE
 600-zuerst,zuerst,2915,AT FIRST
+601-einmal,einmal,374,ONE TIME
+602-manchmal,manchmal,1544,SOMETIMES
 603-oft,oft,1852,OFTEN
 604-immer,immer,1676,ALWAYS
 605-niemals,niemals,1656,NEVER
 606-hier,hier,136,HERE
+607-hierhin,hierhin,2925,HITHER (HERE TO)
 608-vonhier,von hier,2927,FROM HERE
 609-dort,dort,1937,THERE
 610-dorthin,dorthin,2923,THITHER (THERE TO)
@@ -505,6 +570,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 621-einwenig,ein wenig,2924,A LITTLE
 622-kaum,kaum,2926,HARDLY
 623-sehr,sehr,1311,VERY
+624-so,so,2336,OF THIS KIND (SUCH)
 625-noch,noch,2919,STILL (CONTINUING)
 626-nur,nur,1580,ONLY
 627-schon,schon,2576,ALREADY
@@ -523,6 +589,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 642-er,er,1211,HE
 643-wir,wir,1212,WE
 644-ihr,ihr,1213,YOU
+645-sie,sie,817,THEY
 646-was,was,1236,WHAT
 647-wer,wer,1235,WHO
 648-wo,wo,1237,WHERE
@@ -531,6 +598,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 651-warum,warum,1270,WHY
 652-wieviel,wieviel,822,HOW MANY
 653-eins,eins,1493,ONE
+654-zwei,zwei,1498,TWO
 655-drei,drei,492,THREE
 656-vier,vier,1500,FOUR
 657-funf,fünf,493,FIVE
@@ -558,8 +626,10 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 681-werden,werden,1990,BECOME
 682-passieren,passieren,248,HAPPEN
 684-enden,enden,1928,CEASE
+685-wechseln,wechseln,2857,CHANGE (BECOME DIFFERENT)
 686-aufgehensonne,aufgehen[Sonne],568,RISE (MOVE UPWARDS)
 689-donnern,donnern,2378,THUNDER (VERB)
+690-wehen,wehen,175,BLOW (OF WIND)
 691-stromen,strömen,2858,STREAM (FLOW CONTINUOUSLY)
 692-flieen,fließen,2003,FLOW
 694-schwanken,schwanken,573,SWAY
@@ -573,7 +643,10 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 705-faulen,faulen,569,SPOIL (BECOME SPOILED)
 706-verfaulen,verfaulen,2907,ROT
 707-reien,reißen,460,BREAK (OF ROPE)
+708-versinken,versinken,1088,SINK (DESCEND)
 709-vergehen,vergehen,1951,PASS
+710-erscheinen,erscheinen,1076,EMERGE (APPEAR)
+711-verschwinden,verschwinden,485,DISAPPEAR
 713-abnehmen,abnehmen,2864,DECREASE
 714-zunehmen,zunehmen,1041,INCREASE
 716-wachsen,wachsen,479,GROW
@@ -591,10 +664,12 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 731-stohnen,stöhnen,716,GROAN
 732-zittern,zittern,52,SHIVER
 733-leben,leben,1422,BE ALIVE
+734-geborenwerden,geboren werden,1090,BE BORN
 735-atmen,atmen,1407,BREATHE
 736-trinken,trinken,1401,DRINK
 737-essen,essen,1336,EAT
 738-schlucken,schlucken,897,SWALLOW
+740-einschlafen,einschlafen,1106,FALL ASLEEP
 741-schlafen,schlafen,1585,SLEEP
 742-aufwachen,aufwachen,1602,WAKE UP
 744-sicherholen,sich erholen,168,REST
@@ -612,6 +687,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 757-laufen,laufen,1443,WALK
 758-schreiten,schreiten,2065,STEP (VERB)
 760-eilen,eilen,2860,BOLT (MOVE IN HASTE)
+761-sichbeeilen,sich beeilen,754,HURRY
 762-sausen,sausen,2863,DASH (OF VEHICLE)
 763-rennen,rennen,1519,RUN
 764-springen,springen,1829,JUMP
@@ -624,8 +700,11 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 772-fliegen,fliegen,1441,FLY (MOVE THROUGH AIR)
 773-gehen,gehen,695,GO
 774-weggehen,weggehen,1752,LEAVE
+776-anhalten,anhalten,2880,HALT (STOP)
+777-hineingehen,hineingehen,749,ENTER
 779-kommen,kommen,1446,COME
 780-ankommen,ankommen,1387,ARRIVE
+781-zuruckkommen,zurückkommen,581,COME BACK
 783-warten,warten,1590,WAIT (FOR)
 785-suchen,suchen,1468,LOOK FOR
 786-finden,finden,719,FIND
@@ -644,23 +723,29 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 803-horen,hören,1408,HEAR
 804-zuhoren,zuhören,1608,LISTEN
 805-probieren,probieren,21,TASTE (SOMETHING)
+807-fuhlen,fühlen,2559,FEEL (TACTUALLY)
 812-tun,tun,813,DO
 813-konnen,können,972,BE ABLE
 814-wollen,wollen,1784,WANT
 815-anfangen,anfangen,1806,BEGIN
 816-beenden,beenden,1766,FINISH
+818-gelingen,gelingen,1112,SUCCEED
+819-geraten,geraten,1723,RESULT IN
 820-offnen,öffnen,1156,OPEN
 821-schlieen,schließen,1046,SHUT
 824-legen,legen,2071,LAY (VERB)
 825-beruhren,berühren,1892,TOUCH
+826-verbinden,verbinden,2862,CONNECT
 827-bedecken,bedecken,761,COVER
 828-aufhangen,aufhängen,357,HANG UP
 829-anzunden,anzünden,737,LIGHT (IGNITE)
+830-aufheben,aufheben,371,PICK UP
 832-verlieren,verlieren,3072,MISPLACE
 833-fallenlassen,fallen lassen,2866,DROP (SOMETHING)
 834-machen,machen,734,MAKE
 835-herstellen,herstellen,2886,PRODUCE
 836-bauen,bauen,1840,BUILD
+838-verbessern,verbessern,2872,IMPROVE (SOMETHING)
 839-andern,ändern,1264,CHANGE
 840-graben,graben,1418,DIG
 842-biegen,biegen,2224,BEND (SOMETHING)
@@ -668,6 +753,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 847-hochheben,hochheben,501,LIFT
 848-ergreifen,ergreifen,855,SEIZE
 849-halten,halten,1448,HOLD
+850-drucken,drücken,1913,PRESS
 851-schieben,schieben,1452,PUSH
 852-kratzen,kratzen,1767,SCRAPE
 853-lecken,lecken,319,LICK
@@ -680,8 +766,10 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 864-streichen,streichen,38,SPREAD OUT
 865-schleifen,schleifen,251,SHARPEN (SOMETHING)
 866-schneiden,schneiden,1432,CUT
+867-rutteln,rütteln,2899,JOG (SOMETHING)
 868-schutteln,schütteln,1909,SHAKE
 869-schwenken,schwenken,2901,SWING (SOMETHING)
+870-schutten,schütten,1487,POUR
 871-fullen,füllen,2006,FILL
 872-einwickeln,einwickeln,1113,WRAP
 873-tragen,tragen,700,CARRY
@@ -689,12 +777,16 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 875-ziehen,ziehen,1455,PULL
 876-aufbewahren,aufbewahren,1477,KEEP
 877-werfen,werfen,1456,THROW
+880-verstecken,verstecken,2485,HIDE (ONESELF)
+881-teilen,teilen,1119,DIVIDE
 882-schicken,schicken,1127,SEND
+883-bringen,bringen,692,BRING
 884-hinzufugen,hinzufügen,2882,ADD
 886-erhalten,erhalten,694,GET
 887-nehmen,nehmen,1749,TAKE
 888-wahlen,wählen,1750,CHOOSE
 890-bewahren,bewahren,1997,PRESERVE
+891-behindern,behindern,554,HINDER
 892-verderben,verderben,92,SPOIL (SOMEBODY OR SOMETHING)
 893-beschadigen,beschädigen,1116,DAMAGE
 894-zerbrechen,zerbrechen,2558,BREAK (CLEAVE)
@@ -706,15 +798,20 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 901-versprechen,versprechen,1675,PROMISE
 904-kussen,küssen,578,KISS
 907-wecken,wecken,3174,WAKE UP (SOMEONE)
+908-zeigen,zeigen,1039,SHOW
 910-lehren,lehren,709,TEACH
 912-aufziehen,aufziehen,2134,RAISE (BRING UP)
 913-leiten,leiten,43,LEAD (GUIDE)
 914-antreiben,antreiben,2881,URGE (SOMEONE)
 915-lassen,lassen,2896,CAUSE TO (LET)
 916-einladen,einladen,1611,INVITE
+917-vereinigen,vereinigen,1743,JOIN
 918-besuchen,besuchen,1377,VISIT
 919-treffen,treffen,1831,MEET
 920-sichversammeln,sich versammeln,3638,ASSEMBLE (GET TOGETHER)
+921-spielen,spielen,1413,PLAY
+922-singen,singen,1261,SING
+923-tanzen,tanzen,1879,DANCE
 924-sichtrennen,sich trennen,1359,SEPARATE
 926-retten,retten,2008,RESCUE
 927-bewachen,bewachen,1940,GUARD
@@ -724,6 +821,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 931-schieen,schießen,1172,SHOOT
 932-siegen,siegen,866,WIN
 933-argern,ärgern,2892,MAKE ANGRY (ANNOY)
+934-schlagen,schlagen,3308,STRIKE (SOMEONE)
 935-treten,treten,1135,KICK
 936-stechen,stechen,571,STING
 938-stehlen,stehlen,713,STEAL
@@ -736,6 +834,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 947-sammeln,sammeln,7,GATHER
 948-pflucken,pflücken,2148,PICK
 949-jagen,jagen,1435,HUNT
+950-fischen,fischen,2638,FISHING
 952-huten,hüten,2885,HERD (SOMETHING)
 953-treiben,treiben,2868,DRIVE (CATTLE)
 954-anbinden,anbinden,2891,TIE UP (TETHER)
@@ -743,6 +842,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 956-melken,melken,93,DRAW MILK
 957-hacken,hacken,2149,CHOP (INTO PIECES)
 958-gieen,gießen,3078,IRRIGATE
+959-reifen,reifen,179,RIPEN
 960-zubereiten,zubereiten,1100,COOK (SOMETHING)
 962-backen,backen,183,BAKE
 963-braten,braten,991,FRY
@@ -755,11 +855,13 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 971-spulen,spülen,2904,RINSE
 972-fegen,fegen,230,SWEEP
 974-baden,baden,138,BATHE
+977-anziehen,anziehen,158,PUT ON
 978-sichanziehen,sich anziehen,814,DRESS UP
 979-kammen,kämmen,2070,COMB (VERB)
 980-schmucken,schmücken,1739,DECORATE
 981-sagen,sagen,1458,SAY
 982-sprechen,sprechen,1623,SPEAK
+983-reden,reden,2708,TALK
 984-sichunterhalten,sich unterhalten,2903,CHAT (WITH SOMEBODY)
 985-fragen,fragen,1309,ASK (INQUIRE)
 986-bitten,bitten,1828,ASK (REQUEST)
@@ -771,6 +873,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 993-denken,denken,1415,THINK (REFLECT)
 994-glauben,glauben,1890,BELIEVE
 995-bemerken,bemerken,2893,NOTICE (SOMETHING)
+996-erkennen,erkennen,2870,RECOGNIZE (SOMEBODY)
 998-verstehen,verstehen,1536,UNDERSTAND
 1000-wissen,wissen,1410,KNOW (SOMETHING)
 1001-sicherinnernan,sich erinnern an,707,REMEMBER
@@ -779,8 +882,11 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 1004-zahlen,zählen,1420,COUNT
 1005-rechnen,rechnen,2867,CALCULATE
 1006-lesen,lesen,724,READ
+1007-malen,malen,2001,PAINTING
 1009-schreiben,schreiben,1672,WRITE
 1010-besitzen,besitzen,684,OWN
 1011-kaufen,kaufen,1869,BUY
+1012-verkaufen,verkaufen,1571,SELL
 1014-zahlen,zahlen,718,PAY
+1015-beherrschen,beherrschen,1846,RULE
 1016-ertragen,ertragen,833,ENDURE
