@@ -3,12 +3,9 @@ import re
 
 import attr
 from clldutils.misc import slug
-from pylexibank import Dataset as BaseDataset
-from pylexibank import FormSpec, Lexeme
+from pylexibank import Dataset as BaseDataset, FormSpec, Lexeme
 import pylexibank
 from cldfbench import CLDFSpec
-from clldutils.misc import slug
-import attr
 from collections import defaultdict
 
 REP = [(x, "") for x in "†×∆-¹²³⁴’"]

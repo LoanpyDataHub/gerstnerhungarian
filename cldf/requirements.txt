@@ -19,7 +19,7 @@ iniconfig==2.0.0
 ipatok==0.4.1
 isodate==0.6.1
 jsonschema==4.17.3
--e git+https://github.com/martino-vic/gerstnerhungarian.git@f3eece6577d864de16f48bc608959dd95ace4cee#egg=lexibank_gerstnerhungarian
+-e git+https://github.com/martino-vic/gerstnerhungarian.git@0550f54bd4831ff9fff2c137bb2a254a07538da2#egg=lexibank_gerstnerhungarian
 lingpy==2.6.9
 lxml==4.9.2
 Markdown==3.4.1
