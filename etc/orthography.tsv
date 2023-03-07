@@ -276,6 +276,8 @@ Grapheme	IPA
 ^tompa$	t o m p ɒ
 ^tusa$	t u ʃ ɒ
 ^vastag$	v ɒ ʃ t ɒ ɡ
+^halvány$	h ɒ l v aː ɲ
+^suta$	ʃ u t ɒ
 ^deszka$	d ɛ s k ɒ
 ^palánk$	p ɒ l aː n k
 ^ágál$	aː ɡ aː l
@@ -364,7 +366,6 @@ Grapheme	IPA
 ^tör$	t ø r
 ^törtet$	t ø r t ɛ t
 ^mell$	m ɛ lː
-^nyű$	ɲ yː
 ^reped$	r ɛ p ɛ d
 ^tép$	t eː p
 ^begy$	b ɛ ɟ
@@ -381,7 +382,6 @@ Grapheme	IPA
 ^pih$	p i h
 ^pihen$	p i h ɛ n
 ^gát$	ɡ aː t
-^halvány$	h ɒ l v aː ɲ
 ^vékony$	v eː k o ɲ
 ^iktat$	i k t ɒ t
 ^közvetít$	k ø z v ɛ t iː t
@@ -539,9 +539,11 @@ Grapheme	IPA
 ^sikér$	ʃ i k eː r
 ^tapasz$	t ɒ p ɒ s
 ^vályog$	v aː j o ɡ
+^puszta$	p u s t ɒ
+^szűz$	s yː z
+^tiszta$	t i s t ɒ
 ^takarékos$	t ɒ k ɒ r eː k o ʃ
 ^takaros$	t ɒ k ɒ r o ʃ
-^tiszta$	t i s t ɒ
 ^cement$	t͡s ɛ m ɛ n t
 ^pucol$	p u t͡s o l
 ^rámol$	r aː m o l
@@ -816,9 +818,7 @@ Grapheme	IPA
 ^dög$	d ø ɡ
 ^nehéz$	n ɛ h eː z
 ^nyavalya$	ɲ ɒ v ɒ j ɒ
-^eledel$	ɛ l ɛ d ɛ l
 ^eleség$	ɛ l ɛ ʃ eː ɡ
-^kaja$	k ɒ j ɒ
 ^korcsolya$	k o r t͡ʃ o j ɒ
 ^koszt$	k o s t
 ^bizgat$	b i z ɡ ɒ t
@@ -946,13 +946,6 @@ Grapheme	IPA
 ^messze$	m ɛ sː ɛ
 ^távol$	t aː v o l
 ^tova$	t o v ɒ
-^boldog$	b o l d o ɡ
-^busás$	b u ʃ aː ʃ
-^pozsgás$	p o ʒ ɡ aː ʃ
-^terepes$	t ɛ r ɛ p ɛ ʃ
-^tömzsi$	t ø m ʒ i
-^vaskos$	v ɒ ʃ k o ʃ
-^zahin$	z ɒ h i n
 ^duci$	d u t͡s i
 ^pecsenye$	p ɛ t͡ʃ ɛ ɲ ɛ
 ^zsír$	ʒ iː r
@@ -1022,7 +1015,9 @@ Grapheme	IPA
 ^hab$	h ɒ b
 ^tajték$	t ɒ j t eː k
 ^abrak$	ɒ b r ɒ k
+^eledel$	ɛ l ɛ d ɛ l
 ^élelem$	eː l ɛ l ɛ m
+^kaja$	k ɒ j ɒ
 ^bábó$	b aː b oː
 ^gyalog$	ɟ ɒ l o ɡ
 ^láb$	l aː b
@@ -1076,12 +1071,6 @@ Grapheme	IPA
 ^szed$	s ɛ d
 ^szít$	s iː t
 ^vakar$	v ɒ k ɒ r
-^bátor$	b aː t o r
-^csendes$	t͡ʃ ɛ n d ɛ ʃ
-^jámbor$	j aː m b o r
-^lassú$	l ɒ ʃː uː
-^szelíd$	s ɛ l iː d
-^szende$	s ɛ n d ɛ
 ^akceptál$	ɒ k t͡s ɛ p t aː l
 ^fog$	f o ɡ
 ^fogad$	f o ɡ ɒ d
@@ -1099,6 +1088,7 @@ Grapheme	IPA
 ^jár$	j aː r
 ^lép$	l eː p
 ^arany$	ɒ r ɒ ɲ
+^boldog$	b o l d o ɡ
 ^domínium$	d o m iː n i u m
 ^igyól$	i ɟ oː l
 ^jó$	j oː
@@ -1254,6 +1244,8 @@ Grapheme	IPA
 ^torbágy$	t o r b aː ɟ
 ^bánt$	b aː n t
 ^késik$	k eː ʃ i k
+^gyűrű$	ɟ yː r yː
+^maráz$	m ɒ r aː z
 ^kardalészába$	k ɒ r d ɒ l eː s aː b ɒ
 ^tipli$	t i p l i
 ^haza$	h ɒ z ɒ
@@ -1442,7 +1434,6 @@ Grapheme	IPA
 ^szíj$	s iː j
 ^árva$	aː r v ɒ
 ^özvegy$	ø z v ɛ ɟ
-^puszta$	p u s t ɒ
 ^ín$	iː n
 ^nyal$	ɲ ɒ l
 ^borít$	b o r iː t
@@ -1755,6 +1746,7 @@ Grapheme	IPA
 ^rengeteg$	r ɛ n ɡ ɛ t ɛ ɡ
 ^busa$	b u ʃ ɒ
 ^dezentor$	d ɛ z ɛ n t o r
+^vaskos$	v ɒ ʃ k o ʃ
 ^divat$	d i v ɒ t
 ^kan$	k ɒ n
 ^kész$	k eː s
@@ -1824,10 +1816,8 @@ Grapheme	IPA
 ^dús$	d uː ʃ
 ^duska$	d u ʃ k ɒ
 ^impérium$	i m p eː r i u m
-^gyűrű$	ɟ yː r yː
 ^csilingel$	t͡ʃ i l i n ɡ ɛ l
 ^öblít$	ø b l iː t
-^maráz$	m ɒ r aː z
 ^csorog$	t͡ʃ o r o ɡ
 ^utca$	u t t͡s ɒ
 ^bőg$	b øː ɡ
@@ -1860,11 +1850,11 @@ Grapheme	IPA
 ^töröl$	t ø r ø l
 ^dominál$	d o m i n aː l
 ^bíró$	b iː r oː
+^regnál$	r ɛ ɡ n aː l
 ^illa$	i lː ɒ
-^nyargal$	ɲ ɒ r ɡ ɒ l
-^pereg$	p ɛ r ɛ ɡ
 ^inal$	i n ɒ l
 ^iramik$	i r ɒ m i k
+^nyargal$	ɲ ɒ r ɡ ɒ l
 ^rohan$	r o h ɒ n
 ^száguld$	s aː ɡ u l d
 ^szomorú$	s o m o r uː
@@ -1926,7 +1916,6 @@ Grapheme	IPA
 ^rév$	r eː v
 ^által$	aː l t ɒ l
 ^csuta$	t͡ʃ u t ɒ
-^suta$	ʃ u t ɒ
 ^sódar$	ʃ oː d ɒ r
 ^váll$	v aː lː
 ^csikorog$	t͡ʃ i k o r o ɡ
@@ -2003,6 +1992,12 @@ Grapheme	IPA
 ^sima$	ʃ i m ɒ
 ^kígyó$	k iː ɟ oː
 ^zomak$	z o m ɒ k
+^bátor$	b aː t o r
+^csendes$	t͡ʃ ɛ n d ɛ ʃ
+^jámbor$	j aː m b o r
+^lassú$	l ɒ ʃː uː
+^szelíd$	s ɛ l iː d
+^szende$	s ɛ n d ɛ
 ^harmat$	h ɒ r m ɒ t
 ^puha$	p u h ɒ
 ^torha$	t o r h ɒ
@@ -2123,16 +2118,6 @@ Grapheme	IPA
 ^zuhan$	z u h ɒ n
 ^erő$	ɛ r øː
 ^forsz$	f o r s
-^csápol$	t͡ʃ aː p o l
-^csapong$	t͡ʃ ɒ p o n ɡ
-^egyez$	ɛ ɟ ɛ z
-^kefe$	k ɛ f ɛ
-^kongat$	k o n ɡ ɒ t
-^páhog$	p aː h o ɡ
-^patél$	p ɒ t eː l
-^plágál$	p l aː ɡ aː l
-^salapál$	ʃ ɒ l ɒ p aː l
-^som$	ʃ o m
 ^korda$	k o r d ɒ
 ^kordon$	k o r d o n
 ^nyüst$	ɲ y ʃ t
@@ -2212,6 +2197,7 @@ Grapheme	IPA
 ^mester$	m ɛ ʃ t ɛ r
 ^pedagógus$	p ɛ d ɒ ɡ oː ɡ u ʃ
 ^könny$	k ø ɲː
+^nyű$	ɲ yː
 ^tíz$	t iː z
 ^porcog$	p o r t͡s o ɡ
 ^porcan$	p o r t͡s ɒ n
@@ -2225,8 +2211,14 @@ Grapheme	IPA
 ^onnét$	o nː eː t
 ^ott$	o tː
 ^túl$	t uː l
-^ritka$	r i t k ɒ
+^busás$	b u ʃ aː ʃ
+^pozsgás$	p o ʒ ɡ aː ʃ
+^terepes$	t ɛ r ɛ p ɛ ʃ
+^tömzsi$	t ø m ʒ i
+^zahin$	z ɒ h i n
+^bulya$	b u j ɒ
 ^gyenge$	ɟ ɛ n ɡ ɛ
+^szigorú$	s i ɡ o r uː
 ^karcsú$	k ɒ r t͡ʃ uː
 ^sugár$	ʃ u ɡ aː r
 ^suhancár$	ʃ u h ɒ n t͡s aː r
@@ -2320,6 +2312,7 @@ Grapheme	IPA
 ^jeles$	j ɛ l ɛ ʃ
 ^kurva$	k u r v ɒ
 ^retten$	r ɛ tː ɛ n
+^ritka$	r i t k ɒ
 ^roppant$	r o pː ɒ n t
 ^töméntelen$	t ø m eː n t ɛ l ɛ n
 ^váltn$	v aː l t n
@@ -2331,6 +2324,7 @@ Grapheme	IPA
 ^vekni$	v ɛ k n i
 ^baktat$	b ɒ k t ɒ t
 ^keletkezik$	k ɛ l ɛ t k ɛ z i k
+^pereg$	p ɛ r ɛ ɡ
 ^allűr$	ɒ lː yː r
 ^folyosó$	f o j o ʃ oː
 ^tál$	t aː l

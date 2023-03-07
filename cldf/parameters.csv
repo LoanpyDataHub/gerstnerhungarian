@@ -445,7 +445,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 485-breit,breit,1243,WIDE
 486-schmal,schmal,1267,NARROW
 487-dicht,dicht,2239,DENSE
-489-dunn,dünn,2249,THIN (OF SHAPE OF OBJECT)
+488-dickgegenstand,dick[Gegenstand],1244,THICK
 490-fein,fein,2157,FINE OR THIN
 491-fest,fest,3003,SOLID
 492-flach,flach,1633,FLAT
@@ -507,7 +507,6 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 549-geschickt,geschickt,1824,DEXTEROUS
 550-lieb,lieb,2470,DEAR
 551-lustig,lustig,1976,MERRY
-552-sanft,sanft,1954,GENTLE
 553-hungrig,hungrig,1533,BE HUNGRY
 554-krank,krank,1847,SICK
 555-nackt,nackt,590,NAKED
@@ -825,7 +824,6 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 931-schieen,schießen,1172,SHOOT
 932-siegen,siegen,866,WIN
 933-argern,ärgern,2892,MAKE ANGRY (ANNOY)
-934-schlagen,schlagen,3308,STRIKE (SOMEONE)
 935-treten,treten,1135,KICK
 936-stechen,stechen,571,STING
 938-stehlen,stehlen,713,STEAL
