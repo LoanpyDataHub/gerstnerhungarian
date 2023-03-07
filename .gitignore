@@ -86,6 +86,7 @@ celerybeat-schedule
 .venv
 venv/
 ENV/
+venvcldf/
 
 # Spyder project settings
 .spyderproject
@@ -99,4 +100,13 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# shell files
+*.sh
+
+#libre office lock files
+.~lock.*
+
+#trash folder
+trash/
 
