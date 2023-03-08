@@ -34,7 +34,7 @@ jobs:
             --clts-version=v2.2.0
       - run:
           name: Create orthography profile
-          command: cldfbench gerstnerhungarian.map
+          command: cldfbench gerstnerhungarian.makeortho
       - run:
           name: Rerun lexibank-script, from shell-script
           command: |
@@ -45,8 +45,10 @@ jobs:
           command: pip install pytest-cldf
       - run:
           name: Test with pytest
-          command: pytest --cldf-metadata=cldf/cldf-metadata.json test.py
-          
+          command: |
+            cd gerstnerhungarian
+            pytest --cldf-metadata=cldf/cldf-metadata.json test.py
+
 workflows:
   main:
     jobs:
