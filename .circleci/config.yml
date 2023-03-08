@@ -27,7 +27,11 @@ jobs:
           command: cldfbench gerstnerhungarian.map
       - run:
           name: run lexibank script
-          command: bash hun.sh
+          command: >
+            cldfbench lexibank.makecldf lexibank_gerstnerhungarian.py
+            --concepticon-version=v2.5.0
+            --glottolog-version=v4.5 
+            --clts-version=v2.2.0
 workflows:
   main:
     jobs:
