@@ -22,6 +22,9 @@ jobs:
       - run:
           name: install commands
           command: pip install -e gerstnerhungarian
+      - run:
+          name: shorten raw input
+          command: cldfbench gerstnerhungarian.map
 workflows:
   main:
     jobs:
