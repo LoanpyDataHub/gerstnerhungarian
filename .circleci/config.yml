@@ -30,8 +30,16 @@ jobs:
           command: >
             cldfbench lexibank.makecldf lexibank_gerstnerhungarian.py
             --concepticon-version=v2.5.0
-            --glottolog-version=v4.5 
+            --glottolog-version=v4.5
             --clts-version=v2.2.0
+      - run:
+          name: Create orthography profile
+          command: cldfbench gerstnerhungarian.map
+      - run:
+          name: Rerun lexibank-script, from shell-script
+          command: |
+            cd gerstnerhungarian
+            bash hun.sh
 workflows:
   main:
     jobs:
