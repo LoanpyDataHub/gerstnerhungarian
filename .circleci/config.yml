@@ -25,6 +25,9 @@ jobs:
       - run:
           name: shorten raw input
           command: cldfbench gerstnerhungarian.map
+      - run:
+          name: run lexibank script
+          command: bash hun.sh
 workflows:
   main:
     jobs:
