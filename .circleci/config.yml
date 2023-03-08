@@ -7,12 +7,21 @@ jobs:
   build:
     executor: python/default
     steps:
-      - run:
-          name: Install git
-          command: sudo apt install git
+#      - run:
+#          name: Install git
+#          command: sudo apt install git
       - run:
           name: Clone repo
           command: git clone https://github.com/martino-vic/gerstnerhungarian.git
+      - run:
+          name: Clone reference catalogues
+          command: |
+            mkdir concepticon
+            cd concepticon
+            git clone https://github.com/concepticon/concepticon-data.git
+            cd ..
+            git clone https://github.com/glottolog/glottolog.git
+            git clone https://github.com/cldf-clts/clts.git
 
 workflows:
   main:
