@@ -4,10 +4,15 @@ orbs:
   python: circleci/python@0.3.2
 
 jobs:
-  build-and-test:
+  just-build:
     executor: python/default
     steps:
       - run:
           name: Install git
           command: |
             sudo apt install git
+
+workflows:
+  main:
+    jobs:
+      - just-build
