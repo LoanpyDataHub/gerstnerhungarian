@@ -4,15 +4,17 @@ orbs:
   python: circleci/python@0.3.2
 
 jobs:
-  just-build:
+  build:
     executor: python/default
     steps:
       - run:
           name: Install git
-          command: |
-            sudo apt install git
+          command: sudo apt install git
+      - run:
+          name: Clone repo
+          command: git clone https://github.com/martino-vic/gerstnerhungarian.git
 
 workflows:
   main:
     jobs:
-      - just-build
+      - build
