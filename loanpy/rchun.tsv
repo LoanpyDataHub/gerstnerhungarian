@@ -1,0 +1,720 @@
+ID	Entry_ID	Segments	Meaning	reconstructed
+1	30-acs	aː t͡ʃ	Zimmermann	^(a|aː|o|a.ɣ.a)(t͡ʃ|l.t͡ʃ)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk)?$
+2	31-acsa	ɒ t͡ʃ ɒ	Libelle	^(a|o)(t͡ʃ|l.t͡ʃ|r.t͡ʃ)(a|a.ɣ|a.w|ɒ)?(i|y|ɛ)?$
+3	36-ad	ɒ d	zukommen, lassen, schenken, geben, liefern, lassen, verkaufen, veröffentlichen, Geben, Beleg, Angabe, Gesetzgeber, Herausgeber, Teil, Tradition, Beitrag	^(a|o)(n)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+5	56-ag	aː ɡ	Ast, Sippe, herausragender, Teil, etw, Arm, Teil, abzweigen	^(a|aː|o|a.ɣ.a)(ɡ|k)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk)?$
+6	60-agar	ɒ ɡ aː r	Windhund, magerer, Mensch	^(a|o)(ɡ)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk)?$
+7	74-agy	ɒ ɟ	Schädel, Kopf, Nabe, Gewehrkolben, Halfter, Gehirn, Vernunft, verprügeln, ersinnen	^(a|o)(ɟ)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+8	78-agyag	ɒ ɟ ɒ ɡ	Ton	^(a|o)(l.d|d)(a|ɒ|o|a.ɣ)?(ɡ|k)(i|y)?$
+9	85-aj	aː j	Tal, Schlucht, Öffnung, Falz, Kerbe, Zaum, Zwischenraum, angezeichnet, Sardelle, Sardelle	^(a|aː|o|a.ɣ.a)(l|j|ɣ.y.l)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk)?$
+10	87-ajandek	ɒ j aː n.d eː k	Geschenk, Opfergabe	^(a|o)(l|j|j.a|ɣ)(a)(n.d|n)(ɛ|i|eː|ø|y|a|e)(k)$
+11	98-akar	ɒ k ɒ r	freiwillig, gewaltsam	^(a|o)(k)(a|ɒ|o|a.ɣ)?(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a)?$
+13	107-agy	ɒ ɟ	Schädel, Kopf, Nabe, Gewehrkolben, Halfter, Gehirn, Vernunft, verprügeln, ersinnen	^(a|o)(ɟ)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+14	111-agyag	ɒ ɟ ɒ ɡ	Ton, Lehm	^(a|o)(l.d|d)(a|ɒ|o|a.ɣ)?(ɡ|k)(i|y)?$
+15	119-aj	aː j	Tal, Schlucht, Öffnung, Zwischenraum, Falz, Kerbe, Zaum, angezeichnet, Sardelle	^(a|aː|o|a.ɣ.a)(l|j|ɣ.y.l)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk)?$
+16	121-ajandek	ɒ j aː n.d eː k	Geschenk, Opfergabe	^(a|o)(l|j|j.a|ɣ)(a)(n.d|n)(ɛ|i|eː|ø|y|a|e)(k)$
+17	132-akar	ɒ k ɒ r	freiwillig, gewaltsam	^(a|o)(k)(a|ɒ|o|a.ɣ)?(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a)?$
+19	142-akna	ɒ k.n ɒ	Spund, Schacht, Öffnung, Fenster, Bergwerk, Kamin, Geschoß, Soldat	^(a|o)(k.ɛ.n)(a|a.ɣ|a.w|ɒ)?(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a)?$
+20	144-akol	ɒ k o l	Viehstall, Art	^(a|o)(k)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(l|j)?(i|y)?$
+22	158-al	ɒ l	unterer, Tiefland, etw, befindliches, Gebiet, etw, befindliche, Sache, Unterteil, Rest, Streu, Grund, Basis	^(a|o)(l|j)?(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+23	159-al	aː l	falsch, Falschheit	^(a|aː|o|a.ɣ.a)(l|j)?(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk)?$
+24	163-alacsony	ɒ l ɒ t͡ʃ o ɲ	klein, untergeordnet, niederträchtig, niedergedrückt, niederträchtig	^(a|o)(l|r.l|l.k)(a)(t͡ʃ|l.t͡ʃ|r.t͡ʃ)(u|o|a|ɒ|o.ɣ.o)?(n)$
+26	184-aldomas	aː l.d o m aː ʃ	Opfer, Segnung, Erlaubnis, Gelage, Trinkspruch	^(a|aː|o|a.ɣ.a)(l.d|n.d)(u|o|a)?(m)(a)(t͡ʃ|ɣ|ʃ|l.t͡ʃ)$
+27	219-alma	ɒ l.m ɒ	Apfelbaum, Apfel, Ausdruck, Verneinung, Apfelgarten, versehen, zB, weißes, Pferd, faul, Arg	^(a|o)(l.m)(a|a.ɣ|a.w|ɒ)?(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a)?$
+28	227-alom	aː l o m	Traum, Schlaf, Einschlafen	^(a|aː|o|a.ɣ.a)(l|r.l|l.k)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(m)(i)?$
+29	282-anya	ɒ ɲ ɒ	Mutter, Vorgesetzte, Leiterin, Ursprung, Muttertier, Mütterchen	^(a|o)(n|m)(a|a.ɣ|a.w|ɒ)?(i|y|ɛ|u)?$
+30	290-apa	ɒ p ɒ	Vater, Mann, Zunftmeister, Schwiegervater, geistiger, Urheber, Mann, Ahn, Mann, Väterchen, Väterchen, Väterchen, Väterchen	^(a|o)(p)(a|a.ɣ|a.w|ɒ)?(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a)?$
+31	293-apad	ɒ p ɒ d	versiegen, Substanz, verlieren	^(a|o)(p)(a|ɒ|o|a.ɣ)?(n)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a)?$
+32	296-apat	ɒ p aː t	Abt	^(a|o)(p)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(t)(i|y|ɛ|u|i.ɣ|a.t|ɛk)?$
+34	311-ar	aː r	strömen, schwellen	^(a|aː|o|a.ɣ.a)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+35	318-arany	ɒ r ɒ ɲ	Gold, Geld, Schatz, Goldmünze	^(a|o)(r|j.r|w.r)(a|ɒ|o|a.ɣ)?(n|m)(i)?$
+36	322-arat	ɒ r ɒ t	ernten	^(a|o)(r|j.r|w.r)(a|ɒ|o|a.ɣ)?(t)(i|y|ɛ)?$
+37	351-arok	aː r o k	Grube, Graben, Wallgraben, Tal, Graben, ziehen	^(a|aː|o|a.ɣ.a)(r|j.r)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(k|ɡ)$
+38	353-arpa	aː r.p ɒ	Gerste, Gerstenkorn, Auge	^(a|aː|o|a.ɣ.a)(r.p)(a|a.ɣ|a.w|ɒ)?(i|y|ɛ|u)?$
+39	356-artany	aː r.t aː ɲ	Eber	^(a|aː|o|a.ɣ.a)(r.t|r.i.t)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(n|m)$
+40	361-aru	aː r u	Ware, Verhandeln, Verrat, verkaufen, Verkäufer, Verräter, Verkäufer, Verräter, Verkäufer, Verräter	^(a|aː|o|a.ɣ.a)(r|j.r|w.r)(u.ɣ|u|a.ɣ)(i|y)?$
+41	362-arva	aː r.v ɒ	Waise, einsam, verlassen, verwitwet	^(a|aː|o|a.ɣ.a)(r.ɣ|r.v|r|r.y.ɣ)(a|a.ɣ|a.w|ɒ)?(i)?$
+43	382-aszo	ɒ s oː	zeitweiliger, Wasserlauf, Trockental	^(a|o)(s)(a.ɣ|u.ɣ|a.ɣ.u|i.ɣ|o.ɣ|uɣ|ɯ.ɣ|u.j|a.w|a|u)(i|y|ɛ|u)?$
+44	389-asszony	ɒ sː o ɲ	Königin, Herrin, Frau, verheiratete, Frau, Fräulein, weibliches, Geschlecht	^(a|o)(s)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(n|m)(i|y|ɛ)?$
+45	395-aszu	ɒ s uː	trocken, Gelände, Flußbett, usw, verdorrt, Pflanze, Krankheit, Greisenalter, getrocknet, Fisch, gedörrt, Obst, mager, Krankheit, zubereitet, Wein, Dürre	^(a|o)(s)(a.ɣ|u.ɣ|u|a.ɣ.u|o.ɣ)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a)?$
+49	453-baba	b ɒ b ɒ	Kindchen, Säugling, Frau, Geliebte, Webstuhl, Bestandteil, verschiedener, Figur, Kegelspiel, verbundener, Finger, Kindchen	^(b)(a|ɒ|o|a.ɣ)?(b)(a|a.ɣ|a.w|ɒ)?(i|y|ɛ)?$
+50	454-baba	b aː b ɒ	altes, Weib, Hebamme, Großmutter, Hexe, Marktfrau	^(b)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(b)(a|a.ɣ|a.w|ɒ)?(i|y)?$
+51	475-bagoly	b ɒ ɡ o j	Eule, Nachteule, Menschen, Schuljunge, Alte, dumm	^(b)(a|ɒ|o|a.ɣ)?(ɡ)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(l|j|ɣ.y.l)$
+52	479-baj	b ɒ j	Kampf, Zweikampf, Ort, Sorge, Angelegenheit, Plackerei, Krankheit, Defekt, Menstruation, Notdurft, Hinderniss	^(b)(a|ɒ|o|a.ɣ)?(l|j|ɣ.y.l)(i|y|ɛ|u|i.ɣ|a.t)?$
+54	482-bajor	b ɒ j o r	Bayer, bayerisch	^(b)(a|ɒ|o|a.ɣ)(l|j|j.a|ɣ)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(r)$
+55	488-bak	b ɒ k	bock, Widder, Art, Gerüst, Holz, Kutschbock, Art	^(b)(a|ɒ|o|a.ɣ)?(k|ɡ)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a)?$
+57	499-bakol	b ɒ k o l	entgegensetzen, widerspenstig, Pferde, Hanf, brechen, Pfahl, Erde, treiben	^(b)(a|ɒ|o|a.ɣ)?(k)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(l|j)?$
+58	504-bal	b ɒ l	linke, böse, falsch, linke, Seite, linke, Hand, Linkshänder	^(b)(a|ɒ|o|a.ɣ)?(l|j)?(i|y|ɛ|u|i.ɣ|a.t)?$
+59	527-balvany	b aː l.v aː ɲ	Steinsäule, Grenzstein, Pfosten, Götze, Bestandteil, Presse, riesig, Riesen-, Bestandteil, hölzernen, Schiffes, Floß, großer, Knüttel, Achse, Steinsäulen, versehen, heidnisch, lebend	^(b)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(l.v)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(n|m)(i)?$
+60	532-ban	b aː n	Ban, Kommandant, Grenzfestung, Herr	^(b)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(n)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+62	547-banya	b aː ɲ ɒ	Bergwerk, Metall, Bergwerk	^(b)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(n|m)(a|a.ɣ|a.w|ɒ)?(i)?$
+63	557-barany	b aː r aː ɲ	Lamm	^(b)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(r|j.r)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(n|m)$
+64	559-barat	b ɒ r aː t	Mönch, Nächster, Freund, Freund	^(b)(a|ɒ|o|a.ɣ)?(r|j.r|w.r)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(t)$
+66	568-bard	b aː r.d	einziger, Mann, Tage, fällen, Art, Beil, Art, Axt, Hellebarde	^(b)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+67	588-barsony	b aː r.ʃ o ɲ	Samt	^(b)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(r.t͡ʃ)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(n|m)$
+68	593-baszik	b ɒ s i k	vögeln, ficken, etw, scheißen, öfters, ficken, tadeln	^(b)(a|ɒ|o|a.ɣ)?(s)(i|a|y|ɛ|ɯ)(k|ɡ)(i)?$
+69	600-bator	b aː t o r	mutig, sicher, sanft, schnell, mutig, mutig	^(b)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(t|l.t)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(r)$
+70	636-beke	b eː k ɛ	Ruhe, Friede, Bund, versöhnen, demütigen	^(b)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(k)(ɛ|ɛ.ɣ)(i|y|ɛ|u)?$
+71	640-bel	b eː l	Eingeweide, Innere, Fruchtfleisch, Docht, Seele, Darm, Magen, inner	^(b)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(l|j)?(i|y)?$
+72	663-ber	b eː r	Lohn, Miete, Knecht	^(b)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk)?$
+74	671-berek	b ɛ r ɛ k	Ufer, Hain, Moor	^(b)(ɛ|i|y|ø|a)(r|j.r)(ɛ|i|y|ø|a)(k|ɡ)$
+75	677-berkenye	b ɛ r.k ɛ ɲ ɛ	Eberesche, Vogelbeere	^(b)(ɛ|i|y|ø|a)(r.k)(ɛ|i|y|ø|a)(n|m)(ɛ|ɛ.ɣ)$
+76	682-bese	b ɛ ʃ ɛ	Art, Raubvogel, Milan, Krähe	^(b)(ɛ|i|y|ø|a)(ʃ|t͡ʃ)(ɛ|ɛ.ɣ)(i|y|ɛ|u)?$
+77	683-besenyo	b ɛ ʃ ɛ ɲ øː		^(b)(ɛ|i|y|ø|a)(ʃ|t͡ʃ)(ɛ|i)(n|m)(ɛ.ɣ|i.ɣ|yː)$
+78	688-beszed	b ɛ s eː d	Rede, Wort, Märchen	^(b)(ɛ|i|y|ø|a)(s)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(n)(i)?$
+79	696-bezzeg	b ɛ zː ɛ ɡ	ja, Sporn, Haken, Schwierigkeit, Gewißheit	^(b)(ɛ|i|y|ø|a)(s)(ɛ|i|y|ø|a)(ɡ|k)(i)?$
+80	707-bibor	b iː b o r	feines, Leinengewebe, Samt, Rot, Saft, gewonnener, Farbstoff, purpurfarben, Kleid, rot, gefärbt, Kleid, Leinengewebe, gemacht, Kleid, Kardinal	^(b)(i|iː)(b)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(r)(i|y|ɛ|u|i.ɣ|a.t)?$
+81	721-bika	b i k ɒ	Stier, großer, starker, Mann, männliches, Tier, geschlechtlich, kräftiger, Mann, Buhler, Rammbock, Dampfmaschine	^(b)(i|a|y|ɛ|ɯ)(k)(a|a.ɣ|a.w|ɒ)?(i|y|ɛ)?$
+82	748-bivaly	b i v ɒ j	Büffel, dummer, Mensch, Dreschmaschine	^(b)(i|a|y|ɛ|ɯ)(v|w)(a|ɒ|o|a.ɣ)(l|j|ɣ.y.l)$
+83	751-bizik	b iː z i k	zuversichtlich, jmdm, trauen, anvertrauen, Sache, vorsetzen, überlassen, Vertrauen, vertrauen, zuversichtlich, zuversichtlich, zuversichtlich, Vertrauen, Ausschluß	^(b)(i|iː)(z|s)(i|a|y|ɛ|ɯ)(k|ɡ)(i|y)?$
+84	753-bizony	b i z o ɲ	wahr, bestimmt, wahrlich, Zeuge, Wahrheit, Wahrheit, sicher, Gewißheit, wahrlich, wahrlich	^(b)(i|a|y|ɛ|ɯ)(z|s)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(n|m)$
+85	777-bocsar	b o t͡ʃ aː r	Böttcher, Kellermeister	^(b)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(t͡ʃ|l.t͡ʃ|r.t͡ʃ)(a|aː|a.ɣ.a|a.ɣ.i|i)(r)$
+86	788-bodor	b o d o r	Teil, bes, Bandes, Haares, Name, versch, haariger, Pflanzen, kraus, kraus	^(b)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(d|l.d|w.d|n.d)(u|o|a)?(r)$
+88	792-bog	b o ɡ	Knoten, Glied, Ast	^(b)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(ɡ|k)(i|y|ɛ|u|i.ɣ|a.t)?$
+89	794-bogar	b o ɡ aː r	Käfer, Mucke, Pupille, Insekten, geplagt, laufen, Käfern, bedeckt	^(b)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(ɡ)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(r)(i)?$
+90	806-bojt	b o j.t	Büschel, Zottel, Quaste, Behang, Knoten, Tannenzweig, junger, Nadelbaum, Gruppe, Nadelbäumen	^(b)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(ɣ.t|ɣ.u.t|l)(i|y|ɛ|u)?$
+91	810-boka	b o k ɒ	Schienbein, Knöchel, Handgelenk, Leder, Art, Fußbekleidung, tanzen	^(b)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(k)(a|a.ɣ|a.w|ɒ)?(i|y)?$
+92	816-bokor	b o k o r	Strauch, Busch, Büschel, Haufen, Paar, Menschengruppe, buschig, durchgehend, Pferd, durchgehen, Pferd	^(b)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(k)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(r)(i)?$
+93	819-boksa	b o k.ʃ ɒ	junger, Ziegenbock, einjähriger, Hammel, Kohlenmeiler	^(b)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(k.ʃ)(a|a.ɣ|a.w|ɒ)?(i|y)?$
+94	823-boldog	b o l.d o ɡ	heilig, selig, reich, glücklich, freudig, zufrieden, friedlich, gut, dick, schwanger, fortkommen, glücklich, fortkommen, selig, Verstorbener, verstorben	^(b)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(l.d|n.d)(u|o|a)?(ɡ|k)$
+98	833-bolt	b o l.t	Gewölbe, Laden, Geschäft, Räumlichkeit, gewölbter, Decke, Kammer, Keller, Bogen, Regenbogen, gewölbt, Kaufmann	^(b)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(l.t)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk)?$
+99	834-boly	b o j	Ameisenhaufen, Gruppe, Rudel, Bündel, Maulwurfshügel	^(b)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(l|j|ɣ.y.l)(i|y|ɛ|u)?$
+101	853-bor	b o r	Obstwein	^(b)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk)?$
+102	865-borju	b o r.j uː	Kalb, Jungtier, Schwachkopf, Tornister, Art, Kartenspiel	^(b)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(r.ɣ|r)(a.ɣ|u.ɣ|u|a.ɣ.u|o.ɣ)(i)?$
+103	877-bors	b o r.ʃ	Pfeffer, Paprika	^(b)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(r.t͡ʃ)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk)?$
+104	880-borz	b o r.z	Dachs	^(b)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(r.s)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk)?$
+105	888-bot	b o t	Kolben, Keule, Stock, Stab, Zepter, Streitkolben, Aufsicht, Herrschaft, Macht, Klotz, prügeln, Weidenruten, schneiden, Zweige, abschneiden	^(b)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(t)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk)?$
+106	900-bo	b øː	reich, breit, weit, weitschweifig, ausführlich, vermehren, reichlich	^(b)(ɛ.ɣ|i.ɣ|yː)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+107	901-bodon	b ø d ø n	Holz-, od, Nahrungsmittel, hohler, Baumstamm, Bienenstock, Einbaum, hohler, Baumstamm, Loch, Stamm	^(b)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(d|l.d|w.d|n.d)(ɛ|y|ø|i)(n)$
+108	907-bojt	b ø j.t	Fastenzeit, Hungern, rituelles, Fasten, Elend	^(b)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(ɣ.t|ɣ.u.t|l)(i|y|ɛ|u)?$
+109	908-bok	b ø k	stoßen, verletzen, zeigen	^(b)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(k|ɡ)(i|y|ɛ|u|i.ɣ|a.t|ɛk)?$
+110	911-bolcs	b ø l.t͡ʃ	weise, kluge, Person, Gelehrter, Philosoph	^(b)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(l.t͡ʃ|t͡ʃ)(i|y|ɛ|u|i.ɣ|a.t|ɛk)?$
+111	913-boleny	b ø l eː ɲ	Wisent, Bison	^(b)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(l|r.l)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(n)$
+112	959-bu	b uː	Gram	^(b)(a.ɣ|u.ɣ|u|a.ɣ.u|o.ɣ)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+114	967-bucsu	b uː t͡ʃ uː	Erlaubnis, Ablaß, Abschied, Wallfahrt, Kirchweihfest, Kirchweihfest, bezüglich, Teilnehmer, Kirchweihfest	^(b)(u|uː|u.ɣ|u.ɣ.u|i|o|o.ɣ)(t͡ʃ|l.t͡ʃ|r.t͡ʃ)(a.ɣ|u.ɣ|u|a.ɣ.u|o.ɣ)$
+115	973-buga	b u ɡ ɒ	Kapselfrucht, Tannenzapfen, Augapfel, Kokon, Lein-, od, Rispe	^(b)(u|ɯ|u.w.a|u.ɣ)(ɡ)(a|a.ɣ|a.w|ɒ)?(i|y|ɛ|u)?$
+116	984-bujik	b uː j i k	verbergen, etw, tauchen, etw, vertiefen, schlüpfen, Kleidungsstück, aufgehen, Pflanze, Vorwand, Ausweg	^(b)(u|uː|u.ɣ|u.ɣ.u|i|o|o.ɣ|i.ɣ.u)(l|j|j.a|ɣ)(i|a|y|ɛ)(k)$
+117	989-bukik	b u k i k	tauchen, fallen, stürzen, Niederlage, erleiden, etw, stoßen, führende, Rolle, verlieren, Fall, kommen, durchfallen, Unterrichtsfach, Polizei, Hände, fallen, erpicht	^(b)(u|ɯ|u.w.a|u.ɣ)(k)(i|a|y|ɛ|ɯ)(k|ɡ)(i|y)?$
+118	1020-busa	b u ʃ ɒ	untersetzt, kräftig, wohlhabend, voll, Stimme, derb, roh, eigensinnig, dicke, Augenbrauen, od, düsteren, Blick, habend, hinterlistig, dumm, Dickkopf, Art, Fisch	^(b)(u|ɯ|u.w.a|u.ɣ)(ʃ|t͡ʃ)(a|a.ɣ|a.w|ɒ)?(i|y)?$
+119	1026-buta	b u t ɒ	abwärts, gebogen, dumm, stumpf, derb, schwer, dicht, blind, unberechenbar, stumpf	^(b)(u|ɯ|u.w.a|u.ɣ)(t|l.t)(a|a.ɣ|a.w|ɒ)?(i|y)?$
+120	1033-buza	b uː z ɒ	Weizen	^(b)(u|uː|u.ɣ|u.ɣ.u|i|o|o.ɣ|i.ɣ.u)(z|s)(a|a.ɣ|a.w|ɒ)?(i)?$
+122	1041-budos	b y d ø ʃ	stark, riechend, stinkend, abstoßend, unangenehm, beängstigend, Angelegenheit, Situation, Auslauf, Ballspiel, Gefängnis	^(b)(y|i|ɛ)(d|l.d|w.d|n.d)(ɛ|y|ø)(t͡ʃ|ɣ|ʃ|l.t͡ʃ)$
+123	1045-bukk	b y kː	Buchenwald, Buche	^(b)(y|i|ɛ)(k)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+124	1056-buvos	b yː v ø ʃ	zauberhaft, magisch	^(b)(y|yː|y.ɣ.y|ɛ.w.y|i.ɣ.i|ɛ.ɣ.i|y.ɣ|i|i.ɣ|ø)(v|w)(ɛ|y)(t͡ʃ|ɣ|ʃ)$
+125	1076-beke	b eː k ɛ	Ruhe, Friede, Bund, versöhnen, demütigen	^(b)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(k)(ɛ|ɛ.ɣ)(i|y|ɛ|u)?$
+126	1080-bel	b eː l	Eingeweide, Innere, Fruchtfleisch, Docht, Seele, Darm, Magen, inner	^(b)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(l|j)?(i|y)?$
+127	1102-ber	b eː r	Lohn, Miete, Knecht	^(b)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk)?$
+129	1110-berek	b ɛ r ɛ k	Ufer, Hain, Moor	^(b)(ɛ|i|y|ø|a)(r|j.r)(ɛ|i|y|ø|a)(k|ɡ)$
+130	1116-berkenye	b ɛ r.k ɛ ɲ ɛ	Eberesche, Vogelbeere	^(b)(ɛ|i|y|ø|a)(r.k)(ɛ|i|y|ø|a)(n|m)(ɛ|ɛ.ɣ)$
+131	1121-bese	b ɛ ʃ ɛ	Art, Raubvogel, Milan, Krähe	^(b)(ɛ|i|y|ø|a)(ʃ|t͡ʃ)(ɛ|ɛ.ɣ)(i|y|ɛ|u)?$
+132	1122-besenyo	b ɛ ʃ ɛ ɲ øː		^(b)(ɛ|i|y|ø|a)(ʃ|t͡ʃ)(ɛ|i)(n|m)(ɛ.ɣ|i.ɣ|yː)$
+133	1127-beszed	b ɛ s eː d	Rede, Wort, Märchen	^(b)(ɛ|i|y|ø|a)(s)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(n)(i)?$
+135	1265-cipo	t͡s i p oː	Brotlaib, Gemisch, Buckel, Brotes	^(t͡ʃ|s)(i|a|y|ɛ|ɯ)(p)(a.ɣ|u.ɣ|a.ɣ.u|i.ɣ|o.ɣ|uɣ|ɯ.ɣ|u.j|a.w|a|u)$
+137	1347-csal	t͡ʃ ɒ l	trügen, betrügen, locken, scheinheilig, Köder	^(t͡ʃ)(a|ɒ|o|a.ɣ)?(l|j)?(i|y|ɛ|u|i.ɣ|a.t)?$
+138	1348-csalad	t͡ʃ ɒ l aː d	fremder, Gefangener, Mitglied, Diener, Familie, Familie, Zool, Bot, Kind, Mitglied, Familie, Hereinnahme, As, König, Ober, Trumpffarbe	^(t͡ʃ)(a|ɒ|o|a.ɣ)?(l|r.l|l.k)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(n)$
+139	1351-csalan	t͡ʃ ɒ l aː n	Brennessel	^(t͡ʃ)(a|ɒ|o|a.ɣ)?(l|r.l|l.k)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(n)$
+140	1361-csanak	t͡ʃ ɒ n ɒ k	Becher, hölzernes, od, Gefäß	^(t͡ʃ)(a|ɒ|o|a.ɣ)?(n)(a|ɒ|o|a.ɣ)?(k|ɡ)(i)?$
+141	1365-csap	t͡ʃ ɒ p	schlagen, hauen, streichen, Maß, zupfen, Wolle, reißen, schleudern, dringen, Richtung, einschlagen, etw, schmeicheln, treiben, lassen, veranstalten, Festmahl, Unterhaltung, Lärm, schlagen, klauen, stibitzen, Dolch, Schlag, Unglück, Spur, gedrückt, voll, Maß, herumschlagen, neckisch	^(t͡ʃ)(a|ɒ|o|a.ɣ)?(p)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+143	1371-csapinos	t͡ʃ ɒ p i n oː ʃ	schief, schräg	^(t͡ʃ)(a)(p)(i|a|y)(n)(a|u|uː|a.u|i|a.w|i.ɣ|a.w.u|aː)(t͡ʃ|ɣ|ʃ|l.t͡ʃ)$
+144	1385-csat	t͡ʃ ɒ t	Spange, Haken, Schlinge, Stift, Dorn	^(t͡ʃ)(a|ɒ|o|a.ɣ)?(t)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+145	1395-csava	t͡ʃ aː v ɒ	Beize, Gefäß, Lauge, od, Benennung, versch, od, alkalischer, Flüssigkeiten	^(t͡ʃ)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(v|w)(a|a.ɣ|a.w|ɒ)?(i)?$
+146	1399-cseber	t͡ʃ ɛ b ɛ r	altes, größerer, Zuber	^(t͡ʃ)(ɛ|i|y|ø|a)(b)(ɛ|i|y|ø|a)(r)(i|y|ɛ)?$
+147	1401-csecs	t͡ʃ eː t͡ʃ	Masern, Blattern, Ausschlag	^(t͡ʃ)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(t͡ʃ|l.t͡ʃ)(i|y|ɛ|u)?$
+149	1420-csemege	t͡ʃ ɛ m ɛ ɡ ɛ	Met, Art, Getränk, Leckerbissen, Kind, Verzehren, Leckerbissen, Frucht, Ohrenschmaus, abgelesene, Traube, Most, Leckerbissen, essen, etw	^(t͡ʃ)(ɛ|i|y|ø|a)(m)(ɛ|i|y|ø|a)(ɡ)(ɛ|ɛ.ɣ)(i)?$
+150	1422-csemete	t͡ʃ ɛ m ɛ t ɛ	Sprößling, Lode, Kind	^(t͡ʃ)(ɛ|i|y|ø|a)(m)(ɛ|i|y|ø|a)(t|l.t)(ɛ|ɛ.ɣ)$
+152	1427-csen	t͡ʃ ɛ n	stehlen, stibitzen, schmuggeln	^(t͡ʃ)(ɛ|i|y|ø|a)(n)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+153	1430-csender	t͡ʃ ɛ n.d ɛ r	Gesträuch	^(t͡ʃ)(ɛ|i|y|ø|a)(n.d|n)(ɛ|i|y|ø|a)(r)(i)?$
+154	1433-csenevesz	t͡ʃ ɛ n ɛ v eː s	verkümmert, unentwickelt	^(t͡ʃ)(ɛ|i)(n)(ɛ)(v|w)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(s|ʃ|z)$
+156	1438-csep	t͡ʃ eː p	Dreschflegel, Webstuhl	^(t͡ʃ)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(p)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk)?$
+157	1442-cseplye	t͡ʃ ɛ p.j ɛ	Gestrüpp, Art, Gras	^(t͡ʃ)(ɛ|i|y|ø|a)(p.ɣ)(ɛ|ɛ.ɣ)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a)?$
+158	1448-csepu	t͡ʃ ɛ p yː	Werg, tadeln	^(t͡ʃ)(ɛ|i|y|ø|a)(p)(i.ɣ|y.ɣ|ɛ.ɣ|ɛ.ɣ.y|y)(i|y|ɛ)?$
+159	1450-cser	t͡ʃ ɛ r	Wald, Gebüsch, Eiche, Strauch, Erle	^(t͡ʃ)(ɛ|i|y|ø|a)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+160	1464-cseret	t͡ʃ ɛ r ɛ t	Röhricht	^(t͡ʃ)(ɛ|i|y|ø|a)(r|j.r|w.r)(ɛ|i|y|ø|a)(t)(i)?$
+161	1473-csesz	t͡ʃ ɛ s	kratzen, streifen, leicht, berühren, stehlen, schneiden	^(t͡ʃ)(ɛ|i|y|ø|a)(s|ʃ|z)(i|y|ɛ|u|i.ɣ|a.t)?$
+162	1476-cseter	t͡ʃ ɛ t ɛ r	Pokal, altes, Viertel, Scheitholz, Schlag, Ackerfläche, Durchmesser, runden, Gegenstandes	^(t͡ʃ)(ɛ|i|y|ø|a)(t|l.t)(ɛ|i|y|ø|a)(r)(i)?$
+163	1499-csiger	t͡ʃ i ɡ ɛ r	minderwertiger, Obstwein	^(t͡ʃ)(i|a|y|ɛ|ɯ)(ɡ)(ɛ|i|y|ø|a)(r)(i|y|ɛ)?$
+164	1500-csigolya	t͡ʃ i ɡ o j ɒ		^(t͡ʃ)(i|a|y)(ɡ)(u|o)(l|j|j.a|ɣ)(a|a.ɣ|a.w|ɒ)?$
+165	1506-csik	t͡ʃ iː k	Aal, Nudel, Geschwulst, Blutegel	^(t͡ʃ)(i|iː)(k|ɡ)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+167	1515-csiko	t͡ʃ i k oː	Fohlen, Goldmünze, Spickzettel, versch, Werkzeuge, Spieler, bzw, Figuren, versch, Gesellschaftsspiele, fohlen	^(t͡ʃ)(i|a|y|ɛ|ɯ)(k)(a.ɣ|u.ɣ|a.ɣ.u|i.ɣ|o.ɣ|uɣ|ɯ.ɣ|u.j|a.w|a|u)(i)?$
+168	1526-csimasz	t͡ʃ i m ɒ s	Mücke, Wanze, Art, glänzender, Käfer, Engerling, Ungeziefer	^(t͡ʃ)(i|a|y|ɛ|ɯ)(m)(a|ɒ|o|a.ɣ)?(s|ʃ|z)(i)?$
+169	1533-csin	t͡ʃ iː n	Ordnung, Art, Ruhe, Stille, Kniff, Nettigkeit, geschmackvolles	^(t͡ʃ)(i|iː)(n)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+170	1545-csip	t͡ʃ iː p	stechen, Bienen, Mücken, usw, zwicken, Fingern, Gegenstand, sticheln, brennen, Zunge, abbrechen, wegnehmen, klauen, festnehmen, angenehm, anziehend, halten, zwicken, Kloster, klemmen, trans, rupfen, zupfen, häkeln	^(t͡ʃ)(i|iː)(p)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+171	1546-csipa	t͡ʃ i p ɒ	Harz	^(t͡ʃ)(i|a|y|ɛ|ɯ)(p)(a|a.ɣ|a.w|ɒ)?(i|y|ɛ)?$
+173	1553-csipo	t͡ʃ iː p øː	Hüfte	^(t͡ʃ)(i|iː)(p)(ɛ.ɣ|i.ɣ|yː)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+174	1563-csiszar	t͡ʃ i s aː r	Waffenschmied, Schwertfeger, Weintrinker, Viehhändler, dieb	^(t͡ʃ)(i|a|y|ɛ|ɯ)(s)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(r)(i|y)?$
+175	1569-csiz	t͡ʃ iː z	Zeisig	^(t͡ʃ)(i|iː)(z)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+176	1578-csoda	t͡ʃ o d ɒ	Wunder, Ungetüm, Monstrum, lobenswerte, Tat, Tugend, Verwunderung, Verdruß, heftigen, Ausdrücken, Bedeutung, wunderbar, außerordentlich, häßlich, schmutzig, bewundern, halten, wundern, merkwürdig, halten	^(t͡ʃ)(u|o|a|ɒ)?(d|l.d|w.d|n.d)(a|a.ɣ|a.w|ɒ)?$
+177	1579-csoka	t͡ʃ oː k ɒ	Dohle, Familie, Fliegenfänger, gehörende, Ring, Iris, Auge, Seminarist, scherzhaft, Krähe, od, Kind, scherzhaft, Gans, kleines, schwarzes, Mal, Schaf, Rabe, Iris, weiß, gefleckt, Pferd, Iris, habend, Pferd, Rindvieh, usw, große, Augen, unbestimmter, Farbe, habend, dunkel, Haare, Viehs	^(t͡ʃ)(a|u|uː|a.u|i|a.w|i.ɣ|a.w.u|aː)(k)(a|a.ɣ|a.w|ɒ)?(i|y)?$
+178	1586-csombor	t͡ʃ o m.b o r	Art, Minze, Thymian	^(t͡ʃ)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(m.p)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(r)(i)?$
+179	1587-csomo	t͡ʃ o m oː	Auswuchs, Bündel, Knoten, Seil, Strick, Menge, Haufen, Knäuel, Verwicklung, Paket, Knotenpunkt, Schar, Gruppe	^(t͡ʃ)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(m)(a.ɣ|u.ɣ|a.ɣ.u|i.ɣ|o.ɣ|uɣ|ɯ.ɣ|u.j|a.w|a|u)(i)?$
+180	1589-csomoszol	t͡ʃ o m o s o l	drückend, zerquetschen, Weintrauben, Obst, stopfen, Stock, schlagen	^(t͡ʃ)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(m)(u|o|a)(s)(u|o)(l|j)?$
+181	1590-csonak	t͡ʃ oː n ɒ k	Boot, Kahn, unterste, Blütenblatt, Schuh	^(t͡ʃ)(a|u|uː|a.u|i|a.w|i.ɣ|a.w.u|aː)(n)(a|ɒ|o|a.ɣ)?(k|ɡ)(i)?$
+184	1600-csorog	t͡ʃ o r o ɡ	regnet, lecken, zB, Topf, abfallen, jmdn, etw, Geld, Fluß	^(t͡ʃ)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(r)(u|o|a|ɒ|o.ɣ.o|ɯ)?(ɡ|k)$
+185	1608-csova	t͡ʃ oː v ɒ	Vogelscheuche, usw, Zeichen, Feuermachen	^(t͡ʃ)(a|u|uː|a.u|i|a.w|i.ɣ|a.w.u|aː)(v|w)(a|a.ɣ|a.w|ɒ)?(i)?$
+186	1616-csok	t͡ʃ ø k	Penis, größerer, Tiere, haupts, Stieren, Ochsenziemer, Holzklotz	^(t͡ʃ)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(k|ɡ)(i|y|ɛ|u|i.ɣ|a.t|ɛk)?$
+187	1617-csok	t͡ʃ ø k	nachlassen, abnehmen, verrenken, Wachstum, zurückbleiben, störrisch, Wachstum, zurückgeblieben	^(t͡ʃ)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(k|ɡ)(i|y|ɛ|u|i.ɣ|a.t|ɛk)?$
+188	1620-csomor	t͡ʃ ø m ø r	Art, Übersättigung, Knoten, Haut, Widerwille, ekelhaft	^(t͡ʃ)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(m)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(r)(i|y)?$
+189	1624-csorog	t͡ʃ ø r ø ɡ	rieseln, Bach, rasseln, klappern, schwätzen, zirpen, tanzen, Klingel, Bach	^(t͡ʃ)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(r|j.r)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(ɡ|k)$
+190	1628-csosz	t͡ʃ øː s	Ausrufer, Wächter, türkischer, Bote, unbefugt, bewachen	^(t͡ʃ)(ɛ|ø|ɛ.w|ɛ.y|y|ɛ.ɣ.y|øː)(s|ʃ|z)(i|y|ɛ|u)?$
+191	1639-csuka	t͡ʃ u k ɒ	Hecht, Schuh	^(t͡ʃ)(u|ɯ|u.w.a|u.ɣ)(k)(a|a.ɣ|a.w|ɒ)?(i|y|ɛ|u)?$
+192	1648-csuma	t͡ʃ u m ɒ	Knospe, Keim, Stengel, Butzen, Kolben, inneres, Maiskolben	^(t͡ʃ)(u|ɯ|u.w.a|u.ɣ)(m)(a|a.ɣ|a.w|ɒ)?(i|y|ɛ|u)?$
+193	1649-csunya	t͡ʃ uː ɲ ɒ	grob, roh, häßlich, schändlich, wild, toll, kräftig, hochgradig, Scham, Körperteil	^(t͡ʃ)(u|uː|u.ɣ|u.ɣ.u|i|o|o.ɣ|i.ɣ.u)(n|m)(a|a.ɣ|a.w|ɒ)?(i)?$
+194	1670-csud	t͡ʃ y d	Sprungbein, Würfel, Handgelenk, Ring, Säule, Lauf, Teil	^(t͡ʃ)(y|i|ɛ)(n)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+195	1679-csutortok	t͡ʃ y t ø r.t ø k	Donnerstag	^(t͡ʃ)(y|i|ɛ)(t|l.t)(ɛ|y|ø|i|y.ɣ.y)(r.t|r.i.t)(ɛ|y)(k)$
+196	1697-dal	d ɒ l	Lied, Vogelsang, Melodie, Art, lyrisches, Gedicht	^(d|d͡ʒʲ|t)(a|ɒ|o|a.ɣ)?(l|j)?(i|y)?$
+198	1717-daroc	d ɒ r oː t͡s	Jäger	^(d|d͡ʒʲ|t)(a|ɒ)(r|j.r|w.r)(a|u|uː|a.u|i|a.w|i.ɣ|a.w.u|aː)(k)$
+199	1800-dever	d eː v eː r	Brachsen	^(d|d͡ʒʲ|t)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(v|w)(ɛ|i)(r)$
+201	1844-dio	d i.oː	Walnuß, Schlosserei, Waffentechnik, Adamsapfel, Nuß, Fleischstück	^(d|d͡ʒʲ|t)(i.ɣ.a.ɣ|i.u)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+202	1859-diszno	d i s.n oː	Schwein, As, ungarischen, Kartenspiel, stachelige, Frucht, Art, Kartenspiel, unflätig, groß, Schwein, schlachten	^(d|d͡ʒʲ|t)(i|a|y|ɛ)(s.n)(a.ɣ|u.ɣ|a.ɣ.u|i.ɣ|o.ɣ|uɣ|ɯ.ɣ|u.j|a.w|a|u)$
+205	1872-doboz	d o b o z	Behälter, Schachtel, Lederbeutel, Behälter, Stroh, od, Binse, haupts, Eier, Schutzhülle	^(d|d͡ʒʲ|t)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(b)(u|o|a|ɒ)?(z)$
+207	1888-domboru	d o m.b o r uː	gewölbt, konvex	^(d|d͡ʒʲ|t)(u|o|a)?(m.p)(u|o)(r)(a.ɣ|u.ɣ|u|a.ɣ.u|o.ɣ)$
+208	1896-dong	d o n.ɡ	dröhnen, summen, jmdn, tun, wispern, murmeln, Hummel	^(d|d͡ʒʲ|t)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(ng|mː.ɛ.ɡ|n.ɡ)(i)?$
+209	1916-dobor	d ø b ø r	Art	^(d|d͡ʒʲ|t)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(b)(ɛ|y|ø|i|y.ɣ.y)(r)$
+210	1920-dog	d ø ɡ	Krankheit, Seuche, Leiche, Aas, lebendes, Tier, bes, Hund, Pferd, Mensch, Unmenge, Bestie, zugrunde, richten, zugrunde, gehen, Versuchung, bringen, zunichte, kaputtgehen, Schinder, Mediziner	^(d|d͡ʒʲ|t)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(ɡ|k)(i|y)?$
+211	1930-dore	d øː r ɛ	albern, wahnsinnig	^(d|d͡ʒʲ|t)(ɛ|ø|ɛ.w|ɛ.y|y|ɛ.ɣ.y|øː)(r|j.r|w.r)(ɛ|ɛ.ɣ)$
+213	1961-duda	d u d ɒ	Dudelsack, Schimpfwort, Pfeife, Horn, Trompete, Hupe	^(d|d͡ʒʲ|t)(u|ɯ|u.w.a|u.ɣ)(d|l.d|w.d|n.d)(a|a.ɣ)?$
+215	2013-el	eː l	leben, nähren, erhalten, benützen, gebrauchen, jemandem, jemandem, zusammen, wohnen, irgendein, Leben, führen, irgendwelchem, Zustand, dauerndem, leben, Verhältnis, leben, aufhalten, wohnen, Lebensmittel, Lebendige, Leben, Unterhalt, Fortkommen, Getreide, és, Leben, nähren, beleben, a, hochleben, lassen, Amme, Lebens-, lebhaft, erstarken, genießbar, brauchbar, Hefe, fristen, él, schmarotzen, Lebensmittel, Erlebnis, lebenslang	^(ɛ)(l|j)?(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+217	2030-ed	ɛ d	Getreide	^(ɛ|i)(n)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+218	2034-edes	eː d ɛ ʃ	lieb, geliebt, ungesalzen, sauer, süß, angenehm, blutsverwandt, ganz, Süßigkeit, Liebling, bes, Anrede, leiblicher, Vater, leibliche, Mutter, bes, Anrede, seelische, Harmonie, Süßigkeit, ergötzen, ergötzen	^(ɛ)(d|l.d|w.d|n.d)(ɛ|i|y|ø|a)(t͡ʃ|ɣ|ʃ|l.t͡ʃ)(i)?$
+219	2037-eg	eː ɡ	brennen, Brandwunden, erleiden, innerlich, entflammt, brennen, etw, Gefühl, Ehrgeiz, usw, brennen, lassen, Haut-, Sodbrennen, usw, empfinden, zugrunde, gehen, zuschanden, erfolglos, sehnen, reizen, plagen, Leidenschaft, Sehnsucht, Plage, Bedrängnis	^(ɛ)(ɡ|k)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+220	2042-eger	eː ɡ ɛ r	Erle	^(ɛ)(ɡ)(ɛ|i|y|ø|a)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+222	2062-egyembelu	ɛ ɟ ɛ m.b ɛ l yː	zusammen, beisammen	^(ɛ|i)(l.d|d)(ɛ|i)(m.p)(ɛ)(l|r.l|l.k)(i.ɣ|y.ɣ|ɛ.ɣ|ɛ.ɣ.y|y)$
+223	2067-egyes	ɛ ɟ ɛ ʃ	einträchtig, friedlich, einsam, einzig, identisch, ähnlich, einfach, einfältig, einheitlich, Eins, Zahl, Note, Eintracht, Einverständnis, Vereinigung, einheitlich, Verbindung, Vermählung, Einheit, Verein	^(ɛ|i)(l.d|d)(ɛ|i|y|ø|a)(t͡ʃ|ɣ|ʃ|l.t͡ʃ)(i)?$
+226	2096-ek	eː k	Keil, Akzent, Zeichen, verkeilen, Akzent, versehen, Akzent, Zeichen	^(ɛ)(k|ɡ)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+227	2100-ekes	eː k ɛ ʃ	voller, Schmuck, schön, trefflich, passend, verziert	^(ɛ)(k)(ɛ|i|y|ø|a)(t͡ʃ|ɣ|ʃ|l.t͡ʃ)(i|y|ɛ|u)?$
+228	2106-el	eː l	leben, nähren, erhalten, benützen, gebrauchen, jmdm, zusammenleben, jmdm, leben, Leben, führen, befinden, jmdm, leben, verweilen, wohnen, Lebensmittel, Nahrung, Lebendige, Leben, Lebensmittel, Unterhalt, Fortkommen, Getreide, Broterwerb, Leben, nähren, beleben, hochleben, lassen, Amme, Lebens-, lebhaft, erstarken, genießbar, brauchbar, Hefe, fristen, schmarotzen, Lebensmittel, Erlebnis, lebenslang	^(ɛ)(l|j)?(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+229	2107-el	eː l	Spitze, Kante, Bergspitze, Spitze, Stichwaffe, od, Werkzeuges, Schärfe, geordnetes, Heer, erste, Stelle, Spitze, kantig, scharf, spitz	^(ɛ)(l|j)?(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+230	2127-eleve	ɛ l ɛ v ɛ	vorne, attr, Funktion, erstens, erster, anfangs, zuerst, vorwärts, voraus, vornherein	^(ɛ|i)(l|r.l|l.k)(ɛ|i|y|ø|a)(v|w)(ɛ|ɛ.ɣ)$
+231	2140-ellik	ɛ lː i k	Junge, werfen	^(ɛ|i)(l|lː|ɣ.l)(i|a|y|ɛ|ɯ)(k|ɡ)(i)?$
+232	2141-ellik	ɛ lː i k	besteigen, Pferd, Wagen	^(ɛ|i)(l|lː|ɣ.l)(i|a|y|ɛ|ɯ)(k|ɡ)(i)?$
+233	2145-elo	ɛ l øː	vorderer, erster, Anfang, Erstling, Beste, Vorfahren, erstens	^(ɛ|i)(l|r.l|l.k)(ɛ.ɣ|i.ɣ|yː)(i|y|ɛ|u|i.ɣ)?$
+236	2173-eme	ɛ m ɛ	Sau, Weibchen	^(ɛ|i)(m)(ɛ|ɛ.ɣ)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+237	2181-emik	ɛ m i k	saugen, saugen, Gebiß, Zügel, weibliche, Brust, Säugling, säugen	^(ɛ|i)(m)(i|a|y|ɛ|ɯ)(k|ɡ)(i|y|ɛ|u)?$
+238	2205-eper	ɛ p ɛ r	Erdbeere, Maulbeere, Maulbeerbaum	^(ɛ|i)(p)(ɛ|i|y|ø|a)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a)?$
+239	2217-er	eː r	Bach	^(ɛ)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+240	2224-iserdo	i ʃ ɛ r.d øː	Wald, Wald, hüten	^(i|y|ɛ|w.i)(ʃ|t͡ʃ)(ɛ|i|y|ø|a)(r.d)(ɛ.ɣ|i.ɣ|yː)$
+241	2234-erez	eː r ɛ z	fühlen, empfinden, sinnlich, wahrnehmen, bemerken, verstehen, ahnen, aufschrecken, Besinnung, kommen, Empfindungsfähigkeit, Gefühl, gefühllos, Empfindungsfähigkeit, Gefühl, Empfindungsfähigkeit, Empfindlichkeit, Gefühl, Sinn, Verständnis, fühlbar, empfindlich, fühlen, lassen	^(ɛ)(r|j.r|w.r)(ɛ|i|y|ø|a)(z)(i|y|ɛ|u|i.ɣ|a.t)?$
+242	2245-ero	ɛ r øː	Kraft, Stärke, Heer, Streitmacht, Gewalt, Tugend, Tüchtigkeit, Geltung, Vermögen, Fort	^(ɛ|i)(r|j.r|w.r)(ɛ.ɣ|i.ɣ|yː)(i|y|ɛ|u|i.ɣ)?$
+243	2259-esik	ɛ ʃ i k	fallen, stürzen, Zustand, kommen, geraten, geschehen, fallen, lassen, Knie, fallen, flehen, Tod, finden, fallen, regnet, schneit, hagelt, usw, jmdm, zuteil, irgendwie, schmecken, behagen, liegen, jmdn, stürzen, erbarmen, abnehmen, Menge, Maß, befallen, bedecken, Fall, Sonnenuntergang, Kasus, Fall, ungeschickt, vergänglich	^(ɛ|i)(ʃ|t͡ʃ)(i|a|y|ɛ|ɯ)(k|ɡ)(i|y)?$
+244	2271-eszik	ɛ s i k	essen, aufzehren, jmdm, od, etw, zehren, zerfressen, beißen, brennen, Speisen, jmdm, essen, geben, füttern, vergiften, eingeben, Speise, enthaltend, Speisen, gebräuchlich, Speisen, Speise, Proviant, vergiften, ungenießbar, Speisesaal, Kantine, Hunger, Appetit	^(ɛ|i)(s)(i|a|y|ɛ|ɯ)(k|ɡ)(i|y|ɛ|u)?$
+245	2304-evet	ɛ v ɛ t	Eichhörnchen	^(ɛ|i)(v|w)(ɛ|i|y|ø|a)(t)(i|y|ɛ|u)?$
+299	2873-galad	ɡ ɒ l aː d	fahrender, Student, Gaukler, frevelhaft, frech, geizig	^(k|ɡ)(a|ɒ|o)(l|r.l|l.k)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(n)$
+302	2898-gamo	ɡ ɒ m oː	Haken, Krücke, großer, Fuß, Pferd	^(k|ɡ)(a|ɒ|o|a.ɣ)?(m)(a.ɣ|u.ɣ|a.ɣ.u|i.ɣ|o.ɣ|uɣ|ɯ.ɣ|u.j|a.w|a|u)$
+304	2928-gat	ɡ aː t	Staudamm, Hag, Hecke, Zaun, Umfriedung, Aufschüttung, Damm, schwer, Gelände, Furt, Graben, Hindernis, Deich, Stück, After, Geschlechtsteilen, Hürde, versch, Sportarten, Brücke, befestigte, Fahrbahn, dämmen, verhindern, Hindernis, Hemmung	^(k|ɡ)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(t)(i|y|ɛ|u|i.ɣ|a.t|ɛk)?$
+305	2931-gaz	ɡ ɒ z	wald, Bodensatz, Mist, Schmutz, Spreu, Stroh, Heu, niederträchtig, böse, Schmutz	^(k|ɡ)(a|ɒ|o|a.ɣ)?(z)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a)?$
+307	2946-geg	ɡ eː ɡ	Kehlkopf	^(k|ɡ)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(ɡ|k)(i|y)?$
+308	2950-gem	ɡ eː m	Reiher, Stange, Pfahl, Zugbrücke, Schlagbaum, Hebezeug, Teil, Gewehrs	^(k|ɡ)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(m)(i|y|ɛ|u)?$
+311	2998-gida	ɡ i d ɒ	Zicke, Ziege	^(k|ɡ)(i|a|y)(d|l.d|w.d|n.d)(a|a.ɣ|a.w|ɒ)?$
+312	3006-gim	ɡ iː m	Hirschkuh	^(k|ɡ)(i|iː)(m)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+314	3042-gomba	ɡ o m.b ɒ	Pilz, kreisförmiges	^(k|ɡ)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(m.p)(a|a.ɣ|a.w|ɒ)?(i)?$
+315	3053-gonosz	ɡ o n o s	sittlich, schlecht, unheilvoll, schlimm, krank, Übel, Schaden, Schandtat, Sünde, böser, Geist, Teufel, sittlich, schlechter, böser, Mensch, Anstoß, erregen, Anstoß, nehmen, etw, Skandal, moralisch, verderben	^(k|ɡ)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(n)(u|o|a)(s|ʃ|z)$
+316	3067-gobe	ɡ ø b ɛ	Sau, ungeschlacht, albern	^(k|ɡ)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(b)(ɛ|ɛ.ɣ)(i|y|ɛ)?$
+317	3072-godeny	ɡ ø d eː ɲ	Pelikan, Möwe, Reiher, Trunkenbold, Vielfraß	^(k|ɡ)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(d|l.d|w.d|n.d)(ɛ|i)(n)$
+318	3076-gogos	ɡ øː ɡ ø ʃ	hochmütig, aufgeblasen, großem, Kehlkopf, Adamsapfel	^(k|ɡ)(ɛ|ø|ɛ.w|ɛ.y|y|ɛ.ɣ.y|øː)(ɡ)(ɛ|y)(t͡ʃ|ɣ|ʃ|l.t͡ʃ)$
+320	3091-goreny	ɡ ø r eː ɲ	Iltis, Mensch	^(k|ɡ)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(r)(ɛ|i|eː|ø|y|a|e|ɛ.j)(n)$
+321	3095-gorog	ɡ ø r ø ɡ	rollen, donnern, donnert, rinnen, rieseln, begatten, Schwein, grunzen, Steinschlag, Lawine, Donner, rund, Rolle, Gegenstand, Donner	^(k|ɡ)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(r)(ɛ|y|ø|i)(ɡ|k)$
+322	3096-gorog	ɡ ø r ø ɡ	griechisch, Grieche, Kaufmann	^(k|ɡ)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(r)(ɛ|y|ø|i)(ɡ|k)$
+323	3140-gubacs	ɡ u b ɒ t͡ʃ	Kokon	^(k|ɡ)(u|ɯ|u.w.a|u.ɣ)(b)(a|ɒ|o|a.ɣ)?(t͡ʃ|l.t͡ʃ)(i)?$
+324	3151-gulya	ɡ u j ɒ	Rind, Rinderherde, Frühjahr, Herbst, Weide	^(k|ɡ)(u|ɯ|u.w.a|u.ɣ)(l|j|j.a|ɣ)(a|a.ɣ|a.w)?$
+325	3168-guta	ɡ u t ɒ	Gehirnschlag, mildes	^(k|ɡ)(u|ɯ|u.w.a|u.ɣ)(t|l.t)(a|a.ɣ|a.w|ɒ)?(i)?$
+327	3175-gugye	ɡ y ɟ ɛ	albern, unbeholfen	^(k|ɡ)(y|i|ɛ)(l.d|d)(ɛ|ɛ.ɣ)(i|y|ɛ|u)?$
+328	3179-guzu	ɡ y z y	Art, Tier, Maulwurf, Ratte, usw, Langschläfer, hamstern	^(k|ɡ)(y|i|ɛ)(z|s)(y.ɣ|y|ɛ.ɣ.y|i.ɣ)(i|y)?$
+329	3182-gyak	ɟ ɒ k	stechen, geschlechtlich, verkehren, sticheln, Stechen, Pfahl	^(d͡ʒʲ|ɟ)(a|ɒ|o|a.ɣ)?(k|ɡ)(i|y|ɛ|u)?$
+330	3195-gyanta	ɟ ɒ n.t ɒ	Bernstein, Harz, Glasur	^(d͡ʒʲ|ɟ)(a|ɒ|o|a.ɣ)?(n.t)(a|a.ɣ|a.w|ɒ)?(i)?$
+331	3212-gyekeny	ɟ eː k eː ɲ	Rohrkolben, Matte	^(d͡ʒʲ)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(k)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ)(n)$
+332	3215-gyep	ɟ ɛ p	Rasen, unbebautes, Feld, Pferderennbahn, 1798, verrosten	^(d͡ʒʲ|ɟ)(ɛ|i|y|ø|a)(p)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a)?$
+333	3218-gyepu	ɟ ɛ p yː	Hag	^(d͡ʒʲ|ɟ)(ɛ|i|y|ø|a)(p)(i.ɣ|y.ɣ|ɛ.ɣ|ɛ.ɣ.y|y)(i)?$
+334	3233-gyopar	ɟ o p aː r	Edelweiß, Dost, (Gnaphalium	^(d͡ʒʲ|ɟ)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(p)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(r)$
+335	3235-gyota	ɟ oː t ɒ	Wald, weide	^(d͡ʒʲ|ɟ)(a|u|uː|a.u|i|a.w|i.ɣ|a.w.u|aː)(t|l.t)(a|a.ɣ|a.w|ɒ)?$
+336	3236-gyoker	ɟ ø k eː r	Geschlecht, Stamm, Wurzel, Pflanze, Innere, Grund, Ursprung, Wurzel, Math	^(d͡ʒʲ|ɟ)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(k)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(r)$
+337	3240-gyongy	ɟ ø n.ɟ	Mistel, echte, Perle, unechte, Perle, Glasperle, Knospe, rundliche, Oberfläche, Perlen, schmücken, perlen	^(d͡ʒʲ|ɟ)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(n.d͡ʒʲ)(i|y|ɛ|u|i.ɣ|a.t|ɛk)?$
+338	3242-gyonyoru	ɟ ø ɲ ø r yː	herrlich, wunderschön	^(d͡ʒʲ)(ɛ|y|ø|i|y.ɣ.y)(n|m)(ɛ|y)(r)(i.ɣ|y.ɣ|ɛ.ɣ|ɛ.ɣ.y|y)$
+339	3248-gyula	ɟ u l ɒ	oberster, Richter, od, Heerführer, Ungarn, Z, Landnahme	^(d͡ʒʲ|ɟ)(u|ɯ|u.w.a|u.ɣ)(l|r.l|l.k)(a|a.ɣ|a.w|ɒ)?$
+340	3249-gyur	ɟ uː r	kneten, bereden, überzeugen, suchen, massieren, Körperbehandlung, Masseur, Knetmasse	^(d͡ʒʲ|ɟ)(u|uː|u.ɣ|u.ɣ.u|i|o|o.ɣ|i.ɣ.u)(r)(i|y|ɛ|u|i.ɣ|a.t)?$
+341	3253-gyumolcs	ɟ y m ø l.t͡ʃ	Frucht, Obst, Leibesfrucht, Sproß, Frucht	^(d͡ʒʲ|ɟ)(y|i|ɛ)(m)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(l.t͡ʃ|t͡ʃ)(i)?$
+342	3254-gyumolcseny	ɟ y m ø l.t͡ʃ eː ɲ	Art, Gestrüpp	^(d͡ʒʲ)(y|i|ɛ)(m)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(l.t͡ʃ|t͡ʃ)(ɛ|i|eː)(n)$
+343	3257-gyuru	ɟ yː r yː	Ahorn-, od	^(d͡ʒʲ|ɟ)(y|yː|y.ɣ.y|ɛ.w.y|i.ɣ.i|ɛ.ɣ.i|y.ɣ|i|i.ɣ|ø)(r)(i.ɣ|y.ɣ|ɛ.ɣ|ɛ.ɣ.y|y)$
+345	3274-haboru	h aː b o r uː	Tumult, Getümmel, Unruhe, Sturm, Gewitter, Krieg, Krieg, stürmisch, unruhig, erregt, zornig, uneinig, aufgeregt, erregt, zornig, uneinig, verrückt, verwirrt	^(h|x)?(a)(b)(u|o|a|ɒ|o.ɣ.o|ɯ)?(r)(a.ɣ|u.ɣ|u|a.ɣ.u|o.ɣ)$
+346	3282-had	h ɒ d	Heer, Krieg, Trupp, Haufen, Trupp, Haufen, Sippe, Krieg	^(h|x)?(a|ɒ|o|a.ɣ)?(n)(i|y|ɛ|u|i.ɣ|a.t)?$
+348	3290-hagy	h ɒ ɟ	verlassen, lassen, tun, geschehen, vererben, hinterlassen, befehlen, anordnen, jemanden, Zustand, Ort, lassen, anvertrauen, überlassen, anvertrauen, überlassen, Sache, aufhören, bleiben, lassen, verkaufen, aufschieben, übriglassen, aufschieben, übriglassen, Spur, usw, hinterlassen, genehmigen, zulassen, bewilligen, Scheidung, Nachlaß, Tradition, nachlassen, Lassen, a	^(h|x)?(a|ɒ|o|a.ɣ)?(ɟ)(i|y|ɛ|u|i.ɣ|a.t)?$
+350	3301-haj	h ɒ j	Kopfhaar, Kopfhaar, Ähre, Haar, Pflanzen, bzw, Seide, Mais, Faden	^(h|x)?(a|ɒ|o|a.ɣ)?(l|j|ɣ.y.l)(i|y)?$
+351	3303-haj	h aː j	Salbe	^(h|x)?(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(l|j|ɣ.y.l)(i)?$
+352	3319-hajo	h ɒ j oː	Schiff, Schiff, Kirche, Luftschiff, Kahn	^(h|x)?(a)(l|j|j.a|ɣ)(a.ɣ|u.ɣ|a.ɣ.u|i.ɣ|o.ɣ|uɣ|ɯ.ɣ|u.j|a.w)$
+353	3328-hal	h ɒ l	bewegen, aufhören, erstarren, absterben, verkümmern, Teil, Organismus, sterben, Tatkraft, verlieren, außer, Gebrauch, kommen, Gegenstand, ohnmächtig, ermatten, erschlaffen, aufgehen, verlieren, aussterben, zugunsten, jemandes, Testament, Tote, sterblich, Tod	^(h|x)?(a|ɒ|o|a.ɣ)?(l|j)?(i|y)?$
+354	3329-hal	h ɒ l	Fisch, unerfahrener, Mensch, Anfänger, Fischer, fischen	^(h|x)?(a|ɒ|o|a.ɣ)?(l|j)?(i|y)?$
+355	3330-hal	h aː l	übernachten, schlafen, übernachten, schlafen, Geschlechtsverkehr, ausüben, Schlafzimmer	^(h|x)?(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(l|j)?(i)?$
+356	3331-hala	h aː l ɒ	Dank, Danksagung, dankbar, Danksagung	^(h|x)?(a|aː|a.ɣ.a)(l|r.l|l.k)(a|a.ɣ|a.w|ɒ)?$
+357	3332-halad	h ɒ l ɒ d	Lebewesen, verzögern, aufgeschoben, übersteigen, Weg, usw, neben, vorbeigehen, a	^(h|x)?(a|ɒ|o|a.ɣ)?(l|r.l|l.k)(a|ɒ|o)(n)$
+358	3340-hall	h ɒ lː	hören, vernehmen, zuhören, Gehör, schenken, Hören, hören, lassen	^(h|x)?(a|ɒ|o|a.ɣ)?(l)(i|y|ɛ|u|i.ɣ|a.t)?$
+359	3346-halom	h ɒ l o m	niedriger, Hügel, Haufen, Stoß, Menge, häufen	^(h|x)?(a|ɒ)(l|r.l|l.k)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(m)$
+360	3351-hamar	h ɒ m ɒ r	schnell, kurzer, Zeit, kurzer, Zeit, bald, schnell, plötzlich, rasch, früh, eher, Wettbewerb, schnell, eher	^(h|x)?(a|ɒ|o|a.ɣ)?(m)(a|ɒ|o|a.ɣ)?(r)(i)?$
+361	3352-hamis	h ɒ m i ʃ	arglistig, böse, unwahr, unecht, falsch, schelmisch, falsch, Musik, Singen, bös, bissig, Tier, fälschen	^(h|x)?(a|ɒ)(m)(i|a|y|ɛ|ɯ)(t͡ʃ|ɣ|ʃ|l.t͡ʃ)$
+362	3356-hamu	h ɒ m u	Asche, Leiche, Asche, bedeckt, od, gefüllt, aschgrau, flaumig, duftig, Obst, a, samtig	^(h|x)?(a|ɒ|o|a.ɣ)?(m)(u.ɣ|u|a.ɣ)(i|y)?$
+363	3367-hang	h ɒ n.ɡ	Ton, Schall, Klang, Stimme, Laut, Ton, Schall, Klang, Stimme, Laut, Wort, Redeweise, Sprechweise, Ton, Gesang, Musik, Vokal	^(h|x)?(a|ɒ|o|a.ɣ)?(ng|mː.ɛ.ɡ|n.ɡ)(i|y)?$
+365	3375-hany	h ɒ ɲ	Sumpf, Sumpf	^(h|x)?(a|ɒ|o|a.ɣ)?(n|m)(i|y|ɛ)?$
+366	3391-harag	h ɒ r ɒ ɡ	Zorn, Zorn, zornig, zornig, Zorn	^(h|x)?(a|ɒ|o|a.ɣ)?(r|j.r|w.r)(a|ɒ)(ɡ|k)$
+367	3397-harang	h ɒ r ɒ n.ɡ	Glocke, Glöckchen, Glocke, Gegenstand, egy, a	^(h|x)?(a|ɒ|o|a.ɣ)(r|j.r|w.r)(a)(ng|mː.ɛ.ɡ|n.ɡ)$
+370	3419-harom	h aː r o m	drei, dritter, Drittel, Terz, Music, verdreifachen, Dreifaltigkeit	^(h|x)?(a|aː|a.ɣ.a|a.ɣ.i|i)(r)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(m)$
+371	3421-hars	h aː r.ʃ	Linde, Strick, Bast	^(h|x)?(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(r.t͡ʃ)(i|y|ɛ|u)?$
+372	3433-haszon	h ɒ s o n	Ertrag, Nutztieren, Vorteil, Nutzen, Wert, Einnahme, Einkommen, Gewinn, Wirksamkeit, Sache, Erfolg, Ergebnis, Sache, Möglichkeit, Vermögen, Geeignetheit, Anwendbarkeit, Verwendung, Inanspruchnahme, Nützlichkeit, Anwendung, Benutzung, nützlich, gebräuchlich, unnütz, Adj, vergeblich, Adv, unnütz, unbenutzt, aki, vagy, ami, gebraucht, Adj	^(h|x)?(a|ɒ|o|a.ɣ)?(s)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(n)$
+373	3436-hat	h ɒ t	sechs, sechster, Sechstel, Sexte, Musik	^(h|x)?(a|ɒ|o|a.ɣ)?(t)(i|y|ɛ|u|i.ɣ|a.t)?$
+374	3437-hat	h aː t	Erdoberfläche, Rücken, Körpers, Rückseite, Rückenteil, Kleides, usw, Lehne, hinterer, Teil, Gegenstandes	^(h|x)?(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(t)(i|y|ɛ|u)?$
+375	3442-hatar	h ɒ t aː r	Grenze, Landesgrenze, gesetzte, Bestimmung, Grenze, Gemarkung, Haufen, bestimmen, begrenzen, definieren, beschließen, zählen, gelten, Horizont, Adjektiv, Adverb, Horizont, Entschluß, Bescheid, Beschluß, grenzenlos	^(h|x)?(a|ɒ|o)(t|l.t)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(r)$
+377	3450-haz	h aː z	Gebäude, Wohnort, Aufenthaltsort, haus, Zimmer, Geschlecht, Familie, Palast, Burg, Haushalt, Dynastie, Handelshaus, Firma, Zuschauerraum, Theater, Gehäuse, Abgeordnetenhaus, Haus, habend	^(h|x)?(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(z)(i|y|ɛ|u)?$
+378	3456-hazug	h ɒ z u ɡ	unwahr, Lügner	^(h|x)?(a|ɒ|o)(z|s)(u|ɯ|u.w.a|u.ɣ)(ɡ|k)$
+379	3473-hegy	h ɛ ɟ	Berg, Spitze, Haufen, spitzig, hochmütig, sticheln	^(h|x)?(ɛ|i|y|ø|a)(ɟ)(i|y|ɛ|u|i.ɣ|a.t)?$
+380	3488-hely	h ɛ j	Ort, Behörde, Ort, Stelle, Text, Stelle, Platz, Reihenfolge, Lage, Platz, Raum, Rechtsgrund, stellung, setzen, stellen, setzen, stellen	^(h|x)?(ɛ|i|y|ø|a)(l|j|ɣ.y.l)(i|y)?$
+381	3489-helyes	h ɛ j ɛ ʃ	Hufe, habend, wahr, richtig, nett, hübsch	^(h|x)?(ɛ|i|y)(l|j|j.a|ɣ)(ɛ)(t͡ʃ|ɣ|ʃ|l.t͡ʃ)$
+383	3510-herceg	h ɛ r.t͡s ɛ ɡ	Heerführer, Edelmann, vornehmer, Amtsträger, Prinz, Rang, hohen, Adel	^(h|x)?(ɛ|i|y|ø|a)(s|r.s)(ɛ|i)(ɡ|k)$
+384	3536-het	h eː t	sieben, siebenter	^(h|x)?(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(t)(i|y)?$
+385	3537-het	h eː t	Woche	^(h|x)?(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(t)(i|y)?$
+387	3554-heviz	h eː v iː z	Thermalquelle, Thermalbad	^(h|x)?(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ)(v|w)(i|iː)(z)$
+388	3562-hid	h iː d	Brücke, Bauwerk, Stall, Verbindungsteil, Tisch, Brücke, Zahnersatz, Brücke, überbrücken, überbrücken, Steg, Fußboden	^(h|x)?(i|iː)(n)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+389	3563-hideg	h i d ɛ ɡ	kalt, schroff, unfreundlich, gleichgültig, leblos, Kälte, Schüttelfrost, Fieber, Frost, kaltes, Gericht, Schauder, Kälteempfinden, erkälten, etw, abkehren	^(h|x)?(i|a|y|ɛ|ɯ)(d|l.d|w.d|n.d)(ɛ)(ɡ|k)$
+390	3577-him	h iː m	Eber, männliches, Lebewesen, Bot	^(h|x)?(i|iː)(m)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+391	3578-him	h iː m	Zierde, Muster, Stickerei, Verwicklung, Kniff, Kunstgriff, winden, malen, sticken	^(h|x)?(i|iː)(m)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+392	3592-hir	h iː r	Kenntnis, Nachricht, Ruhm, berühmt, berühmt, Kundgebung, berüchtigt	^(h|x)?(i|iː)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+393	3597-hisz	h i s	glauben, denken, vertrauen, jmdn, glauben, überheben, Gläubige, Irreführung, Meinung	^(h|x)?(i|a|y|ɛ|ɯ)(s|ʃ|z)(i|y)?$
+394	3601-hit	h i t	Vertrauen, Vertrauen, Glaube, Glaube, Ehre, Ehrenwort, religiöser, Glaube, Eid, Religion, ungläubig, eingeschworen, legitim, Angetraute, treu, treulos, abfallen, Glaube	^(h|x)?(i|a|y|ɛ|ɯ)(t)(i|y|ɛ|u|i.ɣ|a.t)?$
+397	3613-hivatal	h i v ɒ t ɒ l	Berufung, Pflicht, Rufen, Ruf, Amt, Würde, Beschäftigung, Arbeitskreis, Amt, Behörde, geladen, berufen, amtlich, offiziell	^(h|x)?(i|a|y)(v|w)(a)(t|l.t)(a)(l|j)?$
+398	3615-hizik	h iː z i k	Fett, ansetzen, dick, zunehmen, Schwein, Schlachtvieh, erfrischen, mästen, Ruheplatz	^(h|x)?(i|iː)(z|s)(i|a|y|ɛ|ɯ)(k|ɡ)$
+399	3616-ho	h oː	Schnee, Schneeberg	^(h|x)?(a.ɣ|u.ɣ|a.ɣ.u|i.ɣ|o.ɣ|uɣ|ɯ.ɣ|u.j|a.w|a|u)(i|y|ɛ)?$
+400	3617-ho	h oː	Mond, Monat	^(h|x)?(a.ɣ|u.ɣ|a.ɣ.u|i.ɣ|o.ɣ|uɣ|ɯ.ɣ|u.j|a.w|a|u)(i|y|ɛ)?$
+401	3622-hod	h oː d	Biber, Fischotter	^(h|x)?(a|u|uː|a.u|i|a.w|i.ɣ|a.w.u|aː)(n)(i|y|ɛ)?$
+403	3643-hollo	h o lː oː	Rabe	^(h|x)?(u|o)(l|lː|ɣ.l)(a.ɣ|u.ɣ|a.ɣ.u|i.ɣ|o.ɣ|uɣ|ɯ.ɣ|u.j|a.w|a|u)$
+404	3655-homok	h o m o k	Sand	^(h|x)?(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(m)(u|o|a|ɒ)?(k)$
+405	3657-homoru	h o m o r uː	innen, gewölbt, eingefallen, erhöht, gewölbt	^(h|x)?(u|o|a)?(m)(u|o)(r)(a.ɣ|u.ɣ|u|a.ɣ.u|o.ɣ)$
+406	3660-hon	h o n	Vaterland, Heimat	^(h|x)?(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(n)(i|y|ɛ|u)?$
+408	3688-horka	h o r.k ɒ	Würdenträger, Befugnis, Richters	^(h|x)?(u|o|a|ɒ|o.ɣ.o|ɯ)?(r.k)(a|a.ɣ|a.w|ɒ)?$
+409	3693-horog	h o r o ɡ	Angel, Haken, Engpaß, Benennung, Bewegungen, versch, Sportarten, heute, haupts, Boxen, Basketball, angeln, biegen, häkeln	^(h|x)?(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(r)(u|o|a)(ɡ|k)$
+410	3697-hort	h o r.t	Jagdhund, Windhund	^(h|x)?(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(r.t|r.a.t)(i|y)?$
+411	3701-horvat	h o r.v aː t	Kroate, Art, Husar, kroatisch	^(h|x)?(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(r.ɣ|r.v|r|r.y.ɣ)(a|aː)(t)$
+412	3704-hosszu	h o sː uː	lang, räumlich, lang, zeitlich, umfangreich, Länge, verschieben, verlängern, lange, längs	^(h|x)?(u|o|a|ɒ|o.ɣ.o|ɯ)?(s)(a.ɣ|u.ɣ|u|a.ɣ.u|o.ɣ)$
+413	3712-ho	h øː	warm, heiß, glühend, leidenschaftlich, Seele, Gefühl, Hitze, Wärme, Glut, Gefühls, heiß	^(h|x)?(ɛ.ɣ|i.ɣ|yː)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ)?$
+416	3722-hos	h øː ʃ	Jüngling, Junggeselle, mutiger, Mann, Held, Soldat, Romans, Dramas, Ereignisses, tapfer, heroisch, unverheiratet, heldenhaft, Haltung, usw, Jüngling, Kühnheit	^(h|x)?(ɛ|ø|ɛ.w|ɛ.y|y|ɛ.ɣ.y|øː)(t͡ʃ|ɣ|ʃ|l.t͡ʃ)(i)?$
+417	3725-hug	h uː ɡ	Anrede, Frau, Schwester, Nichte, Klosterfrau, Nonne, jüngere, Schwester	^(h|x)?(u|uː|u.ɣ|u.ɣ.u|i|o|o.ɣ|i.ɣ.u)(ɡ|k)(i|y)?$
+418	3727-hugy	h uː ɟ	Harn	^(h|x)?(u|uː|u.ɣ|u.ɣ.u|i|o|o.ɣ|i.ɣ.u)(ɟ)(i|y|ɛ|u)?$
+419	3728-hugy	h uː ɟ	Stern, Gestirn	^(h|x)?(u|uː|u.ɣ|u.ɣ.u|i|o|o.ɣ|i.ɣ.u)(ɟ)(i|y|ɛ|u)?$
+420	3732-hull	h u lː	dichten, Tropfen, herabfallen, abfließen, herabfallen, wiederholt, od, dauernd, fallen, Gesicht, werfen, Kniefall, tun, ausfallen, Haar, Gefieder, usw, verfallen, einstürzen, zerfallen, Stücke, gehen, umkommen, Kampfe, fallen, eingehen, Tier, Fallen, fallen, lassen, Streuen, Fallenlassen	^(h|x)?(u|ɯ|u.w.a|u.ɣ)(l)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk)?$
+421	3741-huny	h u ɲ	schließen, Augen, blinzeln, schließen, Auge, untergehen, Sonne, schlummern, sterben, erlöschen, Feuer, Glanz, Spiel, ducken	^(h|x)?(u|ɯ|u.w.a|u.ɣ)(n|m)(i|y|ɛ|u)?$
+422	3757-hus	h uː ʃ	Fleisch, Fruchtfleisch, Fleisch, zerschneiden	^(h|x)?(u|uː|u.ɣ|u.ɣ.u|i|o|o.ɣ|i.ɣ.u)(t͡ʃ|ɣ|ʃ|l.t͡ʃ)(i)?$
+424	3761-husz	h uː s	zwanzig, Art, Geld, Art, Steuer	^(h|x)?(u|uː|u.ɣ|u.ɣ.u|i|o|o.ɣ|i.ɣ.u)(s|ʃ|z)(i)?$
+425	3769-hu	h yː	treu, gläubig, getreu, genau	^(h|x)?(i.ɣ|y.ɣ|ɛ.ɣ|ɛ.ɣ.y|y)(i|y|ɛ|u|i.ɣ|a.t)?$
+426	3782-huvos	h yː v ø ʃ	kühl, barsch, unfreundlich, Kühle, kühler, Ort, Gefängnis	^(h|x)?(y|yː|y.ɣ.y|ɛ.w.y|i.ɣ.i|ɛ.ɣ.i|y.ɣ|i|i.ɣ)(v|w)(ɛ|y)(t͡ʃ)$
+427	3793-ideg	i d ɛ ɡ	Bogensehne, Riemen, Nerv, Saite, Sehne, ausgestattet, nervös	^(i|y|ɛ|w.i)(d|l.d|w.d|n.d)(ɛ|i|y|ø)(ɡ|k)$
+428	3813-iger	iː ɡ eː r	versprechen	^(i)(ɡ)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk)?$
+429	3817-igy	i ɟ	heilig	^(i|y|ɛ|w.i)(ɟ)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+430	3828-iker	i k ɛ r	zweifach, Zwillings-, Zwilling, Drilling, usw	^(i|y|ɛ|w.i)(k)(ɛ|i|y|ø|a)(r)(i|y|ɛ|u)?$
+431	3868-in	iː n	Sklave	^(i)(n)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+432	3869-in	iː n	Bein, Wade, Nerv, Seil, Sehne, Muskel, Gaumen, Rachen, Ranke, Ader, Bogensehne, stark	^(i)(n)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+434	3926-ip	i p	Schwiegervater	^(i|y|ɛ|w.i)(p)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+435	3942-irigy	i r i ɟ	neidisch, neidisch	^(i|y|ɛ|w.i)(r|j.r|w.r)(i|a|y|ɛ|ɯ)(ɟ)(i)?$
+436	3958-isa	i ʃ ɒ	siehe, wirklich	^(i|y|ɛ|w.i)(ʃ|t͡ʃ)(a|a.ɣ|a.w|ɒ)?(i|y)?$
+437	3979-iszik	i s i k	trinken, ziehen, einsaugen, gierig, genießen, Linie, berühren, Linie, fallen, Spielen, Tränke, Trinken, Getränk, Tränke, Trinken, Getränk, Trinker, Kneipe, Trunkenbold, Durst, Trinken, flüssig, angeheitert, betrunken, Lösch-	^(i|y|ɛ|w.i)(s)(i|a|y|ɛ|ɯ)(k|ɡ)(i|y)?$
+449	4116-karvaly	k ɒ r.v ɒ j	Sperber	^(k)(a|ɒ|o|a.ɣ)?(r.ɣ|r.v|r|r.y.ɣ)(a|ɒ)(l|j|ɣ.y.l)$
+450	4117-kas	k ɒ ʃ	Bienenkorb, Korb, Speicher, Flechtwerk, usw, Käfig, Bergwerk, Körbchen	^(k)(a|ɒ|o|a.ɣ)?(t͡ʃ|ɣ|ʃ|l.t͡ʃ)(i|y|ɛ|u)?$
+451	4118-kasa	k aː ʃ ɒ	Grütze, Brei, Wade, Mörtel, dickflüssige, od, Masse, Auflauf	^(k)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(ʃ|t͡ʃ)(a|a.ɣ|a.w|ɒ)?(i)?$
+452	4130-kasza	k ɒ s ɒ	Sense, Sense, ähnl, Gegenstand, Acker, Wiese, Bein, gestellter, Haken, messer, Arg, Mäher, Mäher, Wiese	^(k)(a|ɒ|o|a.ɣ)?(s)(a|a.ɣ|a.w|ɒ)?(i|y|ɛ)?$
+453	4164-kava	k aː v ɒ	Rahmen, Einfassung, Zarge, Rahmen, Öse, Leiterwagen, Unter-, bzw, Henkel, Griff, Fessel, Krater, Abgrund	^(k)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(v|w)(a|a.ɣ|a.w|ɒ)?(i)?$
+454	4170-kavics	k ɒ v i t͡ʃ	Kieselstein, Kies, Schotter, geringem, Wert	^(k)(a|ɒ|o|a.ɣ)?(v|w)(i|a|y|ɛ|ɯ)(t͡ʃ|l.t͡ʃ)$
+455	4176-kazar	k ɒ z aː r		^(k)(a|ɒ|o|a.ɣ)?(z|s)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(r)(i)?$
+456	4182-kaba	k ɒ b ɒ	Bezeichnung, versch, Raubvögel, Baumfalke	^(k)(a|ɒ|o|a.ɣ)?(b)(a|a.ɣ|a.w|ɒ)?(i|y|ɛ)?$
+457	4184-kabala	k ɒ b ɒ l ɒ	Stute, Holz, Pflug, unterwegs, geschleift, Art, Art, Backofen, Art, einfaches, Karussel, Pferd	^(k)(a|ɒ|o|a.ɣ)?(b)(a|ɒ)(l|r.l|l.k)(a|a.ɣ|a.w|ɒ)?$
+458	4204-kacs	k ɒ t͡ʃ	Klammer, Haken, Schlinge, Händchen, krummer, Halter, Griff, Sense, Ruders, Riemens, usw, Blattstiel, Bein, gestellter, Haken	^(k)(a|ɒ|o|a.ɣ)?(t͡ʃ|l.t͡ʃ)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a)?$
+459	4211-kacso	k ɒ t͡ʃ oː	Händchen	^(k)(a|ɒ|o|a.ɣ)(t͡ʃ|l.t͡ʃ|r.t͡ʃ)(a.ɣ|u.ɣ|a.ɣ.u|i.ɣ|o.ɣ|uɣ|ɯ.ɣ|u.j|a.w|a|u)$
+460	4245-kaka	k aː k ɒ	Binse	^(k)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(k)(a|a.ɣ|a.w|ɒ)?(i|y)?$
+461	4249-kakas	k ɒ k ɒ ʃ	Hahn, Männchen, verschiedenartiger, Vögel, Wetterhahn, Mann, Sexualität, her, gesehen, Franzose, Feuerbrand, Rösten, Maiskörner, roter, Fleck, Hieb, od, Schlag, ganze, Knabe, Penis, kleinen, Knaben	^(k)(a|ɒ|o|a.ɣ)?(k)(a|ɒ|o|a.ɣ)?(t͡ʃ|ɣ|ʃ|l.t͡ʃ)$
+462	4275-kalasz	k ɒ l aː s	Splitter, Holz, Knochen, usw, Granne, Maiskolben, Hülse, Gemüsepflanzen	^(k)(a|ɒ)(l|r.l|l.k)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(s|ʃ|z)$
+463	4290-kaliz	k aː l i z	königlicher, Steuereinnehmer, Angehöriger, islamischen	^(k)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(l|r.l|l.k)(i|a|y|ɛ|ɯ)(z)$
+464	4307-kamara	k ɒ m ɒ r ɒ	königliche, bzw, Verwaltungsorgan, Zelle, Schlafzimmer, Ventrikel, Speisekammer, Gewölbe, richtende, od, gesetzgebende, Körperschaft, Kammer, Gerichtsbarkeit, Staatsrecht, Haus, Parlament, berufsständische, Körperschaft, Treibjagd, abgesperrte, Raum, Kämmerer, Kammerherr	^(k)(a|ɒ|o|a.ɣ)?(m)(a|ɒ)(r|j.r|w.r)(a|a.ɣ|a.w|ɒ)?$
+465	4330-kan	k ɒ n	Eber, Männchen, männlich, großem, Ausmaß, wertvoll, ruhig	^(k)(a|ɒ|o|a.ɣ)?(n)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+466	4376-kanya	k aː ɲ ɒ	Milan, heftigen, Ausdrücken, Bed, Krähe, Habicht	^(k)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(n|m)(a|a.ɣ|a.w|ɒ)?(i)?$
+467	4384-kapa	k ɒ p ɒ	Hacke, Haue, Bodenfläche, Tag, bearbeitet, Dreizack, Hacken, Hauer, Arbeiter, Hacke, bearbeitet, Pflanze	^(k)(a|ɒ|o|a.ɣ)?(p)(a|a.ɣ|a.w|ɒ)?(i|y|ɛ)?$
+468	4385-kapa	k aː p ɒ	hervorragender, runder, Teil, Ende, Sattels, kutte, Kapuze, Benennung, bestimmten, Teils, versch, Gegenstände	^(k)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(p)(a|a.ɣ|a.w|ɒ)?(i|y)?$
+469	4423-kapu	k ɒ p u	Durchgang, Tor, Gegenstand, Ort, gewissen, Sportarten, Torhüter, Torwart	^(k)(a|ɒ|o|a.ɣ)?(p)(u.ɣ|u|a.ɣ)(i|y|ɛ|u|i.ɣ|a.t)?$
+470	4432-kar	k aː r	Verlust, Einbuße, Schaden, nachteilige, Veränderung, Platz, Weiden, untersagt, schade	^(k)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+471	4435-karacsony	k ɒ r aː t͡ʃ o ɲ	Weihnachten, Neujahr	^(k)(a)(r)(a|aː|a.ɣ.a)(t͡ʃ|l.t͡ʃ|r.t͡ʃ)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(n|m)$
+472	4448-karasz	k aː r aː s	Karausche, hagerer, Mensch	^(k)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(r)(a|aː|a.ɣ.a|a.ɣ.i|i)(s|ʃ|z)$
+473	4462-kardaleszaba	k ɒ r.d ɒ l eː s aː b ɒ	Unordnung, durcheinander, vernachlässigt, halten, lassen	^(k)(a)(r.d)(a)(l|r.l)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(s)(a)(b)(a|a.ɣ|a.w|ɒ)?$
+474	4508-karvaly	k ɒ r.v ɒ j	Sperber	^(k)(a|ɒ|o|a.ɣ)?(r.ɣ|r.v|r|r.y.ɣ)(a|ɒ)(l|j|ɣ.y.l)$
+475	4509-kas	k ɒ ʃ	Bienenkorb, Korb, Speicher, Flechtwerk, usw, Käfig, Bergwerk, Körbchen	^(k)(a|ɒ|o|a.ɣ)?(t͡ʃ|ɣ|ʃ|l.t͡ʃ)(i|y|ɛ|u)?$
+476	4510-kasa	k aː ʃ ɒ	Grütze, Brei, Wade, Mörtel, dickflüssige, od, Masse, Auflauf	^(k)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(ʃ|t͡ʃ)(a|a.ɣ|a.w|ɒ)?(i)?$
+477	4522-kasza	k ɒ s ɒ	Sense, Sense, ähnl, Gegenstand, Acker, Wiese, Bein, gestellter, Haken, messer, Arg, Mäher, Mäher, Wiese	^(k)(a|ɒ|o|a.ɣ)?(s)(a|a.ɣ|a.w|ɒ)?(i|y|ɛ)?$
+478	4556-kava	k aː v ɒ	Rahmen, Einfassung, Zarge, Rahmen, Öse, Leiterwagen, Unter-, bzw, Henkel, Griff, Fessel, Krater, Abgrund	^(k)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(v|w)(a|a.ɣ|a.w|ɒ)?(i)?$
+479	4562-kavics	k ɒ v i t͡ʃ	Kieselstein, Kies, Schotter, geringem, Wert	^(k)(a|ɒ|o|a.ɣ)?(v|w)(i|a|y|ɛ|ɯ)(t͡ʃ|l.t͡ʃ)$
+480	4568-kazar	k ɒ z aː r		^(k)(a|ɒ|o|a.ɣ)?(z|s)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(r)(i)?$
+481	4582-ker	k eː r	bitten, wünschen, inständig, bitten, anflehen, ersuchen, auffordern, jm, Hand, bitten, od, werben, freien, fordern, beten, käuflich, erwerben, bitten, Bitte	^(k)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk)?$
+482	4583-ker	k eː r	Kruste, Rinde	^(k)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk)?$
+483	4586-kerd	k eː r.d	bitten, begehren, fragen, Fragen, nachfragen	^(k)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk)?$
+484	4587-kerecsen	k ɛ r ɛ t͡ʃ ɛ n		^(k)(ɛ|i|y|ø|a)(r)(ɛ|i|y|ø|a)(t͡ʃ|l.t͡ʃ|r.t͡ʃ)(ɛ|i)(n)$
+485	4588-kerek	k ɛ r ɛ k	Wald, Wirbelwind, etw, Rundes, rund, kreisförmig, umfangreich, kugelrund, offen, frei, unverblümt, Rede, rund, voll, Summe, Zahl, abgerundet, Text, Aufführung, Schriftwerk, runden	^(k)(ɛ|i|y|ø|a)(r|j.r)(ɛ|i|y|ø|a)(k|ɡ)$
+486	4589-kerek	k ɛ r eː k	Rad, Kreis, Rademacher, Wagner, kreisförmig, Duodenum	^(k)(ɛ|i|y|ø|a)(r)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(k|ɡ)$
+487	4592-kerep	k ɛ r ɛ p	Steinklee	^(k)(ɛ|i|y|ø|a)(r|j.r|w.r)(ɛ|i|y|ø|a)(p)(i)?$
+489	4610-kert	k ɛ r.t	Garten, umzäunte, Fläche, Wildgehege, Zaun, Hecke, Teil, Lagerung, Getreides	^(k)(ɛ|i|y|ø|a)(r.t|r.a.t)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a)?$
+490	4614-kes	k eː ʃ	Aufzeichnung, Messer, Messer, Schwert, Säbel	^(k)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(t͡ʃ|ɣ|ʃ|l.t͡ʃ)(i|y)?$
+491	4615-kesa	k eː ʃ ɒ	Kampf, Pein, Quälerei, Streit, kämpfen, kämpfen	^(k)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u)(ʃ|t͡ʃ)(a|a.ɣ|a.w|ɒ)?$
+492	4616-kese	k ɛ ʃ ɛ	Haar, usw, gestiefelt, Vieh, Pferd, verschossen, Stoff, Schweinerasse	^(k)(ɛ|i|y|ø|a)(ʃ|t͡ʃ)(ɛ|ɛ.ɣ)(i|y|ɛ|u)?$
+493	4618-keseru	k ɛ ʃ ɛ r yː	bitter, qualvoll, lästig, peinlich, erbittert, enttäuscht, Betrübnis, Bitternis, Magenbitter, Getränk, bitter	^(k)(ɛ|i|y|ø|a)(ʃ|t͡ʃ)(ɛ|i)(r)(i.ɣ|y.ɣ|ɛ.ɣ|ɛ.ɣ.y|y)$
+494	4621-kesik	k eː ʃ i k	säumen, zögern, säumig, spät, kommen, Verspätung, nachgehen, Uhr, säumen, hindern	^(k)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(ʃ|t͡ʃ)(i|a|y|ɛ|ɯ)(k)$
+495	4622-keskeny	k ɛ ʃ.k ɛ ɲ	schmal, eng	^(k)(ɛ|i|y|ø|a)(t͡ʃ.k)(ɛ|i|y|ø|a)(n|m)(i)?$
+496	4626-keszeg	k ɛ s ɛ ɡ	Weißfisch, magerer, gewöhnlich, Mensch	^(k)(ɛ|i|y|ø|a)(s)(ɛ|i|y|ø|a)(ɡ|k)(i)?$
+497	4632-ket	k eː t	zwei, Attr, Zweifel	^(k)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(t)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk)?$
+498	4644-kever	k ɛ v ɛ r	umrühren, vermischen, umdrehen, beschmutzen, verwickeln, Unannehmlichkeiten, mischen, mengen, verwirren, verwechseln, aufrühren, wegwerfen, verwerfen, stiften, Unheil, Mischung, herumtreiben	^(k)(ɛ|i|y|ø|a)(v|w)(ɛ|i|y|ø|a)(r)(i)?$
+499	4646-kez	k eː z	Hand, freundlich, nachgiebig, Hand, etw, vorzeichnen, Gebärde, tun, lenken, betätigen	^(k)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(z)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk)?$
+500	4656-kebel	k ɛ b ɛ l	Gemeinschaft, Nabe, Tal, Vertiefung, Busen, Brust, Kleid, Schoß, Hertz, breiter, Streifen, Teil, Biegung, Ausbuchtung, Bucht, Unterrock	^(k)(ɛ|i|y|ø|a)(b)(ɛ|i|y|ø|a)(l|j)?(i)?$
+504	4675-kegy	k eː ɟ	Rennbahn, Stadion, Kampfplatz, Arena, Art, Längenmaß, etwa, m, Grenzstein, Regenbogen, Lilie	^(k)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(ɟ)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk)?$
+505	4680-kek	k eː k	blau, grün, grau, Pferd, Ochse, blauer, Lattich, Wunde	^(k)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(k|ɡ)(i|y|ɛ|u)?$
+506	4684-kel	k ɛ l	gehen, wandern, entstehen, stammen, herauskommen, aufstehen, erwachen, aufkeimen, Ei, schlüpfen, aufgehen, Gestirn, aufmachen, etw, tun, angreifen, empören, Kräften, kommen, aufgehen, Teig, wurde, ausgestellt, gegeben, ausgehen, Geld, Vorrat, verlorengehen, verschwinden, entstehen, wachsen, Geschwür, nötig, abbauen, fördern, Bergbau, Ursprung, Datum, gängig, Akte, Betrag	^(k)(ɛ|i|y|ø|a)(l|j)?(i|y|ɛ|u|i.ɣ|a.t)?$
+507	4689-kelepce	k ɛ l ɛ p.t͡s ɛ	Fallstrick, Falle, hinterlistige, Nachstellung, oberer, Teil, Haspel, Stab, Enden, besteht	^(k)(ɛ|i|y|ø|a)(l|r.l|l.k)(ɛ|i|y|ø)(p.t͡ʃ)(ɛ|ɛ.ɣ)$
+508	4704-kem	k eː m	Späher, Wache, Spion, spähen	^(k)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(m)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk)?$
+510	4706-kemeny	k ɛ m eː ɲ	schwer, ertragen, schwierig, streng, barsch, unbarmherzig, wild, schonungslos, grob, rauh, Wetter, hart, steif, fest, stramm, hoch, eingeschätzt, stimmlos, Konsonant, mineralischen, Salzen, reich, hart, Wasser, Dur-, Tonleiter, hart, grausam, hart, Stärke	^(k)(ɛ|i|y|ø|a)(m)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(n|m)$
+511	4712-ken	k ɛ n	schmieren, über-, bestreichen, wischen, reiben, einweihen, vertuschen, bestechen, jmdm, etw, massieren, schminken, prügeln, Salbe, Balsam, Salben, Scheinheiligkeit, übertriebene, Andacht, Art, schminken, wischen, Salbe	^(k)(ɛ|i|y|ø|a)(n)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+512	4715-kende	k ɛ n.d ɛ	Großfürst, Bundes, ungarischen, Stämme, Landnahme	^(k)(ɛ|i|y|ø|a)(n.d|n)(ɛ|ɛ.ɣ)(i|y|ɛ|u)?$
+513	4716-kender	k ɛ n.d ɛ r	Hanf, Flachs	^(k)(ɛ|i|y|ø|a)(n.d|n)(ɛ|i|y|ø|a)(r)(i)?$
+514	4721-kenez	k ɛ n eː z	Anführer, Hauptmann, Vorsteher, rumänischer, od, ukrainischer, rumänischer, od, ukrainischer, Dorfrichter, Korporal	^(k)(ɛ|i|y|ø|a)(n)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(z)(i)?$
+515	4723-kengyel	k ɛ n.ɟ ɛ l	Steigbügel, Gehörknöchelchen, Mittelohr, bügel	^(k)(ɛ|i|y|ø|a)(n.ɟ|n.t͡ʃ)(ɛ|i|y|ø)(l|j)?$
+516	4731-kenyer	k ɛ ɲ eː r	Brot, Lebensunterhalt, nötige, Nahrung, Unterhalt, erforderlichen, Mittel, Fach, Gewohnheit, Redewendungen, Fach, Gewohnheit, Kumpan, Brot, essen, bestechen	^(k)(ɛ|i|y|ø|a)(n|m)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(r)$
+517	4734-kep	k eː p	Form, Gestalt, Bild, Bildnis, Gesicht, Miene, Standbild, Ähnlichkeit, Ebenbild, Vertretung, Vertreter, Erscheinung, Vorstellung, Sinnbild, Schein, Bild, Auftritt, Theater	^(k)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(p)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk)?$
+518	4735-kep	k eː p	Art, Speer, Lanze, Speer, bewaffneter, Mensch	^(k)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(p)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk)?$
+519	4736-kepe	k ɛ p ɛ	Gläubigen, Priester, Kantor, Brut, Küken, Schnitter	^(k)(ɛ|i|y|ø|a)(p)(ɛ|ɛ.ɣ)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a)?$
+520	4738-kicsi	k i t͡ʃ i	klein, wenig, gering, lieb, geliebt, Kleinkind, Junge, klein	^(k)(i|a|y|ɛ|ɯ)(t͡ʃ|l.t͡ʃ|r.t͡ʃ)(i)(i|y|ɛ|u|i.ɣ|a.t)?$
+521	4745-kigyo	k iː ɟ oː	Schlange, Ding, falsche, böswillige, Person	^(k)(i|iː)(l.d|d)(a.ɣ|u.ɣ|a.ɣ.u|i.ɣ|o.ɣ|uɣ|ɯ.ɣ|u.j|a.w|a|u)(i|y)?$
+522	4765-kin	k iː n	Pein, Qual, Leid	^(k)(i|iː)(n)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+523	4773-kiraly	k i r aː j	König, Hauptfigur, Schachspiel, Ähnlichen, zweithöchste, Spielkarte, höchste, Kegel, Kegelspiel	^(k)(i|a|y|ɛ|ɯ)(r)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(l|j|ɣ.y.l)$
+524	4779-kis	k i ʃ	klein, unbedeutend, minderwertig, wenig, gering, jung, lieb, geliebt	^(k)(i|a|y|ɛ|ɯ)(t͡ʃ|ɣ|ʃ|l.t͡ʃ)(i|y|ɛ|u)?$
+525	4826-koris	k øː r i ʃ	Esche	^(k)(ɛ|ø|ɛ.w|ɛ.y|y|ɛ.ɣ.y|øː)(r)(i|a|y|ɛ)(t͡ʃ|ɣ|ʃ|l.t͡ʃ)$
+526	4833-korom	k ø r ø m	Nagel, Kralle, Klaue, Huf, Gabel, Forke, Art, Star, Augenkrankheit, Teil, zusammengesetzter, Pflanzennamen, Schlag, Fingernagel	^(k)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(r|j.r|w.r)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(m)$
+527	4839-kortvely	k ø r.t.v eː j	Birne, Birnbaum	^(k)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(r.t.β)(ɛ|i|eː|ø|y)(l|j|ɣ.y.l)$
+528	4850-kot	k ø t	binden, anbinden, stricken, flechten, einwickeln, umhüllen, einbinden, Buch, verpflichten, verbinden, Zauber, binden, bannen, verknüpfen, schließen, Vertrag, Frieden, usw, jmdm, anbinden, Streit, Sache, etw, aussetzen, etw, ansetzen, Seil, Seil, Strick, Verpflichtung, Obliegenheit, Verbindung, Seiler, Schurz, Band, Bund, Schluß, Bündnis, Binde, Stricken, Einband, binden, Fessel, Bündel, Verbindung, Verband, Milit, jmdm, anbinden, Händel, suchen, etw, verbunden, Verbindung, Pflicht, Verpflichtung, Bündel, Mittel	^(k)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(t)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+529	4852-koteles	k ø t ɛ l ɛ ʃ	verbunden, verpflichtet, verpflichtend	^(k)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(t|l.t)(ɛ)(l|r.l)(ɛ)(t͡ʃ|ɣ|ʃ|l.t͡ʃ)$
+531	4859-kovet	k ø v ɛ t	Abgesandter, Anzeichen, Gesandter, Botschafter, Abgeordneter, Sendung, Auftrag, Mission, Botschaft, Abordnung, Gesandtschaft, Botschaft	^(k)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(v|w)(ɛ|i|y|ø|a)(t)(i)?$
+532	4866-kozep	k ø z eː p	mittlerer, Mitte, befindlich, mittel, Gestalt, Größe, mittelmäßig, desinteressiert, indifferent, Mitte, Mittelmäßigkeit, mittlere, Möglichkeit, Mittelweg, Mittelpunkt, Partei, Mitte, Durchschnittsmensch, mittelmäßige, Menge, mittelmäßig	^(k)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(z|s)(ɛ|i|eː|ø|y|a|e|ɛ.j)(p)$
+533	4907-koboz	k o b o z	Art, Laute, Sinnbild, Dichtung	^(k)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(b)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(z)(i)?$
+534	4977-koma	k o m ɒ	Gevatter, Freund, Kamerad, Mädchen, Pfingsten, Burschen, Ei, bekommt	^(k)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(m)(a|a.ɣ|a.w|ɒ)?(i|y)?$
+535	4994-komlo	k o m.l oː	Hopfen	^(k)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(m.l)(a.ɣ|u.ɣ|a.ɣ.u|i.ɣ|o.ɣ|uɣ|ɯ.ɣ|u.j|a.w|a|u)(i)?$
+536	5004-komor	k o m o r	unfreundlich, trübsinnig, düster, dunkel, Himmel, Wolke, usw, hart, schlecht, kastriert, Stier, Pferd, Schaf, schlecht, kastrierter, Stier	^(k)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(m)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(r)(i)?$
+538	5031-kondor	k o n.d o r	kraus	^(k)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(n.d|n)(u|o|a|ɒ|o.ɣ.o|ɯ)?(r)$
+541	5080-kopancs	k o p aː n.t͡ʃ	Specht	^(k)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(p)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(t͡ʃ)(i)?$
+542	5097-kor	k o r	gewisses, Alter, Menschen, Lebensalter, Zeit, Zeitalter, Dauer, Zustandes, gleichaltrig	^(k)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk)?$
+543	5132-koro	k oː r oː	dürrer, Stengel, ein-, zweijährigen, Pflanzen, alter, magerer, Mensch	^(k)(a|u|uː|a.u|i|a.w|i.ɣ|a.w.u|aː)(r|j.r)(a.ɣ|u.ɣ|a.ɣ.u|i.ɣ|o.ɣ|uɣ|ɯ.ɣ|u.j|a.w|a|u)$
+544	5134-korom	k o r o m	Ruß, Schmutz, Schwärze, Dunkel, Art, schwarz	^(k)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(r|j.r)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(m)$
+545	5140-korpa	k o r.p ɒ	Kleie, Schuppen, Kopfhaut, Geld	^(k)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(r.p)(a|a.ɣ|a.w|ɒ)?(i|y)?$
+546	5155-kos	k o ʃ	Widder, Rammbock, Holzschraube, Kelter	^(k)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(t͡ʃ|ɣ|ʃ|l.t͡ʃ)(i|y|ɛ)?$
+547	5187-kova	k o v ɒ	Feuerstein	^(k)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(v|w)(a|a.ɣ|a.w|ɒ)?(i)?$
+548	5188-kovacs	k o v aː t͡ʃ	Schmied	^(k)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(v|w)(a|aː|a.ɣ.a|a.ɣ.i)(t͡ʃ|l.t͡ʃ)$
+549	5200-ko	k øː	Stein, Edelstein, Gewicht, Stein, Med, Blitz, Hagel, steinigen, pflastern	^(k)(ɛ.ɣ|i.ɣ|yː)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+550	5202-kobol	k ø b ø l	hölzerne, Fassung, Grube, Brunnens, od, Quelle, Art, unterschiedlicher, Größe, bzw, Größe, Art, Flächenmaß, worauf, Metze, Getreide, gesät	^(k)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(b)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(l|j)?$
+551	5208-kokeny	k ø k eː ɲ	Schlehdorn	^(k)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(k)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(n|m)$
+552	5212-koles	k ø l ɛ ʃ	Hirse	^(k)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(l|r.l|l.k)(ɛ|i)(t͡ʃ|ɣ|ʃ|l.t͡ʃ)$
+553	5219-kolyok	k ø j ø k	Junge, Welpe, Bengel, Grünschnabel	^(k)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(l|j|j.a|ɣ)(ɛ|y|ø|i)(k)$
+556	5277-kuka	k u k ɒ	blöd, einfältig, stumm, taub, taubstumm, stammelnd, stotternd	^(k)(u|ɯ|u.w.a|u.ɣ)(k)(a|a.ɣ|a.w|ɒ)?(i|y|ɛ|u)?$
+557	5294-kulcs	k u l.t͡ʃ	Schlüssel, Lösung, Erklärung, Art, Gerät, Schraubenschlüssel, usw, beherrschende, Stelle, Zeichen, Bestimmung, Tonhöhe, Schlüsselbein, Proportion, Bezahlung, Verteilung, usw	^(k)(u|ɯ|u.w.a|u.ɣ)(l.t͡ʃ|t͡ʃ)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk)?$
+558	5309-kun	k u n	Angehöriger, ung, ethnographischen, Gruppe, —, später, —, ung, ethnographische, Gruppe, bezüglich	^(k)(u|ɯ|u.w.a|u.ɣ)(n)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+559	5310-kuna	k u n ɒ	Art, Steuer, Marder	^(k)(u|ɯ|u.w.a|u.ɣ)(n)(a|a.ɣ|a.w|ɒ)?(i|y|ɛ|u)?$
+561	5349-kurta	k u r.t ɒ	kurz, stumpf, Ausdruck, Beschimpfung, Geringschätzung, unerlaubten, Ausschank, Wirt, kleinerem, Wert, Geld, ganzjährig, betrieben, unerlaubtem, Ausschank, dienend, bescheidenem, Adeliger, Besitzer, Benennung, Tiere, Zigarillo	^(k)(u|ɯ|u.w.a|u.ɣ)(r.t|r.i.t)(a|a.ɣ|a.w|ɒ)?(i|y)?$
+562	5363-kut	k uː t	Quelle, Brunnen, Zisterne	^(k)(u|uː|u.ɣ|u.ɣ.u|i|o|o.ɣ|i.ɣ.u)(t)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk)?$
+564	5379-kullo	k y lː øː	Halbmesser, Radius	^(k)(y|i|ɛ)(l|lː|ɣ.l)(ɛ.ɣ|i.ɣ|yː)(i|y|ɛ)?$
+565	5380-kullo	k y lː øː	Bienenfresser, Specht, Amsel	^(k)(y|i|ɛ)(l|lː|ɣ.l)(ɛ.ɣ|i.ɣ|yː)(i|y|ɛ)?$
+567	5387-kurt	k y r.t	Horn, Instrument, Schornstein, Ofenrohr, Eileiter, Röhre, Becher, Trinkhorn, Baumkuchen, Hupe	^(k)(y|i|ɛ)(r.t|r.a.t)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+587	5629-lt	l.t	Auwald, Hain, Wiese, Park, Lichtung, Hain, Garten, usw	^(l.t)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+599	5747-ma	m ɒ	heute, heutzutage, heutige, Tag, Heute, Gegenwart	^(m)(a|a.ɣ|a.w|ɒ)?(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+600	5761-madar	m ɒ d aː r	Vogel, loser, Vogel, Spatz	^(m)(a|ɒ|o|a.ɣ)(d|l.d|w.d|n.d)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(r)$
+601	5767-mag	m ɒ ɡ	Nachkomme, Geschlecht, Kern, Samen, Sperma, Anfang, Wesentliche, Kern, Vermehrung, gezüchtet, unfruchtbar, kinderlos, kernig, gehaltvoll	^(m)(a|ɒ|o|a.ɣ)?(ɡ|k)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a)?$
+602	5771-magas	m ɒ ɡ ɒ ʃ	Gipfel, Höhe, hoch, hochgeschätzt, erhaben, hoher, hoch, Ton, Vokal, groß, Gewinn, Verdienst, usw, bestimmter, Höhe	^(m)(a|ɒ|o|a.ɣ)?(ɡ)(a|ɒ|o|a.ɣ)?(t͡ʃ|ɣ|ʃ|l.t͡ʃ)$
+603	5783-magyal	m ɒ ɟ ɒ l	Stechpalme	^(m)(a|ɒ|o|a.ɣ)?(l.d|d)(a|ɒ|o|a.ɣ)(l|j)?$
+604	5784-magyar	m ɒ ɟ ɒ r	Ungar, ungarisches, Lied, Art, ungarischer, Tanz, ungarisch, klar, deutlich	^(m)(a|ɒ|o|a.ɣ)?(l.d|d)(a|ɒ|o|a.ɣ)?(r)(i)?$
+606	5828-mart	m ɒ r.t	Hügel, Erhöhung, Ufer	^(m)(a|ɒ|o|a.ɣ)?(r.t|r.a.t)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a)?$
+607	5852-maszik	m aː s i k	klettern, kriechen	^(m)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(s)(i|a|y|ɛ|ɯ)(k|ɡ)(i)?$
+608	5858-mat	m ɒ t	kramen	^(m)(a|ɒ|o|a.ɣ)?(t)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+609	5877-makk	m ɒ kː	Frucht, Eiche, Eichel, männlichen, Gliedes, Walnuß, Eichel, Benennung, Gegenstände, Stieleiche, Schlinge	^(m)(a|ɒ|o|a.ɣ)?(k)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+610	5883-mal	m aː l	Wamme, Tiers, Kropf, Vogels, Ufer	^(m)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(l|j)?(i|y|ɛ|u)?$
+612	5897-malom	m ɒ l o m	Mühle, Anlage, Art, Brettspiel, Figur, Spiel, Benennung, versch, kreisförmiger, Bewegungen, Armen, bzw, Beinen, Daumen, übereinander, Kreise, bewegen	^(m)(a|ɒ|o|a.ɣ)?(l|r.l|l.k)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(m)$
+614	5932-mar	m ɒ r	zerreißen, auffressen, beißen, reißen, verletzen, zerkrümeln, reiben, Schimpf, Verleumdungen, bekämpfen, jmdm, ewigem, Zank, liegen, ätzen, fräsen, Raubvogel, Fräse, Fräser	^(m)(a|ɒ|o|a.ɣ)?(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+615	5935-marad	m ɒ r ɒ d	verbleiben, erhalten, verweilen, Zustand, bleiben, jmdm, zufallen, büßen, bleiben, Math, Nachkomme, Überbleibsel	^(m)(a|ɒ|o|a.ɣ)?(r|j.r|w.r)(a|ɒ|o|a.ɣ)?(n)(i)?$
+616	5936-maraz	m ɒ r aː z	gefrorener, Tau, Reif	^(m)(a|ɒ|o|a.ɣ)?(r|j.r|w.r)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(z)$
+617	5962-mecs	m eː t͡ʃ	Docht	^(m)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(t͡ʃ|l.t͡ʃ)(i|y|ɛ|u)?$
+620	5985-megy	m ɛ ɟ	verlaufen, führen, Weg, Fluß, usw, gehen, fahren, Gang, kommen, usw, Lebewesen, Fahrzeug, gelangen, Gegenstand, verschwinden, etw, vergehen, Zeit, Dauer, vonstatten, gehen, Gang, Betrieb, Platz, Raum, hinpassen, abgehen, Ware, aufgehen, Menge, etw, passen, Gang, Gelände, entlang, etw, Wegrand, Ufer, Gehen, Gang, beim, Gehen, Hinweg, Zug, Gruppe, schicken, Gang, marschieren, Bedürfnis, gehen	^(m)(ɛ|i|y|ø|a)(ɟ)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+621	5987-megye	m ɛ ɟ ɛ	Rain, Diözese, Komitat, Verwaltungsbezirk	^(m)(ɛ|i|y|ø|a)(l.d|d)(ɛ|ɛ.ɣ)(i|y|ɛ|u)?$
+624	5996-meleg	m ɛ l ɛ ɡ	warm, eifrig, lau, warm, aufgetischt, gekocht, freundlich, traulich, Kleid, Bettzeug, aufregend, gefährlich, warm, Farbe, homosexuell, bes, Frau, Wärme, Vertraulichkeit, sofort	^(m)(ɛ|i|y|ø|a)(l|r.l|l.k)(ɛ|i|y|ø)(ɡ|k)$
+625	6010-melto	m eː l.t oː	würdig, gnädig, etw, tun, passend, verdient, gerecht, Gnade, erweisen, etw, tun, angemessen, befinden, Gnade, erweisen, etw, tun, Gnade, Würde, Euer, Gnaden, vornehm, angemessen, angemessen, befinden, würdig, erweisen, etw, tun	^(m)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u)(l.t)(a.ɣ|u.ɣ|a.ɣ.u|i.ɣ|o.ɣ|uɣ|ɯ.ɣ|u.j|a.w|a|u)$
+626	6012-mely	m eː j	tief, unten, befindlich, hochgradig, tiefsinnig, geräumig, gefühlvoll, tief, kräftig, Farbe, tief, Stimme, Tiefe	^(m)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(l|j|ɣ.y.l)(i|y)?$
+627	6014-men	m eː n	Hengst, Gestüt	^(m)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(n)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk)?$
+628	6020-mezo	m ɛ z øː	Feld, Acker, Weide, Wiese, Gras, grüne, Saat, Landgut, Bauerngut, Feld, Gebiet, Tätigkeit	^(m)(ɛ|i|y|ø|a)(z|s)(ɛ.ɣ|i.ɣ|yː)(i|y|ɛ)?$
+633	6154-mesz	m eː s	Kalk	^(m)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(s|ʃ|z)(i|y)?$
+634	6160-met	m ɛ t	gravieren, ab-, zurückschneiden, Ast, Trieb, schneiden, Bäumen, usw	^(m)(ɛ|i|y|ø|a)(t)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+635	6173-mez	m eː z	Honig, Honig, haupts, Honig, süß, Honig, sammeln, tragen, bereiten	^(m)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(z)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk)?$
+636	6179-mocsolya	m o t͡ʃ o j ɒ	Pfütze	^(m)(u|o)(t͡ʃ|l.t͡ʃ|r.t͡ʃ)(u|o)(l|j|j.a|ɣ)(a|a.ɣ)?$
+637	6188-mogyoro	m o ɟ o r oː	Gegenstand, usw, Kartoffel	^(m)(u|o|a)(l.d|d)(u|o)(r)(a.ɣ|u.ɣ|a.ɣ.u|i.ɣ|o.ɣ|uɣ|ɯ.ɣ|u.j|a.w|a|u)$
+641	6230-mony	m o ɲ	Hoden, Ei, Schwengel, Glocke, Sperma, Penis, männlich, großen, Hoden, Tier	^(m)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(n|m)(i|y|ɛ|u|i.ɣ|a.t)?$
+642	6238-mordaly	m o r.d aː j	Mörder, grausamer, hinterlistiger, Mensch, mörderische, Waffe, Dolch, Pistole	^(m)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(r.d)(a|aː|a.ɣ.a|a.ɣ.i|i)(l|j|ɣ.y.l)$
+644	6255-mos	m o ʃ	jmdn, waschen, waschen, läutern, verwischen, verschmelzen, schimpfen, prügeln, Waschbecken, waschen, gründlich, abwaschen, Geschirr, waschen	^(m)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(t͡ʃ|ɣ|ʃ|l.t͡ʃ)(i|y|ɛ)?$
+645	6280-mog	m ø ɡ	Hintergrund, Geschlechtsorgan, Stute, Kuh, usw	^(m)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(ɡ|k)(i|y|ɛ|u|i.ɣ|a.t|ɛk)?$
+646	6289-mulat	m u l ɒ t	Zeit, verbringen, weilen, geschehen, lassen, erdulden, versäumen, belustigen, unterhalten, vergehen, lassen, unterhalten, belustigen, belustigen, lachen, jmdn, od, etw, Gaststätte, verzögern, unterhalten, belustigen	^(m)(u|ɯ|u.w.a|u.ɣ)(l|r.l|l.k)(a|ɒ|o|a.ɣ)?(t)(i)?$
+647	6293-mulya	m u j ɒ	Maultier, Maulesel, tölpelhaft	^(m)(u|ɯ|u.w.a|u.ɣ)(l|j|j.a|ɣ)(a|a.ɣ|a.w|ɒ)?(i)?$
+649	6317-mut	m u t	zeigen, bezeichnen, beweisen	^(m)(u|ɯ|u.w.a|u.ɣ)(t)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+650	6327-mu	m yː	Handlung, Arbeit, Wirksamkeit, Erzeugnis, Werk, Zeug, Sache, Frucht, Handwerk, Fabrik, Kunst-, künstlich, falsch, handeln, Handwerker, mühevoll, Arbeit, erworben, gebildet, Arbeit, erworben, Arbeit, erworben, ungebildet, kunstvoll, Kunst-, künstlich, operativ, Med	^(m)(i.ɣ|y.ɣ|ɛ.ɣ|ɛ.ɣ.y|y)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+663	6460-nyaj	ɲ aː j	Herde, bes, Schafherde, größere, meist, Menschengruppe, Gemeinde, Kirchenvolk	^(n)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(l|j|ɣ.y.l)(i|y|ɛ|u)?$
+664	6476-nyar	ɲ aː r	Sumpf, Pappel	^(n)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+665	6478-nyarad	ɲ aː r ɒ d	schleimig, zäh, stürzen, ohnmächtig, auflösen, unförmig	^(n)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(r|j.r|w.r)(a|ɒ|o|a.ɣ)?(n)$
+666	6482-nyavalya	ɲ ɒ v ɒ j ɒ	Not, Elend, Bedarf, Krankheit, Epilepsie, Übel, elendig, kränklich, niederträchtig, verächtlich, Lage, kränken, lamentieren, bedrücken, plagen, jm, unglückliches, Schicksal, Schicksal, Unglückliche	^(n)(a|ɒ|o)(v|w)(a)(l|j|j.a|ɣ)(a|a.ɣ|a.w|ɒ)?$
+667	6485-nyek	ɲ eː k	Zaun, Hecke, Stelle, Wald, zB, Hag, Wildgarten, Wildgehege	^(n)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(k|ɡ)(i|y|ɛ|u)?$
+668	6491-nyer	ɲ ɛ r	erlangen, gewinnen, erwerben, bekommen, jmdn, gewinnen, Sieg, erringen, Spiel, gewinnen, Treffer, gewinnen, erzeugen	^(n)(ɛ|i|y|ø|a)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+670	6502-nyil	ɲ iː l	Pfeil, Schicksal, Blitz, Los, Benennung, versch, od, keilförmiger, Gegenstände, Zeichen, Teil, Anteil, zugeteilten, Feldes, Schütze, Astronomie, Bogenschütze, Anhänger, ung, Nazipartei, Attr, losen, Pfeil, Bogen, schießen	^(n)(i|iː)(l|j)?(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+671	6506-nyir	ɲ iː r	scheren, stutzen, schneiden, bearbeiten, schnitzen, zB, Tuch, Papier, jmdn, Geld, anzapfen, absägen, umbringen, Scherer, Tonsur, stutzen, lassen	^(n)(i|iː)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+672	6507-nyir	ɲ iː r	Birkenwald, Birke, Sumpf, feuchtes, Grasland, Sproß, Rute, unterer, Teil, Birkenwald, sumpfig	^(n)(i|iː)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+673	6521-nyom	ɲ o m	Fußspur, Fährte, Dauerhaftigkeit, Spur, Geschlecht, Sippe, Schritt, Art, Weise, kleine, Menge, Detektiv, sogleich	^(n)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(m)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk)?$
+674	6522-nyomorek	ɲ o m o r eː k	elend, kümmerlich, Krüppel	^(n)(u|o|a|ɒ)?(m)(u|o)(r)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(k)$
+675	6525-nyoszolya	ɲ o s o j ɒ	Bett, Liege	^(n)(u|o|a)(s)(u|o)(l|j|j.a|ɣ)(a|a.ɣ|a.w|ɒ)?$
+676	6537-nyul	ɲ uː l	Hase, Kaninchen, Art, Fleischstück, Schwein	^(n)(u|uː|u.ɣ|u.ɣ.u|i|o|o.ɣ|i.ɣ.u)(l|j)?(i|y|ɛ|u)?$
+677	6544-nyuz	ɲ uː z	häuten, schinden, grausam, quälen, bedrücken, Langeweile, wiederholen, Thema, Musikstück, Länge, ziehen, Zeit, eintönig, verbringen	^(n)(u|uː|u.ɣ|u.ɣ.u|i|o|o.ɣ|i.ɣ.u)(z)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk)?$
+678	6545-nyu	ɲ yː	reißen, rupfen, raufen, abtragen, Kleidungsstücke, verschleißen, bes, Kleidungsstück, abmagern, Vieh	^(n)(i.ɣ|y.ɣ|ɛ.ɣ|ɛ.ɣ.y|y)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+679	6546-nyu	ɲ yː	Made, Wurm	^(n)(i.ɣ|y.ɣ|ɛ.ɣ|ɛ.ɣ.y|y)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+680	6556-ocs	ø t͡ʃ	jüngere, Schwester, jüngerer, Bruder, jüngerer, männlicher, Verwandter, Verwandter, Anrede, Jüngeren	^(y|ɛ|i|ø.ɣ.i|ɛ.ɣ.i|ø)(t͡ʃ|l.t͡ʃ)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk)?$
+681	6564-okol	ø k ø l	Faust	^(y|ɛ|i|ø.ɣ.i|ɛ.ɣ.i|ø)(k)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(l|j)?$
+682	6565-okor	ø k ø r	Ochse, Stier, Dummkopf	^(y|ɛ|i|ø.ɣ.i|ɛ.ɣ.i|ø)(k)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(r)(i|y)?$
+683	6574-olyv	ø j.v	Bussard, Habicht	^(y|ɛ|i|ø.ɣ.i|ɛ.ɣ.i|ø)(l.i.ɣ)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+684	6576-on	øː n	Rapfen	^(ɛ.w.i|ɛ.w|ɛ.ɣ)(n)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+687	6582-or	øː r	mahlen, Getreide, zerkauen, Mühle	^(ɛ.w.i|ɛ.w|ɛ.ɣ)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+688	6583-or	øː r	Späher, Grenze, Grenzwächter, Jh, Z, Wachdienst, Wächter, Aufseher, Hüter, Aufsicht, Wachdienst	^(ɛ.w.i|ɛ.w|ɛ.ɣ)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+689	6584-ordog	ø r.d ø ɡ	Teufel, Böse, Versucher, Fluch, Teil, versch, Pflanzennamen, bedauernswerter, Mensch, Teufel, besessen, Teufel, Bunde, stehend, Zauber, Zauberer, Hexe	^(y|ɛ|i|ø.ɣ.i|ɛ.ɣ.i|ø)(r.d)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(ɡ|k)(i)?$
+690	6587-ormeny	ø r.m eː ɲ	Tiefwasser, Wirbelwind	^(y|ɛ|i|ø.ɣ.i|ɛ.ɣ.i|ø)(r.m)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(n|m)$
+691	6589-orok	ø r ø k	zeitlos, ewig, fortwährend, unaufhörlich, fürs, Leben, geltend, Grab, umwandelbar, Beschaffenheit, unveränderlich, Ewigkeit, Erbschaft, Erbe, Ewigkeit, Erbschaft, Erbe, Erbschaft, Erbe, Erbe, Lebzeiten, Wurzel, fassen, erben, wachsen, zunehmen, ewig, Adv, ewig, Adv	^(y|ɛ|i|ø.ɣ.i|ɛ.ɣ.i|ø)(r|j.r)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(k|ɡ)$
+692	6590-orom	ø r ø m	Freude	^(y|ɛ|i|ø.ɣ.i|ɛ.ɣ.i|ø)(r|j.r|w.r)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(m)$
+693	6593-orv	ø r.v	Hundehalsband, Hals, Vögel, od, Säugetiere, bzw, Harnisch	^(y|ɛ|i|ø.ɣ.i|ɛ.ɣ.i|ø)(ɣ.r.u)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+694	6595-orveny	ø r.v eː ɲ	Wirbel, Tiefwasser, Alant, schwindelerregender, Abgrund, Wirbelwind, Untergang, Zerstörung, drohender, Zustand	^(y|ɛ|i|ø.ɣ.i|ɛ.ɣ.i|ø)(r.ɣ|r.v|r|r.y.ɣ)(ɛ|i|eː|ø|y)(n)$
+695	6596-os	øː ʃ	ahne, Urform, Vorgänger, Systems, Konstruktion, usw	^(ɛ.w.i|ɛ.w|ɛ.ɣ)(t͡ʃ|ɣ|ʃ|l.t͡ʃ)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk)?$
+697	6599-osz	øː s	grau, Haar, grauhaarig, graue, Haarfarbe	^(ɛ.w.i|ɛ.w|ɛ.ɣ)(s|ʃ|z)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ)?$
+698	6600-osz	øː s	Herbst	^(ɛ.w.i|ɛ.w|ɛ.ɣ)(s|ʃ|z)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ)?$
+701	6610-ot	ø t	fünf, fünfter, fünfte, Teil, Quinte, Quintett, Schulnote, Fünf	^(y|ɛ|i|ø.ɣ.i|ɛ.ɣ.i|ø)(t)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+703	6615-ov	ø v	Gürtel, Gürtel, Körperteile, Taille, Gürtel, Zone, Streifen, Geogr, Zone, umgeben, Zone, etw, herum	^(y|ɛ|i|ø.ɣ.i|ɛ.ɣ.i|ø)(ɣ)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+704	6617-oz	øː z	Reh, Steinbock, Gemse, Damwild	^(ɛ.w.i|ɛ.w|ɛ.ɣ)(z)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+705	6618-ozon	ø z ø n	Flut, Schwall, Ewigkeit, schütten, ergießen, fluten	^(y|ɛ|i|ø.ɣ.i|ɛ.ɣ.i|ø)(z|s)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(n)(i)?$
+706	6620-o	oː	alt, älterem, Jahrgang, Obst, haupts, Wein, abgenützt, veraltet, überlebt	^(a.ɣ|u.ɣ|a.ɣ.u|i.ɣ|o.ɣ|uɣ|ɯ.ɣ|u.j|a.w|a|u)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a)?$
+707	6633-ocsu	o t͡ʃ uː	Spreu, Abschaum, Hefe, Gemeinschaft	^(u|o|a)(t͡ʃ|l.t͡ʃ|r.t͡ʃ)(a.ɣ|u.ɣ|u|a.ɣ.u|o.ɣ)(i|y)?$
+708	6640-odu	o d uː	Loch, Höhle, Loch, Baum, Loch, Zahn, Aushöhlung, Gegenstandes, enge, elende, Wohnung, Loch	^(u|o|a)(d|l.d|w.d|n.d)(a.ɣ|u.ɣ|u|a.ɣ.u|o.ɣ)(i)?$
+709	6645-ok	o k	Sorgfalt, Vorsicht, Klugheit, Erklärung, Grund, Vorwand, Gelegenheit, Urkunde, Dokument, Zweck, Bedingung, Ursache, Wohl, Nutzen, Argument, Beweis, jmdm, Schuld, geben, verursachen, verursachen, begründen, motivieren, jmdm, Schuld, geben, Urkunde, Dokument, wegen	^(u|o|a)(k|ɡ)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+710	6650-okos	o k o ʃ	klug, vorsichtig, gelegen	^(u|o|a)(k)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(t͡ʃ|ɣ|ʃ|l.t͡ʃ)(i)?$
+711	6657-ol	oː l	Stall, Rinder, Pferde, Schafe, usw, Stall, Hühner, Gänse, Hunde, usw	^(a.ɣ.u)(l|j)?(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+713	6662-olasz	o l ɒ s	Spr, sprechende, Person, Italiener, italienisch	^(u|o|a)(l|r.l|l.k)(a|ɒ|o|a.ɣ)(s|ʃ|z)$
+714	6725-orom	o r o m	Gipfel, Giebel, Wipfel, etw, länglich, Herausragendes, Rand, hervorragender, Körperteil, höherer, Ort, Gipfel, Giebel, Gipfel, versehen	^(u|o|a)(r|j.r|w.r)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(m)(i)?$
+715	6726-orosz	o r o s	Russe, Zeremonienmeister, Türhüter, russisch	^(u|o|a)(r|j.r)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(s|ʃ|z)$
+718	6736-orv	o r.v	Dieb, Schleicher, Heuchler	^(u|o|a)(ɣ.r.u)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+719	6737-orvos	o r.v o ʃ	Arzt	^(u|o|a)(r.ɣ|r.v|r|r.y.ɣ)(u|o|a)(t͡ʃ|ɣ|ʃ|l.t͡ʃ)$
+775	8004-sator	ʃ aː t o r	Zelt, Laubhütte, Gartenlaube, Deckel, Kuppel, gewisser, Teil, Schädels, Führerstand, Lokomotive	^(ʃ|t͡ʃ|s)(a|aː|a.ɣ.a)(t|l.t)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(r)$
+777	8014-sebes	ʃ ɛ b ɛ ʃ	schnell, rasch, schnell	^(ʃ|t͡ʃ|s)(ɛ|i|y|ø|a)(b)(ɛ|i)(t͡ʃ|ɣ|ʃ|l.t͡ʃ)$
+778	8015-sed	ʃ eː d	Quelle, Bach	^(ʃ|t͡ʃ|s)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(n)(i|y)?$
+779	8019-seg	ʃ eː ɡ	Hügel, Berg	^(ʃ|t͡ʃ|s)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(ɡ|k)(i)?$
+780	8020-seged	ʃ ɛ ɡ eː d	Helfer, Beschützer, Hilfe, Unterstützung, Aushilfe, Hilfsmittel, Sekundant, Geselle, Hilfe	^(ʃ|t͡ʃ|s)(ɛ|i|y)(ɡ)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(n)$
+782	8045-senye	ʃ ɛ ɲ ɛ		^(ʃ|t͡ʃ|s)(ɛ|i|y|ø|a)(n|m)(ɛ|ɛ.ɣ)(i)?$
+783	8047-seped	ʃ ɛ p ɛ d	wehklagen, beklagen	^(ʃ|t͡ʃ|s)(ɛ|i|y|ø|a)(p)(ɛ|i|y|ø|a)(n)(i)?$
+784	8055-sereg	ʃ ɛ r ɛ ɡ	Heer, Armee, Schar, Haufen, Menge, etw, Herde, Spinnstube	^(ʃ|t͡ʃ|s)(ɛ|i|y|ø|a)(r)(ɛ|i|y|ø)(ɡ|k)$
+785	8057-sereny	ʃ ɛ r eː ɲ	flink, geschickt, tüchtig, willfährig, fleißig, strebsam, schnelle, Auffassung, habend, klug, munter, wachsam	^(ʃ|t͡ʃ|s)(ɛ|i)(r)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(n|m)$
+787	8092-sag	ʃ aː ɡ	Hügel, Erhöhung, Hain, Wald	^(ʃ|t͡ʃ|s)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(ɡ|k)(i|y)?$
+788	8103-sajtar	ʃ ɒ j.t aː r	Gefäß, Schöpfen, Aufbewahren, Flüssigkeiten	^(ʃ|t͡ʃ|s)(a|ɒ|o|a.ɣ)?(l.t)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(r)$
+789	8138-sar	ʃ aː r	schlammiger, Fluß, Sumpf, Morast, nasse, aufgeweichte, Erde, Kot, Lehm, Schlacke	^(ʃ|t͡ʃ|s)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(r)(i|y|ɛ|u)?$
+790	8139-sar	ʃ aː r	gelb, blond, Gelbsucht, Galle, Cholera	^(ʃ|t͡ʃ|s)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(r)(i|y|ɛ|u)?$
+791	8152-sarkany	ʃ aː r.k aː ɲ	Art, Schlange, Krokodil, Art, Seefisch, Drache, Fabeltier, Drache, Fluggerät, Spielzeug, feuriges, Pferd	^(ʃ|t͡ʃ|s)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(r.k)(a|aː|a.ɣ.a)(n|m)$
+792	8154-sarlo	ʃ ɒ r.l oː	Sichel, Gebilde	^(ʃ|t͡ʃ|s)(a|ɒ)(r.l|r.o)(a.ɣ|u.ɣ|a.ɣ.u|i.ɣ|o.ɣ|uɣ|ɯ.ɣ|u.j|a.w|a|u)$
+793	8159-sarok	ʃ ɒ r o k	Ecke, Winkel, Eck-, Ferse, Hinterkappe, od, Absatz, Schuhwerk, Scharnier, Pol, Weltgegend, Fundament, magnetischer, od, elektrischer, Pol, Weltgegend, polarisieren, Absatz, bzw, Absätze, reparieren	^(ʃ|t͡ʃ|s)(a)(r|j.r|w.r)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(k|ɡ)$
+794	8160-saru	ʃ ɒ r u	Schuhwerk, Fußbekleidung, Sandale, Auflager, Widerlager	^(ʃ|t͡ʃ|s)(a|ɒ|o|a.ɣ)(r|j.r|w.r)(u.ɣ|u|a.ɣ)$
+795	8162-sas	ʃ ɒ ʃ	Adler, Balken, Kerbe, Splint, Haken, Nagel	^(ʃ|t͡ʃ|s)(a|ɒ|o|a.ɣ)?(t͡ʃ|ɣ|ʃ|l.t͡ʃ)(i)?$
+796	8163-sas	ʃ aː ʃ	Art, Blatt	^(ʃ|t͡ʃ|s)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(t͡ʃ|ɣ|ʃ|l.t͡ʃ)(i)?$
+797	8189-sima	ʃ i m ɒ	tückisch, falsch, gewinnend, einschmeichelnd, glatt, kahl, angenehm, mild, gewöhnlich, od, Stoff, schlüpfrig, eben, einfarbig, einfach, glatt, glatt, Masche, beim, Stricken	^(ʃ|t͡ʃ|s)(i|a|y|ɛ|ɯ)(m)(a|a.ɣ|a.w|ɒ)?(i)?$
+798	8202-sip	ʃ iː p	pfeife, Rohr, Schornstein, Pfeifer, Fistel	^(ʃ|t͡ʃ|s)(i|iː)(p)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+799	8207-sir	ʃ iː r	Grab, Grabhügel	^(ʃ|t͡ʃ|s)(i|iː)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+801	8267-so	ʃ oː	Salz, Würze, Witz, Geist, Ort, Wüste	^(ʃ|t͡ʃ|s)(a.ɣ|u.ɣ|a.ɣ.u|i.ɣ|o.ɣ|uɣ|ɯ.ɣ|u.j|a.w|a|u)(i|y|ɛ)?$
+802	8280-sok	ʃ o k	lang, Zeit, usw, Dorf, Menge, Unzahl, Menge, hochgradig, vermehren, multiplizieren, vervielfältigen, multiplizieren, lange	^(ʃ|t͡ʃ|s)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(k|ɡ)(i|y)?$
+803	8286-solyom	ʃ oː j o m	Falke, Falken, jagen	^(ʃ|t͡ʃ|s)(a|u|uː|a.u|i|a.w|i.ɣ|a.w.u|aː)(l|j|j.a|ɣ)(u)(m)$
+804	8287-som	ʃ o m	schlagen, abschälen, abschälen, abschälen, abschälen	^(ʃ|t͡ʃ|s)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(m)(i|y|ɛ|u)?$
+805	8288-som	ʃ o m	Kornelkirsche	^(ʃ|t͡ʃ|s)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(m)(i|y|ɛ|u)?$
+806	8317-soreg	ʃ øː r ɛ ɡ	Stör	^(ʃ|t͡ʃ|s)(ɛ|ø|ɛ.w|ɛ.y|y|ɛ.ɣ.y|øː)(r)(ɛ|i|y)(ɡ|k)$
+807	8321-sotet	ʃ ø t eː t	finster, verblendet, wirr, böse, böswillig, bleibend, dunkel, ungeklärt, dunkel, betrübt, zornig, finster, unaufgeklärt, Zeit, Dunkelheit, Finsternis, Tageszeit, Ort, Verborgenheit, Verlies, Dunkles, dunkler, Teil, etw, Bösewicht, dunkel, Bösewicht	^(ʃ|t͡ʃ|s)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(t|l.t)(ɛ|i|eː)(t)$
+808	8322-soveny	ʃ ø v eː ɲ	Flechtwerk, Zaun, Wand, Umfassung, Rand, lebende, Hecke, Hecke	^(ʃ|t͡ʃ|s)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(v|w)(ɛ|i|eː)(n)$
+809	8429-sukoro	ʃ u k o r oː	Tal, gewunden	^(ʃ|t͡ʃ|s)(u|ɯ|u.w.a|u.ɣ)(k)(u)(r)(a.ɣ|u.ɣ|a.ɣ.u|i.ɣ|o.ɣ|uɣ|ɯ.ɣ|u.j|a.w|a|u)$
+810	8433-sulyok	ʃ u j o k	Schlegel	^(ʃ|t͡ʃ|s)(u|ɯ|u.w.a|u.ɣ)(l|j|j.a|ɣ)(u|o|a)(k)$
+811	8434-sulyom	ʃ u j o m	Hobelspäne, Backwerk, mildes	^(ʃ|t͡ʃ|s)(u|ɯ|u.w.a|u.ɣ)(l|j|j.a|ɣ)(u|o|a)(m)$
+812	8460-suger	ʃ y ɡ eː r	Barsch, Art, Kriegsgerät	^(ʃ|t͡ʃ|s)(y|i|ɛ)(ɡ)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(r)$
+813	8461-suket	ʃ y k ɛ t	taub, schwerhörig, geräuschlos, bar, wichtigen, Eigenschaft, charakterisiert, Fehlen, etw, Glockengeläut, Karwoche, dumpf, Schall, schlechter, Akustik, Raum, eitel, Gerede, dumm, ungeschickt, tauber, Mensch	^(ʃ|t͡ʃ|s)(y|i|ɛ)(k)(ɛ|i|y|ø|a)(t)(i|y)?$
+814	8463-sullo	ʃ y lː øː	Zander	^(ʃ|t͡ʃ|s)(y|i|ɛ)(l|lː|ɣ.l)(ɛ.ɣ|i.ɣ|yː)(i)?$
+815	8464-suly	ʃ y j	Benennung, versch, Krankheiten, Schimpfwort	^(ʃ|t͡ʃ|s)(y|i|ɛ)(l|j|ɣ.y.l)(i|y|ɛ)?$
+816	8466-sun	ʃ y n	Igel, stachelige, Frucht	^(ʃ|t͡ʃ|s)(y|i|ɛ)(n)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ)?$
+817	8469-surog	ʃ y r ø ɡ	geschäftig, tun, jmdn, eilen, drehen, tanzen, schwärmen, wimmeln, drängen, brausen, Leben, Tätigkeit, geschäftig, tun, jmdn, geschäftig, tun	^(ʃ|t͡ʃ|s)(y|i|ɛ)(r)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)(ɡ|k)$
+818	8476-suv	ʃ y v	Onkel, Vetter, Schwager, Schwägerin	^(ʃ|t͡ʃ|s)(y|i|ɛ)(ɣ)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ)?$
+819	8478-suvolt	ʃ y v ø l.t	schrillen, heulen, kreischen, Person, heulen, brausen, Wind, pfeifen, zischen, Schlange, jmdn, sausen, Ohr, schrillen, Musikinstrument, schreien, Vogel, keuchen, röcheln, Person, Pfeife, Blockflöte, Gimpel, Vogel	^(ʃ|t͡ʃ|s)(y|i|ɛ)(v|w)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)(l.t)$
+821	8499-szad	s aː d	Mündung, Eingang, Passes, Tals, usw, Mundloch, Mündung, Höhle, usw, Web-, Spundwand, Pfropf, Spund, Türchen	^(s|sʲ)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(n)(i|y|ɛ|u|i.ɣ|a.t|ɛk)?$
+822	8511-szak	s aː k	Art, Fischernetz	^(s|sʲ)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(k|ɡ)(i|y|ɛ)?$
+823	8512-szakacs	s ɒ k aː t͡ʃ	Koch, Schürze, Schürze	^(s|sʲ)(a|ɒ|o|a.ɣ)(k)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(t͡ʃ|l.t͡ʃ)$
+824	8513-szakad	s ɒ k ɒ d	fallen, stürzen, zerreißen, entzweien, Gemeinschaft, zerbrechen, absondern, trennen, teilen, Fluß, gießt, regnet, Strömen, entstammen, aufhören, enden, münden, Fluß, jmdm, zufallen, geraten, verschlagen, Bergsturz, Riß, Abgrund, Abtrünniger, Separatist, voller, Kehle	^(s|sʲ)(a|ɒ|o|a.ɣ)?(k)(a|ɒ|o|a.ɣ)?(n)(i)?$
+825	8516-szakall	s ɒ k aː lː	Bart, Benennung, versch, Pflanzen, Wamme, Stiel, od, Heft, Wildling, Wurzel, Schweif, Kometen, Moos, Bart, Pflanzen, Art, Kanone	^(s|sʲ)(a|ɒ|o|a.ɣ)?(k)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(l)(i)?$
+826	8524-szal	s aː l	Einzelstück, Behaarung, Gefieders, Stengel, Einzelnes, langer, Gegenstand, Felsen, Holzstamm, wenig, gering, Faden, Num, Anzahl, Personen, länglichen, Dingen, hochgewachsen, stämmig, Längenmaß, sechs, Fuß, Strang, Faden, komplizierten, Geschehens, Organisation, Spaltung, Faser-, od, Holz	^(s|sʲ)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(l|j)?(i|y)?$
+827	8525-szal	s aː l	Floß	^(s|sʲ)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(l|j)?(i|y)?$
+829	8536-szalka	s aː l.k ɒ	Splitter, winzige, pflanzliche, Abfälle, jmdm, Dorn, Auge, Granne, Gräte, Faser, Hülsenfrucht, schmal, Zünder	^(s|sʲ)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(l.k)(a|a.ɣ|a.w|ɒ)?(i)?$
+830	8538-szallas	s aː lː aː ʃ	Unterkunft, zeitweiliger, Wohnsitz, Behausung, Aufenthalt, Zeltlager, Feldlager, Herberge, Viehs, Hütte, Fremde, weiden, gekommenen, Hirten, Gruppe, Feldmark, befindlichen, zeitweilig, gebrauchten, Wirtschaftsgebäude, eingezäunter, Platz, Schweinestall, Siedlung, fern, Mutterland, Kolonie, Höhle, wild, lebender, Tiere, zeitweilig, irgendwo, wohnen, beherbergen	^(s|sʲ)(a|aː|a.ɣ.a|a.ɣ.i|i)(l|lː|ɣ.l)(a)(t͡ʃ|ɣ|ʃ|l.t͡ʃ)$
+831	8542-szalma	s ɒ l.m ɒ	Stroh, leerer, Teil, Sache	^(s|sʲ)(a|ɒ|o|a.ɣ)?(l.m)(a|a.ɣ|a.w|ɒ)?(i)?$
+832	8552-szam	s aː m	Reihe, Menge, Anzahl, bestimmter, Individuen, Anzahl, Zahl, Quantität, Ziffer, Nummer, Arbeit, werk, Numerus, Exemplar, Zeitung, Zeitschrift, usw, Arithmetik, Mathematik, Nummer, innerhalb, zwei, Holz, zahlreich, Zähler, Math	^(s|sʲ)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(m)(i|y|ɛ|u|i.ɣ|a.t|ɛk)?$
+833	8553-szamar	s ɒ m aː r	Esel, dummer, Mensch, dumm	^(s|sʲ)(a|ɒ|o|a.ɣ)?(m)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(r)(i)?$
+835	8576-szapu	s ɒ p u	Metze, Korb, Kästchen, kleines	^(s|sʲ)(a|ɒ|o|a.ɣ)?(p)(u.ɣ|u|a.ɣ)(i|y|ɛ)?$
+836	8577-szar	s ɒ r	Scheiße, Schlacke	^(s|sʲ)(a|ɒ|o|a.ɣ)?(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a)?$
+837	8578-szar	s aː r	rotbraun, haarlos, kahl	^(s|sʲ)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk)?$
+838	8587-szarka	s ɒ r.k ɒ	Elster, bunt, haupts, Pferd, Schwätzer, diebische, Elster, Zisterzienser	^(s|sʲ)(a|ɒ|o|a.ɣ)?(r.k)(a|a.ɣ|a.w|ɒ)?(i)?$
+841	8610-szavat	s ɒ v ɒ t	Ablenkung, Anklage, od, Verdachtes, Beschuldigung, Verleumdung, Zuträger	^(s|sʲ)(a|ɒ|o|a.ɣ)?(v|w)(a|ɒ|o|a.ɣ)?(t)$
+842	8612-szaz	s aː z	hundert, Personen, bzw, Häusern, bestehende, Gruppe, Jahrhundert, hundert, Hauptmann, Hunderter, Hundert, Hundertstel, Kompanie, Milit, Jahrhundert, Hauptmann, Hunderter, arbeitsunfähig, erklären	^(s|sʲ)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(z)(i|y|ɛ|u|i.ɣ|a.t|ɛk)?$
+843	8617-szed	s ɛ d	erheben, einnehmen, zB, Steuern, lesen, pflücken, sammeln, gewinnen, erwerben, zerpflücken, einzeln, ordnen, zusammennehmen, beeilen, betrügen, Schriften, setzen, Buchdruck, schlagen, nehmen, Speise, nehmen, Arznei, aufrappeln, Lesen, Sammeln	^(s|sʲ)(ɛ|i|y|ø|a)(n)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a)?$
+844	8618-szeder	s ɛ d ɛ r	Brombeere, Maulbeere, bewachsen, bläulich, violett, zB, Lippen	^(s|sʲ)(ɛ|i|y|ø|a)(d|l.d|w.d|n.d)(ɛ|i|y)(r)$
+845	8622-szeg	s ɛ ɡ	brechen, schneiden, spalten, zunichte, verderben, Lust, usw, brechen, verletzen, Gesetz, Eid, usw, biegen, Richtung, verändern, wenden, abweichen, jmdm, anschließen, einfassen, Stoff, gebrochen, brechen, zerbrechen, beschädigen, stellen, richten, widersetzen	^(s|sʲ)(ɛ|i|y|ø|a)(ɡ|k)(i|y|ɛ|u)?$
+846	8623-szeg	s ɛ ɡ	Ecke, Winkel, Vorsprung, Dorfteil, Insel, Winkel, eckig, Eckball	^(s|sʲ)(ɛ|i|y|ø|a)(ɡ|k)(i|y|ɛ|u)?$
+847	8624-szeg	s ɛ ɡ	Nagel, Stift, Niet	^(s|sʲ)(ɛ|i|y|ø|a)(ɡ|k)(i|y|ɛ|u)?$
+848	8625-szegeny	s ɛ ɡ eː ɲ	bedauernswert, bemitleidenswert, arm, mittellos, unvollkommen, mangelhaft, gering, schlecht, unbeholfen, ungeschickt, Arme, Bettler, bedauernswerte, Person, Arme	^(s|sʲ)(ɛ|i|y)(ɡ)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(n|m)$
+849	8630-szegye	s eː ɟ ɛ	Art	^(s|sʲ)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(l.d|d)(ɛ|ɛ.ɣ)(i)?$
+850	8631-szegyen	s eː ɟ ɛ n	Schmach, Scham, Schüchternheit, Schamhaftigkeit, Schandtat, beschämen, Scham, schämen, schämen	^(s|sʲ)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(l.d|d)(ɛ|i|y)(n)$
+851	8633-szek	s eː k	Residenz, Wohnort, Wohnsitz, Kanzel, Predigtstuhl, Stuhl, Sessel, Gestühl, Thron, Stuhl, Amt, Bezirk, Siebenbürgen, Richterstuhl, Gericht, Schlachtbank, Metzgerei, Gestell, Anrichte, Abort, Sänfte, Liegestuhl, Stuhlgang, Kreuzung, Darm, entleeren, residieren	^(s|sʲ)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(k|ɡ)(i|y)?$
+852	8638-szekely	s eː k ɛ j	Szekler	^(s|sʲ)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(k)(ɛ|i)(l|j|ɣ.y.l)$
+853	8640-szeker	s ɛ k eː r	Wagen, Fuhrwerk	^(s|sʲ)(ɛ|i|y|ø|a)(k)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(r)$
+854	8649-szel	s ɛ l	schneiden, abschneiden, pflügen, durchqueren, kreuzen, übers, Ohr, hauen, ohrfeigen, Schnitte, Ackerbaus, Profil, schnitt, Kupon, Abschnitt, Segment	^(s|sʲ)(ɛ|i|y|ø|a)(l|j)?(i|y|ɛ)?$
+855	8650-szel	s eː l	Grenze, Grenzgebiet, Paspel, Rand, Saum, Kante, Breite, Weite, Ufer, Stoffbreite, Maß, Bahn, zerstreuen	^(s|sʲ)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(l|j)?(i)?$
+856	8651-szel	s eː l	Wind, Atem, Luft, Gerücht, Schlaganfall, Geist, geistig, inspiriert, Geiste, lüften, entfliehen, flüchtig	^(s|sʲ)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(l|j)?(i)?$
+857	8653-szelemen	s ɛ l ɛ m ɛ n	Bergrücken	^(s|sʲ)(ɛ|i|y|ø|a)(l|r.l|l.k)(ɛ|i|y|ø)(m)(ɛ)(n)$
+858	8657-szeles	s eː l ɛ ʃ	ausgedehnt, breit	^(s)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(l|r.l|l.k)(ɛ)(t͡ʃ|ɣ|ʃ|l.t͡ʃ)$
+859	8663-szem	s ɛ m	Auge, Korn, Ansicht, Beurteilung, Glied, Beere, Blick, Rücksicht, Körnchen, Maß, Masche, Verzierung, Punkt, Spielkarten, Würfeln, usw, Körner, hervorbringen, unverschämt, frech, besehen, besichtigen, auslesen, sortieren, Körner, hervorbringen, jmdm, kokettieren, Auswahl	^(s|sʲ)(ɛ|i|y|ø|a)(m)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a)?$
+860	8667-szemely	s ɛ m eː j	Äußeres, Gestalt, Figur, Bild, Vertreter, Mensch, Person, Gesicht, Aussehen, Blick, Hure, Schauspieler, Würde, Person, Grammatik, Rolle, Personenzug	^(s|sʲ)(ɛ|i)(m)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(l|j|ɣ.y.l)$
+861	8675-szemet	s ɛ m eː t	Kehricht, Müll, Misthaufen, Müllhaufen, Mistkerl, Schurke, schmutzig, Müll, Person	^(s|sʲ)(ɛ|i|y|ø|a)(m)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(t)$
+862	8689-szen	s eː n	Holzkohle, Glut, Steinkohle, Kohlenstoff, Arznei	^(s|sʲ)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(n)(i|y|ɛ|u)?$
+863	8690-szena	s eː n ɒ	Heu	^(s|sʲ)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(n)(a|a.ɣ|a.w|ɒ)?$
+866	8708-szep	s eː p	schön, richtig, schicklich, schön, beträchtlich, bedeutend, groß, günstig, nützlich, Schönste, Beste, Schöne, Schönheit	^(s|sʲ)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(p)(i|y|ɛ|u)?$
+867	8710-szepe	s ɛ p ɛ	Haar, habend, Pferd, blond, fahl, rothaarig, Pferd, Mensch	^(s|sʲ)(ɛ|i|y|ø|a)(p)(ɛ|ɛ.ɣ)(i|y|ɛ|u)?$
+868	8717-szer	s ɛ r	Bodenfläche, Ortsteil, Dorfteil, Häuserreihe	^(s|sʲ)(ɛ|i|y|ø|a)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a)?$
+869	8721-szerda	s ɛ r.d ɒ	Mittwoch, Ranzen, Wochenmarkt, Mittwoch, Person, Ranzen	^(s|sʲ)(ɛ|i|y|ø|a)(r.d)(a|a.ɣ|a.w|ɒ)?(i)?$
+870	8724-szerecsen	s ɛ r ɛ t͡ʃ ɛ n	Araber, Neger, arabisch	^(s|sʲ)(ɛ|i|y|ø|a)(r)(ɛ|i|y|ø)(t͡ʃ|l.t͡ʃ|r.t͡ʃ)(ɛ)(n)$
+871	8726-szerelem	s ɛ r ɛ l ɛ m	Liebe, Vorliebe, Eifer, Geliebte, Liebe, sexuell, Liebesverhältnis, geliebte, Sache, Liebstes, geliebt, liebenswürdig, verliebt, Geliebte, geliebt, gerne, Vergnügen	^(s|sʲ)(ɛ|i|y|ø|a)(r)(ɛ|i|y|ø)(l|r.l|l.k)(ɛ)(m)$
+872	8742-szeru	s eː r yː	Tenne, ringförmiger, Platz, Gegenstand, Unterteil, Grund, Boden	^(s|sʲ)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(r)(i.ɣ|y.ɣ|ɛ.ɣ|ɛ.ɣ.y|y)$
+874	8764-szik	s i k	Sumpf, Morast, Boden	^(s|sʲ)(i|a|y|ɛ|ɯ)(k|ɡ)(i|y|ɛ|u)?$
+875	8772-szil	s i l	Ulme	^(s|sʲ)(i|a|y|ɛ|ɯ)(l|j)?(i|y|ɛ)?$
+877	8778-szilva	s i l.v ɒ	Pflaumenbaum, Pflaume	^(s|sʲ)(i|a|y|ɛ|ɯ)(l.v)(a|a.ɣ|a.w|ɒ)?(i)?$
+878	8791-szin	s iː n	Laubhütte, Scheune, Hausflur, Dachboden	^(s|sʲ)(i|iː)(n)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+879	8792-szin	s iː n	schöne, Gestalt, Schönheit, Anmut, Angesicht, unmittelbare, Gegenwart, Farbe, Empfindung, Oberfläche, Beste, Erscheinungsform, Äußere, Bild, Bildnis, Schein, Vorwand, Farbe, Farbstoff, Art, Weise, Vorderseite, haupts, rechte, Seite, Stoffen, farbig, Rand	^(s|sʲ)(i|iː)(n)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+880	8808-szirony	s i r o ɲ	Bast, schmaler, Lederstreifen, Verzierung, Pergament	^(s|sʲ)(i|a|y|ɛ|ɯ)(r)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(n|m)$
+881	8833-szo	s oː	Stimme, Ton, Ruf, Wort, Rede, jm, Worte, Äußerung, Bitte, usw, Gespräch, Unterredung, Wortwechsel, Gerede, Wortgebrauch, Aussprache, Sprechen, Redewendung, Reden, Wort, Ton, Klang, Lärm, Rede, Wort, Proklamation, Stimme, hören, lassen, lauten, Reden, Sprechen, sprachlos, Wortwechsel, geraten	^(s|sʲ)(a.ɣ|u.ɣ|a.ɣ.u|i.ɣ|o.ɣ|uɣ|ɯ.ɣ|u.j|a.w|a|u)(i|y|ɛ|u)?$
+882	8834-szoba	s o b ɒ	Ofen, heizbare, Wohnstube, Zimmer, Badezimmer, Dachboden	^(s|sʲ)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(b)(a|a.ɣ|a.w|ɒ)?(i)?$
+884	8850-szombat	s o m.b ɒ t	Sonnabend, Tag, Tag, großen, kirchlichen, Feiertag, acht, bzw, Acht, Kartenspiel	^(s|sʲ)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(m.p)(a|ɒ|o|a.ɣ)?(t)(i)?$
+885	8853-szomoru	s o m o r uː	traurig, trüb, betrübt, betrüblich, schmerzlich, bewölkt, trüb, Traurigkeit, traurig	^(s)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(m)(u|o|a)(r)(a.ɣ|u.ɣ|u|a.ɣ.u|o.ɣ)$
+886	8861-szopik	s o p i k	saugen, lutschen, küssen, Schluck, trinken, alkoholisches, Getränk, betrinken, wert, Kartenspiel, Unannehmlichkeiten, bekommen, zB, schlechte, Note, lächerliches, Tor, Fußballspiel, usw, saugend	^(s|sʲ)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(p)(i|a|y|ɛ|ɯ)(k|ɡ)$
+887	8871-szoros	s o r o ʃ	eng, schmal, streng, genau, drückend, materielle, Lage, bedrängt, Seelenzustand, dicht, knapp, passend, eng, vertraut, Beziehung, Hand, eilig, geringen, Unterschied, zeigend, Wettbewerb, Resultat, Engpaß, Meerenge, Verengung, Einschnürung	^(s)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(r)(u|o|a)?(t͡ʃ|ɣ|ʃ|l.t͡ʃ)$
+888	8880-szo	s øː	weben, Zusammensetzung, herstellen, ersinnen, Gedanken, fassen, werfen, spinnen, Insekt, Gestrüpp, Gespinst, Weber, Halsausschnitt, buschig, verwickelt, Kurve, Gewebe, Leinwand	^(s|sʲ)(ɛ.ɣ|i.ɣ|yː)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+889	8881-szo	s øː	blond, fahl, Pferd, Ochse, usw	^(s|sʲ)(ɛ.ɣ|i.ɣ|yː)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+890	8883-szog	s ø ɡ	braun	^(s|sʲ)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(ɡ|k)(i|y|ɛ)?$
+891	8884-szokik	s ø k i k	springen, hüpfen, tanzen, fliehen, flüchten, unbemerkt, hin-, bzw, ausbrechen, ausfallen, Bart, Halme, Ähren, usw, schießen, schießen, Blut, springen	^(s|sʲ)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(k)(i|a|y|ɛ|ɯ)(k|ɡ)$
+892	8887-szolo	s øː l øː	Weinrebe, Weintraube, Weinberg, Weingarten, Frucht, versch, Pflanzen, Johannisbeere	^(s|sʲ)(ɛ|ø|ɛ.w|ɛ.y|y|ɛ.ɣ.y|øː)(l|r.l|l.k)(ɛ.ɣ|i.ɣ|yː)$
+894	8924-szurdok	s u r.d o k	Klamm, Engpaß, Ecke, Straßenecke, Enge, Winkel, Heimlichkeit, heimlich, begangene, Tat, Hütte, kleine, Räumlichkeit	^(s|sʲ)(u|ɯ|u.w.a|u.ɣ)(r.d)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(k|ɡ)$
+895	8926-szurok	s u r o k	Harz, Pech, Schmutz, Ruß, schmutzig	^(s|sʲ)(u|ɯ|u.w.a|u.ɣ)(r)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(k|ɡ)$
+896	8938-szucs	s yː t͡ʃ	Kürschner	^(s|sʲ)(y|yː|y.ɣ.y|ɛ.w.y|i.ɣ.i|ɛ.ɣ.i|y.ɣ|i|i.ɣ|ø)(t͡ʃ|l.t͡ʃ)(i|y)?$
+897	8939-szugy	s y ɟ	Brust, Tieres, bes, Pferd, menschliche, Brust, Brust, Tieres, bes, Rind, Schaf, Bruststück	^(s|sʲ)(y|i|ɛ)(ɟ)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+898	8943-szul	s y l	gebären, zeugen, hervorrufen, verursachen, Nachkomme, Kind, Geburt, Geburt, Kind	^(s|sʲ)(y|i|ɛ)(l|j)?(i|y|ɛ|u|i.ɣ)?$
+899	8968-tagad	t ɒ ɡ ɒ d	ab-, verleugnen, verneinen, leugnen, verstoßen, enterben	^(t)(a|ɒ|o|a.ɣ)?(ɡ)(a|ɒ|o|a.ɣ)?(n)(i|y|ɛ)?$
+900	8979-takar	t ɒ k ɒ r	einbringen, ernten, zusammentragen, anhäufen, hüllen, decken, verpflegen, beisetzen, begraben, verschwenden, Decke, Sammlung, Einbringung	^(t)(a|ɒ|o|a.ɣ)?(k)(a|ɒ|o|a.ɣ)?(r)(i|y|ɛ)?$
+901	8989-tal	t aː l	Schüssel, Gericht, Gang, Truchseß, Geschirrschrank	^(t)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(l|j)?(i|y|ɛ|u)?$
+903	9008-taltos	t aː l.t o ʃ	Schamane, Zauberer, Zauber-, Roß, fahrender, Student, Unwetter, hervorrufen	^(t)(a|aː|a.ɣ.a|a.ɣ.i)(l.t)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(t͡ʃ|ɣ|ʃ|l.t͡ʃ)$
+904	9017-tanacs	t ɒ n aː t͡ʃ	Ratschlag, Mahnung, Entschluß, Beratung, Rat, Senat, Mitglied, Rats, Kenntnis, Weisheit, Rede, Dorf-, Stadtrat, Sowjet, Mitglied, Rats, ratsam, Ratschlag, geben, mahnen, unterrichten, beraten	^(t)(a|ɒ|o|a.ɣ)?(n)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(t͡ʃ|l.t͡ʃ)(i)?$
+905	9030-tanya	t ɒ ɲ ɒ	Fischfang, Ort, Fischen, tiefe, Stelle, Wasser, Wirbel, Stätte, etw, Aufenthalt, Teich, Pfütze, Gehöft, Gesellschaft, Behausung, Fischerhütte, Kelterhaus	^(t)(a|ɒ|o|a.ɣ)?(n|m)(a|a.ɣ|a.w|ɒ)?(i)?$
+906	9032-tapasz	t ɒ p ɒ s	Lehm, klebriger, Stoff, Klebstoff, Pflaster, Heilmittel	^(t)(a|ɒ|o|a.ɣ)?(p)(a|ɒ|o|a.ɣ)?(s|ʃ|z)(i)?$
+907	9040-taplo	t ɒ p.l oː	Schwamm	^(t)(a|ɒ|o|a.ɣ)?(p.l)(a.ɣ|u.ɣ|a.ɣ.u|i.ɣ|o.ɣ|uɣ|ɯ.ɣ|u.j|a.w|a|u)(i)?$
+908	9045-tar	t ɒ r	kahl, verstümmelt	^(t)(a|ɒ|o|a.ɣ)?(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+909	9064-tarka	t ɒ r.k ɒ	bunt, scheckig, mannigfaltig, Zisterzienser, heuchlerisch, doppelzüngig	^(t)(a|ɒ|o|a.ɣ)?(r.k)(a|a.ɣ|a.w|ɒ)?(i|y|ɛ)?$
+910	9068-tarlo	t ɒ r.l oː	Stoppel, Stoppelfeld, Ähre, Saat, Getreidefeld, Strohhalm, Stroh, Borste, auslesen	^(t)(a|ɒ|o|a.ɣ)?(r.l|r.o)(a.ɣ|u.ɣ|a.ɣ.u|i.ɣ|o.ɣ|uɣ|ɯ.ɣ|u.j|a.w|a|u)$
+912	9074-tars	t aː r.ʃ	Gefährte, Genosse, Kamerad, Ehemann, Ehefrau, Ebenbild, Gegenstück, assoziieren, Gespräch, führen, Gruppe, Gesellschaft, soziologisch	^(t)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(r.t͡ʃ)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+913	9076-tart	t ɒ r.t	verrichten, fassen, halten, stützen, befestigen, behalten, aufbewahren, Erinnerung, behalten, usw, anhalten, hindern, etw, halten, od, etw, richten, jmdm, Zustand, sichern, etw, irgendwo, lagern, aufbewahren, Lagerung, dienen, etw, halten, einschätzen, behaupten, vollführen, veranstalten, hin-, her-, vorhalten, wenden, zeigen, usw, unterhalten, versorgen, jmdm, halten, etw, gehören, widersetzen, od, Richtung, etw, gehen, fahren, usw, od, etw, gelangt, Dienst, halten, benützen, halten, züchten, enthalten, Sache, enthalten, etw, erstrecken, etw, dauern, dauern, fürchten, Ehren, halten, bleiben, anhalten, bewirten, beanspruchen, verbinden, verpflichten, Schwur, Wette, Auge, behalten, aushalten, erleiden, Träger, Halterung, Beobachtung, Pflicht, Behinderung, Ersatz, Reserve	^(t)(a|ɒ|o|a.ɣ)?(r.t|r.a.t)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a)?$
+914	9084-taska	t aː ʃ.k ɒ	Ranzen, Tasche, oft, Beutel, Art, gefüllte, Mehlspeise, Schote, Hülse, Anschwellung, Haut, flache, Vorwölbung, Wandputz	^(t)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(t͡ʃ.k)(a|a.ɣ|a.w|ɒ)?(i|y)?$
+915	9089-tata	t ɒ t ɒ	Taufpate, Vater, Großvater, Mentor, alter, Mann	^(t)(a|ɒ|o|a.ɣ)?(t|l.t)(a|a.ɣ|a.w|ɒ)?(i)?$
+916	9090-tatar	t ɒ t aː r	Tatar, gottlos	^(t)(a|ɒ|o|a.ɣ)?(t|l.t)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(r)(i)?$
+917	9125-teker	t ɛ k ɛ r	winden, wickeln, drehen, rollen, reizen, Winde, Spill, krumm, Krümmung, krumm	^(t)(ɛ|i|y|ø|a)(k)(ɛ|i|y|ø|a)(r)(i|y|ɛ)?$
+918	9135-telek	t ɛ l ɛ k	Grund, Boden, Gelände, Dorfes, Grundbesitz, Baugrund, bebauter, Boden, Weide, Boden, unbebauter, Boden, Gesträuch, Dünger, Mist	^(t)(ɛ|i|y|ø|a)(l|r.l|l.k)(ɛ|i|y|ø|a)(k|ɡ)$
+919	9157-tenger	t ɛ n.ɡ ɛ r	Meer, See, ungeheuer, unzählig, Unmenge, Meer-	^(t)(ɛ|i|y|ø|a)(n.ɡ|n.k|ŋ)(ɛ|i|y|ø|a)(r)(i)?$
+920	9203-tertetik	t eː r.t ɛ t i k	hervorbrechen, od, außerhalb, etw, befinden	^(t)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(r.t|r.i.t)(ɛ)(t|l.t)(i|a|y)(k)$
+921	9212-tesz	t ɛ s	handeln, durchführen, legen, irgendeine, Lage, versetzen, bewirken, verursachen, schaffen, verzichten, aufgeben, hinzufügen, etw, halten, voraussetzen, betragen, ausmachen, bedeuten, symbolisieren, verstellen, beschließen, bestimmen, Aufgabe, Ziel, usw, gute, Leistung, erzielen, deutlich, Tat, <in, attr, Funktion, Einsatz, Fähigkeit, Vermögen, Tun, Handlung, satz, Handlung, Ausführung, Schöpfer, Ofentür, Tat, Ausführung, wirksam, kräftig, wohlhabend, etw, ausführend, Adv, untätig, Adv, untätig, stark, mächtig, begabt, etw, tun, könnend, tätig, her, legen, Täter	^(t)(ɛ|i|y|ø|a)(s|ʃ|z)(i|y|ɛ|u|i.ɣ|a.t)?$
+922	9216-tetem	t ɛ t ɛ m	Knochen, Lebewesens, Gebeine, Leiche, Knochen, Material, Glied, Körperteil, Körper	^(t)(ɛ|i|y|ø|a)(t|l.t)(ɛ|i|y|ø|a)(m)(i)?$
+923	9222-teto	t ɛ t øː	oberer, Teil, etw, Gipfel, Wipfel, Dach, usw, Kopf, Scheitel, Gipfelpunkt, Oberfläche, irgendeiner, Flüssigkeit, Ende, Zipfel, Deckel, gehäuft, häufen, Höhepunkt, erreichen	^(t)(ɛ|i|y|ø|a)(t|l.t)(ɛ.ɣ|i.ɣ|yː)(i|y|ɛ)?$
+924	9242-timar	t iː m aː r	Handwerker, Lederwaren, Schuster, Riemer, usw, Gerber	^(t)(i|iː)(m)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk)?$
+925	9247-tino	t i n oː	Kalbe	^(t)(i|a|y|ɛ|ɯ)(n)(a.ɣ|u.ɣ|a.ɣ.u|i.ɣ|o.ɣ|uɣ|ɯ.ɣ|u.j|a.w|a|u)(i)?$
+926	9249-tinta	t i n.t ɒ	Tinte, Ausscheidung, Kopffüßer, Farbstoff	^(t)(i|a|y|ɛ|ɯ)(n.t)(a|a.ɣ|a.w|ɒ)?(i|y|ɛ)?$
+927	9271-tiz	t iː z	zehn, milit, Einheit, zehn, Mann, zehn, Einheiten, bestehend, Zehner, Geld, zehnte, Zehent, Abgabe, Zehntel, milit, Einheit, zehn, Mann, Stadtteil, Korporal, Zehntel, bestehend, Zehnerpotenzen, teilbar	^(t)(i|iː)(z)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+928	9272-to	t oː	See, Teich, Teich	^(t)(a.ɣ|u.ɣ|a.ɣ.u|i.ɣ|o.ɣ|uɣ|ɯ.ɣ|u.j|a.w|a|u)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a)?$
+929	9284-tok	t o k	Stör	^(t)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(k|ɡ)(i|y|ɛ|u|i.ɣ|a.t)?$
+930	9285-tok	t o k	Futteral, Kapsel, Pferdegeschirr, Fenster-, Türstock, Pferd, deutscher, Soldat, Futteral, Haarknoten, Behälter, Wetzstein, Spannfutter, Maschinen	^(t)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(k|ɡ)(i|y|ɛ|u|i.ɣ|a.t)?$
+931	9286-toka	t o k ɒ	Doppelkinn, nackter, Hautlappen, Schnabel	^(t)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(k)(a|a.ɣ|a.w|ɒ)?(i|y)?$
+932	9296-tolmacs	t o l.m aː t͡ʃ	Dolmetscher, Verkündiger, Vermittler, Nachricht, Bitte, usw, dolmetschen	^(t)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(l.m)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(t͡ʃ|l.t͡ʃ)$
+933	9297-tolvaj	t o l.v ɒ j	Dieb, diebisch, schädlich	^(t)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(l.v)(a|ɒ|o|a.ɣ)?(l|j|ɣ.y.l)$
+936	9314-top	t o p	Keule, Tieres, Tritt, Fußstapfen, Fuß, untere, Teil, Fußes	^(t)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(p)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk)?$
+937	9316-topaz	t o p aː z	Topas	^(t)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(p)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(z)(i)?$
+938	9318-topolya	t o p o j ɒ	Art, Pappel, haupts	^(t)(u|o|a)(p)(u|o)(l|j|j.a|ɣ)(a|a.ɣ|a.w|ɒ)?$
+939	9323-tor	t o r	Mahl, Leichenschmaus, Schlachtfest	^(t)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk)?$
+941	9334-torok	t o r o k	Mündung, Kehle, etw, Kehle, Hals, Fell, Halse, jmdn, schweigen, heißen, steckenbleiben, münden	^(t)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(r)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(k|ɡ)$
+943	9352-tot	t oː t	Slowake, slawisch, slowakisch	^(t)(a|u|uː|a.u|i|a.w|i.ɣ|a.w.u|aː)(t)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ)?$
+944	9361-to	t øː	Einfluß, nächste, Umgebung, Ortes, Wurzel, Stamm, Stock, Weinstock, Ansatz, Wurzel, Haarwurzel, Bestandteil, Wortstamm, Haus	^(t)(ɛ.ɣ|i.ɣ|yː)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+945	9364-tok	t ø k	Kürbis, Hodensack, Hoden, Blase, Lederbeutel, Dummkopf, Schellen, Farbe, ungarischen, deutschen, Kartenspiel, Kürbis, betreffend, od, Hodensack, betreffend, haupts, habend, Kürbis, betreffend, Hodensack, betreffend, haupts, habend	^(t)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(k|ɡ)(i|y|ɛ|u|i.ɣ|a.t|ɛk)?$
+947	9374-tom	t ø m	stopfen, zerstampfen, begraben, jmdm, etw, stopfen, Ente, Gans, jmdn, Geld, vollstopfen, stopfen, steckenbleiben, festsitzen	^(t)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(m)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+948	9378-tomeny	t ø m eː ɲ	zehntausend, Heer, Art, Zehntausender, Geld, hochprozentiges, alkoholisches, Getränk, zahlreich, überfüllt, konzentriert, unvermischt, hundertprozentig, unverfälscht	^(t)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(m)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(n|m)$
+950	9394-tor	t øː r	Dolch, Symbol, Leides, Ahle, Florett, Mörder	^(t)(ɛ|ø|ɛ.w|ɛ.y|y|ɛ.ɣ.y|øː)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+951	9395-tor	t øː r	Schlinge, Falle	^(t)(ɛ|ø|ɛ.w|ɛ.y|y|ɛ.ɣ.y|øː)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+952	9403-torok	t ø r ø k	sprechender, Mensch, Angehöriger, Volksgruppe, Völker, betreffend	^(t)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(r|j.r)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(k|ɡ)$
+953	9406-torpe	t ø r.p ɛ	Person, kleiner, Gestalt, Zwerg, Gnom, geistig, unbedeutender, Mensch, geistig, unbedeutend	^(t)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(r.p)(ɛ|ɛ.ɣ)(i|y|ɛ|u|i.ɣ|a.t|ɛk)?$
+955	9415-tovis	t ø v i ʃ	Dorn, Stachel, Pflanze, stachelige, Pflanze, Zweig, Stachel, Tieres, Dorn, Gegenstandes, Dorn, Auge, peinliche, Sorge, bleibende, Beleidigung	^(t)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(v|w)(i|a)(t͡ʃ|ɣ|ʃ|l.t͡ʃ)$
+956	9483-tud	t u d	jmdn, kennen, jmdm, Kenntnis, etw, wissen, entschlossen, überzeugt, Zuversicht, ahnen, jmdm, Geschlechtsverkehr, einrechnen, aufrechnen, aufschreiben, jmdn, etw, bringen, jmdn, verjagen, abrechnen, abtragen, verrichten, Wissenschaft, Gelehrter, gelehrt, Wissen, Erkundigung, gelehrt, Bewußtsein	^(t)(u|ɯ|u.w.a|u.ɣ)(n)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+957	9501-tur	t uː r	Geschwür, Narbe, Rotlauf	^(t)(u|uː|u.ɣ|u.ɣ.u|i|o|o.ɣ|i.ɣ.u)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk)?$
+958	9515-turo	t uː r oː	Quark, Käse, Ausscheidung, Vorhaut, Ausdruck, Verneinung	^(t)(u|uː|u.ɣ|u.ɣ.u|i|o|o.ɣ|i.ɣ.u)(r|j.r)(a.ɣ|u.ɣ|a.ɣ.u|i.ɣ|o.ɣ|uɣ|ɯ.ɣ|u.j|a.w|a|u)$
+959	9517-turul	t u r u l	od, Vogel, ung	^(t)(u|ɯ|u.w.a|u.ɣ)(r|j.r|w.r)(u|ɯ|u.w.a|u.ɣ)(l|j)?$
+960	9531-tuzok	t uː z o k	Trappe, As, Kartenspiel	^(t)(u|uː|u.ɣ|u.ɣ.u|i|o|o.ɣ|i.ɣ.u)(z|s)(u|o|a|ɒ|o.ɣ.o|ɯ)?(k)$
+961	9534-tudo	t y d øː	Lunge, Milz	^(t)(y|i|ɛ)(d|l.d|w.d|n.d)(ɛ.ɣ|i.ɣ|yː)(i|y)?$
+962	9536-tukor	t y k ø r	Spiegel, Symbol, Vorbild, Musterbild, Glimmer, kurzer, Abriß, gewisser, Kenntnisse, schillernder, Fleck, Gefieder, Spiegel, Schürze, beim, Rotwild, glänzende, Wasserfläche, glänzende, Oberfläche, etw, Aufschlag, od, Einsatz, Revers, Kragen, usw, Längsschnitt, Baumstammes, Satzspiegel, Harnisch, Geol, glänzend, klar	^(t)(y|i|ɛ)(k)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(r)(i|y|ɛ|u)?$
+965	9575-uj	uː j	neu, frisch, zeitgemäß, Neuheit, Zeitung, wiederholen, erneuern, stehlen, Erneuerung, Erneuerer, neu, aufs, neue, neulich, heutzutage, aufs, neue, nagelneu, aufs, neue	^(u)(l|j|ɣ.y.l)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+966	9594-unoka	u n o k ɒ	Enkel, Enkelin, Neffe	^(u)(n)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(k)(a|a.ɣ|a.w|ɒ)?(i|y)?$
+967	9596-ur	uː r	Besitzer, Macht, Vermögen, Herrscher, Gebieter, Gott, Jesus, Christus, Ehegatte, Macht, herrschende, Kraft, Herr, Herrschaft, jmdn, Herrn, anerkennen, beherrschen, beherrschen, Herrn, spielen	^(u)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+968	9602-uszik	uː s i k	schwimmen, voll, etw, schwimmen, etw, bedeckt, schweben, Schulden, geraten, verlorengehen, Geld	^(u)(s)(i|a|y|ɛ|ɯ)(k|ɡ)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a)?$
+969	9606-ut	uː t	Weg, Straße, Möglichkeit, etw, erledigen, Laufbahn, Fahrt, Reise, Anlaß, Art, Weise, Verfahren, Gang, Ablauf, Fahrgast, Reisender	^(u)(t)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+970	9608-utal	u t aː l	verabscheuen, ekelt, verachten, hassen, Abneigung, empfinden, Abscheu, Abneigung	^(u)(t|l.t)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(l|j)?(i|y)?$
+971	9621-uz	uː z	betreffend	^(u)(z)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+972	9633-ugy	y ɟ	Fluß, Bach	^(i|ɛ|y|ø)(ɟ)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+973	9634-ugy	y ɟ	Geschehen, Vorfall, Grund, Ursache, Angelegenheit, Sache, Rechtsfall, Tatbestand, Beachtung, Aufmerksamkeit, Lage, Schicksal, Prozeß, Rechtsstreit, Geschäftigkeit, Schlauheit, geschickt, suggerieren, jmdm, Beachtung, schenken	^(i|ɛ|y|ø)(ɟ)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+975	9638-uk	y k	Großmutter, Urgroßmutter, Urgroßvater	^(i|ɛ|y|ø)(k|ɡ)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk)?$
+976	9639-ul	y l	sitzen, wohnen, besetzt, halten, Besitzung, Herrschaft, Amt, antreten, verweilen, ruhig, verhalten, Eiern, sitzen, befinden, liegen, Ortschaft, Zorn, geraten, empören, lasten, bedecken, Kerker, sitzen, sorgsam, bewahren, Buch, Geld, usw, sitzen, einsteigen, Fahrzeug, Sitzung, abhalten, treffen, Anspielung, Antwort, Wohnsitz, Sitzen, Stuhl, Besetzung, Truppen, Sitzung, Beratung, jmdm, Sitz, anbieten, pflanzen, stiften, Henne, setzen, Sitzen, plötzlich, aufrichten, setzen, anreizen, hereinlegen	^(i|ɛ|y|ø)(l|j)?(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk)?$
+977	9642-ullo	y lː øː	Amboß, Amboß, Ohr, mittlere, feste, Punkt, etw, zB, Nabe, Werkzeug, Schlosser, Dachdecker	^(i|ɛ|y|ø)(l|lː|ɣ.l)(ɛ.ɣ|i.ɣ|yː)(i|y)?$
+978	9644-uno	y n øː	Kuh, Ricke, usw	^(i|ɛ|y|ø)(n)(ɛ.ɣ|i.ɣ|yː)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk)?$
+979	9645-ureg	y r ɛ ɡ	Höhle, Weltraum, überdachter, Vorraum, hohl	^(i|ɛ|y|ø)(r|j.r|w.r)(ɛ|i|y|ø|a)(ɡ|k)$
+980	9647-urom	y r ø m	Wermut, Pflanze, Bitternis, Leiden	^(i|ɛ|y|ø)(r|j.r|w.r)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(m)(i)?$
+981	9656-ut	y t	schlagen, trans, einschlagen, Blitz, einschlagen, eintreiben, etw, erzeugen, hervorbringen, angreifen, stechen, Kartenspiel, Schach, jmdm, nachgeschlagen, treffen, Schläger, Puffer, Schienenfahrzeugen, verrückt	^(i|ɛ|y|ø)(t)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+983	9677-vad	v ɒ d	wildes, Tier, Wild, Wald, Naturmensch, Wildnis, Absurdität, unreguliert, Gewässer, gezüchtet, Tier, Pflanze, grimmig, zügellos, barbarisch, primitiv, herb, scheu, heftig, unmöglich, absurd, wüst, Gebiet, Jäger, Jäger, zügellos, scheu	^(v)(a|ɒ|o|a.ɣ)?(n)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+984	9689-vagyik	v aː ɟ i k	Sehnsucht, Verlangen, irgendwohin, sehnen, irgendwo, mögen, fleischliche, Gelüste	^(v)(a|aː|a.ɣ.a|a.ɣ.i|i)(l.d|d)(i|a|y|ɛ|ɯ)(k|ɡ)$
+985	9691-vagyon	v ɒ ɟ o n	Vorhandenes, Vermögen, Habe, Masse, Wesen, existierend, mittellos	^(v)(a|ɒ|o|a.ɣ)?(l.d|d)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(n)(i)?$
+986	9692-vaj	v ɒ j	Fett, Butter	^(v)(a|ɒ|o|a.ɣ)?(l|j|ɣ.y.l)(i|y|ɛ|u|i.ɣ|a.t)?$
+988	9702-vak	v ɒ k	Blinde, niedrigsten, Wert, zeigende, Seite, dunkel, blind, ungewiß	^(v)(a|ɒ|o|a.ɣ)?(k|ɡ)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a)?$
+989	9721-valo	v ɒ l oː	seiend, befindlich, jmdm, stammend, etw, jmdm, bestimmt, geeignet, geschaffen, usw, wahr, wirklich, gehörig, Wesen, Natur, Wirklichkeit, Seiende, Wahrheit	^(v)(a|ɒ|o|a.ɣ)(l|r.l|l.k)(a.ɣ|u.ɣ|a.ɣ.u|i.ɣ|o.ɣ|uɣ|ɯ.ɣ|u.j|a.w|a|u)$
+991	9725-valt	v aː l.t	ändern, verwirklichen, wechseln, austauschen, geben, mitteilen, erretten, erlösen, Geld, wechseln, Richtung, ändern, Tauschwert, auslösen, kaufen, lösen, mieten, einholen, ablösen, jmdm, folgen, absondern, gut, schlecht, funktionieren, Gehör, Verstand, Stimme, Wechsler, Heiland, Weiche, Schienen, Stafette, Lösegeld, Erlösung, Schritt, Richtung, Veränderung, Variante	^(v)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(l.t)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+992	9730-valyu	v aː j uː	Futter-, Rinne, Kanal, kleiner, Mörser	^(v)(a|aː|a.ɣ.a|a.ɣ.i|i)(l|j|j.a|ɣ)(a.ɣ|u.ɣ|u|a.ɣ.u|o.ɣ)$
+993	9731-vam	v aː m	Zollstelle, Zehent, Abgabe, Waren	^(v)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(m)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+994	9733-van	v ɒ n	befinden, Kopula, Hilfsverb, zusammengesetzter, Verbformen, Sein, Wesen	^(v)(a|ɒ|o|a.ɣ)?(n)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+995	9746-var	v aː r	warten, erwarten, abwarten, erhoffen, jmdn, verlassen, erfordern, jmdm, steht, etw, bevor, warten, darauf, Erwartung, schwanger	^(v)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+996	9747-var	v aː r	Festung, Burg, Schloß, Hof, Mondes	^(v)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+997	9752-vareg	v ɒ r eː ɡ	Söldner, Leibwächter, betreffend, betreffend	^(v)(a|ɒ)(r|j.r|w.r)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(ɡ|k)$
+998	9756-varju	v ɒ r.j uː	Krähe	^(v)(a|ɒ|o|a.ɣ)?(r.ɣ|r)(a.ɣ|u.ɣ|u|a.ɣ.u|o.ɣ)(i)?$
+999	9759-varos	v aː r o ʃ	Stadt	^(v)(a|aː|a.ɣ.a|a.ɣ.i)(r)(u|o|a|ɒ|o.ɣ.o|ɯ|i)?(t͡ʃ|ɣ|ʃ|l.t͡ʃ)$
+1000	9761-varsa	v ɒ r.ʃ ɒ	Teil, Käfig, Ruten	^(v)(a|ɒ|o|a.ɣ)?(r.t͡ʃ)(a|a.ɣ|a.w|ɒ)?(i|y|ɛ)?$
+1001	9764-vas	v ɒ ʃ	Eisen, Gegenstand, Gerät, Eisen, Kette, Schelle, Schwert, Dolch, etw, kleines, eisern, Schwert, kämpfen, bügeln, fesseln, Bügeleisen	^(v)(a|ɒ|o|a.ɣ)?(t͡ʃ|ɣ|ʃ|l.t͡ʃ)(i|y|ɛ|u)?$
+1002	9766-vasar	v aː ʃ aː r	Marktflecken, Messe, handel, Rummel	^(v)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(ʃ|t͡ʃ)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(r)(i)?$
+1003	9790-veg	v eː ɡ	räumliches, Ende, Rand, Stück, Stoff, Schluß, zeitliches, Ende, Ende, Lebens, Tod, Zweck, Reichsgrenze, Ungarns, Weise, Maß, Bedingung, Ende, Ende, liegend, beschließen, erledigen, beenden, Ende, Schluß, Entschluß, Schicksal, endlos, bestimmt, schicksalhaft, enden, Beschluß, unendlich, Unendliche, endgültig, endlich	^(v)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(ɡ|k)(i|y|ɛ|u)?$
+1004	9798-vejsze	v ɛ j.s ɛ	Fischnetz, Fischteich, Ort, Fischerei	^(v)(ɛ|i|y|ø|a)(j.s)(ɛ|ɛ.ɣ)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a)?$
+1006	9813-ven	v eː n	alt, jung, genug, weise, bewandert, ursprünglich, betagt, Greis, Person, Ältestenrat, Urahn, hohes, Alter, alte, Person, alt, alt	^(v)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(n)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk)?$
+1007	9816-vendeg	v ɛ n.d eː ɡ	Ansiedler, fremden, Land, ausländisch, Person, Ort, usw, Gast, Gasthaus, Restaurant, usw, Kunde, beim, Friseur, usw, Ersatz-, zufällig, Ding, Gastspieler, jmdm, Gaste, Gasthaus, Inhaber, Gasthauses	^(v)(ɛ|i|y)(n.d|n)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(ɡ|k)$
+1008	9824-ver	v ɛ r	prügeln, schlagen, schlagen, Naturerscheinung, niederwerfen, niederschlagen, vernichten, klopfen, Schlagen, Töne, erzeugen, hämmern, Zustand, bringen, bestrafen, anschlagen, Schaum, Schweiß, drehen, flechten, seilen, stechen, stoßen, treiben, schlagen, etw, befestigen, pochen, klopfen, Herz, bösen, Blick, treffen, Hammer, Schlagen, Prügel, Prügel, Niedergeschlagenheit, Strafe, Niederlage, Kanonen, beschießen, jmdm, raufen, kämpfen, zanken, Bündel, Gepräge	^(v)(ɛ|i|y|ø|a)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+1009	9825-ver	v eː r	Blut, Abstammung, Blutsverwandte, Rot-, Dysenterie, Blutwurst, Speise, tierischem, Blut, Blut, bereitet, Speise	^(v)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(r)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk)?$
+1010	9834-verem	v ɛ r ɛ m	Grube, Graben, Aushöhlung, Grotte	^(v)(ɛ|i|y|ø|a)(r|j.r|w.r)(ɛ|i|y|ø|a)(m)(i)?$
+1011	9846-vert	v eː r.t	Schild, Harnisch	^(v)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(r.t|r.a.t)(i|y|ɛ|u)?$
+1012	9848-ves	v eː ʃ	meißeln, schneiden, graben, einprägen, Meißel, Stichel	^(v)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(t͡ʃ|ɣ|ʃ|l.t͡ʃ)(i|y)?$
+1013	9850-vesz	v ɛ s	nehmen, Speise, Getränk, nehmen, Auftrag, Verantwortung, usw, jmdn, nehmen, anfassen, nehmen, hochheben, kaufen, erwerben, Besitz, nehmen, erobern, begreifen, erwägen, erhalten, gewinnen, etw, teilhaben, auffassen, hinnehmen, entfernen, wegmachen, anziehen, etw, anerkennen, bejahen, Wahrheit, halten, umgeben, etw, bewegen, betrügen, bringen, führen, einnisten, eindringen, erscheinen, ausnehmen, Annahme, Empfang, Ausnahme, Betrag, Annahme, Aufnahme, Empfang, Begreifen, Einkommen, Einnahme, Ausnahme, Subtraktion, Besonderes, Käufer	^(v)(ɛ|i|y|ø|a)(s|ʃ|z)(i|y|ɛ|u|i.ɣ|a.t)?$
+1014	9851-vesz	v eː s	Verfall, Rodung, wütende, Naturkraft, Sturm, Donnerschlag, wütend, drohend, gefährlich	^(v)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(s|ʃ|z)(i|y)?$
+1015	9862-vet	v ɛ t	säen, einsetzen, Pflanze, jmdn, od, etw, irgendwohin, setzen, legen, stellen, werfen, Wasser, ablassen, verachten, verschmähen, lösen, Aufgabe, wetteifern, streiten, werfen, Sport, werfen, ungefähr, annähernd	^(v)(ɛ|i|y|ø|a)(t)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+1016	9863-vet	v eː t	jmdm, etw, verschulden, jmdn, schädigen, verfehlen, verwechseln, vergessen, versäumen, irren, Sünder, fehlerhaft, Ding, schuldig, Sünde, Sünde, Verstoß, Anstoß, erregen	^(v)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(t)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk)?$
+1017	9893-vig	v iː ɡ	lustig, lustig, freuen, trösten, Freude, Trost	^(v)(i|iː)(ɡ|k)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+1018	9913-villam	v i lː aː m	Blitz, Lichtblitz, festen, Verbindungen, mildes, Elektrizität, voller, Blitze, elektrisch, Straßenbahnwagen	^(v)(i|a|y|ɛ|ɯ)(l|lː|ɣ.l)(a|aː|a.ɣ.a|a.ɣ.i|i|a.ɣ|a.v.a)(m)$
+1020	9959-vitez	v i t eː z	Soldat, Krieger, Held, Mitglied, erblichen, Ordens, tapfer, mutig	^(v)(i|a|y|ɛ|ɯ)(t|l.t)(ɛ|i|eː|ø|y|a|e|ɛ.j|ɛ.w.ɛ|i.u|ɛ.v.i|iː)(z)$
+1021	9969-viz	v iː z	Saft, Gewässer, Wasser, Körpersäfte, Serum, Durchsichtigkeit, Edelsteins, Einöde, wässerig, Ödem	^(v)(i|iː)(z)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+1022	9994-vo	v øː	Schwiegersohn, Bräutigam	^(v)(ɛ.ɣ|i.ɣ|yː)(i|y|ɛ|u|i.ɣ|a.t|ɛk|øk|a|iɣ|ɣ|uk|ø.k)?$
+1023	9996-vodor	v ø d ø r	Eimer, Kübel, Eimer, haupts, Wein	^(v)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(d|l.d|w.d|n.d)(ɛ|y|ø|i)(r)$
+1025	10001-voros	v ø r ø ʃ	rot, rötlich, rot, Rotes, roter, Stoff, Rot, Krankheit, Scharlach, Rotwein, Revolutionär, Kommunist, Rot, Spielkarte	^(v)(ɛ|y|ø|i|y.ɣ.y|ɛ.ɣ)?(r)(ɛ|y|ø|i)(t͡ʃ|ɣ|ʃ|l.t͡ʃ)$

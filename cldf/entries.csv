@@ -96,7 +96,7 @@ ID,Language_ID,Headword,Part_Of_Speech,Year,Etymology,Loan
 95-ajz,Hungarian,ajz,,1552,derived word,False
 96-akac,Hungarian,akác,,1783,loan,True
 97-akademia,Hungarian,akadémia,,1559,,
-98-akar,Hungarian,akar,,4811,uncertain,
+98-akar,Hungarian,akar,,1109,uncertain,
 99-akar,Hungarian,akár,,1372,change of word class,False
 100-akaszt,Hungarian,akaszt,,1192,,
 101-aggik,Hungarian,aggik¹ ∆,,1577,,
@@ -1497,7 +1497,7 @@ ID,Language_ID,Headword,Part_Of_Speech,Year,Etymology,Loan
 1496-csicsoka,Hungarian,csicsóka ×,,1773,,
 1497-csiga,Hungarian,csiga,,1272,,
 1498-csigabiga,Hungarian,csigabiga,,1536,internal,False
-1499-csr,Hungarian,csr ×,,1215,Turkic,True
+1499-csiger,Hungarian,csiger ×,,1215,Turkic,True
 1500-csigolya,Hungarian,csigolya¹,,1211,,
 1501-csigolya,Hungarian,csigolya² ×,,1358,derived word,False
 1502-csihad,Hungarian,csihad ×,,1825,,

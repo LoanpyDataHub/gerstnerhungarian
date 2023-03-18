@@ -17,7 +17,7 @@
         {
             "rdf:about": "https://github.com/martino-vic/gerstnerhungarian",
             "rdf:type": "prov:Entity",
-            "dc:created": "v3.1-8-g0550f54",
+            "dc:created": "v3.1-24-gd3ada2b",
             "dc:title": "Repository"
         },
         {
@@ -55,6 +55,9 @@
     ],
     "rdf:ID": "gerstnerhungarian",
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
+    "dialect": {
+        "commentPrefix": null
+    },
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
