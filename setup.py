@@ -20,7 +20,7 @@ setup(
                     ]
     },
     install_requires=[["pylexibank>=3.0", "pysem>=0.6.0", "epitran>=1.24",
-                        "ipatok>=0.4.1", "nltk>=3.8.1", "spacy>=3.5.1"]
+                        "ipatok>=0.4.1", "spacy>=3.5.1"]
     ],
     extras_require={
         'test': [

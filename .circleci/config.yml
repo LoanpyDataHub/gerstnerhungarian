@@ -11,7 +11,7 @@ jobs:
           name: Clone repo
           command: git clone https://github.com/martino-vic/gerstnerhungarian.git
       - run:
-          name: Clone reference catalogues (takes 1min15s)
+          name: Clone reference catalogues (takes 1min15s) & loanpy
           command: |
             mkdir concepticon
             cd concepticon
@@ -19,9 +19,14 @@ jobs:
             cd ..
             git clone https://github.com/glottolog/glottolog.git
             git clone https://github.com/cldf-clts/clts.git
+            git clone https://github.com/martino-vic/loanpy.git
       - run:
-          name: install commands
-          command: pip install -e gerstnerhungarian
+          name: install commands & download spacy word vector model
+          command: |
+            pip install -e gerstnerhungarian
+            pip install -e loanpy
+            python3 -m spacy download de_core_news_lg
+
       - run:
           name: shorten raw input
           command: cldfbench gerstnerhungarian.map
