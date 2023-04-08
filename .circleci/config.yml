@@ -29,22 +29,21 @@ jobs:
 
       - run:
           name: shorten raw input
-          command: cldfbench gerstnerhungarian.map
+          command: cd gerstnerhungarian && cldfbench gerstnerhungarian.map
       - run:
           name: run lexibank script
           command: >
+            cd gerstnerhungarian &&
             cldfbench lexibank.makecldf lexibank_gerstnerhungarian.py
             --concepticon-version=v2.5.0
             --glottolog-version=v4.5
             --clts-version=v2.2.0
       - run:
           name: Create orthography profile
-          command: cldfbench gerstnerhungarian.makeortho
+          command: cd gerstnerhungarian && cldfbench gerstnerhungarian.makeortho
       - run:
           name: Rerun lexibank-script, from shell-script
-          command: |
-            cd gerstnerhungarian
-            bash hun.sh
+          command: cd gerstnerhungarian && bash hun.sh
       - run:
           name: Install pytest
           command: pip install pytest-cldf
@@ -56,6 +55,7 @@ jobs:
       - run:
           name: Filter entries, check if output OK
           command: >
+            cd gerstnerhungarian &&
             cldfbench gerstnerhungarian.filter
 
             cd loanpy && if diff hun0.tsv hun.tsv; then echo OK;
@@ -63,6 +63,7 @@ jobs:
       - run:
           name: Add reconstructions, check if output OK
           command: >
+            cd gerstnerhungarian &&
             cldfbench gerstnerhungarian.reconstruct
 
             cd loanpy && if diff rchun0.tsv rchun.tsv; then echo OK;
