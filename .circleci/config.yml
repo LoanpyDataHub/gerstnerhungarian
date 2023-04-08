@@ -31,7 +31,7 @@ jobs:
           command: >
             cd gerstnerhungarian &&
             cldfbench gerstnerhungarian.map
-            --concepticon=/home/circleci/project/concepticon-data
+            --concepticon=../concepticon/concepticon-data
       - run:
           name: run lexibank script
           command: >
