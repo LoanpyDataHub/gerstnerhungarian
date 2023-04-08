@@ -27,13 +27,6 @@ jobs:
             pip install -e loanpy
             python3 -m spacy download de_core_news_lg
       - run:
-          name: Configure catalog.ini
-          command: |
-            echo "[clones]" >> /home/circleci/.config/cldf/catalog.ini
-            echo "clts = /home/circleci/project/clts" >> /home/circleci/.config/cldf/catalog.ini
-            echo "concepticon = /home/circleci/project/concepticon-data" >> /home/circleci/.config/cldf/catalog.ini
-            echo "glottolog = /home/circleci/project/glottolog" >> /home/circleci/.config/cldf/catalog.ini
-      - run:
           name: shorten raw input
           command: cd gerstnerhungarian && cldfbench gerstnerhungarian.map
       - run:
@@ -44,6 +37,9 @@ jobs:
             --concepticon-version=v2.5.0
             --glottolog-version=v4.5
             --clts-version=v2.2.0
+            --concepticon=/home/circleci/project/concepticon-data
+            --glottolog=/home/circleci/project/glottolog
+            --clts=/home/circleci/project/clts
       - run:
           name: Create orthography profile
           command: cd gerstnerhungarian && cldfbench gerstnerhungarian.makeortho
