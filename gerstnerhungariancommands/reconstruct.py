@@ -2,10 +2,7 @@
 Add reconstructions to hun.tsv
 """
 
-from loanpy.apply import Adrc
-
-BANNED = ("wrong clusters", "wrong phonotactics", "not old",
-"wrong vowel harmony")
+from loanpy.scapplier import Adrc
 
 def run(args):
     """
@@ -17,7 +14,6 @@ def run(args):
     # Read in data on correspondences and inventories
     rc = Adrc(
     "../ronataswestoldturkic/loanpy/H2EAHsc.json",
-    "../ronataswestoldturkic/loanpy/invsEAH.json"
     )
     # Read TSV file content into a string
     with open("loanpy/hun.tsv", "r") as f:
@@ -27,10 +23,10 @@ def run(args):
     # Add reconstructions to new column
     for row in huntsv:
         reconstructed = rc.reconstruct(row.split("\t")[2], 100)
-        if any(i in reconstructed for i in BANNED):
+        if "not old" in reconstructed:
             continue
         lines += "\n" + row + "\t" + reconstructed
 
     # write csv
-    with open("loanpy/rchun.tsv", "w+") as file:
+    with open("loanpy/rchun0.tsv", "w+") as file:
         file.write(lines)

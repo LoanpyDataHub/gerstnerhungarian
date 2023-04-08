@@ -1,14 +1,28 @@
+from collections import defaultdict
+import functools
+import json
 import pathlib
 import re
 
 import attr
 from clldutils.misc import slug
+from epitran import Epitran
+from ipatok import tokenise
+from loanpy.utils import IPA
 from pylexibank import Dataset as BaseDataset, FormSpec, Lexeme
 import pylexibank
 from cldfbench import CLDFSpec
-from collections import defaultdict
+import spacy
 
 REP = [(x, "") for x in "†×∆-¹²³⁴’"]
+with open("etc/stopwords.json", "r") as f:  # from nltk.corpus import stopwords
+    STOPWORDS = json.load(f)  # stopwords.words("german")
+# install first with $ python -m spacy download de_core_news_lg
+nlp = spacy.load('de_core_news_lg')
+nr_of_meanings = 0
+nr_of_suitable_meanings = 0
+epi = Epitran("hun-Latn").transliterate
+get_clusters = IPA().get_clusters
 
 @attr.s
 class CustomLexeme(Lexeme):
@@ -16,6 +30,44 @@ class CustomLexeme(Lexeme):
     Sense_ID = attr.ib(default=None)
     Entry_ID = attr.ib(default=None)
 
+def segipa(word):
+    word = re.sub("[†×∆\-¹²³⁴’ ]", "", word)
+    return get_clusters(tokenise(epi(word)))
+
+def clean(text):
+    """
+    apply this in filter_vectors to clean meanings
+    """
+    text = re.sub(r'[〈〉:;!,.?]', '', text)  # Remove special characters and punctuation
+    text = re.sub(r'\s+', ' ', text)         # Replace multiple whitespaces with a single space
+    text = text.strip()
+    return text
+
+def filter_vectors(meanings):
+    """
+    split meanings, filter out stopwords, add only if vector available.
+    """
+    meanings = clean(meanings)
+    meanings = re.split(r',\s+|\s', meanings)
+    vectors = []
+    @functools.lru_cache
+    def is_suitable(meaning):
+        if meaning not in STOPWORDS:
+            token = nlp(meaning.strip())
+            if token.has_vector:
+                return True
+        return False
+
+    for meaning in meanings:
+        global nr_of_meanings
+        nr_of_meanings += 1
+        if is_suitable(meaning):
+            global nr_of_suitable_meanings
+            nr_of_suitable_meanings += 1
+            vectors.append(meaning)
+
+    # Add the row to the new_data list only if vectors is not empty
+    return ', '.join(vectors)
 
 class Dataset(BaseDataset):
     dir = pathlib.Path(__file__).parent
@@ -105,9 +157,11 @@ class Dataset(BaseDataset):
 
             writer.cldf.add_columns(
                 "EntryTable",
+                {"name": "Segments", "datatype": "string"},
                 {"name": "Year", "datatype": "integer"},
                 {"name": "Etymology", "datatype": "string"},
-                {"name": "Loan", "datatype": "string"}
+                {"name": "Loan", "datatype": "string"},
+                {"name": "Spacy", "datatype": "string"}
             )
 
             for sense, values in senses.items():
@@ -118,16 +172,24 @@ class Dataset(BaseDataset):
                         "Entry_ID": fidx
                         })
 
-            for fidx, row in idxs.items():
+            for i, (fidx, row) in enumerate(idxs.items()):
+                print(f"{i+1}/{len(idxs)} meanings checked for word vectors", end="\r")
                 writer.objects["EntryTable"].append({
                     "ID": fidx,
                     "Language_ID": "Hungarian",
                     "Headword": row["form"],
+                    "Segments": segipa(row["form"]),
                     "Year": row["year"],
                     "Etymology": row["origin"],
-                    "Loan": row["Loan"]
+                    "Loan": row["Loan"],
+                    "Spacy": filter_vectors(row["sense"])
                     })
 
+        with open("vector_coverage.json", "w+") as f:
+            json.dump(
+                [f'{nr_of_suitable_meanings/nr_of_meanings:.0%}',
+                 nr_of_meanings], f
+                )
             #for idx, row in enumerate(self.raw_dir.read_csv(
             #    "Streitberg-1910-3645.tsv", delimiter="\t", dicts=True)):
             #    entry_id = "{0}-{1}".format(idx+1, slug(row["form"]))

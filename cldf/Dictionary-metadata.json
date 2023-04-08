@@ -22,7 +22,7 @@
         {
             "rdf:about": "https://github.com/martino-vic/gerstnerhungarian",
             "rdf:type": "prov:Entity",
-            "dc:created": "v3.1-24-gd3ada2b",
+            "dc:created": "v3.1-25-g346d0fa",
             "dc:title": "Repository"
         },
         {
@@ -56,9 +56,6 @@
     ],
     "rdf:ID": "gerstnerhungarian",
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
-    "dialect": {
-        "commentPrefix": null
-    },
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#EntryTable",
@@ -95,6 +92,10 @@
                         "name": "Part_Of_Speech"
                     },
                     {
+                        "datatype": "string",
+                        "name": "Segments"
+                    },
+                    {
                         "datatype": "integer",
                         "name": "Year"
                     },
@@ -105,6 +106,10 @@
                     {
                         "datatype": "string",
                         "name": "Loan"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Spacy"
                     }
                 ],
                 "foreignKeys": [
