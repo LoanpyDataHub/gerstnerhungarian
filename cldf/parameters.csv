@@ -309,7 +309,6 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 339-tasche,Tasche,2468,BAG
 340-eimer,Eimer,2052,BUCKET
 341-deckel,Deckel,2319,"LID (COVER, CAP)"
-342-geschirr,Geschirr,481,DISH
 343-sack,Sack,2990,SACK
 344-tasse,Tasse,476,CUP
 345-topf,Topf,1462,POT
@@ -518,7 +517,6 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 562-wahr,wahr,1657,TRUE
 563-alt,alt,1229,OLD
 564-neu,neu,1231,NEW
-566-altlebewesen,alt[Lebewesen],2112,OLD (AGED)
 567-jung,jung,1207,YOUNG
 568-arm,arm,1674,POOR
 569-reich,reich,712,RICH
@@ -644,7 +642,6 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 704-sieden,sieden,792,BOIL (OF LIQUID)
 705-faulen,faulen,569,SPOIL (BECOME SPOILED)
 706-verfaulen,verfaulen,2907,ROT
-707-reien,reißen,460,BREAK (OF ROPE)
 708-versinken,versinken,1088,SINK (DESCEND)
 709-vergehen,vergehen,1951,PASS
 710-erscheinen,erscheinen,1076,EMERGE (APPEAR)

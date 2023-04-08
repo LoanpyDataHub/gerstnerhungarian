@@ -26,7 +26,13 @@ jobs:
             pip install -e gerstnerhungarian
             pip install -e loanpy
             python3 -m spacy download de_core_news_lg
-
+      - run:
+          name: Configure catalog.ini
+          command: |
+            echo "[clones]" >> /home/circleci/.config/cldf/catalog.ini
+            echo "clts = /home/circleci/project/clts" >> /home/circleci/.config/cldf/catalog.ini
+            echo "concepticon = /home/circleci/project/concepticon-data" >> /home/circleci/.config/cldf/catalog.ini
+            echo "glottolog = /home/circleci/project/glottolog" >> /home/circleci/.config/cldf/catalog.ini
       - run:
           name: shorten raw input
           command: cd gerstnerhungarian && cldfbench gerstnerhungarian.map
