@@ -23,7 +23,7 @@ lds.io/badge/SpaCy-v3.2.0-blue)'
     updated_statistics_section = new_badges + "\n\n" + statistics_section.strip()
 
     # Add another bullet point below the existing bullet points
-    new_bullet = f'\n- **Meanings:** {stat[1]}\n.'
+    new_bullet = f'\n- **Meanings:** {stat[1]:,}\n.'
     updated_statistics_section += new_bullet + '\n## CLDF Datasets'
 
     # Update the README with the modified Statistics section

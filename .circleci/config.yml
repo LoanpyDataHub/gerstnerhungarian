@@ -55,7 +55,6 @@ jobs:
 
             cd loanpy && if diff hun0.tsv hun.tsv; then echo OK;
             else echo filtered files differ; exit 1; fi
-
       -run:
           name: Add reconstructions, check if output OK
           command: >
