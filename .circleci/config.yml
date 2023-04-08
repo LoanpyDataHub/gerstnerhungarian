@@ -48,6 +48,20 @@ jobs:
           command: |
             cd gerstnerhungarian
             pytest --cldf-metadata=cldf/cldf-metadata.json test.py
+      - run:
+          name: Filter entries, check if output OK
+          command: >
+            cldfbench gerstnerhungarian.filter
+
+            cd loanpy && if diff hun0.tsv hun.tsv; then echo OK;
+            else echo filtered files differ; exit 1; fi
+      - run:
+          name: Add reconstructions, check if output OK
+          command: >
+            cldfbench gerstnerhungarian.reconstruct
+
+            cd loanpy && if diff rchun0.tsv rchun.tsv; then echo OK;
+            else echo reconstructions differ; exit 1; fi
 
 
 workflows:
