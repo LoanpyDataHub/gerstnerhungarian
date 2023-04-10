@@ -21,12 +21,11 @@ greenlet==2.0.2
 html5lib==1.1
 idna==3.4
 iniconfig==2.0.0
-ipatok==0.4.1
 isodate==0.6.1
 Jinja2==3.1.2
 jsonschema==4.17.3
 langcodes==3.3.0
--e git+https://github.com/martino-vic/gerstnerhungarian.git@e1ccf5bdd3bb6e0bcfc8cbfbaeac84759a8a64fd#egg=lexibank_gerstnerhungarian
+-e git+https://github.com/martino-vic/gerstnerhungarian.git@3bf57872752ccdf1a41b5bf68c64700dc0747e13#egg=lexibank_gerstnerhungarian
 lingpy==2.6.9
 -e git+https://github.com/martino-vic/loanpy.git@3aad8c2618f5b5a0191833a55e4ed7a892d223e2#egg=loanpy
 lxml==4.9.2

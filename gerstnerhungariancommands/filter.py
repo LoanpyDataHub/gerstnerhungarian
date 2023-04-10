@@ -7,7 +7,8 @@ import re
 from clldutils.misc import slug
 from loanpy.utils import find_optimal_year_cutoff, IPA
 
-ORIGINS = ("Proto-Finno-Ugric", "Turkic", "unknown", "uncertain", "Proto-Ugric")
+ORIGINS = ("Proto-Uralic", "Proto-Finno-Ugric", "Proto-Ugric",
+           "Turkic", "unknown", "uncertain")
 
 def find_empty(senses_file):
     """

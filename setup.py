@@ -19,7 +19,8 @@ setup(
             'gerstnerhungarian=gerstnerhungariancommands'
                     ]
     },
-    install_requires=[["pylexibank>=3.0", "pysem>=0.6.0", "spacy>=3.5.1"]
+    install_requires=[["pylexibank>=3.0", "pysem>=0.6.0", "spacy>=3.5.1",
+                       "epitran>=1.24"]
     ],
     extras_require={
         'test': [

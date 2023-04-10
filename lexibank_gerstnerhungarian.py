@@ -8,7 +8,7 @@ import re
 import attr
 from clldutils.misc import slug
 from epitran import Epitran
-from ipatok import tokenise
+from lingpy.sequence.sound_classes import ipa2tokens
 from loanpy.utils import IPA
 from loanpy.scapplier import Adrc
 from pylexibank import Dataset as BaseDataset, FormSpec, Lexeme
@@ -21,9 +21,9 @@ REP = [(x, "") for x in "†×∆-¹²³⁴’"]
 nlp = spacy.load('de_core_news_lg')
 nr_of_meanings = 0
 nr_of_suitable_meanings = 0
-epi = Epitran("hun-Latn").transliterate
-get_clusters = IPA().get_clusters
+tokens2clusters = IPA().get_clusters
 rc = Adrc("etc/H2EAHsc.json")
+orth2ipa = Epitran("hun-Latn").transliterate
 
 @attr.s
 class CustomLexeme(Lexeme):
@@ -31,9 +31,8 @@ class CustomLexeme(Lexeme):
     Sense_ID = attr.ib(default=None)
     Entry_ID = attr.ib(default=None)
 
-def segipa(word):
-    word = re.sub("[†×∆\-¹²³⁴’ ]", "", word)
-    return get_clusters(tokenise(epi(word)))
+def clean1(word):
+    return re.sub("[†×∆\-¹²³⁴’ ]", "", word)
 
 def clean(text):
     """
@@ -111,27 +110,27 @@ class Dataset(BaseDataset):
             language_table = writer.cldf["LanguageTable"]
 
             ## add forms
-            try:
+#            try:
                 #with open("form2idx.txt", "w") as f:
                 #    f.write(str(form2idx))
-                for row in self.raw_dir.read_csv(
-                    "wordlist.tsv", delimiter="\t", dicts=True):
-                    try:
-                        writer.add_forms_from_value(
-                            Local_ID=row["ID"],
-                            Language_ID="Hungarian",
-                            Parameter_ID=concepts[row["CONCEPTICON_ID"]],
-                            Value=row["FORM"],
-                            Meaning=row["MEANING"],
-                            Entry_ID=form2idx[row["FORM"], row["SENSE"].strip()],
-                            Sense_ID=row["SENSE_ID"],
-                            Source="uesz"
-                            )
-                    except KeyError:
-                        pass
-            except FileNotFoundError:
-                args.log.info("wordlist.tsv missing, create with $ cldfbench gerstnerhungarian.map")
-                pass
+            for row in self.raw_dir.read_csv(
+                "wordlist.tsv", delimiter="\t", dicts=True):
+                try:
+                    writer.add_forms_from_value(
+                        Local_ID=row["ID"],
+                        Language_ID="Hungarian",
+                        Parameter_ID=concepts[row["CONCEPTICON_ID"]],
+                        Value=row["FORM"],
+                        Meaning=row["MEANING"],
+                        Entry_ID=form2idx[row["FORM"], row["SENSE"].strip()],
+                        Sense_ID=row["SENSE_ID"],
+                        Source="uesz"
+                        )
+                except KeyError:
+                    pass
+#            except FileNotFoundError:
+#                args.log.info("wordlist.tsv missing, create with $ cldfbench gerstnerhungarian.map")
+#                pass
 
         with self.cldf_writer(args, cldf_spec="dictionary", clean=False) as writer:
 
@@ -165,7 +164,7 @@ class Dataset(BaseDataset):
                     print(f"{j+1}/{len(senses_items)} meanings checked for word vectors", end="\r")
 
             for i, (fidx, row) in enumerate(idxs.items()):
-                seg_ipa = segipa(row["form"])
+                seg_ipa = tokens2clusters(ipa2tokens(orth2ipa(clean1(row["form"]))))
                 writer.objects["EntryTable"].append({
                     "ID": fidx,
                     "Language_ID": "Hungarian",
@@ -176,19 +175,3 @@ class Dataset(BaseDataset):
                     "Loan": row["Loan"],
                     "rc100": rc.reconstruct(seg_ipa, 100)
                     })
-
-            #for idx, row in enumerate(self.raw_dir.read_csv(
-            #    "Streitberg-1910-3645.tsv", delimiter="\t", dicts=True)):
-            #    entry_id = "{0}-{1}".format(idx+1, slug(row["form"]))
-            #    sense_id = "{0}-{1}".format(idx+1, slug(row["SENSE"]))
-            #    writer.objects["EntryTable"].append({
-            #        "ID": entry_id,
-            #        "Language_ID": "Gothic",
-            #        "Headword": row["form"],
-            #        "Part_Of_Speech": row["pos"]
-            #        })
-            #    writer.objects["SenseTable"].append({
-            #        "ID": sense_id,
-            #        "Description": row["SENSE"],
-            #        "Entry_ID": entry_id
-            #        })
