@@ -20,6 +20,8 @@ jobs:
             git clone https://github.com/glottolog/glottolog.git
             git clone https://github.com/cldf-clts/clts.git
             git clone https://github.com/martino-vic/loanpy.git
+            url="https://raw.githubusercontent.com/martino-vic/ronataswestoldturkic/main/loanpy/H2EAHsc.json"
+            curl -s -L "$url" -o gerstnerhungarian/etc/H2EAHsc.json
       - run:
           name: install commands & download spacy word vector model
           command: |

@@ -25,7 +25,7 @@ nr_of_meanings = 0
 nr_of_suitable_meanings = 0
 epi = Epitran("hun-Latn").transliterate
 get_clusters = IPA().get_clusters
-rc = Adrc("../ronataswestoldturkic/loanpy/H2EAHsc.json")
+rc = Adrc("etc/H2EAHsc.json")
 
 @attr.s
 class CustomLexeme(Lexeme):
