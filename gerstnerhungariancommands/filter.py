@@ -43,7 +43,6 @@ def run(args):
 
     if not args.cutoff_year:
         args.cutoff_year = find_optimal_year_cutoff(entries, ORIGINS)
-        print("Optmal cutoff year is ", args.cutoff_year)
     # create entries
     entries_filtered = [["ID", "EntryID", "Year", "Etymology"]]
     empty_keys = find_empty("cldf/senses.csv")
