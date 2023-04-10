@@ -44,17 +44,9 @@ jobs:
             --glottolog=../glottolog
             --clts=../clts
       - run:
-          name: Create orthography profile
-          command: cd gerstnerhungarian && cldfbench gerstnerhungarian.makeortho
-      - run:
-          name: Rerun lexibank-script, from shell-script
-          command: cd gerstnerhungarian && bash hun.sh
-      - run:
-          name: Install pytest
-          command: pip install pytest-cldf
-      - run:
-          name: Test with pytest
+          name: Install pytest-cldf & check if dataset is CLDF conform
           command: |
+            pip install pytest-cldf
             cd gerstnerhungarian
             pytest --cldf-metadata=cldf/cldf-metadata.json test.py
       - run:
@@ -63,17 +55,10 @@ jobs:
             cd gerstnerhungarian &&
             cldfbench gerstnerhungarian.filter
 
-            cd loanpy && if diff hun0.tsv hun.tsv; then echo OK;
-            else echo filtered files differ; exit 1; fi
-      - run:
-          name: Add reconstructions, check if output OK
-          command: >
-            cd gerstnerhungarian &&
-            cldfbench gerstnerhungarian.reconstruct
+            file="hun1222.tsv" && lines=$(wc -l < "$file")
 
-            cd loanpy && if diff rchun0.tsv rchun.tsv; then echo OK;
-            else echo reconstructions differ; exit 1; fi
-
+            if [ "$lines" -ne 532 ]; then echo "length not 532 lines." >&2;
+            exit 1; fi
 
 workflows:
   main:

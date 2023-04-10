@@ -17,6 +17,16 @@ Available online at http://uesz.nytud.hu/
 
 Conceptlists in Concepticon:
 - [Dellert-2018-1016](https://concepticon.clld.org/contributions/Dellert-2018-1016)
+## Notes
+
+[![License: CC BY 4.0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/martino-vic/ronataswestoldturkic/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/martino-vic/ronataswestoldturkic/tree/main)
+[![Documentation Status](https://readthedocs.org/projects/ronataswestoldturkic/badge/?version=latest)](https://ronataswestoldturkic.readthedocs.io/en/latest/?badge=latest)
+
+Tools used to create parts of the orthographic profile: https://digling.org/calc/profiler/
+
+
+
 ## Statistics
 
 
@@ -26,6 +36,8 @@ Conceptlists in Concepticon:
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
+![Vector Coverage 88%](https://img.shields.io/badge/Vector_Coverage-88%25-brightgreen)
+![SpaCy v3.2.0](https://img.shields.io/badge/SpaCy-v3.2.0-blue)
 
 - **Varieties:** 1
 - **Concepts:** 889
@@ -33,11 +45,12 @@ Conceptlists in Concepticon:
 - **Sources:** 1
 - **Synonymy:** 4.57
 - **Invalid lexemes:** 0
-- **Tokens:** 19,005
-- **Segments:** 58 (0 BIPA errors, 0 CLTS sound class errors, 58 CLTS modified)
-- **Inventory size (avg):** 58.00
-
-## CLDF Datasets
+- **Tokens:** 18,962
+- **Segments:** 60 (0 BIPA errors, 0 CLTS sound class errors, 60 CLTS modified)
+- **Inventory size (avg):** 60.00
+- **Senses:** 43,659
+.
+## CLDF Datasets## CLDF Datasets
 
 The following CLDF datasets are available in [cldf](cldf):
 

@@ -10,6 +10,7 @@ from clldutils.misc import slug
 from epitran import Epitran
 from ipatok import tokenise
 from loanpy.utils import IPA
+from loanpy.scapplier import Adrc
 from pylexibank import Dataset as BaseDataset, FormSpec, Lexeme
 import pylexibank
 from cldfbench import CLDFSpec
@@ -24,6 +25,7 @@ nr_of_meanings = 0
 nr_of_suitable_meanings = 0
 epi = Epitran("hun-Latn").transliterate
 get_clusters = IPA().get_clusters
+rc = Adrc("../ronataswestoldturkic/loanpy/H2EAHsc.json")
 
 @attr.s
 class CustomLexeme(Lexeme):
@@ -143,7 +145,8 @@ class Dataset(BaseDataset):
                 {"name": "Segments", "datatype": "string"},
                 {"name": "Year", "datatype": "integer"},
                 {"name": "Etymology", "datatype": "string"},
-                {"name": "Loan", "datatype": "string"}
+                {"name": "Loan", "datatype": "string"},
+                {"name": "rc100", "datatype": "string"}
             )
 
             writer.cldf.add_columns(
@@ -164,14 +167,16 @@ class Dataset(BaseDataset):
                     print(f"{j+1}/{len(senses_items)} meanings checked for word vectors", end="\r")
 
             for i, (fidx, row) in enumerate(idxs.items()):
+                seg_ipa = segipa(row["form"])
                 writer.objects["EntryTable"].append({
                     "ID": fidx,
                     "Language_ID": "Hungarian",
                     "Headword": row["form"],
-                    "Segments": segipa(row["form"]),
+                    "Segments": seg_ipa,
                     "Year": row["year"],
                     "Etymology": row["origin"],
-                    "Loan": row["Loan"]
+                    "Loan": row["Loan"],
+                    "rc100": rc.reconstruct(seg_ipa, 100)
                     })
 
             #for idx, row in enumerate(self.raw_dir.read_csv(
