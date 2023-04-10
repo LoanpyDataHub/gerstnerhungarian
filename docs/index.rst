@@ -11,8 +11,7 @@ Welcome to ronataswestoldturkic's documentation!
    :caption: Contents:
 
    mkcldf.rst
-   mkedictor.rst
-   reconstruct.rst
+   filter.rst
 
 Indices and tables
 ==================
