@@ -50,7 +50,7 @@ Tools used to create parts of the orthographic profile: https://digling.org/calc
 - **Inventory size (avg):** 60.00
 - **Senses:** 43,659
 
-## CLDF Datasets
+## CLDF Datasets## CLDF Datasets
 
 The following CLDF datasets are available in [cldf](cldf):
 

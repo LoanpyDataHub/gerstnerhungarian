@@ -5,8 +5,6 @@ import csv
 import re
 
 from clldutils.misc import slug
-from epitran import Epitran
-from ipatok import tokenise
 from loanpy.utils import find_optimal_year_cutoff, IPA
 
 ORIGINS = ("Proto-Finno-Ugric", "Turkic", "unknown", "uncertain", "Proto-Ugric")
