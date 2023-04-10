@@ -17,8 +17,6 @@ from cldfbench import CLDFSpec
 import spacy
 
 REP = [(x, "") for x in "†×∆-¹²³⁴’"]
-with open("etc/stopwords.json", "r") as f:  # from nltk.corpus import stopwords
-    STOPWORDS = json.load(f)  # stopwords.words("german")
 # install first with $ python -m spacy download de_core_news_lg
 nlp = spacy.load('de_core_news_lg')
 nr_of_meanings = 0
