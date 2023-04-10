@@ -28,6 +28,7 @@ def run(args):
             sg.cldf_dir.joinpath("Dictionary-metadata.json"))
     mapped = defaultdict(list)
     entries = defaultdict(list)
+
     for sense in ds.objects("SenseTable"):
         entry = sense.entries[0]
         entries[entry.cldf.headword] += [sense.cldf.description]

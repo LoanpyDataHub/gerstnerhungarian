@@ -1,4 +1,5 @@
 from collections import defaultdict
+import csv
 import functools
 import json
 import pathlib
@@ -38,36 +39,18 @@ def clean(text):
     """
     apply this in filter_vectors to clean meanings
     """
-    text = re.sub(r'[〈〉:;!,.?]', '', text)  # Remove special characters and punctuation
+    text = re.sub(r'[〈〉:;!,.?-]', '', text)  # Remove special characters and punctuation
     text = re.sub(r'\s+', ' ', text)         # Replace multiple whitespaces with a single space
     text = text.strip()
     return text
 
-def filter_vectors(meanings):
+@functools.lru_cache(maxsize=None)
+def filter_vectors(meaning):
     """
-    split meanings, filter out stopwords, add only if vector available.
+    filter out stopwords, add only if vector available.
     """
-    meanings = clean(meanings)
-    meanings = re.split(r',\s+|\s', meanings)
-    vectors = []
-    @functools.lru_cache
-    def is_suitable(meaning):
-        if meaning not in STOPWORDS:
-            token = nlp(meaning.strip())
-            if token.has_vector:
-                return True
-        return False
-
-    for meaning in meanings:
-        global nr_of_meanings
-        nr_of_meanings += 1
-        if is_suitable(meaning):
-            global nr_of_suitable_meanings
-            nr_of_suitable_meanings += 1
-            vectors.append(meaning)
-
-    # Add the row to the new_data list only if vectors is not empty
-    return ', '.join(vectors)
+    clean_mean = clean(meaning)
+    return clean_mean if nlp(clean_mean).has_vector else None
 
 class Dataset(BaseDataset):
     dir = pathlib.Path(__file__).parent
@@ -160,20 +143,27 @@ class Dataset(BaseDataset):
                 {"name": "Segments", "datatype": "string"},
                 {"name": "Year", "datatype": "integer"},
                 {"name": "Etymology", "datatype": "string"},
-                {"name": "Loan", "datatype": "string"},
+                {"name": "Loan", "datatype": "string"}
+            )
+
+            writer.cldf.add_columns(
+                "SenseTable",
                 {"name": "Spacy", "datatype": "string"}
             )
 
-            for sense, values in senses.items():
+            senses_items = senses.items()
+            for j, (sense, values) in enumerate(senses_items):
                 for i, (fidx, sense_desc) in enumerate(values):
+                    vector = filter_vectors(sense_desc)
                     writer.objects["SenseTable"].append({
-                        "ID": sense+"-"+str(i+1),
-                        "Description": sense_desc,
-                        "Entry_ID": fidx
+                        "ID": sense + "-" + str(i + 1),
+                        "Entry_ID": fidx,
+                        "Description": sense_desc.strip(),
+                        "Spacy": vector
                         })
+                    print(f"{j+1}/{len(senses_items)} meanings checked for word vectors", end="\r")
 
             for i, (fidx, row) in enumerate(idxs.items()):
-                print(f"{i+1}/{len(idxs)} meanings checked for word vectors", end="\r")
                 writer.objects["EntryTable"].append({
                     "ID": fidx,
                     "Language_ID": "Hungarian",
@@ -181,15 +171,9 @@ class Dataset(BaseDataset):
                     "Segments": segipa(row["form"]),
                     "Year": row["year"],
                     "Etymology": row["origin"],
-                    "Loan": row["Loan"],
-                    "Spacy": filter_vectors(row["sense"])
+                    "Loan": row["Loan"]
                     })
 
-        with open("vector_coverage.json", "w+") as f:
-            json.dump(
-                [f'{nr_of_suitable_meanings/nr_of_meanings:.0%}',
-                 nr_of_meanings], f
-                )
             #for idx, row in enumerate(self.raw_dir.read_csv(
             #    "Streitberg-1910-3645.tsv", delimiter="\t", dicts=True)):
             #    entry_id = "{0}-{1}".format(idx+1, slug(row["form"]))

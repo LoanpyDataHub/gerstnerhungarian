@@ -1,12 +1,15 @@
 """
 Write vector-coverage info to readme
 """
+import csv
 import json
 import re
 
 def run(args):
-    with open("vector_coverage.json", "r") as f:
-        stat = json.load(f)
+    with open("cldf/senses.csv", "r") as f:
+        senses = csv.reader(f)
+    h = {i: senses[0].index(i) for i in senses[0]}
+    stat = [len([i for i in senses if i[h["Spacy"]]])/len(senses), len(senses)]
 
     with open("README.md", 'r') as f:
         readme = f.read()

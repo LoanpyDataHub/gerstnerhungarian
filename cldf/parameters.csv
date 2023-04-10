@@ -75,7 +75,6 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 79-frost,Frost,2034,FROST
 80-kalte,Kälte,2932,COLD (CHILL)
 81-hitze,Hitze,612,HEAT
-82-raureif,Raureif,2942,HOARFROST
 83-regenbogen,Regenbogen,1733,RAINBOW
 84-donner,Donner,1150,THUNDER
 86-tropfen,Tropfen,3748,DROP (OF A LIQUID)
@@ -250,7 +249,6 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 273-kante,Kante,863,EDGE
 274-ecke,Ecke,192,CORNER
 275-spitze,Spitze,2992,TIP (OF OBJECT)
-276-ende,Ende,742,END (OF SPACE)
 277-loch,Loch,1667,HOLE
 279-muster,Muster,2988,PATTERN
 280-groe,Größe,2845,SIZE (OF OBJECT)
@@ -445,6 +443,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 486-schmal,schmal,1267,NARROW
 487-dicht,dicht,2239,DENSE
 488-dickgegenstand,dick[Gegenstand],1244,THICK
+489-dunn,dünn,2249,THIN (OF SHAPE OF OBJECT)
 490-fein,fein,2157,FINE OR THIN
 491-fest,fest,3003,SOLID
 492-flach,flach,1633,FLAT
@@ -517,6 +516,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 562-wahr,wahr,1657,TRUE
 563-alt,alt,1229,OLD
 564-neu,neu,1231,NEW
+566-altlebewesen,alt[Lebewesen],2112,OLD (AGED)
 567-jung,jung,1207,YOUNG
 568-arm,arm,1674,POOR
 569-reich,reich,712,RICH
@@ -711,7 +711,6 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 788-vorbereiten,vorbereiten,2909,PREPARE
 789-lieben,lieben,923,LOVE
 791-lachen,lachen,1355,LAUGH
-792-ruhren,rühren,2873,MOVE (AFFECT EMOTIONALLY)
 793-weinen,weinen,1839,CRY
 795-sichargern,sich ärgern,2223,BE ANGRY
 796-sichfurchten,sich fürchten,1419,FEAR (BE AFRAID)

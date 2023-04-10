@@ -22,7 +22,7 @@
         {
             "rdf:about": "https://github.com/martino-vic/gerstnerhungarian",
             "rdf:type": "prov:Entity",
-            "dc:created": "v3.1-34-g37a0da9",
+            "dc:created": "v3.1-39-gbf0bc3c",
             "dc:title": "Repository"
         },
         {
@@ -59,7 +59,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#EntryTable",
-            "dc:extent": 209,
+            "dc:extent": 10176,
             "tableSchema": {
                 "columns": [
                     {
@@ -106,10 +106,6 @@
                     {
                         "datatype": "string",
                         "name": "Loan"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "Spacy"
                     }
                 ],
                 "foreignKeys": [
@@ -156,6 +152,10 @@
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#entryReference",
                         "required": true,
                         "name": "Entry_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Spacy"
                     }
                 ],
                 "foreignKeys": [
