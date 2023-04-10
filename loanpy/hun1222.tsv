@@ -1,0 +1,532 @@
+ID	EntryID	Year	Etymology
+0-27-acel	27-acel	1086	Slavic
+1-36-ad	36-ad	1086	Proto-Finno-Ugric
+2-78-agyag	78-agyag	1205	unknown
+3-85-aj	85-aj	1055	
+4-87-ajandek	87-ajandek	1137	derived word
+5-100-akaszt	100-akaszt	1192	
+6-111-agyag	111-agyag	1205	
+7-119-aj	119-aj	1055	
+8-121-ajandek	121-ajandek	1137	
+9-132-akar	132-akar	1109	
+10-134-akaszt	134-akaszt	1192	
+11-158-al	158-al	1219	
+12-183-ald	183-ald	1193	Proto-Finno-Ugric
+13-219-alma	219-alma	1009	Turkic
+14-227-alom	227-alom	1091	Proto-Finno-Ugric
+15-282-anya	282-anya	1181	Proto-Uralic
+16-290-apa	290-apa	1055	Proto-Finno-Ugric
+17-293-apad	293-apad	1131	
+18-296-apat	296-apat	1180	uncertain
+19-303-apostol	303-apostol	1217	Latin
+20-311-ar	311-ar	1193	
+21-351-arok	351-arok	1055	Turkic
+22-353-arpa	353-arpa	1086	Turkic
+23-356-artany	356-artany	1075	uncertain
+24-414-atya	414-atya	1181	Proto-Uralic
+25-454-baba	454-baba	1111	Slavic
+26-475-bagoly	475-bagoly	1211	unknown
+27-482-bajor	482-bajor	1213	loan
+28-504-bal	504-bal	1086	uncertain
+29-532-ban	532-ban	1138	Croatian or Serbian
+30-545-bant	545-bant	1138	derived word
+31-547-banya	547-banya	1217	Slavic
+32-563-barazda	563-barazda	1086	Slavic
+33-600-bator	600-bator	1086	Turkic
+34-640-bel	640-bel	1055	Proto-Finno-Ugric
+35-663-ber	663-ber	1121	uncertain
+36-668-berc	668-berc	1135	Slavic
+37-671-berek	671-berek	1193	uncertain
+38-677-berkenye	677-berkenye	1055	Slavic
+39-682-bese	682-bese	1138	uncertain
+40-688-beszed	688-beszed	1138	
+41-696-bezzeg	696-bezzeg	1219	lexicalized inflected word-form
+42-751-bizik	751-bizik	1138	unknown
+43-753-bizony	753-bizony	1057	
+44-777-bocsar	777-bocsar	1002	Slavic
+45-788-bodor	788-bodor	1090	derived word
+46-810-boka	810-boka	1193	Turkic
+47-823-boldog	823-boldog	1193	internal
+48-826-bolgar	826-bolgar	1138	Bulgarian
+49-827-bolha	827-bolha	1200	Slavic
+50-829-bolond	829-bolond	1200	Slavic
+51-833-bolt	833-bolt	1211	loan
+52-843-bonc	843-bonc	1193	unknown
+53-865-borju	865-borju	1211	Chuvash
+54-880-borz	880-borz	1131	Turkic
+55-888-bot	888-bot	1131	uncertain
+56-900-bo	900-bo	1138	Turkic
+57-907-bojt	907-bojt	1181	loan
+58-911-bolcs	911-bolcs	1211	Turkic
+59-959-bu	959-bu	1138	Turkic
+60-967-bucsu	967-bucsu	1211	Chuvash
+61-1033-buza	1033-buza	1138	Chuvash
+62-1041-budos	1041-budos	1135	derived word
+63-1045-bukk	1045-bukk	1086	uncertain
+64-1056-buvos	1056-buvos	1138	
+65-1080-bel	1080-bel	1055	
+66-1102-ber	1102-ber	1121	
+67-1107-berc	1107-berc	1135	
+68-1110-berek	1110-berek	1193	
+69-1116-berkenye	1116-berkenye	1055	
+70-1121-bese	1121-bese	1138	
+71-1127-beszed	1127-beszed	1138	
+72-1186-cenk	1186-cenk	1138	unknown
+73-1301-compo	1301-compo	1211	uncertain
+74-1348-csalad	1348-csalad	1113	Slavic
+75-1351-csalan	1351-csalan	1214	Turkic
+76-1361-csanak	1361-csanak	1209	Turkic
+77-1371-csapinos	1371-csapinos	1181	derived word
+78-1399-cseber	1399-cseber	1219	Slavic
+79-1401-csecs	1401-csecs	1217	
+80-1407-cseh	1407-cseh	1075	
+81-1420-csemege	1420-csemege	1211	derived word
+82-1422-csemete	1422-csemete	1211	Italian
+83-1425-csempesz	1425-csempesz	1221	
+84-1427-csen	1427-csen	1138	unknown
+85-1433-csenevesz	1433-csenevesz	1138	
+86-1476-cseter	1476-cseter	1211	Slavic
+87-1512-csiklik	1512-csiklik	1211	
+88-1526-csimasz	1526-csimasz	1198	loan
+89-1533-csin	1533-csin	1181	Slavic
+90-1553-csipo	1553-csipo	1211	derived word
+91-1569-csiz	1569-csiz	1193	Slavic
+92-1578-csoda	1578-csoda	1105	Slavic
+93-1591-csonka	1591-csonka	1208	
+94-1592-csont	1592-csont	1138	Proto-Finno-Ugric
+95-1617-csok	1617-csok	1198	
+96-1620-csomor	1620-csomor	1135	uncertain
+97-1639-csuka	1639-csuka	1152	Slavic
+98-1649-csunya	1649-csunya	1221	uncertain
+99-1679-csutortok	1679-csutortok	1206	Slavic
+100-1697-dal	1697-dal	1211	
+101-1701-dalm	1701-dalm	1138	unknown
+102-1800-dever	1800-dever	1214	unknown
+103-1867-dob	1867-dob	1211	Proto-Ugric
+104-1868-dob	1868-dob	1138	onomatopoetic
+105-1876-doh	1876-doh	1214	Slavic
+106-1888-domboru	1888-domboru	1193	
+107-1896-dong	1896-dong	1194	onomatopoetic
+108-1916-dobor	1916-dobor	1138	
+109-1930-dore	1930-dore	1064	loan
+110-1939-draga	1939-draga	1208	Slavic
+111-1993-dusnok	1993-dusnok	1193	Czech
+112-2016-eb	2016-eb	1138	Proto-Ugric
+113-2030-ed	2030-ed	1138	uncertain
+114-2037-eg	2037-eg	1211	Proto-Finno-Ugric
+115-2042-eger	2042-eger	1067	unknown
+116-2056-egyeb	2056-egyeb	1138	lexicalized inflected word-form
+117-2067-egyes	2067-egyes	1138	derived word
+118-2073-egyhaz	2073-egyhaz	1193	compound
+119-2096-ek	2096-ek	1213	
+120-2100-ekes	2100-ekes	1213	
+121-2127-eleve	2127-eleve	1055	uncertain
+122-2140-ellik	2140-ellik	1177	
+123-2141-ellik	2141-ellik	1211	
+124-2156-elso	2156-elso	1211	
+125-2160-elv	2160-elv	1200	
+126-2173-eme	2173-eme	1138	
+127-2217-er	2217-er	1055	uncertain
+128-2304-evet	2304-evet	1215	Proto-Uralic
+129-2325-fa	2325-fa	1055	Proto-Uralic
+130-2371-fan	2371-fan	1138	Proto-Finno-Ugric
+131-2381-far	2381-far	1211	Proto-Uralic
+132-2428-fed	2428-fed	1211	Proto-Finno-Ugric
+133-2437-fegyver	2437-fegyver	1211	loan
+134-2438-fegyvernok	2438-fegyvernok	1213	derived word
+135-2452-fek	2452-fek	1215	Proto-Ugric
+136-2454-fekete	2454-fekete	1055	Proto-Ugric
+137-2458-fel	2458-fel	1138	
+138-2484-fen	2484-fen	1211	
+139-2514-ferto	2514-ferto	1055	derived word
+140-2650-fok	2650-fok	1055	uncertain
+141-2673-foncsika	2673-foncsika	1093	
+142-2674-foncs	2674-foncs	1138	uncertain
+143-2698-forras	2698-forras	1113	derived word
+144-2719-fodemes	2719-fodemes	1055	internal
+145-2827-fu	2827-fu	1075	Proto-Ugric
+146-2828-fu	2828-fu	1075	internal
+147-2832-ful	2832-ful	1002	
+148-2840-furesz	2840-furesz	1211	
+149-2889-galna	2889-galna	1193	Slavic
+150-2946-geg	2946-geg	1075	
+151-2974-gerencser	2974-gerencser	1109	Slavic
+152-2989-geszt	2989-geszt	1213	unknown
+153-3006-gim	3006-gim	1113	unknown
+154-3042-gomba	3042-gomba	1138	Slavic
+155-3053-gonosz	3053-gonosz	1211	Slavic
+156-3067-gobe	3067-gobe	1138	
+157-3072-godeny	3072-godeny	1138	Turkic
+158-3076-gogos	3076-gogos	1219	
+159-3096-gorog	3096-gorog	1156	Slavic
+160-3168-guta	3168-guta	1215	Latin
+161-3175-gugye	3175-gugye	1214	derived word
+162-3182-gyak	3182-gyak	1138	uncertain
+163-3218-gyepu	3218-gyepu	1212	unknown
+164-3235-gyota	3235-gyota	1211	unknown
+165-3240-gyongy	3240-gyongy	1164	Chuvash
+166-3242-gyonyoru	3242-gyonyoru	1121	
+167-3248-gyula	3248-gyula	1075	Chuvash
+168-3254-gyumolcseny	3254-gyumolcseny	1086	Chuvash
+169-3257-gyuru	3257-gyuru	1192	Chuvash
+170-3274-haboru	3274-haboru	1138	derived word
+171-3282-had	3282-had	1055	Proto-Uralic
+172-3286-hadnagy	3286-hadnagy	1213	compound
+173-3301-haj	3301-haj	1211	
+174-3329-hal	3329-hal	1075	
+175-3330-hal	3330-hal	1214	Proto-Finno-Ugric
+176-3351-hamar	3351-hamar	1198	unknown
+177-3405-harcsa	3405-harcsa	1193	unknown
+178-3419-harom	3419-harom	1055	Proto-Finno-Ugric
+179-3436-hat	3436-hat	1138	Proto-Finno-Ugric
+180-3444-hatvan	3444-hatvan	1075	compound
+181-3473-hegy	3473-hegy	1055	uncertain
+182-3489-helyes	3489-helyes	1211	
+183-3510-herceg	3510-herceg	1201	loan
+184-3536-het	3536-het	1067	Proto-Ugric
+185-3542-hetfo	3542-hetfo	1221	compound
+186-3554-heviz	3554-heviz	1214	compound
+187-3563-hideg	3563-hideg	1138	internal
+188-3577-him	3577-him	1093	Proto-Uralic
+189-3597-hisz	3597-hisz	1220	
+190-3605-hitvany	3605-hitvany	1138	unknown
+191-3613-hivatal	3613-hivatal	1211	derived word
+192-3616-ho	3616-ho	1138	Proto-Uralic
+193-3643-hollo	3643-hollo	1220	Proto-Uralic
+194-3655-homok	3655-homok	1055	Turkic
+195-3657-homoru	3657-homoru	1193	
+196-3660-hon	3660-hon	1211	change of word class
+197-3685-horh	3685-horh	1055	Proto-Finno-Ugric
+198-3688-horka	3688-horka	1193	unknown
+199-3697-hort	3697-hort	1156	
+200-3701-horvat	3701-horvat	1138	Slavic
+201-3704-hosszu	3704-hosszu	1086	
+202-3712-ho	3712-ho	1200	unknown
+203-3719-horcsog	3719-horcsog	1138	
+204-3722-hos	3722-hos	1138	Proto-Uralic
+205-3725-hug	3725-hug	1131	unknown
+206-3727-hugy	3727-hugy	1131	
+207-3728-hugy	3728-hugy	1131	Proto-Uralic
+208-3757-hus	3757-hus	1211	uncertain
+209-3760-husvet	3760-husvet	1211	compound
+210-3769-hu	3769-hu	1138	
+211-3782-huvos	3782-huvos	1211	
+212-3793-ideg	3793-ideg	1138	Proto-Uralic
+213-3813-iger	3813-iger	1138	Proto-Ugric
+214-3817-igy	3817-igy	1193	Chuvash
+215-3828-iker	3828-iker	1095	Chuvash
+216-3868-in	3868-in	1077	unknown
+217-3926-ip	3926-ip	1138	
+218-3942-irigy	3942-irigy	1138	
+219-4027-jarom	4027-jarom	1217	Slavic
+220-4045-jeg	4045-jeg	1156	Proto-Finno-Ugric
+221-4050-jelen	4050-jelen	1156	
+222-4063-jo	4063-jo	1200	Proto-Uralic
+223-4065-jobbagy	4065-jobbagy	1127	derived word
+224-4075-jonh	4075-jonh	1221	compound
+225-4091-juh	4091-juh	1198	unknown
+226-4130-kasza	4130-kasza	1138	Slavic
+227-4170-kavics	4170-kavics	1211	internal
+228-4182-kaba	4182-kaba	1138	Slavic
+229-4245-kaka	4245-kaka	1138	Turkic
+230-4290-kaliz	4290-kaliz	1135	uncertain
+231-4376-kanya	4376-kanya	1138	Slavic
+232-4423-kapu	4423-kapu	1009	Turkic
+233-4432-kar	4432-kar	1019	Croatian or Serbian
+234-4435-karacsony	4435-karacsony	1138	Slavic
+235-4448-karasz	4448-karasz	1199	Slavic
+236-4522-kasza	4522-kasza	1138	
+237-4562-kavics	4562-kavics	1211	
+238-4583-ker	4583-ker	1138	
+239-4586-kerd	4586-kerd	1164	derived word
+240-4588-kerek	4588-kerek	1055	Proto-Finno-Ugric
+241-4614-kes	4614-kes	1138	Proto-Finno-Ugric
+242-4615-kesa	4615-kesa	1138	uncertain
+243-4618-keseru	4618-keseru	1138	
+244-4621-kesik	4621-kesik	1138	Turkic
+245-4622-keskeny	4622-keskeny	1075	internal
+246-4626-keszeg	4626-keszeg	1171	Proto-Finno-Ugric
+247-4668-kedd	4668-kedd	1057	derived word
+248-4671-kedv	4671-kedv	1219	uncertain
+249-4675-kegy	4675-kegy	1213	Proto-Finno-Ugric
+250-4689-kelepce	4689-kelepce	1213	Slavic
+251-4704-kem	4704-kem	1138	unknown
+252-4705-kemence	4705-kemence	1156	Slavic
+253-4706-kemeny	4706-kemeny	1211	Proto-Uralic
+254-4715-kende	4715-kende	1138	Turkic
+255-4716-kender	4716-kender	1192	Turkic
+256-4721-kenez	4721-kenez	1055	Slavic
+257-4731-kenyer	4731-kenyer	1138	Permic
+258-4735-kep	4735-kep	1138	unknown
+259-4738-kicsi	4738-kicsi	1138	
+260-4745-kigyo	4745-kigyo	1086	Proto-Uralic
+261-4773-kiraly	4773-kiraly	1002	Slavic
+262-4779-kis	4779-kis	1075	Turkic
+263-4826-koris	4826-koris	1055	Chuvash
+264-4833-korom	4833-korom	1086	
+265-4839-kortvely	4839-kortvely	1055	
+266-4858-koveszt	4858-koveszt	1138	
+267-4866-kozep	4866-kozep	1192	Proto-Ugric
+268-4907-koboz	4907-koboz	1193	Turkic
+269-4994-komlo	4994-komlo	1086	Chuvash
+270-5025-konc	5025-konc	1181	Slavic
+271-5031-kondor	5031-kondor	1075	Slavic
+272-5078-konyha	5078-konyha	1206	
+273-5080-kopancs	5080-kopancs	1212	internal
+274-5132-koro	5132-koro	1200	Chuvash
+275-5134-korom	5134-korom	1211	Turkic
+276-5140-korpa	5140-korpa	1138	Slavic
+277-5187-kova	5187-kova	1138	uncertain
+278-5188-kovacs	5188-kovacs	1193	Slavic
+279-5208-kokeny	5208-kokeny	1184	Turkic
+280-5212-koles	5212-koles	1138	Proto-Ugric
+281-5219-kolyok	5219-kolyok	1165	Chuvash
+282-5227-konny	5227-konny	1211	Proto-Uralic
+283-5229-konnyu	5229-konnyu	1211	Proto-Ugric
+284-5277-kuka	5277-kuka	1198	uncertain
+285-5310-kuna	5310-kuna	1086	Slavic
+286-5363-kut	5363-kut	1055	
+287-5366-kutfo	5366-kutfo	1193	compound
+288-5380-kullo	5380-kullo	1211	onomatopoetic
+289-5385-kulso	5385-kulso	1216	derived word
+290-5414-lada	5414-lada	1086	German
+291-5430-lak	5430-lak	1086	
+292-5464-lanka	5464-lanka	1217	Slavic
+293-5471-lap	5471-lap	1138	uncertain
+294-5472-lap	5472-lap	1113	Proto-Finno-Ugric
+295-5487-lat	5487-lat	1216	Proto-Uralic
+296-5500-laz	5500-laz	1093	
+297-5511-leany	5511-leany	1055	compound
+298-5535-legy	5535-legy	1138	Proto-Finno-Ugric
+299-5562-len	5562-len	1181	Slavic
+300-5565-lengyel	5565-lengyel	1086	Russian
+301-5591-les	5591-les	1086	
+302-5595-lesz	5595-lesz	1138	Proto-Finno-Ugric
+303-5605-level	5605-level	1067	uncertain
+304-5621-libuc	5621-libuc	1219	
+305-5629-lt	5629-lt	1121	unknown
+306-5683-lom	5683-lom	1135	Slavic
+307-5684-lom	5684-lom	1135	Proto-Finno-Ugric
+308-5712-lo	5712-lo	1211	Proto-Finno-Ugric
+309-5714-lok	5714-lok	1138	Proto-Finno-Ugric
+310-5724-lud	5724-lud	1211	Proto-Finno-Ugric
+311-5747-ma	5747-ma	1138	internal
+312-5761-madar	5761-madar	1113	unknown
+313-5771-magas	5771-magas	1086	uncertain
+314-5800-marc	5800-marc	1138	
+315-5828-mart	5828-mart	1215	derived word
+316-5852-maszik	5852-maszik	1214	unknown
+317-5889-malaszt	5889-malaszt	1138	Slavic
+318-5897-malom	5897-malom	1075	Slavic
+319-5925-manko	5925-manko	1216	loan
+320-5932-mar	5932-mar	1138	Proto-Uralic
+321-5936-maraz	5936-maraz	1211	Slavic
+322-5989-meh	5989-meh	1138	Proto-Finno-Ugric
+323-5996-meleg	5996-meleg	1002	Proto-Ugric
+324-6014-men	6014-men	1138	unknown
+325-6023-mezsgye	6023-mezsgye	1206	Bulgarian
+326-6153-mester	6153-mester	1181	loan
+327-6154-mesz	6154-mesz	1200	unknown
+328-6211-mond	6211-mond	1202	Proto-Uralic
+329-6220-monoh	6220-monoh	1211	loan
+330-6225-monostor	6225-monostor	1219	
+331-6230-mony	6230-mony	1138	Proto-Uralic
+332-6238-mordaly	6238-mordaly	1165	loan
+333-6251-morotva	6251-morotva	1113	Slavic
+334-6289-mulat	6289-mulat	1212	derived word
+335-6293-mulya	6293-mulya	1171	Wanderwort
+336-6317-mut	6317-mut	1218	
+337-6327-mu	6327-mu	1181	Proto-Uralic
+338-6338-nadaly	6338-nadaly	1214	unknown
+339-6374-nedv	6374-nedv	1015	unknown
+340-6394-nem	6394-nem	1138	
+341-6399-nemet	6399-nemet	1086	Slavic
+342-6460-nyaj	6460-nyaj	1138	unknown
+343-6476-nyar	6476-nyar	1113	Proto-Uralic
+344-6485-nyek	6485-nyek	1113	Proto-Ugric
+345-6491-nyer	6491-nyer	1211	Proto-Ugric
+346-6521-nyom	6521-nyom	1138	
+347-6537-nyul	6537-nyul	1086	
+348-6546-nyu	6546-nyu	1067	Proto-Uralic
+349-6556-ocs	6556-ocs	1067	Proto-Finno-Ugric
+350-6564-okol	6564-okol	1138	internal
+351-6565-okor	6565-okor	1181	Chuvash
+352-6574-olyv	6574-olyv	1055	Chuvash
+353-6576-on	6576-on	1138	
+354-6584-ordog	6584-ordog	1075	unknown
+355-6589-orok	6589-orok	1086	Turkic
+356-6590-orom	6590-orom	1138	
+357-6600-osz	6600-osz	1211	
+358-6610-ot	6610-ot	1067	Proto-Finno-Ugric
+359-6618-ozon	6618-ozon	1138	uncertain
+360-6620-o	6620-o	1055	
+361-6640-odu	6640-odu	1037	Proto-Finno-Ugric
+362-6645-ok	6645-ok	1138	
+363-6650-okos	6650-okos	1138	
+364-6657-ol	6657-ol	1192	Turkic
+365-6658-olah	6658-olah	1200	Croatian or Serbian
+366-6730-orr	6730-orr	1055	Proto-Uralic
+367-6732-orszag	6732-orszag	1138	derived word
+368-6736-orv	6736-orv	1131	Turkic
+369-6737-orvos	6737-orvos	1131	uncertain
+370-6794-palast	6794-palast	1156	Croatian or Serbian
+371-6825-panasz	6825-panasz	1214	
+372-6872-pafrany	6872-pafrany	1209	Slavic
+373-6885-pap	6885-pap	1211	Slavic
+374-6987-pata	6987-pata	1200	
+375-6989-patak	6989-patak	1061	Slavic
+376-7025-pecer	7025-pecer	1209	Slavic
+377-7070-pentek	7070-pentek	1138	Slavic
+378-7177-pina	7177-pina	1199	uncertain
+379-7316-pokol	7316-pokol	1213	Croatian or Serbian
+380-7354-por	7354-por	1211	loan
+381-7406-pozsar	7406-pozsar	1138	unknown
+382-7582-punkosd	7582-punkosd	1138	uncertain
+383-7584-puspok	7584-puspok	1177	Wanderwort
+384-7586-ra	7586-ra	1055	lexicalized inflected word-form
+385-7629-rak	7629-rak	1199	Slavic
+386-7662-ravasz	7662-ravasz	1055	Proto-Finno-Ugric
+387-7676-rece	7676-rece	1211	uncertain
+388-7707-regos	7707-regos	1211	
+389-7718-rekettye	7718-rekettye	1181	Croatian or Serbian
+390-7732-remeny	7732-remeny	1138	unknown
+391-7762-res	7762-res	1138	Proto-Finno-Ugric
+392-7778-ret	7778-ret	1210	unknown
+393-7804-rez	7804-rez	1055	Slavic
+394-7882-roh	7882-roh	1171	unknown
+395-7930-rost	7930-rost	1211	uncertain
+396-7935-rossz	7935-rossz	1137	Proto-Finno-Ugric
+397-7947-rozs	7947-rozs	1137	Slavic
+398-7978-rug	7978-rug	1213	uncertain
+399-7979-ruga	7979-ruga	1213	Wanderwort
+400-8004-sator	8004-sator	1200	Turkic
+401-8012-seb	8012-seb	1138	
+402-8014-sebes	8014-sebes	1181	
+403-8015-sed	8015-sed	1086	unknown
+404-8019-seg	8019-seg	1055	Proto-Finno-Ugric
+405-8055-sereg	8055-sereg	1057	Turkic
+406-8057-sereny	8057-sereny	1220	derived word
+407-8087-saf	8087-saf	1086	loan
+408-8092-sag	8092-sag	1075	uncertain
+409-8139-sar	8139-sar	1055	Chuvash
+410-8159-sarok	8159-sarok	1067	derived word
+411-8160-saru	8160-saru	1211	Turkic
+412-8162-sas	8162-sas	1213	uncertain
+413-8163-sas	8163-sas	1015	unknown
+414-8207-sir	8207-sir	1055	uncertain
+415-8253-smaragd	8253-smaragd	1166	Latin
+416-8280-sok	8280-sok	1138	Proto-Finno-Ugric
+417-8321-sotet	8321-sotet	1211	Proto-Ugric
+418-8322-soveny	8322-soveny	1219	derived word
+419-8460-suger	8460-suger	1199	unknown
+420-8463-sullo	8463-sullo	1138	Chuvash
+421-8466-sun	8466-sun	1079	Proto-Finno-Ugric
+422-8476-suv	8476-suv	1138	Chuvash
+423-8478-suvolt	8478-suvolt	1061	
+424-8488-szab	8488-szab	1211	unknown
+425-8511-szak	8511-szak	1211	Slavic
+426-8513-szakad	8513-szakad	1055	
+427-8516-szakall	8516-szakall	1086	Turkic
+428-8533-szaldob	8533-szaldob	1221	unknown
+429-8553-szamar	8553-szamar	1138	loan
+430-8573-szant	8573-szant	1002	
+431-8590-szarm	8590-szarm	1055	internal
+432-8612-szaz	8612-szaz	1067	Proto-Finno-Ugric
+433-8617-szed	8617-szed	1079	uncertain
+434-8618-szeder	8618-szeder	1193	unknown
+435-8622-szeg	8622-szeg	1138	Proto-Finno-Ugric
+436-8625-szegeny	8625-szegeny	1131	unknown
+437-8630-szegye	8630-szegye	1211	
+438-8640-szeker	8640-szeker	1067	uncertain
+439-8657-szeles	8657-szeles	1181	derived word
+440-8690-szena	8690-szena	1055	Slavic
+441-8707-szennyes	8707-szennyes	1211	
+442-8708-szep	8708-szep	1127	Proto-Finno-Ugric
+443-8717-szer	8717-szer	1200	Chuvash
+444-8726-szerelem	8726-szerelem	1131	
+445-8742-szeru	8742-szeru	1015	Chuvash
+446-8760-szt	8760-szt	1055	derived word
+447-8772-szil	8772-szil	1055	Proto-Finno-Ugric
+448-8774-szilank	8774-szilank	1220	
+449-8791-szin	8791-szin	1067	Slavic
+450-8792-szin	8792-szin	1146	unknown
+451-8834-szoba	8834-szoba	1221	Wanderwort
+452-8844-szolga	8844-szolga	1138	Slavic
+453-8853-szomoru	8853-szomoru	1211	
+454-8871-szoros	8871-szoros	1086	
+455-8887-szolo	8887-szolo	1075	Chuvash
+456-8938-szucs	8938-szucs	1181	Chuvash
+457-8939-szugy	8939-szugy	1138	Proto-Uralic
+458-8943-szul	8943-szul	1138	Proto-Ugric
+459-8968-tagad	8968-tagad	1202	internal
+460-9017-tanacs	9017-tanacs	1213	Proto-Uralic
+461-9064-tarka	9064-tarka	1213	
+462-9070-tarnok	9070-tarnok	1113	Slavic
+463-9084-taska	9084-taska	1138	
+464-9089-tata	9089-tata	1202	uncertain
+465-9135-telek	9135-telek	1086	derived word
+466-9157-tenger	9157-tenger	1152	Chuvash
+467-9242-timar	9242-timar	1193	
+468-9249-tinta	9249-tinta	1219	Latin
+469-9271-tiz	9271-tiz	1211	Iranian
+470-9272-to	9272-to	1138	Proto-Uralic
+471-9284-tok	9284-tok	1138	uncertain
+472-9286-toka	9286-toka	1138	Slavic
+473-9296-tolmacs	9296-tolmacs	1075	uncertain
+474-9305-tomp	9305-tomp	1221	uncertain
+475-9306-tompa	9306-tompa	1202	Slavic
+476-9314-top	9314-top	1211	
+477-9316-topaz	9316-topaz	1208	Wanderwort
+478-9318-topolya	9318-topolya	1113	Slavic
+479-9325-torbagy	9325-torbagy	1200	unknown
+480-9348-torzsa	9348-torzsa	1219	
+481-9364-tok	9364-tok	1138	Slavic
+482-9372-tolgy	9372-tolgy	1181	
+483-9387-tonko	9387-tonko	1211	
+484-9395-tor	9395-tor	1138	uncertain
+485-9412-torzsok	9412-torzsok	1200	
+486-9415-tovis	9415-tovis	1135	derived word
+487-9515-turo	9515-turo	1152	
+488-9517-turul	9517-turul	1217	Turkic
+489-9531-tuzok	9531-tuzok	1082	Chuvash
+490-9534-tudo	9534-tudo	1193	unknown
+491-9564-udvarnok	9564-udvarnok	1075	
+492-9575-uj	9575-uj	1177	Proto-Finno-Ugric
+493-9594-unoka	9594-unoka	1209	Slavic
+494-9596-ur	9596-ur	1002	uncertain
+495-9602-uszik	9602-uszik	1138	Proto-Uralic
+496-9606-ut	9606-ut	1055	Proto-Uralic
+497-9608-utal	9608-utal	1212	uncertain
+498-9633-ugy	9633-ugy	1002	uncertain
+499-9639-ul	9639-ul	1138	internal
+500-9644-uno	9644-uno	1193	Turkic
+501-9645-ureg	9645-ureg	1113	
+502-9663-uzbeg	9663-uzbeg	1095	Slavic
+503-9689-vagyik	9689-vagyik	1211	
+504-9702-vak	9702-vak	1138	unknown
+505-9721-valo	9721-valo	1171	derived word
+506-9723-valpot	9723-valpot	1208	
+507-9725-valt	9725-valt	1138	derived word
+508-9733-van	9733-van	1138	
+509-9747-var	9747-var	1055	Iranian
+510-9756-varju	9756-varju	1138	Proto-Uralic
+511-9759-varos	9759-varos	1193	derived word
+512-9766-vasar	9766-vasar	1055	Iranian
+513-9790-veg	9790-veg	1055	uncertain
+514-9812-vemhes	9812-vemhes	1086	
+515-9824-ver	9824-ver	1138	unknown
+516-9850-vesz	9850-vesz	1086	internal
+517-9863-vet	9863-vet	1138	unknown
+518-9913-villam	9913-villam	1206	
+519-9921-vinnye	9921-vinnye	1093	Slavic
+520-9959-vitez	9959-vitez	1208	Slavic
+521-9994-vo	9994-vo	1086	Proto-Uralic
+522-9996-vodor	9996-vodor	1165	Slavic
+523-9999-volgy	9999-volgy	1211	Proto-Uralic
+524-10001-voros	10001-voros	1121	paronymy
+525-10008-zab	10008-zab	1211	Slavic
+526-10064-zomak	10064-zomak	1086	Slavic
+527-10082-zug	10082-zug	1171	
+528-10090-zuz	10090-zuz	1219	uncertain
+529-10139-zsilip	10139-zsilip	1086	Slavic
+530-10154-zsold	10154-zsold	1193	Wanderwort
