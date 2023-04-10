@@ -38,6 +38,10 @@ Tools used to create parts of the orthographic profile: https://digling.org/calc
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 ![Vector Coverage 88%](https://img.shields.io/badge/Vector_Coverage-88%25-brightgreen)
 ![SpaCy v3.2.0](https://img.shields.io/badge/SpaCy-v3.2.0-blue)
+![Vector Coverage 88%](https://img.shields.io/badge/Vector_Coverage-88%25-brightgreen)
+[![SpaCy v3.5.1](https://img.shields.io/badge/SpaCy-v3.2.0-blue)](https://pypi.org/project/spacy/)
+![Vector Coverage 88%](https://img.shields.io/badge/Vector_Coverage-88%25-brightgreen)
+[![SpaCy v3.5.1](https://img.shields.io/badge/SpaCy-v3.2.0-blue)](https://pypi.org/project/spacy/)
 
 - **Varieties:** 1
 - **Concepts:** 889
@@ -49,8 +53,10 @@ Tools used to create parts of the orthographic profile: https://digling.org/calc
 - **Segments:** 60 (0 BIPA errors, 0 CLTS sound class errors, 60 CLTS modified)
 - **Inventory size (avg):** 60.00
 - **Senses:** 43,659
+- **Senses:** 43,659
+- **Senses:** 43,659
 
-## CLDF Datasets## CLDF Datasets
+## CLDF Datasets## CLDF Datasets## CLDF Datasets## CLDF Datasets
 
 The following CLDF datasets are available in [cldf](cldf):
 
