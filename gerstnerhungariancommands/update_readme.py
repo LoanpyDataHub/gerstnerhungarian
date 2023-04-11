@@ -16,7 +16,7 @@ def run(args):
 
     # Find the Statistics section and modify it
     statistics_start = readme.find('\n\n- **Varieties:**')
-    statistics_end = readme.find('## CLDF Datasets')
+    statistics_end = readme.find('# Contributors')
     statistics_section = readme[statistics_start:statistics_end]
 
     # Add a new badge to the end of the Statistics section
@@ -26,8 +26,8 @@ img.shields.io/badge/SpaCy-v3.2.0-blue)](https://pypi.org/project/spacy/)'
     updated_statistics_section = new_badges + "\n\n" + statistics_section.strip()
 
     # Add another bullet point below the existing bullet points
-    new_bullet = f'\n- **Senses:** {stat[1]:,}\n'
-    updated_statistics_section += new_bullet + '\n## CLDF Datasets'
+    new_bullet = f'\n- **Senses:** {stat[1]:,}\n\n'
+    updated_statistics_section += new_bullet
 
     # Update the README with the modified Statistics section
     updated_readme = readme[:statistics_start] + updated_statistics_section + readme[statistics_end:]

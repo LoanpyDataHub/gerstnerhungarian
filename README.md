@@ -36,6 +36,8 @@ Tools used to create parts of the orthographic profile: https://digling.org/calc
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
+![Vector Coverage 88%](https://img.shields.io/badge/Vector_Coverage-88%25-brightgreen)
+[![SpaCy v3.5.1](https://img.shields.io/badge/SpaCy-v3.2.0-blue)](https://pypi.org/project/spacy/)
 
 - **Varieties:** 1
 - **Concepts:** 889
@@ -46,6 +48,20 @@ Tools used to create parts of the orthographic profile: https://digling.org/calc
 - **Tokens:** 18,962
 - **Segments:** 60 (0 BIPA errors, 0 CLTS sound class errors, 60 CLTS modified)
 - **Inventory size (avg):** 60.00
+- **Senses:** 43,659
+
+# Contributors
+
+Name | GitHub user | Description | Role |
+--- | --- | --- | --- |
+Károly Gerstner | | ÚESz \[New Hungarian Etymological Dictionary\], continuation of EWUng | Editor |
+Loránd Benkő | | EWUng \[Etymological Dictionary of Hungarian\], continuation of TESz | Editor |
+Loránd Benkő | | TESz \[A Historical-Etymological Dictionary of Hungarian\] | Editor |
+Viktor Martinović | @martino-vic | CLDF conversion | Other
+Johann-Mattis List | @LinguList| CLDF conversion | Other
+
+
+
 
 ## CLDF Datasets
 

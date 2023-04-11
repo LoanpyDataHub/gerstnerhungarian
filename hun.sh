@@ -3,3 +3,4 @@ cldfbench lexibank.makecldf lexibank_gerstnerhungarian.py  \
 --concepticon=../concepticon/concepticon-data \
 --glottolog=../glottolog \
 --clts=../clts
+cldfbench gerstnerhungarian.update_readme

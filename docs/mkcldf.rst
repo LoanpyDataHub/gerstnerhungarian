@@ -6,16 +6,20 @@ converting raw language data to CLDF. Each step can be found in the
 `continuous integration workflow
 <https://app.circleci.com/pipelines/github/martino-vic/gerstnerhungarian>`_
 as well. The data we are converting comes from
-the "New Hungarian Etymological Dictionary" (Gerstner 2022),
+the `New Hungarian Etymological Dictionary
+<https://uesz.nytud.hu/index.html>`_ (Gerstner 2022),
 which contains modern Hungarian words as headwords, together with their
 etymological source language and year of first appearance in a written source.
-The oldest layer is inherited from Proto-Uralic, Proto-Finno-Ugric and
+The oldest layer is inherited from Proto-Uralic, followed chronologically by
+Proto-Finno-Ugric and
 Proto-Ugric. The next oldest layer is borrowed from a Turkic language called
-West Old Turkic, or Proto-Bolgar. The raw data in this repository contains
+West Old Turkic, or `Proto-Bolgar
+<https://glottolog.org/resource/languoid/id/bolg1249>`_. The raw data in this
+repository contains
 only a small fraction of the contents of the dictionary.
-If you are passionate about Hungarian etymologies and want to contribute,
+If you are passionate about Hungarian etymologies and want to contribute
 to this repository, check out the `guidelines
-<https://github.com/martino-vic/ronataswestoldturkic/blob/main/CONTRIBUTING.md>`_
+<https://github.com/martino-vic/gerstnerhungarian/blob/main/CONTRIBUTING.md>`_
 and let's get in touch!
 
 Step 1: Clone the repository
@@ -66,7 +70,23 @@ populates the folder cldf
 
 .. code-block:: sh
 
-   cldfbench lexibank.makecldf lexibank_ronataswestoldturkic.py  --concepticon-version=v3.0.0 --glottolog-version=v4.5 --clts-version=v2.2.0
+   cldfbench lexibank.makecldf lexibank_ronataswestoldturkic.py  --concepticon-version=v3.0.0 --glottolog-version=v4.5 --clts-version=v2.2.0 --concepticon=../concepticon/concepticon-data --glottolog=../glottolog --clts=../clts
+   cldfbench gerstnerhungarian.update_readme
+
+The first line of this shell script invokes `cldfbench
+<https://pure.mpg.de/rest/items/item_3259068/component/file_3261838/content>`_,
+a workbench for creating and managing CLDF datasets. The first three
+flags ("--") specify the versions of the reference catalogues. This is
+important,
+since wrong versions can lead to mismatches in the references and may
+obstruct the CLDF-conversion.
+The last three flags specify the location of the reference
+catalogues. Those flags were added with increased replicability and
+maintainability in mind (Even though there is an alternative, namely editing
+the *catalog.ini* file with a texteditor like *nano*, as showed in
+`this tutorial <https://calc.hypotheses.org/2225>`_).
+The second line is a custom command that updates the readme by adding some
+custom badges and statistics, see step X.
 
 
 Below is a detailed description of what the script does. See also the tutorial at https://calc.hypotheses.org/3318, which has many similarities. This is the first lexibank script that uses the ``args.writer.align_cognates()`` prompt for automatic cognate alignment (see discussion on GitHub `here <https://github.com/lexibank/pylexibank/issues/267#issuecomment-1418959540>`_).
@@ -81,26 +101,46 @@ Below is a detailed description of what the script does. See also the tutorial a
 
 First, we import five inbuilt Python-libraries.
 
-- *defaultdict* defines a data type to which missing dictionary keys
-   automatically default.
-- The *lru_cache* will help to speed up looking up word-vectors,
-  since the same words are being looked up often.
+- `defaultdict <https://docs.python.org/3/library/collections.html#collections.defaultdict>`_
+  defines a data type to which missing dictionary keys automatically default.
+- The `lru_cache <https://docs.python.org/3/library/functools.html#functools.lru_cache>`_
+  will help to speed up looking up word-vectors, since the same words are being
+  looked up often.
 - The `json <https://docs.python.org/3/library/json.html>`_ library
   will be used to read the data-cleaning instructions for FormSpec
 - The `pathlib <https://docs.python.org/3/library/pathlib.html>`_ library
   will be used to define file paths
+- The regular expression library `re <https://docs.python.org/3/library/re.html>`_
+  will be used for data cleaning with the `re.sub
+  <https://docs.python.org/3/library/re.html#re.sub>`_ function and for
+  splitting strings with `re.split
+  <https://docs.python.org/3/library/re.html#re.Pattern.split>`_.
+
+.. code-block:: python
+
+   import attr
+   from clldutils.misc import slug
+   from epitran import Epitran
+   from lingpy.sequence.sound_classes import ipa2tokens
+   from loanpy.utils import IPA
+   from loanpy.scapplier import Adrc
+   from pylexibank import Dataset as BaseDataset, FormSpec, Lexeme
+   import pylexibank
+   from cldfbench import CLDFSpec
+   import spacy
 
 Then, we import functionalities from various third-party libraries.
 These dependencies were installed when running
-``pip install -e ronataswestoldturkic`` eariler.
+``pip install -e gerstnerhungarian`` eariler.
 
 - The attr library from the PyLexibank ecosystem will create the custom language class with
   custom columns in the output file ``cldf/forms.csv``.
 - The `slug <https://clldutils.readthedocs.io/en/latest/misc.html#clldutils.misc.slug>`_
   function from the clldutils library will be used to format some IDs
-- The `prosodic_string <https://lingpyxrotwang.readthedocs.io/en/latest/reference    /lingpy.sequence.html#lingpy.sequence.sound_classes.prosodic_string>`_
-  function from the lingpy library will be used to create the phonotactic
-  structures of words.
+- The `epitran <https://pypi.org/project/epitran/>`_ library will be used to
+  transcribe words from Hungarian orthography to IPA.
+- The `ipa2tokens <https://lingpy.readthedocs.io/en/latest/reference/lingpy.sequence.html#lingpy.sequence.sound_classes.ipa2tokens>`_
+  function from the lingpy library will be used to tokenise ipa-strings.
 - The `token2class <https://lingpyxrotwang.readthedocs.io/en/latest/reference/lingpy.sequence.html#lingpy.sequence.sound_classes.token2class>`_
   function from the lingpy library will be used to identify whether an IPA
   character is a vowel or a consonant
