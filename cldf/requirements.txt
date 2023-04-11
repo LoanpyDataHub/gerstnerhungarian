@@ -14,7 +14,7 @@ colorlog==6.7.0
 confection==0.0.4
 csvw==3.1.3
 cymem==2.0.7
-epitran==1.24
+-e git+https://github.com/martino-vic/epitran.git@0b3fb2ed8ff2b1cd6ee9436f8aa4e91bc24ac964#egg=epitran
 exceptiongroup==1.1.1
 gitdb==4.0.10
 greenlet==2.0.2
@@ -25,7 +25,7 @@ isodate==0.6.1
 Jinja2==3.1.2
 jsonschema==4.17.3
 langcodes==3.3.0
--e git+https://github.com/martino-vic/gerstnerhungarian.git@3bf57872752ccdf1a41b5bf68c64700dc0747e13#egg=lexibank_gerstnerhungarian
+-e git+https://github.com/martino-vic/gerstnerhungarian.git@eda2e951059f385d7ffce6bbfac74bf6cd6eac30#egg=lexibank_gerstnerhungarian
 lingpy==2.6.9
 -e git+https://github.com/martino-vic/loanpy.git@3aad8c2618f5b5a0191833a55e4ed7a892d223e2#egg=loanpy
 lxml==4.9.2

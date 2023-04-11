@@ -9,12 +9,12 @@ as well. The data we are converting comes from
 the "New Hungarian Etymological Dictionary" (Gerstner 2022),
 which contains modern Hungarian words as headwords, together with their
 etymological source language and year of first appearance in a written source.
-West Old Turkic, also called Proto-Bolgar,
-or Oghur-Turkic, or r-Turkic, is the parent language of the western branch
-of Turkic languages. The raw data contains only a small fraction of the
-contents of the dictionary. If you are passionate about pdf-wrangling,
-Mongolic, Turkic, or Finno-Ugric languages and want to expand this data set,
-definitely check out the `contribution guidelines
+The oldest layer is inherited from Proto-Uralic, Proto-Finno-Ugric and
+Proto-Ugric. The next oldest layer is borrowed from a Turkic language called
+West Old Turkic, or Proto-Bolgar. The raw data in this repository contains
+only a small fraction of the contents of the dictionary.
+If you are passionate about Hungarian etymologies and want to contribute,
+to this repository, check out the `guidelines
 <https://github.com/martino-vic/ronataswestoldturkic/blob/main/CONTRIBUTING.md>`_
 and let's get in touch!
 
@@ -23,7 +23,7 @@ Step 1: Clone the repository
 
 .. code-block:: sh
 
-   git clone https://github.com/martino-vic/ronataswestoldturkic.git
+   git clone https://github.com/martino-vic/gerstnerhungarian.git
 
 Step 2: Clone reference catalogues and loanpy
 ---------------------------------------------
@@ -55,7 +55,7 @@ immediately.
 
 .. code-block:: sh
 
-   pip install -e ronataswestoldturkic
+   pip install -e gerstnerhungarian
    pip install -e loanpy
 
 Step 4: Run lexibank script
