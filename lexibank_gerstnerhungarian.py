@@ -1,6 +1,9 @@
+"""
+lexibank script to convert data to CLDF standard
+"""
+
 from collections import defaultdict
-import csv
-import functools
+from functools import lru_cache
 import json
 import pathlib
 import re
@@ -43,7 +46,7 @@ def clean(text):
     text = text.strip()
     return text
 
-@functools.lru_cache(maxsize=None)
+@lru_cache(maxsize=None)
 def filter_vectors(meaning):
     """
     filter out stopwords, add only if vector available.

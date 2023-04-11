@@ -73,18 +73,19 @@ Below is a detailed description of what the script does. See also the tutorial a
 
 .. code-block:: python
 
+   from collections import defaultdict
+   from functools import lru_cache
    import json
    import pathlib
+   import re
 
-   import attr
-   from clldutils.misc import slug
-   from lingpy import prosodic_string
-   from lingpy.sequence.sound_classes import token2class
-   from pylexibank import Dataset as BaseDataset, FormSpec, Lexeme
+First, we import five inbuilt Python-libraries.
 
-First, we import two inbuilt Python-libraries.
-
-- The The `json <https://docs.python.org/3/library/json.html>`_ library
+- *defaultdict* defines a data type to which missing dictionary keys
+   automatically default.
+- The *lru_cache* will help to speed up looking up word-vectors,
+  since the same words are being looked up often.
+- The `json <https://docs.python.org/3/library/json.html>`_ library
   will be used to read the data-cleaning instructions for FormSpec
 - The `pathlib <https://docs.python.org/3/library/pathlib.html>`_ library
   will be used to define file paths
