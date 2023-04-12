@@ -367,7 +367,7 @@ and ``Sense_ID`` are directly filled from the raw file, while the columns
 ``Parameter_ID`` (foreign keys to ``cldf/parameters.csv``) and ``Entry_ID``
 (foreign keys to ``cldf/entries.csv``) are filled by accessing the information
 stored in the dictionaries ``concepts`` and ``form2idx`` that we have created
-a little earlier. The columns ``Language_ID`` and ``Source``are always the
+a little earlier. The columns ``Language_ID`` and ``Source`` are always the
 same and can therefore be hard-coded.
 
 .. code-block:: python
