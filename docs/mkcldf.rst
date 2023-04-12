@@ -472,6 +472,10 @@ expression, created by the `*reconstruct* method of loanpy.scapplier's
 Adrc class
 <https://loanpy.readthedocs.io/en/latest/documentation.html#loanpy.scapplier.Adrc.reconstruct>`_.
 
+This is how your console should approximately look like after the conversion:
+
+.. image:: consoleoutput.png
+
 Step 5: Updating the readme
 ---------------------------
 

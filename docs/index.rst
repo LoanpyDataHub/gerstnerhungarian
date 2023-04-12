@@ -11,7 +11,6 @@ Welcome to ronataswestoldturkic's documentation!
    :caption: Contents:
 
    mkcldf.rst
-   filter.rst
 
 Indices and tables
 ==================
