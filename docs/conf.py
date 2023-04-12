@@ -13,4 +13,5 @@ release = '2.0'
 extensions = ['sphinx.ext.autodoc']
 html_theme = 'sphinx_rtd_theme'
 # TODO replace mock with docs/requirements.txt after loanpy-release
-autodoc_mock_imports = ["epitran", "loanpy", "lingpy"]
+autodoc_mock_imports = ["epitran", "loanpy", "lingpy", "clldutils",
+                        "attr"]
