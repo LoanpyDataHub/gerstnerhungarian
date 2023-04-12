@@ -34,7 +34,7 @@
         }
     ],
     "upload_type": "dataset",
-    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Gerstner, K\u00e1roly (ed.) (2016). \u00daj magyar Etimol\u00f3giai Sz\u00f3t\u00e1r. Hungarian Academy of Sciences, Budapest. http://uesz.nytud.hu/.</p>\n</blockquote>",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Gerstner, K\u00e1roly (ed.) (2011-2023). \u00daj magyar Etimol\u00f3giai Sz\u00f3t\u00e1r. Hungarian Academy of Sciences, Budapest. http://uesz.nytud.hu/.</p>\n</blockquote>",
     "license": {
         "id": "MIT"
     }

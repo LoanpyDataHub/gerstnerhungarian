@@ -4,7 +4,6 @@ lexibank script to convert data to CLDF standard
 
 from collections import defaultdict
 from functools import lru_cache
-import json
 import pathlib
 import re
 
@@ -22,8 +21,6 @@ import spacy
 REP = [(x, "") for x in "†×∆-¹²³⁴’"]
 # install first with $ python -m spacy download de_core_news_lg
 nlp = spacy.load('de_core_news_lg')
-nr_of_meanings = 0
-nr_of_suitable_meanings = 0
 tokens2clusters = IPA().get_clusters
 rc = Adrc("etc/H2EAHsc.json")
 orth2ipa = Epitran("hun-Latn").transliterate
@@ -41,8 +38,10 @@ def clean(text):
     """
     apply this in filter_vectors to clean meanings
     """
-    text = re.sub(r'[〈〉:;!,.?-]', '', text)  # Remove special characters and punctuation
-    text = re.sub(r'\s+', ' ', text)         # Replace multiple whitespaces with a single space
+    # Remove special characters and punctuation
+    text = re.sub(r'[〈〉:;!,.?-]', '', text)
+    # Replace multiple whitespaces with a single space
+    text = re.sub(r'\s+', ' ', text)
     text = text.strip()
     return text
 
@@ -112,10 +111,6 @@ class Dataset(BaseDataset):
 
             language_table = writer.cldf["LanguageTable"]
 
-            ## add forms
-#            try:
-                #with open("form2idx.txt", "w") as f:
-                #    f.write(str(form2idx))
             for row in self.raw_dir.read_csv(
                 "wordlist.tsv", delimiter="\t", dicts=True):
                 try:
@@ -131,11 +126,9 @@ class Dataset(BaseDataset):
                         )
                 except KeyError:
                     pass
-#            except FileNotFoundError:
-#                args.log.info("wordlist.tsv missing, create with $ cldfbench gerstnerhungarian.map")
-#                pass
 
-        with self.cldf_writer(args, cldf_spec="dictionary", clean=False) as writer:
+        with self.cldf_writer(args, cldf_spec="dictionary",
+                clean=False) as writer:
 
             # we use the same language table for the data
             writer.cldf.add_component(language_table)
@@ -166,7 +159,7 @@ class Dataset(BaseDataset):
                         })
                     print(f"{j+1}/{len(senses_items)} meanings checked for word vectors", end="\r")
 
-            for i, (fidx, row) in enumerate(idxs.items()):
+            for fidx, row in idxs.items():
                 seg_ipa = tokens2clusters(ipa2tokens(orth2ipa(clean1(row["form"]))))
                 writer.objects["EntryTable"].append({
                     "ID": fidx,

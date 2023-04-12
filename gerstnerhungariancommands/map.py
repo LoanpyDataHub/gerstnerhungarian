@@ -12,6 +12,7 @@ from clldutils.clilib import Table, add_format
 
 def register(parser):
     """
+    Register optional arguments
     """
     add_catalog_spec(parser, 'concepticon')
     add_format(parser, default="simple")
@@ -19,7 +20,17 @@ def register(parser):
     parser.add_argument("--language", default="de")
 
 def run(args):
-
+    """
+    Filter raw data according to whether it occurs in the concept list called
+    "Dellert-2018-1016", which was specified in ``metadata.json`` after
+    creating the repository with the ``cldfbench new`` command. The concept
+    list is fetched through concepticon's API. Note that this script only
+    functions after a conversion to CLDF was already successful. This is
+    because the input is ``cldf/senses.csv``, which was created during the
+    cldf-conversion. The senses in that table are automatically mapped to
+    concepticon with the `pyesm <https://pypi.org/project/pysem/>`_ package.
+    The output file is written to ``raw/wordlist.tsv``.
+    """
     clist = {c.concepticon_id: c for c in
             args.concepticon.api.conceptlists[args.conceptlist].concepts.values()
             if c.concepticon_gloss}

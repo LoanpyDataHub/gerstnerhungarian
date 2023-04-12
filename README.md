@@ -4,13 +4,13 @@
 
 If you use these data please cite
 - the original source
-  > Gerstner, Károly (ed.) (2016). Új magyar Etimológiai Szótár. Hungarian Academy of Sciences, Budapest. http://uesz.nytud.hu/.
+  > Gerstner, Károly (ed.) (2011-2023). Új magyar Etimológiai Szótár. Hungarian Academy of Sciences, Budapest. http://uesz.nytud.hu/.
 - the derived dataset using the DOI of the [particular released version](../../releases/) you were using
 
 ## Description
 
 
-This dataset is licensed under a MIT license
+This dataset is licensed under a CC-BY 4.0 license
 
 Available online at http://uesz.nytud.hu/
 
@@ -24,6 +24,7 @@ Conceptlists in Concepticon:
 [![Documentation Status](https://readthedocs.org/projects/gerstnerhungarian/badge/?version=latest)](https://gerstnerhungarian.readthedocs.io/en/latest/?badge=latest)
 
 Tools used to create parts of the orthographic profile: https://digling.org/calc/profiler/
+Skeleton for the Hungarian orthographic profile comes from: https://github.com/dmort27/epitran/blob/master/epitran/data/map/hun-Latn.csv
 
 
 

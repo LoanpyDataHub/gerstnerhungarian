@@ -13,13 +13,13 @@
 
 property | value
  --- | ---
-[dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Gerstner, Károly (ed.) (2016). Új magyar Etimológiai Szótár. Hungarian Academy of Sciences, Budapest. http://uesz.nytud.hu/.
+[dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Gerstner, Károly (ed.) (2011-2023). Új magyar Etimológiai Szótár. Hungarian Academy of Sciences, Budapest. http://uesz.nytud.hu/.
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF Wordlist](http://cldf.clld.org/v1.0/terms.rdf#Wordlist)
 [dc:format](http://purl.org/dc/terms/format) | <ol><li>http://concepticon.clld.org/contributions/Dellert-2018-1016</li></ol>
 [dc:identifier](http://purl.org/dc/terms/identifier) | http://uesz.nytud.hu/
-[dc:license](http://purl.org/dc/terms/license) | http://www.opensource.org/licenses/MIT
+[dc:license](http://purl.org/dc/terms/license) | CC-BY 4.0
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/martino-vic/gerstnerhungarian
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/martino-vic/gerstnerhungarian/tree/774b4f8">martino-vic/gerstnerhungarian v3.1-59-g774b4f8</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v4.5">Glottolog v4.5</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/v2.5.0">Concepticon v2.5.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.2.0">CLTS v2.2.0</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/martino-vic/gerstnerhungarian/tree/df53ab1">martino-vic/gerstnerhungarian v3.1-60-gdf53ab1</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v4.5">Glottolog v4.5</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/v2.5.0">Concepticon v2.5.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.2.0">CLTS v2.2.0</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>lingpy-rcParams</strong>: <a href="./lingpy-rcParams.json">lingpy-rcParams.json</a></li><li><strong>python</strong>: 3.8.10</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | gerstnerhungarian
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
@@ -104,13 +104,13 @@ Name/Property | Datatype | Description
 
 property | value
  --- | ---
-[dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Gerstner, Károly (ed.) (2016). Új magyar Etimológiai Szótár. Hungarian Academy of Sciences, Budapest. http://uesz.nytud.hu/.
+[dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Gerstner, Károly (ed.) (2011-2023). Új magyar Etimológiai Szótár. Hungarian Academy of Sciences, Budapest. http://uesz.nytud.hu/.
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF Dictionary](http://cldf.clld.org/v1.0/terms.rdf#Dictionary)
 [dc:format](http://purl.org/dc/terms/format) | <ol><li>http://concepticon.clld.org/contributions/Dellert-2018-1016</li></ol>
 [dc:identifier](http://purl.org/dc/terms/identifier) | http://uesz.nytud.hu/
-[dc:license](http://purl.org/dc/terms/license) | http://www.opensource.org/licenses/MIT
+[dc:license](http://purl.org/dc/terms/license) | CC-BY 4.0
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/martino-vic/gerstnerhungarian
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/martino-vic/gerstnerhungarian/tree/774b4f8">martino-vic/gerstnerhungarian v3.1-59-g774b4f8</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v4.5">Glottolog v4.5</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/v2.5.0">Concepticon v2.5.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.2.0">CLTS v2.2.0</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/martino-vic/gerstnerhungarian/tree/df53ab1">martino-vic/gerstnerhungarian v3.1-60-gdf53ab1</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v4.5">Glottolog v4.5</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/v2.5.0">Concepticon v2.5.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.2.0">CLTS v2.2.0</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.8.10</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | gerstnerhungarian
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
