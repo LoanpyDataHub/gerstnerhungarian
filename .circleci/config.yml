@@ -60,8 +60,9 @@ jobs:
 
             file="loanpy/hun1416all.tsv" && lines=$(wc -l < "$file")
 
-            if [ "$lines" -ne 532 ]; then echo length not 532 lines;
-            exit 1; else echo OK; fi
+            if [ "$lines" -ne 1169 ];
+            then echo length not 1169 lines but $lines; exit 1;
+            else echo OK; fi
 
 workflows:
   main:
