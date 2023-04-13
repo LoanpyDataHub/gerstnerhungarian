@@ -58,7 +58,7 @@ jobs:
             cldfbench gerstnerhungarian.update_readme &&
             cldfbench gerstnerhungarian.filter
 
-            file="loanpy/hun1222.tsv" && lines=$(wc -l < "$file")
+            file="loanpy/hun1416all.tsv" && lines=$(wc -l < "$file")
 
             if [ "$lines" -ne 532 ]; then echo length not 532 lines;
             exit 1; else echo OK; fi
