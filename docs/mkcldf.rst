@@ -87,7 +87,7 @@ Installing these two packages will also install all their dependencies,
 which are specified in their respective ``setup.py`` files. One of the
 dependencies that has been installed together with *gerstnerhungarian* is
 `Spacy <https://pypi.org/project/spacy/>`_. Spacy offers pre-trained
-wordvector models. Since this is a rapidly changing field, it is adviced,
+wordvector models. Since this is a rapidly changing field, it is adviced
 to download always the most up-to-date vectors from the most up-to-date
 packages. The architecture allows you to replace this step with more suitable
 libraries. At the current moment (April 2023), the best available option
@@ -116,7 +116,7 @@ populates the folder `cldf`.
 
 .. code-block:: sh
 
-   cldfbench lexibank.makecldf lexibank_ronataswestoldturkic.py  --concepticon-version=v3.0.0 --glottolog-version=v4.5 --clts-version=v2.2.0 --concepticon=../concepticon/concepticon-data --glottolog=../glottolog --clts=../clts
+   cldfbench lexibank.makecldf lexibank_ronataswestoldturkic.py  --concepticon-version=v2.5.0 --glottolog-version=v4.5 --clts-version=v2.2.0 --concepticon=../concepticon/concepticon-data --glottolog=../glottolog --clts=../clts
    cldfbench gerstnerhungarian.update_readme
 
 The first line of this shell script invokes `cldfbench
@@ -252,6 +252,42 @@ separated list of translations into English that we will call "senses".
 Sense_ID is a foreign key that point to one of the senses in the
 ``senses.csv`` table and ``Entry_ID`` is a foreign key that points to the
 corresponding row in ``entries.csv``.
+
+.. code-block:: python
+
+   def clean1(word):
+       return re.sub("[†×∆\-¹²³⁴’ ]", "", word)
+
+   def clean(text):
+       """
+       apply this in filter_vectors to clean meanings
+       """
+       # Remove special characters and punctuation
+       text = re.sub(r'[〈〉:;!,.?-]', '', text)
+       # Replace multiple whitespaces with a single space
+       text = re.sub(r'\s+', ' ', text)
+       text = text.strip()
+       return text
+
+These two functions will be used later in the script to remove some
+characters from strings with the help of the `re
+<https://docs.python.org/3/library/re.html>`_ library.
+
+.. code-block:: python
+
+   @lru_cache(maxsize=None)
+   def filter_vectors(meaning):
+       """
+       filter out stopwords, add only if vector available.
+       """
+       clean_mean = clean(meaning)
+       return clean_mean if nlp(clean_mean).has_vector else None
+
+This function will be used when populating the column ``Spacy`` in
+``cldf/senses.csv``. It takes a string as input, which can be a word
+or a phrase. It then checks, whether spacy's word-vector model contains a
+vector for the cleaned input. If yes, it returns the cleaned input, if not
+it returns a blank line.
 
 .. code-block:: python
 
