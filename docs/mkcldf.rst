@@ -285,7 +285,7 @@ characters from strings with the help of the `re
 
 This function will be used when populating the column ``Spacy`` in
 ``cldf/senses.csv``. It takes a string as input, which can be a word
-or a phrase. It then checks, whether spacy's word-vector model contains a
+or a phrase. It then checks whether spacy's word-vector model contains a
 vector for the cleaned input. If yes, it returns the cleaned input, if not
 it returns a blank line.
 
