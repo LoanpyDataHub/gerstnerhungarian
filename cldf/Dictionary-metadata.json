@@ -22,7 +22,7 @@
         {
             "rdf:about": "https://github.com/martino-vic/gerstnerhungarian",
             "rdf:type": "prov:Entity",
-            "dc:created": "v3.1-66-g47ae6fe",
+            "dc:created": "v3.1-72-g288e9ab",
             "dc:title": "Repository"
         },
         {

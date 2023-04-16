@@ -25,7 +25,7 @@ isodate==0.6.1
 Jinja2==3.1.2
 jsonschema==4.17.3
 langcodes==3.3.0
--e git+https://github.com/martino-vic/gerstnerhungarian.git@47ae6fe5741021c08b9c6db77b3a675993b7202b#egg=lexibank_gerstnerhungarian
+-e git+https://github.com/martino-vic/gerstnerhungarian.git@288e9ab31ccfa784b87a9845384605b7dbe5cfc7#egg=lexibank_gerstnerhungarian
 lingpy==2.6.9
 -e git+https://github.com/martino-vic/loanpy.git@cbba022beb97c91ba80addce63b506f6fbda800d#egg=loanpy
 lxml==4.9.2
