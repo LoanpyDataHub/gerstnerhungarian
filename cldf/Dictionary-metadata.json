@@ -22,7 +22,7 @@
         {
             "rdf:about": "https://github.com/martino-vic/gerstnerhungarian",
             "rdf:type": "prov:Entity",
-            "dc:created": "v3.1-72-g288e9ab",
+            "dc:created": "v3.1-73-gd0c9af6",
             "dc:title": "Repository"
         },
         {
@@ -109,7 +109,7 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "rc100"
+                        "name": "rc1000"
                     }
                 ],
                 "foreignKeys": [

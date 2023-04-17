@@ -37,6 +37,8 @@ Skeleton for the Hungarian orthographic profile comes from: https://github.com/d
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
+![Vector Coverage 88%](https://img.shields.io/badge/Vector_Coverage-88%25-brightgreen)
+[![SpaCy v3.5.1](https://img.shields.io/badge/SpaCy-v3.2.0-blue)](https://pypi.org/project/spacy/)
 
 - **Varieties:** 1
 - **Concepts:** 889
@@ -47,6 +49,7 @@ Skeleton for the Hungarian orthographic profile comes from: https://github.com/d
 - **Tokens:** 18,962
 - **Segments:** 60 (0 BIPA errors, 0 CLTS sound class errors, 60 CLTS modified)
 - **Inventory size (avg):** 60.00
+- **Senses:** 43,659
 
 # Contributors
 

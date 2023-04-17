@@ -139,7 +139,7 @@ class Dataset(BaseDataset):
                 {"name": "Year", "datatype": "integer"},
                 {"name": "Etymology", "datatype": "string"},
                 {"name": "Loan", "datatype": "string"},
-                {"name": "rc100", "datatype": "string"}
+                {"name": "rc1000", "datatype": "string"}
             )
 
             writer.cldf.add_columns(
@@ -160,7 +160,8 @@ class Dataset(BaseDataset):
                     print(f"{j+1}/{len(senses_items)} meanings checked for word vectors", end="\r")
 
             for fidx, row in idxs.items():
-                seg_ipa = tokens2clusters(ipa2tokens(orth2ipa(clean1(row["form"]))))
+                seg_ipa = tokens2clusters(ipa2tokens(orth2ipa(clean1
+                    (row["form"])), merge_vowels=False, merge_geminates=False))
                 writer.objects["EntryTable"].append({
                     "ID": fidx,
                     "Language_ID": "Hungarian",
@@ -169,5 +170,5 @@ class Dataset(BaseDataset):
                     "Year": row["year"],
                     "Etymology": row["origin"],
                     "Loan": row["Loan"],
-                    "rc100": rc.reconstruct(seg_ipa, 100)
+                    "rc1000": rc.reconstruct(seg_ipa, 1000)
                     })
