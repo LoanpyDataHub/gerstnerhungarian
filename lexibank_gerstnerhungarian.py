@@ -45,6 +45,20 @@ def clean(text):
     text = text.strip()
     return text
 
+def seg_ipa(word):
+    """
+    #. clean word
+    #. transcribe it to ipa
+    #. segment it to tokens
+    #. cluster tokens
+
+    """
+    word = clean1(word)
+    word = orth2ipa(word)
+    word = ipa2tokens(word, merge_vowels=False, merge_geminates=False)
+    word = tokens2clusters(word)
+    return word
+
 @lru_cache(maxsize=None)
 def filter_vectors(meaning):
     """
@@ -160,15 +174,14 @@ class Dataset(BaseDataset):
                     print(f"{j+1}/{len(senses_items)} meanings checked for word vectors", end="\r")
 
             for fidx, row in idxs.items():
-                seg_ipa = tokens2clusters(ipa2tokens(orth2ipa(clean1
-                    (row["form"])), merge_vowels=False, merge_geminates=False))
+                segmented = seg_ipa(row["form"])
                 writer.objects["EntryTable"].append({
                     "ID": fidx,
                     "Language_ID": "Hungarian",
                     "Headword": row["form"],
-                    "Segments": seg_ipa,
+                    "Segments": segmented,
                     "Year": row["year"],
                     "Etymology": row["origin"],
                     "Loan": row["Loan"],
-                    "rc1000": rc.reconstruct(seg_ipa, 1000)
+                    "rc1000": rc.reconstruct(f"#{segmented}# -#", 1000)
                     })
