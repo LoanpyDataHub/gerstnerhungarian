@@ -4,6 +4,7 @@ lexibank script to convert data to CLDF standard
 
 from collections import defaultdict
 from functools import lru_cache
+import json
 import pathlib
 import re
 
@@ -18,11 +19,17 @@ import pylexibank
 from cldfbench import CLDFSpec
 import spacy
 
+# specify replacements
 REP = [(x, "") for x in "†×∆-¹²³⁴’"]
+
+TRIMLIST = ["dozik$", "kodik$", "kedik$", "kozik$", "ködik$",
+            "odik$", "ődik$", "ozik$", "edik$", "ödik$", "ázik$", "ezik$",
+            "edik$", "ödik$", "ődik$", "ozik$", "ik$"]
+
 # install first with $ python -m spacy download de_core_news_lg
 nlp = spacy.load('de_core_news_lg')
 tokens2clusters = IPA().get_clusters
-rc = Adrc("etc/H2EAHsc.json")
+rc = Adrc("../ronataswestoldturkic/loanpy/H2EAHsc.json")
 orth2ipa = Epitran("hun-Latn").transliterate
 
 @attr.s
@@ -56,8 +63,18 @@ def seg_ipa(word):
     word = clean1(word)
     word = orth2ipa(word)
     word = ipa2tokens(word, merge_vowels=False, merge_geminates=False)
-    word = tokens2clusters(word)
-    return word
+    word.append("-")
+    #word = tokens2clusters(word)
+    return " ".join(word)
+
+def trim(word):
+    """
+    trim wordfinal "ik" and other derivational suffixes that go withit,
+    see variable TRIMLIST
+    """
+    if word in ["antik", "bolsevik"]:
+        return word
+    return re.sub("|".join(TRIMLIST), "", clean1(word))
 
 @lru_cache(maxsize=None)
 def filter_vectors(meaning):
@@ -174,7 +191,8 @@ class Dataset(BaseDataset):
                     print(f"{j+1}/{len(senses_items)} meanings checked for word vectors", end="\r")
 
             for fidx, row in idxs.items():
-                segmented = seg_ipa(row["form"])
+                form = trim(row["form"])
+                segmented = seg_ipa(form)
                 writer.objects["EntryTable"].append({
                     "ID": fidx,
                     "Language_ID": "Hungarian",
@@ -183,5 +201,5 @@ class Dataset(BaseDataset):
                     "Year": row["year"],
                     "Etymology": row["origin"],
                     "Loan": row["Loan"],
-                    "rc1000": rc.reconstruct(f"#{segmented}# -#", 1000)
+                    "rc1000": rc.reconstruct(f"{segmented}", 700)
                     })
