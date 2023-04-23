@@ -29,7 +29,8 @@ TRIMLIST = ["dozik$", "kodik$", "kedik$", "kozik$", "ködik$",
 # install first with $ python -m spacy download de_core_news_lg
 nlp = spacy.load('de_core_news_lg')
 tokens2clusters = IPA().get_clusters
-rc = Adrc("../ronataswestoldturkic/loanpy/H2EAHsc.json")
+#rc = Adrc("../ronataswestoldturkic/loanpy/H2EAHsc.json")
+rc = Adrc("etc/H2EAHsc.json")
 orth2ipa = Epitran("hun-Latn").transliterate
 
 @attr.s
