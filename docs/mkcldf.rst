@@ -173,7 +173,6 @@ First, we import four inbuilt Python-libraries.
    from clldutils.misc import slug
    from epitran import Epitran
    from lingpy.sequence.sound_classes import ipa2tokens
-   from loanpy.utils import IPA
    from loanpy.scapplier import Adrc
    from pylexibank import Dataset as BaseDataset, FormSpec, Lexeme
    import pylexibank
@@ -194,16 +193,12 @@ eariler.
 - The `ipa2tokens
   <https://lingpy.readthedocs.io/en/latest/reference/lingpy.sequence.html#lingpy.sequence.sound_classes.ipa2tokens>`_
   function from the lingpy library will be used to tokenise ipa-strings.
-- The IPA-class from loanpy's utils module will be used to call its
-  `get_clusters
-  <https://loanpy.readthedocs.io/en/latest/documentation.html#loanpy.utils.IPA>`_
-  method to cluster consonants and vowels from a segmented IPA-string.
 - The `Adrc
   <https://loanpy.readthedocs.io/en/latest/documentation.html#loanpy.scapplier.Adrc>`_
   class from loanpy will be used to predict historical
   reconstructions based on sound changes that were extracted in the
   `ronataswestoldturkic
-  <https://ronataswestoldturkic.readthedocs.io/en/latest/mkcldf.html>`_
+  <https://ronataswestoldturkic.readthedocs.io/en/latest/home.html>`_
   repository.
 - The classes from the `pylexibank <https://pypi.org/project/pylexibank/>`_
   library are all related to specifying the output format. Dataset for example
