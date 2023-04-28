@@ -201,9 +201,10 @@ eariler.
   <https://ronataswestoldturkic.readthedocs.io/en/latest/home.html>`_
   repository.
 - The classes from the `pylexibank <https://pypi.org/project/pylexibank/>`_
-  library are all related to specifying the output format. Dataset for example
-  loads the default data format, Lexeme will be used to customise it, and
-  FormSpec will be used to document the cleaning of the raw data.
+  library are all related to specifying the output format. ``Dataset`` for
+  example
+  loads the default data format, ``Lexeme`` will be used to customise it, and
+  ``FormSpec`` will be used to document the cleaning of the raw data.
 - `Spacy <https://pypi.org/project/spacy/>`_ will be used to check the word
   vector coverage of the meanings associated with each headword.
 
@@ -234,6 +235,17 @@ on which we will reconstruct hypothetical Early Ancient Hungarian forms.
 Lastly, ``orth2ipa`` is a function that transcribes strings in Hungarian
 orthography to IPA with the help of the `epitran
 <https://pypi.org/project/epitran/>`_ package.
+
+.. code-block:: python
+
+   TRIMLIST = ["dozik$", "kodik$", "kedik$", "kozik$", "ködik$",
+               "odik$", "ődik$", "ozik$", "edik$", "ödik$", "ázik$", "ezik$",
+               "edik$", "ödik$", "ődik$", "ozik$", "ik$"]
+
+Here, we are defining a list of regular expressions that will later be used
+to remove from some input words. These are some common suffixes in Hungarian
+verbs that have a different etymology than the rest of the verb they belong
+to.
 
 .. code-block:: python
 

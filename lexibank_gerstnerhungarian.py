@@ -4,7 +4,6 @@ lexibank script to convert data to CLDF standard
 
 from collections import defaultdict
 from functools import lru_cache
-import json
 import pathlib
 import re
 
