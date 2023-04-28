@@ -209,6 +209,21 @@ eariler.
   vector coverage of the meanings associated with each headword.
 
 .. code-block:: python
+   HOWMANY = 700
+   TRIMLIST = ["dozik$", "kodik$", "kedik$", "kozik$", "ködik$",
+               "odik$", "ődik$", "ozik$", "edik$", "ödik$", "ázik$", "ezik$",
+               "edik$", "ödik$", "ődik$", "ozik$", "ik$"]
+
+Here, we are defining two static parameters. One is the number of predictions
+we want to make per Hungarian word. The optimum was calculated in `Step 5
+<https://ronataswestoldturkic.readthedocs.io/en/latest/mkloanpy.html#step-5-evaluate-vertical-and-horizontal-sound-correspondences>`__
+and visualised in `Step 6 <https://ronataswestoldturkic.readthedocs.io/en/latest/mkloanpy.html#step-6-plot-the-evaluations>`__
+of the ronataswestoldturkic repository. The other is a list of regular
+expressions that will later be used to remove from some input words. These are
+some common suffixes in Hungarian verbs that have a different etymology than
+the rest of the verb they belong to.
+
+.. code-block:: python
 
    REP = [(x, "") for x in "†×∆-¹²³⁴’"]
    # install first with $ python -m spacy download de_core_news_lg
@@ -235,17 +250,6 @@ on which we will reconstruct hypothetical Early Ancient Hungarian forms.
 Lastly, ``orth2ipa`` is a function that transcribes strings in Hungarian
 orthography to IPA with the help of the `epitran
 <https://pypi.org/project/epitran/>`_ package.
-
-.. code-block:: python
-
-   TRIMLIST = ["dozik$", "kodik$", "kedik$", "kozik$", "ködik$",
-               "odik$", "ődik$", "ozik$", "edik$", "ödik$", "ázik$", "ezik$",
-               "edik$", "ödik$", "ődik$", "ozik$", "ik$"]
-
-Here, we are defining a list of regular expressions that will later be used
-to remove from some input words. These are some common suffixes in Hungarian
-verbs that have a different etymology than the rest of the verb they belong
-to.
 
 .. code-block:: python
 
@@ -283,6 +287,24 @@ corresponding row in ``entries.csv``.
 These two functions will be used later in the script to remove some
 characters from strings with the help of the `re
 <https://docs.python.org/3/library/re.html>`_ library.
+
+.. code-block:: python
+
+   def seg_ipa(word):
+       """
+       #. clean word
+       #. transcribe it to ipa
+       #. segment it to tokens
+       #. cluster tokens
+
+       """
+       word = clean1(word)
+       word = orth2ipa(word)
+       word = ipa2tokens(word, merge_vowels=False, merge_geminates=False)
+       word.append("-")
+       return " ".join(word)
+
+This function
 
 .. code-block:: python
 

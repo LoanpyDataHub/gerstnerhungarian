@@ -17,13 +17,15 @@ import pylexibank
 from cldfbench import CLDFSpec
 import spacy
 
-# specify replacements
-REP = [(x, "") for x in "†×∆-¹²³⁴’"]
-
+#specify number of reconstructions per word
+HOWMANY = 700
+# spacify regular expression replacements
 TRIMLIST = ["dozik$", "kodik$", "kedik$", "kozik$", "ködik$",
             "odik$", "ődik$", "ozik$", "edik$", "ödik$", "ázik$", "ezik$",
             "edik$", "ödik$", "ődik$", "ozik$", "ik$"]
 
+# specify replacements
+REP = [(x, "") for x in "†×∆-¹²³⁴’"]
 # install first with $ python -m spacy download de_core_news_lg
 nlp = spacy.load('de_core_news_lg')
 #rc = Adrc("../ronataswestoldturkic/loanpy/H2EAHsc.json")
@@ -182,7 +184,7 @@ class Dataset(BaseDataset):
                 {"name": "Year", "datatype": "integer"},
                 {"name": "Etymology", "datatype": "string"},
                 {"name": "Loan", "datatype": "string"},
-                {"name": "rc1000", "datatype": "string"}
+                {"name": f"rc{HOWMANY}", "datatype": "string"}
             )
 
             writer.cldf.add_columns(
@@ -213,5 +215,5 @@ class Dataset(BaseDataset):
                     "Year": row["year"],
                     "Etymology": row["origin"],
                     "Loan": row["Loan"],
-                    "rc1000": rc.reconstruct(f"{segmented}", 700)
+                    f"rc{HOWMANY}": rc.reconstruct(f"{segmented}", HOWMANY)
                     })
