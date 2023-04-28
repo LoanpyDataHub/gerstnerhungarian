@@ -274,9 +274,6 @@ corresponding row in ``entries.csv``.
        return re.sub("[†×∆\-¹²³⁴’ ]", "", word)
 
    def clean(text):
-       """
-       apply this in filter_vectors to clean meanings
-       """
        # Remove special characters and punctuation
        text = re.sub(r'[〈〉:;!,.?-]', '', text)
        # Replace multiple whitespaces with a single space
@@ -291,13 +288,6 @@ characters from strings with the help of the `re
 .. code-block:: python
 
    def seg_ipa(word):
-       """
-       #. clean word
-       #. transcribe it to ipa
-       #. segment it to tokens
-       #. cluster tokens
-
-       """
        word = clean1(word)
        word = orth2ipa(word)
        word = ipa2tokens(word, merge_vowels=False, merge_geminates=False)
@@ -310,11 +300,18 @@ an input string and returns it as a space-separated string.
 
 .. code-block:: python
 
+   def trim(word):
+       if word in ["antik", "bolsevik"]:
+           return word
+       return re.sub("|".join(TRIMLIST), "", clean1(word))
+
+This function uses the static list of suffixes defined earlier and cuts
+them off an input string.
+
+.. code-block:: python
+
    @lru_cache(maxsize=None)
    def filter_vectors(meaning):
-       """
-       filter out stopwords, add only if vector available.
-       """
        clean_mean = clean(meaning)
        return clean_mean if nlp(clean_mean).has_vector else None
 

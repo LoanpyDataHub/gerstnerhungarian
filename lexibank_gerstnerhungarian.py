@@ -88,8 +88,14 @@ def seg_ipa(word):
 
 def trim(word):
     """
-    trim wordfinal "ik" and other derivational suffixes that go withit,
+    trim wordfinal "ik" and other derivational suffixes that go with it,
     see variable TRIMLIST
+
+    :param word: The word to trim
+    :type word: str
+
+    :return: The trimmed word
+    :rtype: str
     """
     if word in ["antik", "bolsevik"]:
         return word
