@@ -1,7 +1,7 @@
 `TL;DR <https://en.wikipedia.org/wiki/TL;DR>`_
 ==============================================
 
-make cldf:
+make cldf (downloadsize: 1.5GB+):
 
 .. code-block:: sh
 
