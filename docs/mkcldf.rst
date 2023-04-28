@@ -220,9 +220,8 @@ we want to make per Hungarian word. The optimum was calculated in `Step 5
 <https://ronataswestoldturkic.readthedocs.io/en/latest/mkloanpy.html#step-5-evaluate-vertical-and-horizontal-sound-correspondences>`__
 and visualised in `Step 6 <https://ronataswestoldturkic.readthedocs.io/en/latest/mkloanpy.html#step-6-plot-the-evaluations>`__
 of the ronataswestoldturkic repository. The other is a list of regular
-expressions that will later be used to remove from some input words. These are
-some common suffixes in Hungarian verbs that have a different etymology than
-the rest of the verb they belong to.
+expressions that will later be used to remove suffixes in Hungarian verbs that
+have a different etymology than the rest of the verb they belong to.
 
 .. code-block:: python
 
@@ -305,7 +304,9 @@ characters from strings with the help of the `re
        word.append("-")
        return " ".join(word)
 
-This function
+This function will be used to populate the column ``Segments`` in
+``cldf/entries.csv``. It cleans, ipa-transcribes, segments, and clusters
+an input string and returns it as a space-separated string.
 
 .. code-block:: python
 

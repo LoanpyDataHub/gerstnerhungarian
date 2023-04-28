@@ -74,6 +74,11 @@ def seg_ipa(word):
     #. segment it to tokens
     #. cluster tokens
 
+    :param: a word to process
+    :type: str
+
+    :return: The processed word
+    :rype: str
     """
     word = clean1(word)
     word = orth2ipa(word)
