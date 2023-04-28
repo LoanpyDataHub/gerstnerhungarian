@@ -292,7 +292,7 @@ characters from strings with the help of the `re
        return " ".join(word)
 
 This function will be used to populate the column ``Segments`` in
-``cldf/entries.csv``. It cleans, ipa-transcribes, segments, and clusters
+``cldf/entries.csv``. It cleans, ipa-transcribes, and segments
 an input string and returns it as a space-separated string.
 
 .. code-block:: python
@@ -316,7 +316,7 @@ This function will be used when populating the column ``Spacy`` in
 ``cldf/senses.csv``. It takes a string as input, which can be a word
 or a phrase. It then checks whether spacy's word-vector model contains a
 vector for the cleaned input. If yes, it returns the cleaned input, if not
-it returns a blank line.
+it returns None, which translates to a blank row in our column.
 
 .. code-block:: python
 

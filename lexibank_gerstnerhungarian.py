@@ -72,7 +72,6 @@ def seg_ipa(word):
     #. clean word
     #. transcribe it to ipa
     #. segment it to tokens
-    #. cluster tokens
 
     :param: a word to process
     :type: str
