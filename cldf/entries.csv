@@ -789,7 +789,7 @@ ID,Language_ID,Headword,Part_Of_Speech,Segments,Year,Etymology,Loan,rc700
 788-bodor,Hungarian,bodor,,b o d o r -,1090,derived word,False,^(b)(u|o|a|ɒ|ol|ul|uɣu|oɣo|ɯ|oɣ|uɣ|al|i)?(d|d͡ʒʲ|t|nd)?(u|o|a|ɒ|ol|ul|uɣu|oɣo|ɯ)?(r)$
 789-bodorog,Hungarian,bódorog ×,,b oː d o r o ɡ -,1648,internal,False,^(b)(aɣ|uɣ|u|aɣu|iɣ|oɣ|a|aw|al|ɯɣ|uː|uj|au|i|awu|aː)(d|d͡ʒʲ|t|nd)?(u|o|a|ɒ)?(r)(u|o)(ɡ)$
 790-bodza,Hungarian,bodza,,b o d͡z ɒ -,1090,Slavic,True,d͡z not old
-791-bodzfa,Hungarian,bodzfa ×,,b o d͡z f ɒ -,1257,compound,False,"f, d͡z not old"
+791-bodzfa,Hungarian,bodzfa ×,,b o d͡z f ɒ -,1257,compound,False,"d͡z, f not old"
 792-bog,Hungarian,bog,,b o ɡ -,1138,Proto-Finno-Ugric,False,^(b|p)(u|o|a|ɒ|ol|ul|uɣu|oɣo|ɯ|oɣ|uɣ|al|i)?(ɡ|k)(i|y|ɛ|iɣ|u|øk|at|ɛk|a|uk)?$
 793-bogancs,Hungarian,bogáncs,,b o ɡ aː n t͡ʃ -,1248,derived word,False,^(b)(u|o|a|ɒ|ol|ul|uɣu|oɣo|ɯ|oɣ|uɣ|al|i)?(ɡ|k)(a|aː|aɣa|al|o|aɣi|il|aɣ|ava)(n|møn)?(t͡ʃ)$
 794-bogar,Hungarian,bogár,,b o ɡ aː r -,1138,internal,False,^(b|p)(u|o|a|ɒ|ol|ul|uɣu|oɣo|ɯ|oɣ|uɣ|al|i)?(ɡ|k)(a|aː|aɣa|al|o|aɣi|il|aɣ|ava)(r|ri)$
@@ -1538,7 +1538,7 @@ ID,Language_ID,Headword,Part_Of_Speech,Segments,Year,Etymology,Loan,rc700
 1537-csinga,Hungarian,csinga ×,,t͡ʃ i n ɡ ɒ -,1550,,,^(t͡ʃ|t͡ʃɛ)?(i|y|ɛ|a|ɯ|iɣ|wi|il|ij|al)(n|møn)?(ɡ|k)(a|o|aɣ|ɒ)$
 1538-csinjabinja,Hungarian,csínja-bínja,,t͡ʃ iː n j ɒ b iː n j ɒ -,1675,internal,False,^(t͡ʃ|t͡ʃɛ)?(i|iː)(n)?(l|j|ɣ|ja|ji|li)?(a)(b)(i|iː)(n)(l|j|ɣ|ja|ji|li)?(a)$
 1539-csinjan,Hungarian,csínján,,t͡ʃ iː n j aː n -,1585,lexicalized inflected word-form,False,^(t͡ʃ|t͡ʃɛ)?(i|iː)(n)?(l|j|ɣ|ja|ji|li)?(a|aː|aɣa|al|o|aɣi|il|aɣ|ava)(n)$
-1540-csinnadratta,Hungarian,csinnadratta,,t͡ʃ i nː ɒ d r ɒ tː ɒ -,1866,German,True,"tː, nː not old"
+1540-csinnadratta,Hungarian,csinnadratta,,t͡ʃ i nː ɒ d r ɒ tː ɒ -,1866,German,True,"nː, tː not old"
 1541-csinos,Hungarian,csinos,,t͡ʃ i n o ʃ -,1604,derived word,False,^(t͡ʃ|t͡ʃɛ)(i|y|ɛ|a|ɯ|iɣ|wi|il|ij|al)(n)(u|o|a|ɒ|ol|ul|uɣu|oɣo|ɯ|oɣ|uɣ|al|i)?(ʃ|t͡ʃ|s|ɣ)$
 1542-csintalan,Hungarian,csintalan,,t͡ʃ i n t ɒ l ɒ n -,1273,derived word,False,^(t͡ʃ|t͡ʃɛ)?(i|y|ɛ|a|ɯ|iɣ|wi|il|ij|al)(n|møn)?(t)(a)(l|rl)?(a)(n|møn)?$
 1543-iscsinvat,Hungarian,iscsinvat ×,,i ʃ t͡ʃ i n v ɒ t -,1614,,,^(i|y|ɛ|a|ɯ|iɣ|wi|il|ij|al)(ʃ|t͡ʃ)(t͡ʃ)(i|y|ɛ|a|ɯ|iɣ)(n)(v|ɣ|w|yɣ|u)?(a)(t)$
@@ -2573,7 +2573,7 @@ ID,Language_ID,Headword,Part_Of_Speech,Segments,Year,Etymology,Loan,rc700
 2572-finom,Hungarian,finom,,f i n o m -,1585,loan,True,f not old
 2573-finta,Hungarian,finta ×,,f i n t ɒ -,1127,derived word,False,f not old
 2574-fintorog,Hungarian,fintorog,,f i n t o r o ɡ -,1521,,,f not old
-2575-finnyas,Hungarian,finnyás,,f i ɲː aː ʃ -,1356,,,"f, ɲː not old"
+2575-finnyas,Hungarian,finnyás,,f i ɲː aː ʃ -,1356,,,"ɲː, f not old"
 2576-fiok,Hungarian,fiók,,f i oː k -,1522,derived word,False,f not old
 2577-fioka,Hungarian,fióka,,f i oː k ɒ -,1556,derived word,False,f not old
 2578-fiola,Hungarian,fiola,,f i o l ɒ -,1683,Latin,True,f not old
@@ -2680,7 +2680,7 @@ ID,Language_ID,Headword,Part_Of_Speech,Segments,Year,Etymology,Loan,rc700
 2679-font,Hungarian,font ∆,,f o n t -,1416,loan,True,f not old
 2680-fontol,Hungarian,fontol,,f o n t o l -,1604,semantic change,False,f not old
 2681-fontos,Hungarian,fontos,,f o n t o ʃ -,1616,semantic change,False,f not old
-2682-fonnyad,Hungarian,fonnyad,,f o ɲː ɒ d -,1456,,,"f, ɲː not old"
+2682-fonnyad,Hungarian,fonnyad,,f o ɲː ɒ d -,1456,,,"ɲː, f not old"
 2683-for,Hungarian,fór,,f oː r -,1878,internal,False,f not old
 2684-fora,Hungarian,fóra ∆,,f oː r ɒ -,1559,loan,True,f not old
 2685-forbatol,Hungarian,forbátol †,,f o r b aː t o l -,1416,loan,True,f not old
@@ -2694,10 +2694,10 @@ ID,Language_ID,Headword,Part_Of_Speech,Segments,Year,Etymology,Loan,rc700
 2693-formalis,Hungarian,formális,,f o r m aː l i ʃ -,1694,,,f not old
 2694-formatum,Hungarian,formátum,,f o r m aː t u m -,1806,international word,True,f not old
 2695-formula,Hungarian,formula,,f o r m u l ɒ -,1570,,,f not old
-2696-forr,Hungarian,forr,,f o rː -,1181,paronymy,False,"f, rː not old"
-2697-forradalom,Hungarian,forradalom,,f o rː ɒ d ɒ l o m -,1815,internal,False,"f, rː not old"
-2698-forras,Hungarian,forrás,,f o rː aː ʃ -,1113,derived word,False,"f, rː not old"
-2699-forraszt,Hungarian,forraszt,,f o rː ɒ s t -,1416,,,"f, rː not old"
+2696-forr,Hungarian,forr,,f o rː -,1181,paronymy,False,"rː, f not old"
+2697-forradalom,Hungarian,forradalom,,f o rː ɒ d ɒ l o m -,1815,internal,False,"rː, f not old"
+2698-forras,Hungarian,forrás,,f o rː aː ʃ -,1113,derived word,False,"rː, f not old"
+2699-forraszt,Hungarian,forraszt,,f o rː ɒ s t -,1416,,,"rː, f not old"
 2700-forspont,Hungarian,forspont ∆,,f o r ʃ p o n t -,1684,German,True,f not old
 2701-forsz,Hungarian,forsz ∆,,f o r s -,1788,German,True,f not old
 2702-forsziroz,Hungarian,forszíroz,,f o r s iː r o z -,1742,German,True,f not old
@@ -3709,7 +3709,7 @@ ID,Language_ID,Headword,Part_Of_Speech,Segments,Year,Etymology,Loan,rc700
 3708-hovatovabb,Hungarian,hovatovább,,h o v ɒ t o v aː bː -,1578,compound,False,bː not old
 3709-hoz,Hungarian,hoz,,h o z -,1372,internal,False,^(h|x|ɣ)?(u|o|a|ɒ|ol|ul|uɣu|oɣo|ɯ|oɣ|uɣ|al|i)?(z|s)(i|y|ɛ|iɣ|u|øk)?$
 3710-hozza,Hungarian,hozzá,,h o zː aː -,1372,lexicalized inflected word-form,False,^(h|x|ɣ)?(u|o|a|ɒ|ol|ul|uɣu|oɣo|ɯ|oɣ|uɣ|al|i)?(s)(a|aː|aɣa|al|o|aɣi|il|aɣ|ava)(i)?$
-3711-hozsanna,Hungarian,hozsanna,,h o ʒ ɒ nː ɒ -,1276,Latin,True,"nː, ʒ not old"
+3711-hozsanna,Hungarian,hozsanna,,h o ʒ ɒ nː ɒ -,1276,Latin,True,"ʒ, nː not old"
 3712-ho,Hungarian,hő,,h øː -,1200,unknown,,^(h|x|ɣ)?(ɛɣ|ɛw|iɣ|ø|ɛy|y|ɛɣy|yː|ɛwi|ɛ|øː)(i|y|ɛ|iɣ|u|øk|at|ɛk|a|uk)?$
 3713-hoborog,Hungarian,hőbörög,,h øː b ø r ø ɡ -,1833,onomatopoetic,False,^(h|x|ɣ)?(ɛɣ|ɛw|iɣ|ø|ɛy|y|ɛɣy|yː|ɛwi|ɛ|øː)(b)(y|ɛ|ø|i|yɣy|yɣ|ɛr|ɛɣ)(r)(y|ɛ)(ɡ)$
 3714-hokol,Hungarian,hőköl,,h øː k ø l -,1513,,,^(h|x|ɣ)?(ɛɣ|ɛw|iɣ|ø|ɛy|y|ɛɣy|yː|ɛwi|ɛ|øː)(k)(y|ɛ|ø|i|yɣy|yɣ|ɛr|ɛɣ|øɣi|ɛɣi)?(l)?$
@@ -5915,7 +5915,7 @@ ID,Language_ID,Headword,Part_Of_Speech,Segments,Year,Etymology,Loan,rc700
 5914-mandli,Hungarian,mándli ×,,m aː n d l i -,1620,loan,True,^(m)(a|aː|aɣa|al|o|aɣi|il|aɣ|ava)(n)?(d|d͡ʒʲ|t|nd)?(l)(i|y|ɛ|a|ɯ|iɣ|wi|il|ij|al)$
 5915-mandolin,Hungarian,mandolin,,m ɒ n d o l i n -,1837,international word,True,^(m)(a)(n)(d|d͡ʒʲ|t|nd)?(u|o|a|ɒ|ol|ul|uɣu|oɣo|ɯ|oɣ|uɣ|al|i)?(l)(i|y|ɛ|a|ɯ|iɣ|wi|il|ij|al)(n)$
 5916-mandula,Hungarian,mandula,,m ɒ n d u l ɒ -,1328,loan,True,^(m)(a|o)(n|møn)?(d|d͡ʒʲ|t|nd)?(u|uɣ|ɯ|uwa|aɣ)(l|rl|n|k|j)?(a)$
-5917-mandzsetta,Hungarian,mandzsetta ∆,,m ɒ n d͡ʒ ɛ tː ɒ -,1704,German,True,"tː, d͡ʒ not old"
+5917-mandzsetta,Hungarian,mandzsetta ∆,,m ɒ n d͡ʒ ɛ tː ɒ -,1704,German,True,"d͡ʒ, tː not old"
 5918-mandzsu,Hungarian,mandzsu,,m ɒ n d͡ʒ u -,1798,international word,True,d͡ʒ not old
 5919-mangalica,Hungarian,mangalica,,m ɒ n ɡ ɒ l i t͡s ɒ -,1791,Croatian or Serbian,True,^(m)(a)(n|møn)?(ɡ|k)(a)(l|rl)?(i|y|ɛ|a|ɯ|iɣ|wi|il|ij|al)(s|t͡ʃ|z|k)(a)$
 5920-mangold,Hungarian,mangold,,m ɒ n ɡ o l d -,1621,loan,True,^(m)(a)(n|møn)?(ɡ|k)(u|o|a|ɒ|ol|ul|uɣu|oɣo|ɯ|oɣ|uɣ|al|i)?(l)?(d|d͡ʒʲ|t|nd)?$
@@ -9623,7 +9623,7 @@ ID,Language_ID,Headword,Part_Of_Speech,Segments,Year,Etymology,Loan,rc700
 9622-uzoval,Hungarian,uzovál ∆,,u z o v aː l -,1678,,,^(u|uɣ|ɯ|uwa|aɣ)(z|s)(u|o|a|ɒ|ol|ul|uɣu|oɣo|ɯ|oɣ|uɣ)?(v|ɣ|w|yɣ|u)?(a)(l)$
 9623-uzus,Hungarian,úzus ∆,,uː z u ʃ -,1569,Latin,True,^(u|aɣ|uɣ|oɣ|aɣu|ul|uː|uɣu|i|o|iɣu)(z|s)(u|uɣ|ɯ|uwa|aɣ)(ʃ|t͡ʃ|s|ɣ)(i)?$
 9624-uzsgyi,Hungarian,uzsgyi,,u ʒ ɟ i -,1792,uncertain,,ʒ not old
-9625-uzsonna,Hungarian,uzsonna,,u ʒ o nː ɒ -,1395,Slavic,True,"nː, ʒ not old"
+9625-uzsonna,Hungarian,uzsonna,,u ʒ o nː ɒ -,1395,Slavic,True,"ʒ, nː not old"
 9626-uzsora,Hungarian,uzsora,,u ʒ o r ɒ -,1376,Latin,True,ʒ not old
 9627-ucsorog,Hungarian,ücsörög,,y t͡ʃ ø r ø ɡ -,1905,internal,False,^(i|y|ɛ|yɣ|ɛɣ|iɣy|iɣ|ø)(t͡ʃ)(y|ɛ|ø|i|yɣy|yɣ|ɛr|ɛɣ|øɣi|ɛɣi)?(r)(y|ɛ|ø|i|yɣy|yɣ|ɛr|ɛɣ)(ɡ)$
 9628-udul,Hungarian,üdül,,y d y l -,1578,,,^(i|y|ɛ|yɣ|ɛɣ|iɣy|iɣ|ø)(d|d͡ʒʲ|t|nd)?(i|y|ɛ|yɣ|ɛɣ|iɣy|iɣ|ø)(l|rl)?$
@@ -10100,7 +10100,7 @@ ID,Language_ID,Headword,Part_Of_Speech,Segments,Year,Etymology,Loan,rc700
 10099-zsaba,Hungarian,zsába,,ʒ aː b ɒ -,1578,Slavic,True,ʒ not old
 10100-zsabo,Hungarian,zsabó,,ʒ ɒ b oː -,1812,international word,True,ʒ not old
 10101-zsak,Hungarian,zsák,,ʒ aː k -,1211,loan,True,ʒ not old
-10102-zsakett,Hungarian,zsakett,,ʒ ɒ k ɛ tː -,1859,international word,True,"tː, ʒ not old"
+10102-zsakett,Hungarian,zsakett,,ʒ ɒ k ɛ tː -,1859,international word,True,"ʒ, tː not old"
 10103-zsakmany,Hungarian,zsákmány,,ʒ aː k m aː ɲ -,1399,loan,True,ʒ not old
 10104-zsakutca,Hungarian,zsákutca,,ʒ aː k u t t͡s ɒ -,1822,German,True,ʒ not old
 10105-zsalu,Hungarian,zsalu,,ʒ ɒ l u -,1797,loan,True,ʒ not old
@@ -10130,13 +10130,13 @@ ID,Language_ID,Headword,Part_Of_Speech,Segments,Year,Etymology,Loan,rc700
 10129-zseniroz,Hungarian,zseníroz,,ʒ ɛ n iː r o z -,1795,loan,True,ʒ not old
 10130-zsib,Hungarian,zsib †,,ʒ i b -,1391,unknown,,ʒ not old
 10131-zsiba,Hungarian,zsiba ×,,ʒ i b ɒ -,1714,uncertain,,ʒ not old
-10132-zsibbad,Hungarian,zsibbad,,ʒ i bː ɒ d -,1604,,,"bː, ʒ not old"
-10133-zsibbaszt,Hungarian,zsibbaszt,,ʒ i bː ɒ s t -,1621,onomatopoetic,False,"bː, ʒ not old"
+10132-zsibbad,Hungarian,zsibbad,,ʒ i bː ɒ d -,1604,,,"ʒ, bː not old"
+10133-zsibbaszt,Hungarian,zsibbaszt,,ʒ i bː ɒ s t -,1621,onomatopoetic,False,"ʒ, bː not old"
 10134-zsibong,Hungarian,zsibong,,ʒ i b o n ɡ -,1536,onomatopoetic,False,ʒ not old
 10135-zsibvasar,Hungarian,zsibvásár,,ʒ i b v aː ʃ aː r -,1560,compound,False,ʒ not old
 10136-zsido,Hungarian,zsidó,,ʒ i d oː -,1244,Slavic,True,ʒ not old
 10137-zsr,Hungarian,zsr,,ʒ r -,1825,Ottoman-Turkic,True,ʒ not old
-10138-zsilett,Hungarian,zsilett,,ʒ i l ɛ tː -,1921,German,True,"tː, ʒ not old"
+10138-zsilett,Hungarian,zsilett,,ʒ i l ɛ tː -,1921,German,True,"ʒ, tː not old"
 10139-zsilip,Hungarian,zsilip,,ʒ i l i p -,1086,Slavic,True,ʒ not old
 10140-zsinagoga,Hungarian,zsinagóga,,ʒ i n ɒ ɡ oː ɡ ɒ -,1416,Latin,True,ʒ not old
 10141-zsinar,Hungarian,zsinár ×,,ʒ i n aː r -,1533,unknown,,ʒ not old
@@ -10162,15 +10162,15 @@ ID,Language_ID,Headword,Part_Of_Speech,Segments,Year,Etymology,Loan,rc700
 10161-zsompor,Hungarian,zsompor ×,,ʒ o m p o r -,1453,loan,True,ʒ not old
 10162-zsong,Hungarian,zsong,,ʒ o n ɡ -,1797,onomatopoetic,False,ʒ not old
 10163-zsonglor,Hungarian,zsonglőr,,ʒ o n ɡ l øː r -,1863,international word,True,ʒ not old
-10164-zsollye,Hungarian,zsöllye,,ʒ ø jː ɛ -,1510,Latin,True,"jː, ʒ not old"
+10164-zsollye,Hungarian,zsöllye,,ʒ ø jː ɛ -,1510,Latin,True,"ʒ, jː not old"
 10165-zsortolodik,Hungarian,zsörtölődik,,ʒ ø r t ø l -,1798,,,ʒ not old
 10166-zsufa,Hungarian,zsufa ×,,ʒ u f ɒ -,1447,loan,True,"f, ʒ not old"
 10167-zsufol,Hungarian,zsúfol,,ʒ uː f o l -,1804,derived word,False,"f, ʒ not old"
 10168-zsuga,Hungarian,zsuga,,ʒ u ɡ ɒ -,1862,,,ʒ not old
 10169-zsugorog,Hungarian,zsugorog ×,,ʒ u ɡ o r o ɡ -,1506,,,ʒ not old
 10170-zsup,Hungarian,zsúp ×,,ʒ uː p -,1234,loan,True,ʒ not old
-10171-zsuppan,Hungarian,zsuppan ×,,ʒ u pː ɒ n -,1536,,,"pː, ʒ not old"
-10172-zsuppol,Hungarian,zsuppol,,ʒ u pː o l -,1899,derived word,False,"pː, ʒ not old"
+10171-zsuppan,Hungarian,zsuppan ×,,ʒ u pː ɒ n -,1536,,,"ʒ, pː not old"
+10172-zsuppol,Hungarian,zsuppol,,ʒ u pː o l -,1899,derived word,False,"ʒ, pː not old"
 10173-zsur,Hungarian,zsúr,,ʒ uː r -,1884,German,True,ʒ not old
 10174-zsurlo,Hungarian,zsurló,,ʒ u r l oː -,1803,internal,False,ʒ not old
 10175-zsurmol,Hungarian,zsurmol ×,,ʒ u r m o l -,1770,derived word,False,ʒ not old

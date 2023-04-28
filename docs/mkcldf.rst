@@ -406,21 +406,23 @@ as "Hungarian", together with its code in the `Glottolog
 
    language_table = writer.cldf["LanguageTable"]
 
-      for row in self.raw_dir.read_csv(
-          "wordlist.tsv", delimiter="\t", dicts=True):
-          try:
-              writer.add_forms_from_value(
-                  Local_ID=row["ID"],
-                  Language_ID="Hungarian",
-                  Parameter_ID=concepts[row["CONCEPTICON_ID"]],
-                  Value=row["FORM"],
-                  Meaning=row["MEANING"],
-                  Entry_ID=form2idx[row["FORM"], row["SENSE"].strip()],
-                  Sense_ID=row["SENSE_ID"],
-                  Source="uesz"
-                  )
-          except KeyError:
-              pass
+   for row in self.raw_dir.read_csv(
+       "wordlist.tsv", delimiter="\t", dicts=True):
+       try:
+           writer.add_forms_from_value(
+               Local_ID=row["ID"],
+               Language_ID="Hungarian",
+               Parameter_ID=concepts[row["CONCEPTICON_ID"]],
+               Value=row["FORM"],
+               Meaning=row["MEANING"],
+               Entry_ID=form2idx[row["FORM"], row["SENSE"].strip()],
+               Sense_ID=row["SENSE_ID"],
+               Source="uesz"
+               )
+       except KeyError:
+           pass
+
+      args.log.info("FormTable: done")
 
 Here we are creating the file ``cldf/forms.csv``, which is created by looping
 through the rows of ``raw/wordlist.tsv``. This file in turn is a filtered

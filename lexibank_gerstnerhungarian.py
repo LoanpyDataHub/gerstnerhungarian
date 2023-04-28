@@ -182,6 +182,8 @@ class Dataset(BaseDataset):
                 except KeyError:
                     pass
 
+            args.log.info("FormTable: done")
+
         with self.cldf_writer(args, cldf_spec="dictionary",
                 clean=False) as writer:
 
@@ -203,6 +205,7 @@ class Dataset(BaseDataset):
             )
 
             senses_items = senses.items()
+            args.log.info("Checking word vectors")
             for j, (sense, values) in enumerate(senses_items):
                 for i, (fidx, sense_desc) in enumerate(values):
                     vector = filter_vectors(sense_desc)
@@ -212,7 +215,11 @@ class Dataset(BaseDataset):
                         "Description": sense_desc.strip(),
                         "Spacy": vector
                         })
-                    print(f"{j+1}/{len(senses_items)} meanings checked for word vectors", end="\r")
+                if j % 6000 == 0:
+                    msg = f"{j+1}/{len(senses_items)} word vectors checked"
+                    args.log.info(msg)
+
+            args.log.info("SenseTable: done")
 
             for fidx, row in idxs.items():
                 form = trim(row["form"])
