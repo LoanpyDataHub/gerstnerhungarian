@@ -470,6 +470,7 @@ The purpose of these columns will be clarified in the next paragraphs.
 .. code-block:: python
 
    senses_items = senses.items()
+   args.log.info("Checking word vectors")
    for j, (sense, values) in enumerate(senses_items):
        for i, (fidx, sense_desc) in enumerate(values):
            vector = filter_vectors(sense_desc)
@@ -479,7 +480,11 @@ The purpose of these columns will be clarified in the next paragraphs.
                "Description": sense_desc.strip(),
                "Spacy": vector
                })
-           print(f"{j+1}/{len(senses_items)} meanings checked for word vectors", end="\r")
+       if j % 6000 == 0:
+           msg = f"{j+1}/{len(senses_items)} word vectors checked"
+           args.log.info(msg)
+
+   args.log.info("SenseTable: done")
 
 Here we are creating the file ``cldf/senses.csv`` by looping through the
 ``senses`` object that we have created earlier. Each row of the column
