@@ -362,8 +362,8 @@ CLDF data.
 
 Here we are populating three dictionaries for later use: ``senses``
 ``idxs`` and ``form2idx``. The first will be used to create the table
-``senses.csv``, the second to create ``entries.csv`` and the third to create
-the foreign keys in column ``Entry_ID`` in ``cldf/forms.csv``.
+``senses.csv``, the second to create ``cldf/entries.csv`` and the third
+to create the foreign keys in column ``Entry_ID`` in ``cldf/forms.csv``.
 
 .. code-block:: python
 
@@ -381,10 +381,10 @@ the foreign keys in column ``Entry_ID`` in ``cldf/forms.csv``.
            concepts[concept.concepticon_id] = idx
        args.log.info("added concepts")
 
-Here we are writing the table ``parameters.csv``, which contains additional
-information about meanings and links them to reference catalogues. It is
-based on a concept list that we have specified in the metadata.json file,
-when setting up the repository earlier.
+Here we are writing the table ``cldf/parameters.csv``, which contains
+additional information about meanings and links them to reference catalogues.
+It is based on a concept list that we have specified in the metadata.json
+file, when setting up the repository earlier.
 
 .. code-block:: python
 
@@ -425,13 +425,13 @@ as "Hungarian", together with its code in the `Glottolog
 Here we are creating the file ``cldf/forms.csv``, which is created by looping
 through the rows of ``raw/wordlist.tsv``. This file in turn is a filtered
 version of ``raw/Gerstner-2016-10176.tsv``. The filtering process will be
-explained in the next step. The columns ``Local_ID`` ``Value`` ``Meaning``
+explained in Part 2. The columns ``Local_ID`` ``Value`` ``Meaning``
 and ``Sense_ID`` are directly filled from the raw file, while the columns
 ``Parameter_ID`` (foreign keys to ``cldf/parameters.csv``) and ``Entry_ID``
 (foreign keys to ``cldf/entries.csv``) are filled by accessing the information
 stored in the dictionaries ``concepts`` and ``form2idx`` that we have created
-a little earlier. The columns ``Language_ID`` and ``Source`` are always the
-same and can therefore be hard-coded.
+a little earlier. The values in columns ``Language_ID`` and ``Source`` are
+always the same and can therefore be hard-coded.
 
 .. code-block:: python
 
@@ -446,7 +446,7 @@ same and can therefore be hard-coded.
             {"name": "Year", "datatype": "integer"},
             {"name": "Etymology", "datatype": "string"},
             {"name": "Loan", "datatype": "string"},
-            {"name": "rc100", "datatype": "string"}
+            {"name": "f"rc{HOWMANY}"", "datatype": "string"}
         )
 
         writer.cldf.add_columns(
@@ -462,8 +462,8 @@ of possible table types to choose from is listed in `CLDF's GitHub reposiotry
 <https://github.com/cldf/cldf/tree/master/components>`_. We are adding
 some extra columns to the default settings, which are needed for our specific
 use-case. Namely columns ``Segments``, ``Year``, ``Etymology``, ``Loan``, and
-``rc100`` to ``EntryTable`` and ``Spacy`` to ``SenseTable``. The purpose of
-these columns will be clarified in the next paragraphs.
+``f"rc{HOWMANY}"`` to ``EntryTable`` and ``Spacy`` to ``SenseTable``.
+The purpose of these columns will be clarified in the next paragraphs.
 
 .. code-block:: python
 
@@ -510,7 +510,7 @@ earlier in this step.
            "Year": row["year"],
            "Etymology": row["origin"],
            "Loan": row["Loan"],
-           "rc100": rc.reconstruct(seg_ipa, 100)
+           f"rc{HOWMANY}": rc.reconstruct(seg_ipa, 100)
            })
 
 In this final step we are creating the table ``cldf/entries.csv``, which
@@ -527,7 +527,7 @@ data, tokenised and segmented into clusters of consonants and vowels. This
 step has to be done using the `epitran <https://pypi.org/project/epitran/>`_
 library, since pylexibank's automatic orthographic transcription can only be
 used in ``cldf/forms.csv``, which in our case contains only filtered data.
-The second, and most important column for further analysis is ``rc100``.
+The second, and most important column for further analysis is ``f"rc{HOWMANY}"``.
 ``rc`` stands for "reconstruct" and "100" for the number of guesses or false
 positives per attempted reconstruction. The reconstruction itself if a regular
 expression, created by the `*reconstruct* method of loanpy.scapplier's
