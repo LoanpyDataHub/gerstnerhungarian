@@ -94,13 +94,14 @@ wordvector models for German. Since NLP is a rapidly changing field, it is
 adviced
 to always download the most up-to-date vectors from the most up-to-date
 packages. The architecture allows you to replace Spacy with any library
-or function of choice. At the current moment (April 2023), the best available option
-for German word vectors seems to be this 500MB alternativem which can be
-downloaded by running:
+or function of choice. We will be using a 500MB model for the current
+use case. If this should be too large, you can browse smaller German models at
+https://spacy.io/models/de/. To download the 500MB file run:
 
 .. code-block:: sh
 
    python3 -m spacy download de_core_news_lg
+
 
 After downloading the word-vectors to your system, let's create the
 orthographic profiles: The process of creating an orthographic profile for
@@ -115,8 +116,8 @@ need for a folder ``orthography`` with multiple profiles. A single file named
 Step 4: Run lexibank script
 ---------------------------
 
-This script combines files from the raw and etc folders and creates and
-populates the folder `cldf`.
+This script combines files from the ``raw`` and ``etc`` folders
+and populates the folder `cldf`.
 
 .. code-block:: sh
 
@@ -183,8 +184,9 @@ Then, we import functionalities from various third-party libraries.
 These were installed when running ``pip install -e gerstnerhungarian``
 eariler.
 
-- The attr library from the PyLexibank ecosystem will create the custom
-  language class with custom columns in the output file ``cldf/forms.csv``.
+- With the `attrs <https://www.attrs.org/en/stable/index.html>`_ library
+  we will create the custom language class with custom columns in the output
+  file ``cldf/forms.csv``.
 - The `slug <https://clldutils.readthedocs.io/en/latest/misc.html#clldutils.misc.slug>`_
   function from the clldutils library will be used to format some IDs.
 - The `epitran <https://pypi.org/project/epitran/>`_ library will be used to
@@ -199,8 +201,8 @@ eariler.
 - The `Adrc
   <https://loanpy.readthedocs.io/en/latest/documentation.html#loanpy.scapplier.Adrc>`_
   class from loanpy will be used to predict historical
-  reconstructions based on sound changes that were extracted from etymological
-  data, such as the `ronataswestoldturkic
+  reconstructions based on sound changes that were extracted in the
+  `ronataswestoldturkic
   <https://ronataswestoldturkic.readthedocs.io/en/latest/mkcldf.html>`_
   repository.
 - The classes from the `pylexibank <https://pypi.org/project/pylexibank/>`_

@@ -176,7 +176,6 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 192-mensch,Mensch,683,PERSON
 193-mann,Mann,1554,MAN
 194-frau,Frau,962,WOMAN
-195-kind,Kind,1304,CHILD (YOUNG HUMAN)
 196-junge,Junge,1366,BOY
 197-madchen,Mädchen,1646,GIRL
 198-familie,Familie,194,FAMILY
@@ -505,6 +504,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 549-geschickt,geschickt,1824,DEXTEROUS
 550-lieb,lieb,2470,DEAR
 551-lustig,lustig,1976,MERRY
+552-sanft,sanft,1954,GENTLE
 553-hungrig,hungrig,1533,BE HUNGRY
 554-krank,krank,1847,SICK
 555-nackt,nackt,590,NAKED
@@ -516,7 +516,6 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 562-wahr,wahr,1657,TRUE
 563-alt,alt,1229,OLD
 564-neu,neu,1231,NEW
-566-altlebewesen,alt[Lebewesen],2112,OLD (AGED)
 567-jung,jung,1207,YOUNG
 568-arm,arm,1674,POOR
 569-reich,reich,712,RICH
@@ -642,6 +641,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 704-sieden,sieden,792,BOIL (OF LIQUID)
 705-faulen,faulen,569,SPOIL (BECOME SPOILED)
 706-verfaulen,verfaulen,2907,ROT
+707-reien,reißen,460,BREAK (OF ROPE)
 708-versinken,versinken,1088,SINK (DESCEND)
 709-vergehen,vergehen,1951,PASS
 710-erscheinen,erscheinen,1076,EMERGE (APPEAR)
@@ -820,6 +820,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 931-schieen,schießen,1172,SHOOT
 932-siegen,siegen,866,WIN
 933-argern,ärgern,2892,MAKE ANGRY (ANNOY)
+934-schlagen,schlagen,3308,STRIKE (SOMEONE)
 935-treten,treten,1135,KICK
 936-stechen,stechen,571,STING
 938-stehlen,stehlen,713,STEAL

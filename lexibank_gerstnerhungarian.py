@@ -12,7 +12,6 @@ import attr
 from clldutils.misc import slug
 from epitran import Epitran
 from lingpy.sequence.sound_classes import ipa2tokens
-from loanpy.utils import IPA
 from loanpy.scapplier import Adrc
 from pylexibank import Dataset as BaseDataset, FormSpec, Lexeme
 import pylexibank
@@ -28,7 +27,6 @@ TRIMLIST = ["dozik$", "kodik$", "kedik$", "kozik$", "ködik$",
 
 # install first with $ python -m spacy download de_core_news_lg
 nlp = spacy.load('de_core_news_lg')
-tokens2clusters = IPA().get_clusters
 #rc = Adrc("../ronataswestoldturkic/loanpy/H2EAHsc.json")
 rc = Adrc("etc/H2EAHsc.json")
 orth2ipa = Epitran("hun-Latn").transliterate
@@ -65,7 +63,6 @@ def seg_ipa(word):
     word = orth2ipa(word)
     word = ipa2tokens(word, merge_vowels=False, merge_geminates=False)
     word.append("-")
-    #word = tokens2clusters(word)
     return " ".join(word)
 
 def trim(word):
