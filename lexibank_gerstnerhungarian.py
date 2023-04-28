@@ -38,11 +38,26 @@ class CustomLexeme(Lexeme):
     Entry_ID = attr.ib(default=None)
 
 def clean1(word):
+    """
+    Delete following characters: † ×∆\-¹²³⁴’
+
+    :param word: The word from which to delete the characters
+    :type word: str
+
+    :return: The clean string
+    :rtype: str
+    """
     return re.sub("[†×∆\-¹²³⁴’ ]", "", word)
 
 def clean(text):
     """
     apply this in filter_vectors to clean meanings
+
+    :param text: The word to be cleaned
+    :type text: str
+
+    :return: The cleaned text
+    :rtype: str
     """
     # Remove special characters and punctuation
     text = re.sub(r'[〈〉:;!,.?-]', '', text)

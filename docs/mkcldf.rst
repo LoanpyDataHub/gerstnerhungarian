@@ -212,7 +212,6 @@ eariler.
    REP = [(x, "") for x in "†×∆-¹²³⁴’"]
    # install first with $ python -m spacy download de_core_news_lg
    nlp = spacy.load('de_core_news_lg')
-   tokens2clusters = IPA().get_clusters
    rc = Adrc("etc/H2EAHsc.json")
    orth2ipa = Epitran("hun-Latn").transliterate
 
@@ -220,13 +219,11 @@ In this block we are defining some global variables that we will need later.
 The variable REP stands for 'replacements' and will be used to create
 the column "forms" from the column "values", where replacements are hard-coded.
 There is only one simple replacement rule, which is expressed as a list
-comprehension, namely that characters "†×∆-¹²³⁴’" have to be deleted in each
-word. They convey some additional information in the original source, that
-is redundant in our own use case.
+comprehension, namely that characters "†×∆-¹²³⁴’" are deleted in each
+word.
 
 Next, we are loading the word-vectors that we have downloaded in step 3.
-``tokens2clusters`` is how we rename the IPA method that clusters a segmented
-IPA string into consonant and vowel clusters. ``rc`` is an instance of
+``rc`` is an instance of
 loanpy's Adrc class and "etc/H2EAHsc.json" is the sound correspondence file
 we have generated in `part two, step three of the ronataswestoldturkic
 repository
@@ -247,10 +244,11 @@ orthography to IPA with the help of the `epitran
        Entry_ID = attr.ib(default=None)
 
 Here we are defining three custom columns that are not included by default,
-using the attr library and the Lexeme class that we have imported earlier.
+using `attr.ib <https://www.attrs.org/en/stable/api-attr.html#attr.ib>`_
+and the Lexeme class that we have imported earlier.
 The column ``Meaning`` comes directly from the raw file and contains a ", "
 separated list of translations into English that we will call "senses".
-Sense_ID is a foreign key that point to one of the senses in the
+Sense_ID is a foreign key that points to one of the senses in the
 ``senses.csv`` table and ``Entry_ID`` is a foreign key that points to the
 corresponding row in ``entries.csv``.
 
@@ -314,7 +312,8 @@ earlier, using the ``FormSpec`` class we have imported in the beginning.
 	def cmd_makecldf(self, args):
 
 This function is being run when summoning the lexibank script from the command
-line. It converts the data from raw and etc to standardised CLDF data.
+line. It converts the data from folders ``raw`` and ``etc`` to standardised
+CLDF data.
 
 .. code-block:: python
 
@@ -335,7 +334,7 @@ line. It converts the data from raw and etc to standardised CLDF data.
 Here we are populating three dictionaries for later use: ``senses``
 ``idxs`` and ``form2idx``. The first will be used to create the table
 ``senses.csv``, the second to create ``entries.csv`` and the third to create
-the foreign keys in column ``Entry_ID`` in ``forms.csv``.
+the foreign keys in column ``Entry_ID`` in ``cldf/forms.csv``.
 
 .. code-block:: python
 
