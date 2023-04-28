@@ -3,7 +3,7 @@ Part 2: Filtering
 -----------------
 
 Different analyses require different portions of the original data
-``raw/Gerstner-2016-10176.tsv``. Most tasks in computational historical
+``raw/Gerstner-2016-10176.tsv``. Some tasks in computational historical
 linguistics require words that can be mapped to core concepts of a language's
 vocabulary. For these type of tasks, one has to try to map the complex and
 multifaceted meanings of a word to a single concept in a catalogue. Here,
@@ -52,4 +52,3 @@ will still be included.
 
 .. automodule:: gerstnerhungariancommands.filter
    :members:
-

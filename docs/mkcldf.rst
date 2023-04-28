@@ -4,7 +4,7 @@ Part 1: Create CLDF
 The following five steps will guide you through the process of
 converting raw language data to CLDF. Each step can be found in the
 `continuous integration workflow
-<https://app.circleci.com/pipelines/github/martino-vic/gerstnerhungarian>`_
+<https://app.circleci.com/pipelines/github/LoanpyDataHub/gerstnerhungarian>`_
 as well. The data we are converting comes from
 the `New Hungarian Etymological Dictionary
 <https://uesz.nytud.hu/index.html>`_ (Gerstner 2022),
@@ -30,25 +30,28 @@ Step 1: Activate virtual environment and clone the repository
    python3 -m venv venv && source venv/bin/activate
    git clone https://github.com/martino-vic/gerstnerhungarian.git
 
-For a slightly more detailed explanation of virtual environments see the
-documentation of the `ronataswestoldturkic
-<https://ronataswestoldturkic.readthedocs.io/en/latest/mkcldf.html>`_
-repository
+To deactivate the virtual environment run
 
-Originally, the skeleton of the repository was created using this command:
+.. code-block:: sh
+
+   deactivate
+
+All steps in this documentation should be carried out in a virtual
+environment. Originally, the skeleton of the repository was created using this
+command:
 
 .. code-block:: sh
 
    cldfbench new
 
-and answering the follow-up questions. More on this can be read in the
+More on this can be read in the
 `cldfbench tutorial <https://github.com/cldf/cldfbench/blob/master/doc/tutorial.md>`_.
 Next, open the file ``metadata.json`` and manually add the line
 ``"conceptlist": "Dellert-2018-1016"`` to it. This will give access to the
 concept list used by the `NorthEuraLex <http://www.northeuralex.org/>`_
 project. There, this concept list was used for comparison of Uralic languages,
 Hungarian among others, and was therefore deemed adequate
-to filter the raw input data according to it.
+to filter the raw input data of this repository according to it.
 
 Step 2: Clone reference catalogues and loanpy
 ---------------------------------------------
@@ -57,8 +60,8 @@ Step 2: Clone reference catalogues and loanpy
   to reference the languages in the repo.
 - `Concepticon <https://concepticon.clld.org/>`_ (List et al. 2023) for
   referencing concepts.
-- `loanpy <https://loanpy.readthedocs.io/en/latest/?badge=latest>`_
-  (Martinović 2022). This step will not be necessary once version 3 is out.
+- `LoanPy <https://loanpy.readthedocs.io/en/latest/?badge=latest>`_
+  (Martinović 2023). This step will not be necessary once version 3 is out.
 
 .. code-block:: sh
 
@@ -87,10 +90,11 @@ Installing these two packages will also install all their dependencies,
 which are specified in their respective ``setup.py`` files. One of the
 dependencies that has been installed together with *gerstnerhungarian* is
 `Spacy <https://pypi.org/project/spacy/>`_. Spacy offers pre-trained
-wordvector models. Since this is a rapidly changing field, it is adviced
-to download always the most up-to-date vectors from the most up-to-date
-packages. The architecture allows you to replace this step with more suitable
-libraries. At the current moment (April 2023), the best available option
+wordvector models for German. Since NLP is a rapidly changing field, it is
+adviced
+to always download the most up-to-date vectors from the most up-to-date
+packages. The architecture allows you to replace Spacy with any library
+or function of choice. At the current moment (April 2023), the best available option
 for German word vectors seems to be this 500MB alternativem which can be
 downloaded by running:
 
