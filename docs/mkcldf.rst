@@ -422,7 +422,7 @@ as "Hungarian", together with its code in the `Glottolog
        except KeyError:
            pass
 
-      args.log.info("FormTable: done")
+    args.log.info("FormTable: done")
 
 Here we are creating the file ``cldf/forms.csv``, which is created by looping
 through the rows of ``raw/wordlist.tsv``. This file in turn is a filtered
