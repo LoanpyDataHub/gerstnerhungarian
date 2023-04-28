@@ -492,7 +492,7 @@ Here we are creating the file ``cldf/senses.csv`` by looping through the
 translations to English, separated by ", ". Since it is best practice to
 avoid complex data structures like lists in databases, each translation
 will get its own row and a foreign key in the file ``cldf/senses.csv``.
-Since the raw file contains roughly 10,000 rows and there are ca. 4
+Since the raw file contains roughly 10,000 rows and there are on average ca. 4
 translations per entry, we end up with a ``cldf/senses.csv`` table of ca.
 40,000 rows.
 Apart from the default columns ``ID`` (the primary key), ``Entry_ID``
@@ -503,7 +503,7 @@ checking whether the translation has a word-vector representation in the
 `Spacy <https://pypi.org/project/spacy/>`_ vector model that we have
 downloaded in step 3 and loaded in the beginning of this script. This is
 being done with the ``filter_vectors`` function that we have described
-earlier in this step.
+earlier in this section.
 
 .. code-block:: python
 
@@ -521,29 +521,56 @@ earlier in this step.
            })
 
 In this final step we are creating the table ``cldf/entries.csv``, which
-will serve as input for the loanword searching algorithm loanpy later on. This
+will serve as input for the loanword searching module of the loanpy library
+later on. This
 table contains the same amount of rows as ``raw/Gerstner-2016-10176.tsv``, so
 it is unfiltered. The columns ``Headword`` ``Year`` ``Etymology`` and ``Loan``
-are directly taken from the raw file. The primary key ``ID`` was already
-defined in the beginning of the ``cmd_makecldf`` method and stored in the
+are directly taken from the raw file. The primary key ``ID`` was
+defined in the beginning of the ``cmd_makecldf`` method and was stored in the
 ``idxs`` object, through which we are looping at the moment. ``Language_ID``
 is the only foreign key, pointing to the one language in
 ``cldf/languages.csv``. There are two columns that will contain processed
 information. One is ``Segments``: These are IPA transcriptions from cleaned
-data, tokenised and segmented into clusters of consonants and vowels. This
+data, tokenised and segmented. This
 step has to be done using the `epitran <https://pypi.org/project/epitran/>`_
 library, since pylexibank's automatic orthographic transcription can only be
 used in ``cldf/forms.csv``, which in our case contains only filtered data.
 The second, and most important column for further analysis is ``f"rc{HOWMANY}"``.
-``rc`` stands for "reconstruct" and "100" for the number of guesses or false
-positives per attempted reconstruction. The reconstruction itself if a regular
-expression, created by the `*reconstruct* method of loanpy.scapplier's
-Adrc class
+``rc`` stands for "reconstruct" and HOWMANY for the number of guesses or false
+positives per attempted reconstruction that we have defined in the beginning.
+The reconstruction itself is a regular
+expression, created by the `loanpy.scapplier.Adrc.reconstruct
 <https://loanpy.readthedocs.io/en/latest/documentation.html#loanpy.scapplier.Adrc.reconstruct>`_.
 
 This is how your console should approximately look like after the conversion:
 
 .. image:: consoleoutput.png
+   :alt:  (venv) viktor@viktor-Latitude-5430:~/Documents/GitHub/gerstnerhungarian$ bash hun.sh
+          INFO    running _cmd_makecldf on gerstnerhungarian ...
+          INFO    added concepts
+          INFO    added languages
+          INFO    FormTable: done
+          INFO    Checking word vectors
+          INFO    1/27657 word vectors checked
+          INFO    6001/27657 word vectors checked
+          INFO    12001/27657 word vectors checked
+          INFO    18001/27657 word vectors checked
+          INFO    24001/27657 word vectors checked
+          INFO    SenseTable: done
+          INFO    file written: /home/viktor/Documents/GitHub/gerstnerhungarian/cldf/.transcription-report.json
+          INFO    Summary for dataset /home/viktor/Documents/GitHub/gerstnerhungarian/cldf/cldf-metadata.json
+          - **Varieties:** 1
+          - **Concepts:** 890
+          - **Lexemes:** 4,084
+          - **Sources:** 1
+          - **Synonymy:** 4.59
+          - **Invalid lexemes:** 0
+          - **Tokens:** 19,042
+          - **Segments:** 60 (0 BIPA errors, 0 CLTS sound class errors, 60 CLTS modified)
+          - **Inventory size (avg):** 60.00
+          INFO    file written: /home/viktor/Documents/GitHub/gerstnerhungarian/TRANSCRIPTION.md
+          INFO    file written: /home/viktor/Documents/GitHub/gerstnerhungarian/cldf/lingpy-rcParams.json
+          INFO    ... done gerstnerhungarian [90.6 secs]
 
 Step 5: Update the readme
 -------------------------

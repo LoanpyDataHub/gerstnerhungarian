@@ -9,12 +9,12 @@ import re
 
 def run(args):
     """
-    Open "cldf/senses.csv", and calculate the proportion of non-empty rows in
-    column ``Description``. Add this proportion in form of a badge to the
+    Open ``cldf/senses.csv``, and calculate the proportion of non-empty rows
+    in column ``Description``. Add this proportion in form of a badge to the
     statistics section of the readme. Add another badge informing about the
     version of Spacy used. Lastly, add a bullet informing about the total
     amount of senses in ``cldf/senses.csv``, to which the percentage in the
-    badge refers.
+    badge refers to.
     """
     with open("cldf/senses.csv", "r") as f:
         senses = list(csv.reader(f))
