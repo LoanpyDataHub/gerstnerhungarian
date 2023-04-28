@@ -226,7 +226,6 @@ have a different etymology than the rest of the verb they belong to.
 .. code-block:: python
 
    REP = [(x, "") for x in "†×∆-¹²³⁴’"]
-   # install first with $ python -m spacy download de_core_news_lg
    nlp = spacy.load('de_core_news_lg')
    rc = Adrc("etc/H2EAHsc.json")
    orth2ipa = Epitran("hun-Latn").transliterate
@@ -274,9 +273,7 @@ corresponding row in ``entries.csv``.
        return re.sub("[†×∆\-¹²³⁴’ ]", "", word)
 
    def clean(text):
-       # Remove special characters and punctuation
        text = re.sub(r'[〈〉:;!,.?-]', '', text)
-       # Replace multiple whitespaces with a single space
        text = re.sub(r'\s+', ' ', text)
        text = text.strip()
        return text
@@ -353,7 +350,6 @@ CLDF data.
    senses = defaultdict(list)
    idxs = {}
    form2idx = {}
-   # assemble senses
    for idx, row in enumerate(self.raw_dir.read_csv(
        "Gerstner-2016-10176.tsv", delimiter="\t", dicts=True)):
        if row["sense"].strip():
@@ -373,7 +369,6 @@ the foreign keys in column ``Entry_ID`` in ``cldf/forms.csv``.
 
    with self.cldf_writer(args) as writer:
        writer.add_sources()
-       ## add concept
        concepts = {}
        for concept in self.conceptlists[0].concepts.values():
            idx = "{0}-{1}".format(concept.number, slug(concept.gloss))
@@ -393,7 +388,6 @@ when setting up the repository earlier.
 
 .. code-block:: python
 
-   ## add languages
    for language in self.languages:
        writer.add_language(
                ID="Hungarian",
@@ -444,7 +438,6 @@ same and can therefore be hard-coded.
     with self.cldf_writer(args, cldf_spec="dictionary",
             clean=False) as writer:
 
-        # we use the same language table for the data
         writer.cldf.add_component(language_table)
 
         writer.cldf.add_columns(
