@@ -107,7 +107,7 @@ After downloading the word-vectors to your system, let's create the
 orthographic profiles: The process of creating an orthographic profile for
 Hungarian was described in step 4 of the documentation of the
 `ronataswestoldturkic
-<https://ronataswestoldturkic.readthedocs.io/en/latest/mkcldf.html>`_
+<https://ronataswestoldturkic.readthedocs.io/en/latest/mkcldf.html>`__
 repository. Since the current repository only covers one language, there is no
 need for a folder ``orthography`` with multiple profiles. A single file named
 ``orthography.tsv`` is enough. The file itself was taken from
@@ -198,7 +198,7 @@ eariler.
   class from loanpy will be used to predict historical
   reconstructions based on sound changes that were extracted in the
   `ronataswestoldturkic
-  <https://ronataswestoldturkic.readthedocs.io/en/latest/home.html>`_
+  <https://ronataswestoldturkic.readthedocs.io/en/latest/home.html>`__
   repository.
 - The classes from the `pylexibank <https://pypi.org/project/pylexibank/>`_
   library are all related to specifying the output format. ``Dataset`` for
@@ -209,6 +209,7 @@ eariler.
   vector coverage of the meanings associated with each headword.
 
 .. code-block:: python
+
    HOWMANY = 700
    TRIMLIST = ["dozik$", "kodik$", "kedik$", "kozik$", "ködik$",
                "odik$", "ődik$", "ozik$", "edik$", "ödik$", "ázik$", "ezik$",
