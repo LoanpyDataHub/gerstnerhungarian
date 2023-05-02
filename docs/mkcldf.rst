@@ -557,7 +557,7 @@ The second, and most important column for further analysis is ``f"rc{HOWMANY}"``
 ``rc`` stands for "reconstruct" and HOWMANY for the number of guesses or false
 positives per attempted reconstruction that we have defined in the beginning.
 The reconstruction itself is a regular
-expression, created by the `loanpy.scapplier.Adrc.reconstruct
+expression, created by `loanpy.scapplier.Adrc.reconstruct
 <https://loanpy.readthedocs.io/en/latest/documentation.html#loanpy.scapplier.Adrc.reconstruct>`_.
 In the end, we print a message with our logger that table was created
 successfully.
