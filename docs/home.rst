@@ -30,10 +30,10 @@ Notes
 
 |License: CC BY 4.0| |CircleCI| |Documentation Status|
 
-Tools used to create parts of the orthographic profile:
-https://digling.org/calc/profiler/ Skeleton for the Hungarian
-orthographic profile comes from:
-https://github.com/dmort27/epitran/blob/master/epitran/data/map/hun-Latn.csv
+- Tools used to create parts of the orthographic profile:
+   https://digling.org/calc/profiler/
+- Skeleton for the Hungarian orthographic profile comes from:
+  https://github.com/dmort27/epitran/blob/master/epitran/data/map/hun-Latn.csv
 
 Statistics
 ----------
@@ -90,7 +90,8 @@ Contributors
 CLDF Datasets
 -------------
 
-The following CLDF datasets are available in `cldf <cldf>`__:
+The following CLDF datasets are available in `cldf
+<https://github.com/LoanpyDataHub/ronataswestoldturkic/tree/main/cldf>`__:
 
 -  CLDF
    `Wordlist <https://github.com/cldf/cldf/tree/master/modules/Wordlist>`__
