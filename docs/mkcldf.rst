@@ -151,18 +151,13 @@ similarities.
 
 .. code-block:: python
 
-   from collections import defaultdict
-   from functools import lru_cache
    import pathlib
    import re
+   from collections import defaultdict
+   from functools import lru_cache
 
 First, we import four inbuilt Python-libraries.
 
-- `defaultdict <https://docs.python.org/3/library/collections.html#collections.defaultdict>`_
-  defines a data type to which missing dictionary keys automatically default.
-- The `lru_cache <https://docs.python.org/3/library/functools.html#functools.lru_cache>`_
-  will help to speed up looking up word-vectors, since the same words are being
-  looked up often.
 - The `pathlib <https://docs.python.org/3/library/pathlib.html>`_ library
   will be used to define the parent directory of the dataset, relative to
   which all other files will be read and written.
@@ -172,18 +167,23 @@ First, we import four inbuilt Python-libraries.
   <https://docs.python.org/3/library/re.html#re.sub>`_ function and for
   splitting strings with `re.split
   <https://docs.python.org/3/library/re.html#re.Pattern.split>`_.
+- `defaultdict <https://docs.python.org/3/library/collections.html#collections.defaultdict>`_
+  defines a data type to which missing dictionary keys automatically default.
+- The `lru_cache <https://docs.python.org/3/library/functools.html#functools.lru_cache>`_
+  will help to speed up looking up word-vectors, since the same words are being
+  looked up often.
 
 .. code-block:: python
 
    import attr
+   import pylexibank
+   import spacy
+   from cldfbench import CLDFSpec
    from clldutils.misc import slug
    from epitran import Epitran
    from lingpy.sequence.sound_classes import ipa2tokens
    from loanpy.scapplier import Adrc
    from pylexibank import Dataset as BaseDataset, FormSpec, Lexeme
-   import pylexibank
-   from cldfbench import CLDFSpec
-   import spacy
 
 Then, we import functionalities from various third-party libraries.
 These were installed when running ``pip install -e gerstnerhungarian``
@@ -192,6 +192,8 @@ eariler.
 - With the `attrs <https://www.attrs.org/en/stable/index.html>`_ library
   we will create the custom language class with custom columns in the output
   file ``cldf/forms.csv``.
+- `Spacy <https://pypi.org/project/spacy/>`_ will be used to check the word
+  vector coverage of the meanings associated with each headword.
 - The `slug <https://clldutils.readthedocs.io/en/latest/misc.html#clldutils.misc.slug>`_
   function from the clldutils library will be used to format some IDs.
 - The `epitran <https://pypi.org/project/epitran/>`_ library will be used to
@@ -211,8 +213,7 @@ eariler.
   example
   loads the default data format, ``Lexeme`` will be used to customise it, and
   ``FormSpec`` will be used to document the cleaning of the raw data.
-- `Spacy <https://pypi.org/project/spacy/>`_ will be used to check the word
-  vector coverage of the meanings associated with each headword.
+
 
 .. code-block:: python
 
