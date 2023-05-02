@@ -250,7 +250,9 @@ word.
 
 Next, we are loading the word-vectors that we have downloaded in step 3.
 ``rc`` is an instance of
-loanpy's Adrc class and "etc/H2EAHsc.json" is the sound correspondence file
+loanpy's `Adrc
+<https://loanpy.readthedocs.io/en/latest/documentation.html#loanpy.scapplier.Adrc>`_
+class and "etc/H2EAHsc.json" is the sound correspondence file
 we have generated in `Part 3, step 3 of the ronataswestoldturkic
 repository
 <https://ronataswestoldturkic.readthedocs.io/en/latest/mkloanpy.html#step-3-mine-vertical-and-horizontal-sound-correspondences>`_.
