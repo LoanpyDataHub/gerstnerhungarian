@@ -27,4 +27,12 @@ make cldf (downloadsize: 1.5GB+):
 
    cldfbench gerstnerhungarian.update_readme
 
+filter:
+
+   cldfbench gerstnerhungarian.map
+
+   gerstnerhungarian.filter -y 1600 -o SlavicTurkic -a
+
+test:
+
    pytest --cldf-metadata=cldf/cldf-metadata.json test.py
