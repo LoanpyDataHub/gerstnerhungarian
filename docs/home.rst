@@ -95,7 +95,7 @@ The following CLDF datasets are available in `cldf
 
 -  CLDF
    `Wordlist <https://github.com/cldf/cldf/tree/master/modules/Wordlist>`__
-   at `cldf/cldf-metadata.json <cldf/cldf-metadata.json>`__
+   at `cldf/cldf-metadata.json <https://github.com/LoanpyDataHub/gerstnerhungarian/blob/main/cldf/cldf-metadata.json>`__
 -  CLDF
    `Dictionary <https://github.com/cldf/cldf/tree/master/modules/Dictionary>`__
    at `cldf/Dictionary-metadata.json <cldf/Dictionary-metadata.json>`__
