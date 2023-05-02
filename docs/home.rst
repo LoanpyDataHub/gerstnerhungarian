@@ -24,7 +24,8 @@ Conceptlists in Concepticon:
 
 - `Dellert-2018-1016 <https://concepticon.clld.org/contributions/Dellert-2018-1016>`__
 
-## Notes
+Notes
+-----
 
 |License: CC BY 4.0| |CircleCI| |Documentation Status|
 
