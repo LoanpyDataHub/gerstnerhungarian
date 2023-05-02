@@ -10,6 +10,7 @@ Welcome to ronataswestoldturkic's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   home.rst
    TL;DR.rst
    mkcldf.rst
    filter.rst
