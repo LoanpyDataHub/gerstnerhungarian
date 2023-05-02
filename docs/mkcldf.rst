@@ -559,7 +559,7 @@ positives per attempted reconstruction that we have defined in the beginning.
 The reconstruction itself is a regular
 expression, created by `loanpy.scapplier.Adrc.reconstruct
 <https://loanpy.readthedocs.io/en/latest/documentation.html#loanpy.scapplier.Adrc.reconstruct>`_.
-In the end, we print a message with our logger that table was created
+In the end, we print a message with our logger that the table was created
 successfully.
 
 This is how your console should approximately look like after the conversion:
@@ -605,8 +605,8 @@ Here's what happens under the hood:
    :members:
 
 
-Step 6: Test with pytest-cldf whether the dataset is CLDF-conform
------------------------------------------------------------------
+Step 6: Test with pytest-cldf whether the dataset conforms to CLDF
+------------------------------------------------------------------
 
 .. code-block:: sh
 
