@@ -512,7 +512,7 @@ Since the raw file contains roughly 10,000 rows and there are on average ca. 4
 translations per entry, we end up with a ``cldf/senses.csv`` table of ca.
 40,000 rows.
 Apart from the default columns ``ID`` (the primary key), ``Entry_ID``
-(foreign keys pointing to ``cldf/entries.csv``) and ``Discription``
+(foreign keys pointing to ``cldf/entries.csv``) and ``Description``
 (containing the single translations), there is one custom column that we
 have added, namely ``Spacy``. Here we are removing unwanted characters and
 checking whether the translation has a word-vector representation in the
