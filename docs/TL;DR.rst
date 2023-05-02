@@ -18,6 +18,7 @@ make cldf (downloadsize: 1.5GB+):
 
    pip install -e gerstnerhungarian
    pip install -e loanpy
+   pip install pytest-cldf
 
    python3 -m spacy download de_core_news_lg
 
@@ -25,6 +26,8 @@ make cldf (downloadsize: 1.5GB+):
    cldfbench lexibank.makecldf lexibank_gerstnerhungarian.py  --concepticon-version=v2.5.0 --glottolog-version=v4.5 --clts-version=v2.2.0 --concepticon=../concepticon/concepticon-data --glottolog=../glottolog --clts=../clts
 
    cldfbench gerstnerhungarian.update_readme
+
+   pytest --cldf-metadata=cldf/cldf-metadata.json test.py
 
 filter:
 
