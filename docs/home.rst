@@ -1,12 +1,18 @@
+Home
+~~~~
+
 CLDF dataset derived from a preprint of ‘Új magyar etimológiai szótár’ [New Hungarian Etymological Dictionary] by Károly Gerstner (ed.)
 =======================================================================================================================================
 
 How to cite
 -----------
 
-If you use these data please cite - the original source > Gerstner,
+If you use these data please cite
+
+- the original source: Gerstner,
 Károly (ed.) (2011-2023). Új magyar Etimológiai Szótár. Hungarian
-Academy of Sciences, Budapest. http://uesz.nytud.hu/. - the derived
+Academy of Sciences, Budapest. http://uesz.nytud.hu/.
+- the derived
 dataset using the DOI of the `particular released
 version <../../releases/>`__ you were using
 
@@ -15,10 +21,10 @@ Description
 
 This dataset is licensed under a CC-BY 4.0 license
 
-Available online at http://uesz.nytud.hu/
+Conceptlists in Concepticon:
 
-Conceptlists in Concepticon: -
-`Dellert-2018-1016 <https://concepticon.clld.org/contributions/Dellert-2018-1016>`__
+- `Dellert-2018-1016 <https://concepticon.clld.org/contributions/Dellert-2018-1016>`__
+
 ## Notes
 
 |License: CC BY 4.0| |CircleCI| |Documentation Status|
