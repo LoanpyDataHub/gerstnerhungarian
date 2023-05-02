@@ -276,7 +276,7 @@ using `attr.ib <https://www.attrs.org/en/stable/api-attr.html#attr.ib>`_
 and the Lexeme class that we have imported earlier.
 The column ``Meaning`` comes directly from the raw file and contains a ", "
 separated list of translations into English that we will call "senses".
-Sense_ID is a foreign key that points to one of the senses in the
+``Sense_ID`` is a foreign key that points to one of the senses in the
 ``senses.csv`` table and ``Entry_ID`` is a foreign key that points to the
 corresponding row in ``entries.csv``.
 
