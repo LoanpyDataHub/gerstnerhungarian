@@ -9,12 +9,11 @@ How to cite
 
 If you use these data please cite
 
-- the original source: Gerstner,
-Károly (ed.) (2011-2023). Új magyar Etimológiai Szótár. Hungarian
-Academy of Sciences, Budapest. http://uesz.nytud.hu/.
-- the derived
-dataset using the DOI of the `particular released
-version <../../releases/>`__ you were using
+- the original source: Gerstner, Károly (ed.) (2011-2023).
+  Új magyar Etimológiai Szótár.
+  Hungarian Academy of Sciences, Budapest. http://uesz.nytud.hu/.
+- the derived dataset using the DOI of the `particular released
+  version <../../releases/>`__ you were using
 
 Description
 -----------
