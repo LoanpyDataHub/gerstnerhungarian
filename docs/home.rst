@@ -98,7 +98,7 @@ The following CLDF datasets are available in `cldf
    at `cldf/cldf-metadata.json <https://github.com/LoanpyDataHub/gerstnerhungarian/blob/main/cldf/cldf-metadata.json>`__
 -  CLDF
    `Dictionary <https://github.com/cldf/cldf/tree/master/modules/Dictionary>`__
-   at `cldf/Dictionary-metadata.json <cldf/Dictionary-metadata.json>`__
+   at `cldf/Dictionary-metadata.json <https://github.com/LoanpyDataHub/gerstnerhungarian/blob/main/cldf/Dictionary-metadata.json>`__
 
 .. |License: CC BY 4.0| image:: https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg
    :target: https://creativecommons.org/licenses/by/4.0/
