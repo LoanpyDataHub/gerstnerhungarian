@@ -8,7 +8,9 @@ converting raw language data to CLDF. Each step can be found in the
 as well. The data we are converting comes from
 the `New Hungarian Etymological Dictionary
 <https://uesz.nytud.hu/index.html>`_ (Gerstner 2022),
-which contains modern Hungarian words as headwords, together with their
+which contains modern `Hungarian
+<https://glottolog.org/resource/languoid/id/hung1274>`_ words as headwords,
+together with their
 etymological source language and year of first appearance in a written source.
 The oldest layer is inherited from Proto-Uralic, followed chronologically by
 Proto-Finno-Ugric and
