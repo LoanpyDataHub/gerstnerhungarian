@@ -2,21 +2,23 @@
 lexibank script to convert data to CLDF standard
 """
 
-from collections import defaultdict
-from functools import lru_cache
 import pathlib
 import re
-from tqdm import tqdm
+from collections import defaultdict
+from functools import lru_cache
 
 import attr
+import pylexibank
+import spacy
+from cldfbench import CLDFSpec
 from clldutils.misc import slug
 from epitran import Epitran
 from lingpy.sequence.sound_classes import ipa2tokens
 from loanpy.scapplier import Adrc
 from pylexibank import Dataset as BaseDataset, FormSpec, Lexeme
-import pylexibank
-from cldfbench import CLDFSpec
-import spacy
+from tqdm import tqdm
+
+
 
 #specify number of reconstructions per word
 HOWMANY = 700

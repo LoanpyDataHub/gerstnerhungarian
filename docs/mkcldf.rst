@@ -184,6 +184,7 @@ First, we import four inbuilt Python-libraries.
    from lingpy.sequence.sound_classes import ipa2tokens
    from loanpy.scapplier import Adrc
    from pylexibank import Dataset as BaseDataset, FormSpec, Lexeme
+   from tqdm import tqdm
 
 Then, we import functionalities from various third-party libraries.
 These were installed when running ``pip install -e gerstnerhungarian``
@@ -478,7 +479,8 @@ The purpose of these columns will be clarified in the next paragraphs.
 
    senses_items = senses.items()
    args.log.info("Checking word vectors")
-   for j, (sense, values) in enumerate(senses_items):
+   for j, (sense, values) in enumerate(
+           tqdm(senses_items, "Checking word vectors")):
        for i, (fidx, sense_desc) in enumerate(values):
            vector = filter_vectors(sense_desc)
            writer.objects["SenseTable"].append({
