@@ -62,7 +62,7 @@ Step 2: Clone reference catalogues and loanpy
   to reference the languages in the repo.
 - `Concepticon <https://concepticon.clld.org/>`_ (List et al. 2023) for
   referencing concepts.
-- `LoanPy <https://loanpy.readthedocs.io/en/latest/?badge=latest>`_
+- `LoanPy <https://loanpy.readthedocs.io/en/latest/home.html>`_
   (Martinović 2023). This step will not be necessary once version 3 is out.
 
 .. warning::
