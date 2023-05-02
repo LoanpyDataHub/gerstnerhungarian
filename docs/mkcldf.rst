@@ -581,13 +581,28 @@ This is how your console should approximately look like after the conversion:
           INFO    file written: /home/viktor/Documents/GitHub/gerstnerhungarian/cldf/lingpy-rcParams.json
           INFO    ... done gerstnerhungarian [90.6 secs]
 
-Step 5: Update the readme
--------------------------
+Update readme
+-------------
+
+.. code-block:: sh
+
+   cldfbench gerstnerhungarian.update_readme
+
+Here's what happens under the hood:
 
 .. automodule:: gerstnerhungariancommands.update_readme
    :members:
 
-Congratulations, the CLDF conversion was successful
----------------------------------------------------
 
-Click on ``Next`` to continue processing the data.
+Step 5: Test with pytest-cldf whether the dataset is CLDF-conform
+-----------------------------------------------------------------
+
+.. code-block:: sh
+
+   pip install pytest-cldf
+   pytest --cldf-metadata=cldf/cldf-metadata.json test.py
+
+This runs one test with pytest that verifies that the data in the folder
+``cldf`` confirms to the CLDF-standard. If it says "1 passed" on your console
+the conversion was successful and you can click on the ``Next`` button
+to see how to filter the converted data.
