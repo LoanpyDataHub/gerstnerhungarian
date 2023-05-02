@@ -6,6 +6,7 @@ from collections import defaultdict
 from functools import lru_cache
 import pathlib
 import re
+from tqdm import tqdm
 
 import attr
 from clldutils.misc import slug
@@ -205,8 +206,8 @@ class Dataset(BaseDataset):
             )
 
             senses_items = senses.items()
-            args.log.info("Checking word vectors")
-            for j, (sense, values) in enumerate(senses_items):
+            for j, (sense, values) in enumerate(
+                    tqdm(senses_items, "Checking word vectors")):
                 for i, (fidx, sense_desc) in enumerate(values):
                     vector = filter_vectors(sense_desc)
                     writer.objects["SenseTable"].append({
@@ -215,9 +216,6 @@ class Dataset(BaseDataset):
                         "Description": sense_desc.strip(),
                         "Spacy": vector
                         })
-                if j % 6000 == 0:
-                    msg = f"{j+1}/{len(senses_items)} word vectors checked"
-                    args.log.info(msg)
 
             args.log.info("SenseTable: done")
 
@@ -234,3 +232,5 @@ class Dataset(BaseDataset):
                     "Loan": row["Loan"],
                     f"rc{HOWMANY}": rc.reconstruct(f"{segmented}", HOWMANY)
                     })
+
+            args.log.info("EntryTable: done")
