@@ -33,7 +33,7 @@ filter:
 
    cldfbench gerstnerhungarian.map
 
-   gerstnerhungarian.filter -y 1600 -o SlavicTurkic -a
+   cldfbench gerstnerhungarian.filter -y 1600 -o SlavicTurkic -a
 
 test:
 
