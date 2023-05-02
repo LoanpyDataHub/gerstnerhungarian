@@ -614,6 +614,6 @@ Step 6: Test with pytest-cldf whether the dataset conforms to CLDF
    pytest --cldf-metadata=cldf/cldf-metadata.json test.py
 
 This runs one test with pytest that verifies that the data in the folder
-``cldf`` confirms to the CLDF-standard. If it says "1 passed" on your console
+``cldf`` conforms to the CLDF-standard. If it says "1 passed" on your console
 the conversion was successful and you can click on the ``Next`` button
 to see how to filter the converted data.
