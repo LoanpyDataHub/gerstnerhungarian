@@ -113,10 +113,10 @@ https://spacy.io/models/de/. To download the 500MB file run:
 
 After downloading the word-vectors to your system, let's create the
 orthographic profiles: The process of creating an orthographic profile for
-Hungarian was described in step 4 of the documentation of the
-`ronataswestoldturkic
-<https://ronataswestoldturkic.readthedocs.io/en/latest/mkcldf.html>`__
-repository. Since the current repository only covers one language, there is no
+Hungarian was described in `step 4 of the documentation of the
+ronataswestoldturkic repository
+<https://ronataswestoldturkic.readthedocs.io/en/latest/mkcldf.html#step-4-create-ipa-transcriptions>`__
+. Since the current repository only covers one language, there is no
 need for a folder ``orthography`` with multiple profiles. A single file named
 ``orthography.tsv`` is enough. The file itself was taken from
 ``ronataswestoldturkic/etc/orthography/H.tsv``.
