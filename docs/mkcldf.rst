@@ -216,6 +216,7 @@ eariler.
   example
   loads the default data format, ``Lexeme`` will be used to customise it, and
   ``FormSpec`` will be used to document the cleaning of the raw data.
+- The tqdm library is used to create a progressbar in our command line.
 
 
 .. code-block:: python
