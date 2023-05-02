@@ -531,6 +531,8 @@ earlier in this section.
            f"rc{HOWMANY}": rc.reconstruct(seg_ipa, 100)
            })
 
+   args.log.info("EntryTable: done")
+
 In this final step we are creating the table ``cldf/entries.csv``, which
 will serve as input for the loanword searching module of the loanpy library
 later on. This
@@ -552,6 +554,8 @@ positives per attempted reconstruction that we have defined in the beginning.
 The reconstruction itself is a regular
 expression, created by the `loanpy.scapplier.Adrc.reconstruct
 <https://loanpy.readthedocs.io/en/latest/documentation.html#loanpy.scapplier.Adrc.reconstruct>`_.
+In the end, we print a message with our logger that table was created
+successfully.
 
 This is how your console should approximately look like after the conversion:
 
