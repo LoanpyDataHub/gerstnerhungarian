@@ -13,7 +13,8 @@ If you use these data please cite
   Új magyar Etimológiai Szótár.
   Hungarian Academy of Sciences, Budapest. http://uesz.nytud.hu/.
 - the derived dataset using the DOI of the `particular released
-  version <../../releases/>`__ you were using
+  version <https://github.com/LoanpyDataHub/gerstnerhungarian/releases>`__
+  you were using
 
 Description
 -----------
