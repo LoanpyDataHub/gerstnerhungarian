@@ -495,9 +495,6 @@ The purpose of these columns will be clarified in the next paragraphs.
                "Description": sense_desc.strip(),
                "Spacy": vector
                })
-       if j % 6000 == 0:
-           msg = f"{j+1}/{len(senses_items)} word vectors checked"
-           args.log.info(msg)
 
    args.log.info("SenseTable: done")
 
@@ -519,7 +516,8 @@ checking whether the translation has a word-vector representation in the
 `Spacy <https://pypi.org/project/spacy/>`_ vector model that we have
 downloaded in step 3 and loaded in the beginning of this script. This is
 being done with the ``filter_vectors`` function that we have described
-earlier in this section.
+earlier in this section. A progressbar is printed to the console with
+``tqdm``.
 
 .. code-block:: python
 
