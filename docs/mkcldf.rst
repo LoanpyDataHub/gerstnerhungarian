@@ -1,7 +1,7 @@
 Part 1: Create CLDF
 ===================
 
-The following five steps will guide you through the process of
+The following six steps will guide you through the process of
 converting raw language data to CLDF. Each step can be found in the
 `continuous integration workflow
 <https://app.circleci.com/pipelines/github/LoanpyDataHub/gerstnerhungarian>`_
@@ -581,8 +581,8 @@ This is how your console should approximately look like after the conversion:
           INFO    file written: /home/viktor/Documents/GitHub/gerstnerhungarian/cldf/lingpy-rcParams.json
           INFO    ... done gerstnerhungarian [90.6 secs]
 
-Update readme
--------------
+Step 5: Update readme
+---------------------
 
 .. code-block:: sh
 
@@ -594,7 +594,7 @@ Here's what happens under the hood:
    :members:
 
 
-Step 5: Test with pytest-cldf whether the dataset is CLDF-conform
+Step 6: Test with pytest-cldf whether the dataset is CLDF-conform
 -----------------------------------------------------------------
 
 .. code-block:: sh
