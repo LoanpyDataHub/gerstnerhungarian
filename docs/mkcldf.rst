@@ -587,4 +587,4 @@ Step 5: Update the readme
 Congratulations, the CLDF conversion was successful
 ---------------------------------------------------
 
-Click on ``Next`` to continue the data processing journey.
+Click on ``Next`` to continue processing the data.
