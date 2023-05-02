@@ -274,7 +274,8 @@ orthography to IPA with the help of the `epitran
 Here we are defining three custom columns that are not included by default,
 using `attr.ib <https://www.attrs.org/en/stable/api-attr.html#attr.ib>`_
 and the Lexeme class that we have imported earlier.
-The column ``Meaning`` comes directly from the raw file and contains a ", "
+The column ``Meaning`` comes directly from the raw file and contains a
+comma-space
 separated list of translations into English that we will call "senses".
 ``Sense_ID`` is a foreign key that points to one of the senses in the
 ``senses.csv`` table and ``Entry_ID`` is a foreign key that points to the
@@ -503,7 +504,8 @@ The purpose of these columns will be clarified in the next paragraphs.
 Here we are creating the file ``cldf/senses.csv`` by looping through the
 ``senses`` object that we have created earlier. Each row of the column
 ``sense`` in the file ``raw/Gerstner-2016-10176.tsv`` contains multiple
-translations to English, separated by ", ". Since it is best practice to
+translations to English, separated by ", " (comma-space).
+Since it is best practice to
 avoid complex data structures like lists in databases, each translation
 will get its own row and a foreign key in the file ``cldf/senses.csv``.
 Since the raw file contains roughly 10,000 rows and there are on average ca. 4
