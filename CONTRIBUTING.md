@@ -6,7 +6,7 @@ Thank you for considering to contribute to our Hungarian etymological data proje
 
 We have only converted a fraction of the data from the PDF dictionary to the CLDF format. If you are passionate about finding out more about the origin of the Hungarian language through computational approaches, and have ideas how to improve this dataset, follow the steps below:
 
-1. Familiarise yourself with the project by reading the [README.md](https://github.com/martino-vic/gerstnerhungarian/blob/main/README.md).
+1. Familiarise yourself with the project by reading the [docs](https://gerstnerhungarian.readthedocs.io/en/latest/home.html).
 2. Make sure to know the basics of [Cross Linguistic Data Formats](https://cldf.clld.org/).
 3. Explore the original etymological dictionary [New Hungarian Etymological Dictionary](https://uesz.nytud.hu/index.html).
 4. Review the contribution guidelines detailed in this document.
