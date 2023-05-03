@@ -29,11 +29,11 @@ By following these guidelines, you help maintain a high-quality dataset and make
 
 If you have any questions or need assistance, please don't hesitate to contact me via [e-mail](mailto:viktor_martinovic@$removethis$eva.mpg.de) or [Twitter](https://twitter.com/martino_vik). I appreciate your interest and look forward to collaborating with you!
 
-#Submitting Content Reports
+## Submitting Content Reports
 
 If you encounter content in our repository that violates our community guidelines, is inappropriate, or needs attention from the repository maintainers, we encourage you to submit a content report. Your collaboration helps us maintain a positive and inclusive community, ensuring our repository remains a safe and welcoming space for everyone.
 
-## To submit a content report, please follow these steps:
+To submit a content report, please follow these steps:
 
 1. Go to the "Issues" tab in our repository.
 2. Click on "New Issue" to create a new issue.
