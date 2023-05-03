@@ -32,7 +32,7 @@ def run(args):
     # Add a new badge to the end of the Statistics section
     new_badges = f'\n![Vector Coverage {stat[0]:.0%}](https://img.shields.io/\
 badge/Vector_Coverage-{stat[0]:.0%}25-brightgreen)\n[![SpaCy v3.5.1](https://\
-img.shields.io/badge/SpaCy-v3.2.0-blue)](https://pypi.org/project/spacy/)'
+img.shields.io/badge/SpaCy-v3.5.1-blue)](https://pypi.org/project/spacy/)'
     updated_statistics_section = new_badges + "\n\n" + statistics_section.strip()
 
     # Add another bullet point below the existing bullet points
