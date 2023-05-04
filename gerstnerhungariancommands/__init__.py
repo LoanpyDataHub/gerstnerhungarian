@@ -12,10 +12,9 @@ make cldf (downloadsize: 1.5GB+):
    cd ..
    git clone https://github.com/glottolog/glottolog.git
    git clone https://github.com/cldf-clts/clts.git
-   git clone https://github.com/martino-vic/loanpy.git
 
    pip install -e gerstnerhungarian
-   pip install -e loanpy
+   pip install loanpy
    pip install pytest-cldf
 
    python3 -m spacy download de_core_news_lg
