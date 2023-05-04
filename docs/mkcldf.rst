@@ -55,15 +55,15 @@ project. There, this concept list was used for comparison of Uralic languages,
 Hungarian among others, and was therefore deemed adequate
 to filter the raw input data of this repository according to it.
 
-Step 2: Clone reference catalogues and loanpy
----------------------------------------------
+Step 2: Clone reference catalogues
+----------------------------------
 
 - `Glottolog <https://glottolog.org/>`_ (Hammarström et al. 2022)
   to reference the languages in the repo.
-- `Concepticon <https://concepticon.clld.org/>`_ (List et al. 2023) for
-  referencing concepts.
-- `LoanPy <https://loanpy.readthedocs.io/en/latest/home.html>`_
-  (Martinović 2023). This step will not be necessary once version 3 is out.
+- `Concepticon <https://concepticon.clld.org/>`_ (List et al. 2023) to
+  reference concepts.
+- `CLTS <https://clts.clld.org/>`_ (List et al. 2021) to reference IPA
+  characters
 
 .. warning::
 
@@ -85,18 +85,25 @@ Step 2: Clone reference catalogues and loanpy
 Step 3: Install commands, download wordvectors, create orthographic profile
 ---------------------------------------------------------------------------
 
-The ``-e`` flag will install all necessary dependencies in development mode.
-I.e. if you modify any code in those repositories, changes will apply
-immediately.
+First, install `loanpy <https://loanpy.readthedocs.io/en/latest/home.html>`_
+(Martinović 2023):
+
+.. code-block:: sh
+
+   pip install loanpy
+
+Then install this repository:
 
 .. code-block:: sh
 
    pip install -e gerstnerhungarian
-   pip install -e loanpy
 
-Installing these two packages will also install all their dependencies,
-which are specified in their respective ``setup.py`` files. One of the
-dependencies that has been installed together with *gerstnerhungarian* is
+The ``-e`` flag will install all necessary dependencies in development mode.
+I.e. if you modify any code in those repositories, changes will apply
+immediately.
+Installing this package will also install all its dependencies,
+which are specified in the ``setup.py`` files. One of those
+dependencies is
 `Spacy <https://pypi.org/project/spacy/>`_. Spacy offers pre-trained
 wordvector models for German. Since NLP is a rapidly changing field, it is
 adviced
