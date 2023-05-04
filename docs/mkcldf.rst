@@ -102,7 +102,7 @@ The ``-e`` flag will install all necessary dependencies in development mode.
 I.e. if you modify any code in those repositories, changes will apply
 immediately.
 Installing this package will also install all its dependencies,
-which are specified in the ``setup.py`` files. One of those
+which are specified in the ``setup.py`` file. One of those
 dependencies is
 `Spacy <https://pypi.org/project/spacy/>`_. Spacy offers pre-trained
 wordvector models for German. Since NLP is a rapidly changing field, it is
