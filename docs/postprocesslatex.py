@@ -1,9 +1,7 @@
 """
 
-#. Add tipa package import to preamble
 #. Replace badges with plain links
-#. Replace IPA characters that throw errors in latex2pdf conversion
-with commands for the tipa LaTeX-package.
+#. Replace greek char Delta with correct encoding
 
 """
 
