@@ -6,7 +6,7 @@
 """
 
 ENCODINGS = {
-"∆": r"\(\Delta \)"
+"∆": r"\(\Delta\)"
 }
 
 REPLACEBADGES = {  # plain links, no badges
@@ -55,7 +55,8 @@ r"Glottolog: 100\%\\\\" + "\n",
 
 r"\sphinxincludegraphics{{/home/viktor/Documents/GitHub/" +
 r"gerstnerhungarian/docs/doctrees/images/" +
-r"76c362aa69c478e0e38fe53aa1207f4c4e0247c2/3984c76090ee859c11f6da2984a8848fac1f0c3e.svg}":
+r"76c362aa69c478e0e38fe53aa1207f4c4e0247c2/" +
+r"3984c76090ee859c11f6da2984a8848fac1f0c3e.svg}":
 
 r"Concepticon: 100\%\\\\" + "\n",
 
@@ -80,12 +81,19 @@ r"CLTS SoundClass: 100\%\\\\" + "\n",
 
 r"\sphinxincludegraphics{{/home/viktor/Documents/GitHub/gerstnerhungarian/" +
 r"docs/doctrees/images/" +
-r"76c362aa69c478e0e38fe53aa1207f4c4e0247c2/3984c76090ee859c11f6da2984a8848fac1f0c3e}" +
+r"76c362aa69c478e0e38fe53aa1207f4c4e0247c2/" +
+r"3984c76090ee859c11f6da2984a8848fac1f0c3e}" +
 ".svg}":
 
 r"Vector coverage: 88\%\\\\" + "\n",
 
-r" \sphinxincludegraphics{{/home/viktor/Documents/GitHub/gerstnerhungarian/docs/doctrees/images/be037cb372fe82ccb3e3ab6c2ab1eb62ef77e6b0/7690bf4d2ca2c181b71fba959ee8e1f1f318b06e}.svg} \sphinxhref{https://pypi.org/project/spacy/}{\sphinxincludegraphics{{/home/viktor/Documents/GitHub/gerstnerhungarian/docs/doctrees/images/2d081927145272de8a9ed568341618987dcea5d3/SpaCy-v3.5}.1-blue}}":
+r" \sphinxincludegraphics{{/home/viktor/Documents/GitHub/gerstnerhungarian/" +
+r"docs/doctrees/images/be037cb372fe82ccb3e3ab6c2ab1eb62ef77e6b0/" +
+r"7690bf4d2ca2c181b71fba959ee8e1f1f318b06e}.svg} " +
+r"\sphinxhref{https://pypi.org/project/spacy/}" +
+r"{\sphinxincludegraphics{{/home/viktor/Documents/GitHub/gerstnerhungarian/" +
+r"docs/doctrees/images/2d081927145272de8a9ed568341618987dcea5d3/SpaCy-v3.5}" +
+r".1-blue}}":
 
 r"SpaCy: v3.5.1\\\\" + "\n"
 

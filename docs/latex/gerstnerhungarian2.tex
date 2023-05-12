@@ -664,7 +664,7 @@ expressions that will later be used to remove suffixes in Hungarian verbs that
 have a different etymology than the rest of the verb they belong to.
 
 \begin{sphinxVerbatim}[commandchars=\\\{\}]
-\PYG{n}{REP} \PYG{o}{=} \PYG{p}{[}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)} \PYG{k}{for} \PYG{n}{x} \PYG{o+ow}{in} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{†×\(\Delta \)\PYGZhy{}\(\sp{\text{1}}\)\(\sp{\text{2}}\)\(\sp{\text{3}}\)\(\sp{\text{4}}\)’}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{]}
+\PYG{n}{REP} \PYG{o}{=} \PYG{p}{[}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)} \PYG{k}{for} \PYG{n}{x} \PYG{o+ow}{in} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{†×\(\Delta\)\PYGZhy{}\(\sp{\text{1}}\)\(\sp{\text{2}}\)\(\sp{\text{3}}\)\(\sp{\text{4}}\)’}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{]}
 \PYG{n}{nlp} \PYG{o}{=} \PYG{n}{spacy}\PYG{o}{.}\PYG{n}{load}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{de\PYGZus{}core\PYGZus{}news\PYGZus{}lg}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}
 \PYG{n}{rc} \PYG{o}{=} \PYG{n}{Adrc}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{etc/H2EAHsc.json}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
 \PYG{n}{orth2ipa} \PYG{o}{=} \PYG{n}{Epitran}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{hun\PYGZhy{}Latn}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}\PYG{o}{.}\PYG{n}{transliterate}
@@ -675,7 +675,7 @@ In this block we are defining some global variables that we will need later.
 The variable REP stands for ‘replacements’ and will be used to create
 the column “forms” from the column “values”, where replacements are hard\sphinxhyphen{}coded.
 There is only one simple replacement rule, which is expressed as a list
-comprehension, namely that characters “†×\(\Delta \)\sphinxhyphen{}\(\sp{\text{1}}\)\(\sp{\text{2}}\)\(\sp{\text{3}}\)\(\sp{\text{4}}\)’” are deleted in each
+comprehension, namely that characters “†×\(\Delta\)\sphinxhyphen{}\(\sp{\text{1}}\)\(\sp{\text{2}}\)\(\sp{\text{3}}\)\(\sp{\text{4}}\)’” are deleted in each
 word.
 
 \sphinxAtStartPar
@@ -712,7 +712,7 @@ corresponding row in \sphinxcode{\sphinxupquote{entries.csv}}.
 
 \begin{sphinxVerbatim}[commandchars=\\\{\}]
 \PYG{k}{def} \PYG{n+nf}{clean1}\PYG{p}{(}\PYG{n}{word}\PYG{p}{)}\PYG{p}{:}
-    \PYG{k}{return} \PYG{n}{re}\PYG{o}{.}\PYG{n}{sub}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{[†×\(\Delta \)}\PYG{l+s+s2}{\PYGZbs{}}\PYG{l+s+s2}{\PYGZhy{}\(\sp{\text{1}}\)\(\sp{\text{2}}\)\(\sp{\text{3}}\)\(\sp{\text{4}}\)’ ]}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,} \PYG{n}{word}\PYG{p}{)}
+    \PYG{k}{return} \PYG{n}{re}\PYG{o}{.}\PYG{n}{sub}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{[†×\(\Delta\)}\PYG{l+s+s2}{\PYGZbs{}}\PYG{l+s+s2}{\PYGZhy{}\(\sp{\text{1}}\)\(\sp{\text{2}}\)\(\sp{\text{3}}\)\(\sp{\text{4}}\)’ ]}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,} \PYG{n}{word}\PYG{p}{)}
 
 \PYG{k}{def} \PYG{n+nf}{clean}\PYG{p}{(}\PYG{n}{text}\PYG{p}{)}\PYG{p}{:}
     \PYG{n}{text} \PYG{o}{=} \PYG{n}{re}\PYG{o}{.}\PYG{n}{sub}\PYG{p}{(}\PYG{l+s+sa}{r}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{[〈〉:;!,.?\PYGZhy{}]}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{,} \PYG{n}{text}\PYG{p}{)}

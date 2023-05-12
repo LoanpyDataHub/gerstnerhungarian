@@ -22,6 +22,8 @@ autodoc_mock_imports = [
     "cldfbench",
     "clldutils",
     "lexibank_gerstnerhungarian",
+    "loanpy",
+    "lingpy",
     "pycldf",
     "pylexibank",
     "pysem",
