@@ -41,7 +41,10 @@ def run(args):
     entries = defaultdict(list)
 
     for sense in ds.objects("SenseTable"):
-        entry = sense.entries[0]
+        try:
+            entry = sense.entries[0]
+        except KeyError:  # https://github.com/cldf/cldfbench/issues/86
+            continue
         entries[entry.cldf.headword] += [sense.cldf.description]
         pos = entry.cldf.partOfSpeech.split(",")[0] if entry.cldf.partOfSpeech else ""
         maps = to_concepticon([{"gloss": sense.cldf.description, "pos_ref":
