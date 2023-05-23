@@ -13,7 +13,7 @@ import spacy
 from cldfbench import CLDFSpec
 from clldutils.misc import slug
 from epitran import Epitran
-from lingpy.sequence.sound_classes import ipa2tokens, tokens2class
+from lingpy.sequence.sound_classes import ipa2tokens
 from loanpy.scapplier import Adrc
 from pylexibank import Dataset as BaseDataset, FormSpec, Lexeme
 from tqdm import tqdm
@@ -234,7 +234,6 @@ class Dataset(BaseDataset):
                     "Etymology": row["origin"],
                     "Loan": row["Loan"],
                     f"rc{HOWMANY}": rc.reconstruct(f"{segmented}", HOWMANY),
-                    "SCA": "".join(tokens2class(re.split("[ |.]", segmented), "sca"))
                     })
 
             args.log.info("EntryTable: done")
