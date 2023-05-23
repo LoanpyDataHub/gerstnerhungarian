@@ -36,6 +36,7 @@ jobs:
           name: shorten raw input
           command: >
             cd gerstnerhungarian &&
+            pip install typing-extensions==4.6.0
             cldfbench gerstnerhungarian.map
             --concepticon=../concepticon/concepticon-data
       - run:
