@@ -30,8 +30,8 @@ jobs:
       - run:
           name: download spacy word vector model
           command: |
-          pip install typing-extensions==4.5.0
-          python3 -m spacy download de_core_news_lg
+            pip install typing-extensions==4.5.0
+            python3 -m spacy download de_core_news_lg
       - run:
           name: shorten raw input
           command: >
