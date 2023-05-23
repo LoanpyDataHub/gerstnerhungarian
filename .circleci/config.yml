@@ -22,11 +22,14 @@ jobs:
             url="https://raw.githubusercontent.com/martino-vic/ronataswestoldturkic/main/loanpy/H2EAHsc.json"
             curl -s -L "$url" -o gerstnerhungarian/etc/H2EAHsc.json
       - run:
-          name: install commands & loanpy & download spacy word vector model
-          command: |
-            pip install -e gerstnerhungarian
-            pip install loanpy
-            python3 -m spacy download de_core_news_lg
+          name: install commands
+          command: pip install -e gerstnerhungarian
+      - run:
+          name: install loanpy
+          command: pip install loanpy
+      - run:
+          name: download spacy word vector model
+          command: python3 -m spacy download de_core_news_lg
       - run:
           name: shorten raw input
           command: >
