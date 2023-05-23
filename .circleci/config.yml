@@ -29,7 +29,9 @@ jobs:
           command: pip install loanpy
       - run:
           name: download spacy word vector model
-          command: python3 -m spacy download de_core_news_lg
+          command: |
+          pip install typing-extensions==4.5.0
+          python3 -m spacy download de_core_news_lg
       - run:
           name: shorten raw input
           command: >
