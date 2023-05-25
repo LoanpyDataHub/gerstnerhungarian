@@ -1,5 +1,8 @@
 """
-make cldf (downloadsize: 1.5GB+):
+Open terminal in folder containing GitHub projects
+or in a newly created folder and run the commands below to...
+
+...create the contents of the cldf-folder (downloadsize: 1.5GB+):
 
 .. code-block:: sh
 
@@ -24,7 +27,7 @@ make cldf (downloadsize: 1.5GB+):
 
    cldfbench gerstnerhungarian.update_readme
 
-filter:
+...to filter word lists according to different criteria:
 
 .. code-block:: sh
 
@@ -32,7 +35,7 @@ filter:
 
    cldfbench gerstnerhungarian.filter -y 1600 -o SlavicTurkic -a
 
-test:
+...to test whether the converted data conforms to the CLDF standard:
 
 .. code-block:: sh
 

@@ -64,7 +64,7 @@
 
 
 \title{gerstnerhungarian}
-\date{May 05, 2023}
+\date{May 25, 2023}
 \release{2.0}
 \author{Viktor Martinović}
 \newcommand{\sphinxlogo}{\vbox{}}
@@ -322,7 +322,11 @@ at \sphinxhref{https://github.com/LoanpyDataHub/gerstnerhungarian/blob/main/cldf
 \chapter{TL;DR}
 \label{\detokenize{TL;DR:id1}}\label{\detokenize{TL;DR::doc}}\phantomsection\label{\detokenize{TL;DR:module-gerstnerhungariancommands.__init__}}\index{module@\spxentry{module}!gerstnerhungariancommands.\_\_init\_\_@\spxentry{gerstnerhungariancommands.\_\_init\_\_}}\index{gerstnerhungariancommands.\_\_init\_\_@\spxentry{gerstnerhungariancommands.\_\_init\_\_}!module@\spxentry{module}}
 \sphinxAtStartPar
-make cldf (downloadsize: 1.5GB+):
+Open terminal in folder containing GitHub projects
+or in a newly created folder and run the commands below to…
+
+\sphinxAtStartPar
+…create the contents of the cldf\sphinxhyphen{}folder (downloadsize: 1.5GB+):
 
 \begin{sphinxVerbatim}[commandchars=\\\{\}]
 python3\PYG{+w}{ }\PYGZhy{}m\PYG{+w}{ }venv\PYG{+w}{ }venv\PYG{+w}{ }\PYG{o}{\PYGZam{}\PYGZam{}}\PYG{+w}{ }\PYG{n+nb}{source}\PYG{+w}{ }venv/bin/activate
@@ -348,7 +352,7 @@ cldfbench\PYG{+w}{ }gerstnerhungarian.update\PYGZus{}readme
 \end{sphinxVerbatim}
 
 \sphinxAtStartPar
-filter:
+…to filter word lists according to different criteria:
 
 \begin{sphinxVerbatim}[commandchars=\\\{\}]
 cldfbench\PYG{+w}{ }gerstnerhungarian.map
@@ -357,7 +361,7 @@ cldfbench\PYG{+w}{ }gerstnerhungarian.filter\PYG{+w}{ }\PYGZhy{}y\PYG{+w}{ }\PYG
 \end{sphinxVerbatim}
 
 \sphinxAtStartPar
-test:
+…to test whether the converted data conforms to the CLDF standard:
 
 \begin{sphinxVerbatim}[commandchars=\\\{\}]
 pytest\PYG{+w}{ }\PYGZhy{}\PYGZhy{}cldf\PYGZhy{}metadata\PYG{o}{=}cldf/cldf\PYGZhy{}metadata.json\PYG{+w}{ }test.py
